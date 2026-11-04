@@ -76,7 +76,7 @@ Observe nomes com `-o name` e `oc explain`; nada disso altera o cluster.
 
 ## Termos relacionados
 
-[UID](uid.md) · [Metadata](metadata.md) · [Namespace](namespace.md) · [Recurso](resource.md) · [Objeto](object.md)
+[UID](uid.md) · [Metadata](metadata.md) · [Namespace](namespace.md) · [Resource](resource.md) · [Object](object.md)
 
 ## Fontes oficiais
 

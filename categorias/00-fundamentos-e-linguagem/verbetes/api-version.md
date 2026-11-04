@@ -78,7 +78,7 @@ Os avisos `Warning:` não alteram nada e são uma ótima fonte de estudo: anote 
 
 ## Termos relacionados
 
-[API Group](api-group.md) · [Kind](kind.md) · [Manifest](manifest.md) · [API](kubernetes-api.md) · [Objeto](object.md)
+[API Group](api-group.md) · [Kind](kind.md) · [Manifest](manifest.md) · [API](kubernetes-api.md) · [Object](object.md)
 
 ## Fontes oficiais
 

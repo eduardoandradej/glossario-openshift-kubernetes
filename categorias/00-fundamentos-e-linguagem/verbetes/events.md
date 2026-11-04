@@ -100,7 +100,7 @@ Mesmo modelo. O console web do OpenShift mostra os eventos por projeto e por obj
 
 ## Termos relacionados
 
-[Conditions](conditions.md) · [Status](status.md) · [Controller](controller.md) · [UID](uid.md) · [Estado observado](current-state.md) · [Pod](../../03-workloads/verbetes/pod.md)
+[Conditions](conditions.md) · [Status](status.md) · [Controller](controller.md) · [UID](uid.md) · [Current State](current-state.md) · [Pod](../../03-workloads/verbetes/pod.md)
 
 ## Fontes oficiais
 

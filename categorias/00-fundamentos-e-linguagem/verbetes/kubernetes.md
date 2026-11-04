@@ -24,16 +24,16 @@ Capacidades destacadas pela documentação oficial: descoberta de serviços e ba
 
 ## Funcionamento técnico e ciclo de vida
 
-1. O usuário (ou uma ferramenta) envia um [objeto](object.md) à [API](kubernetes-api.md), descrevendo o [estado desejado](desired-state.md) no campo [`spec`](spec.md).
+1. O usuário (ou uma ferramenta) envia um [objeto](object.md) à [API](kubernetes-api.md), descrevendo o [desired state](desired-state.md) no campo [`spec`](spec.md).
 2. O API server valida o objeto e o grava no etcd.
-3. **Controllers** observam a API, comparam o desejado com o [estado observado](current-state.md) e agem para reduzir a diferença. Esse ciclo é a [reconciliação](reconciliation.md).
+3. **Controllers** observam a API, comparam o desejado com o [current state](current-state.md) e agem para reduzir a diferença. Esse ciclo é a [reconciliation](reconciliation.md).
 4. Componentes nos nós (kubelet e o runtime de contêineres) executam o que foi decidido e relatam o resultado no campo [`status`](status.md).
 5. O ciclo não termina: qualquer desvio posterior é detectado e corrigido.
 
 ## Relações e dependências
 
 - É a base do [OpenShift Container Platform](openshift-container-platform.md). O OCP 4.22 usa o **Kubernetes 1.35** com o runtime CRI-O.
-- Organiza-se em um [cluster](cluster.md): plano de controle mais [nós](../../02-compute-e-nodes/verbetes/node.md).
+- Organiza-se em um [cluster](cluster.md): control plane mais [nós](../../02-compute-e-nodes/verbetes/node.md).
 - Tudo o que ele gerencia é representado como [recursos](resource.md) e [objetos](object.md) de um [kind](kind.md).
 
 ## Exemplo de situação real
@@ -99,7 +99,7 @@ flowchart LR
 
 ## Termos relacionados
 
-[OpenShift Container Platform](openshift-container-platform.md) · [Cluster](cluster.md) · [API](kubernetes-api.md) · [Objeto](object.md) · [Reconciliação](reconciliation.md) · [Node](../../02-compute-e-nodes/verbetes/node.md)
+[OpenShift Container Platform](openshift-container-platform.md) · [Cluster](cluster.md) · [API](kubernetes-api.md) · [Object](object.md) · [Reconciliation](reconciliation.md) · [Node](../../02-compute-e-nodes/verbetes/node.md)
 
 ## Fontes oficiais
 

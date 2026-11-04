@@ -113,7 +113,7 @@ flowchart TB
 
 ## Termos relacionados
 
-[Resource Name](resource-name.md) · [Recurso](resource.md) · [Cluster](cluster.md) · [Metadata](metadata.md) · [NetworkPolicy](../../04-networking/verbetes/networkpolicy.md) · [OpenShift Container Platform](openshift-container-platform.md)
+[Resource Name](resource-name.md) · [Resource](resource.md) · [Cluster](cluster.md) · [Metadata](metadata.md) · [NetworkPolicy](../../04-networking/verbetes/networkpolicy.md) · [OpenShift Container Platform](openshift-container-platform.md)
 
 ## Fontes oficiais
 

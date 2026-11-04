@@ -4,7 +4,7 @@
 
 ## Definição em uma frase
 
-`status` é o campo de um [objeto](object.md) em que **o sistema** registra o [estado observado](current-state.md): o que de fato aconteceu em resposta ao [`spec`](spec.md).
+`status` é o campo de um [objeto](object.md) em que **o sistema** registra o [current state](current-state.md): o que de fato aconteceu em resposta ao [`spec`](spec.md).
 
 ## Explicação didática
 
@@ -28,12 +28,12 @@ Campos típicos (variam por kind):
 
 Detalhes importantes sobre `conditions`:
 - Algumas são "normais quando `True`" (`Ready`, `Available`); outras, "normais quando `False`" (`Degraded`, `MemoryPressure`). Sem conhecer o tipo, não dá para resumir a saúde.
-- A **ausência** de uma condição conhecida deve ser lida como `Unknown`: em geral, a reconciliação ainda não terminou.
+- A **ausência** de uma condição conhecida deve ser lida como `Unknown`: em geral, a reconciliation ainda não terminou.
 
 ## Relações e dependências
 
 - Contraparte: [`spec`](spec.md).
-- Conceitos: [estado observado](current-state.md) e [reconciliação](reconciliation.md).
+- Conceitos: [current state](current-state.md) e [reconciliation](reconciliation.md).
 - Os Events complementam o `status` com um histórico do que aconteceu; o `status` é a "foto" atual.
 
 ## Exemplo de situação real
@@ -81,7 +81,7 @@ status:
 
 - Se `observedGeneration` for **igual** a `metadata.generation`, o controller já viu o último `spec`. Se for **menor**, o `status` está desatualizado em relação ao pedido.
 - Em `oc get clusteroperators`, o normal é `AVAILABLE=True`, `PROGRESSING=False`, `DEGRADED=False`.
-- `status` vazio num objeto recém-criado costuma significar só que ainda não houve reconciliação. Se continuar vazio, verifique se existe controller para aquele tipo (por exemplo, um Operator que não está instalado).
+- `status` vazio num objeto recém-criado costuma significar só que ainda não houve reconciliation. Se continuar vazio, verifique se existe controller para aquele tipo (por exemplo, um Operator que não está instalado).
 
 ## Diferenças e confusões frequentes
 
@@ -99,7 +99,7 @@ O OpenShift usa intensamente o padrão de condições `Available` / `Progressing
 
 ## Termos relacionados
 
-[Spec](spec.md) · [Estado observado](current-state.md) · [Reconciliação](reconciliation.md) · [Objeto](object.md) · [ClusterOperator](../../09-operators-e-extensoes/verbetes/clusteroperator.md) · [Deployment](../../03-workloads/verbetes/deployment.md)
+[Spec](spec.md) · [Current State](current-state.md) · [Reconciliation](reconciliation.md) · [Object](object.md) · [ClusterOperator](../../09-operators-e-extensoes/verbetes/clusteroperator.md) · [Deployment](../../03-workloads/verbetes/deployment.md)
 
 ## Fontes oficiais
 

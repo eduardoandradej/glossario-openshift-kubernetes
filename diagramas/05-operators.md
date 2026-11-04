@@ -3,7 +3,7 @@
 ```mermaid
 flowchart TB
     CRD[CRD: define novo tipo] --> CR[CR: instância declarada]
-    CR --> OP[Operator: controlador de reconciliação]
+    CR --> OP[Operator: controlador de reconciliation]
     OP --> P[Recursos gerenciados / operandos]
     C[OLM Classic] --> SUB[Subscription / InstallPlan / CSV]
     V[OLM v1] --> CE[ClusterExtension / ClusterCatalog]

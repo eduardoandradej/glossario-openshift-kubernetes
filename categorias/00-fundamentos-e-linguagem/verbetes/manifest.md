@@ -4,7 +4,7 @@
 
 ## Definição em uma frase
 
-Manifesto é a **especificação de um objeto da API num arquivo [YAML](yaml.md) ou [JSON](json.md)**: descreve o estado desejado que o Kubernetes vai manter quando o manifesto for aplicado.
+Manifesto é a **especificação de um objeto da API num arquivo [YAML](yaml.md) ou [JSON](json.md)**: descreve o desired state que o Kubernetes vai manter quando o manifesto for aplicado.
 
 ## Explicação didática
 
@@ -36,7 +36,7 @@ spec:
 
 - **Reprodutibilidade:** o mesmo arquivo cria o mesmo objeto em outro namespace ou cluster.
 - **Revisão e versionamento:** manifestos entram em Git, passam por revisão e têm histórico, o que é a base de GitOps (categoria 15).
-- **Gestão declarativa:** com `oc apply`, o arquivo vira a fonte do [estado desejado](desired-state.md).
+- **Gestão declarativa:** com `oc apply`, o arquivo vira a fonte do [desired state](desired-state.md).
 
 ## Funcionamento técnico e ciclo de vida
 
@@ -50,7 +50,7 @@ A documentação descreve **três técnicas** de gestão de objetos:
 
 **Atenção:** um mesmo objeto deve ser gerenciado por **uma só técnica**. Misturar técnicas no mesmo objeto leva a comportamento indefinido.
 
-Campos obrigatórios num manifesto: `apiVersion`, `kind`, `metadata` (com `name`, ou `generateName`) e, nos tipos que o têm, `spec`. Ver [Objeto](object.md).
+Campos obrigatórios num manifesto: `apiVersion`, `kind`, `metadata` (com `name`, ou `generateName`) e, nos tipos que o têm, `spec`. Ver [Object](object.md).
 
 ## Relações e dependências
 
@@ -105,7 +105,7 @@ Leia manifestos de objetos à vontade com `-o yaml`, **exceto Secrets** (o `data
 
 ## Termos relacionados
 
-[Objeto](object.md) · [YAML](yaml.md) · [JSON](json.md) · [Spec](spec.md) · [Estado desejado](desired-state.md) · [API Version](api-version.md)
+[Object](object.md) · [YAML](yaml.md) · [JSON](json.md) · [Spec](spec.md) · [Desired State](desired-state.md) · [API Version](api-version.md)
 
 ## Fontes oficiais
 

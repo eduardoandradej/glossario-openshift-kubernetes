@@ -1,4 +1,4 @@
-# Recurso (API resource / resource type)
+# Resource (API resource, resource type — recurso)
 
 > **ID:** 00-fundamentos-e-linguagem/resource | **Termo original:** resource, resource type, API resource | **Tradução:** recurso, tipo de recurso | **Classe ontológica:** conceito (terminologia da API) | **Plataforma:** Kubernetes / OpenShift | **Escopo:** cada tipo de recurso é **namespaced** ou **cluster-scoped** | **Disponibilidade:** nativo | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** básico | **Atualizado em:** 2026-11-04
 
@@ -106,7 +106,7 @@ flowchart TB
 
 ## Termos relacionados
 
-[Kind](kind.md) · [Objeto](object.md) · [API](kubernetes-api.md) · [Namespace](namespace.md) · [Cluster](cluster.md) · [CustomResourceDefinition](../../09-operators-e-extensoes/verbetes/customresourcedefinition.md)
+[Kind](kind.md) · [Object](object.md) · [API](kubernetes-api.md) · [Namespace](namespace.md) · [Cluster](cluster.md) · [CustomResourceDefinition](../../09-operators-e-extensoes/verbetes/customresourcedefinition.md)
 
 ## Fontes oficiais
 

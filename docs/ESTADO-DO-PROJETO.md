@@ -15,7 +15,7 @@
 
 ## Rodada 2026-11-04 (2) — categoria 00, lote 2
 
-- **10 verbetes novos:** API Server, API Group, API Version, Manifest, YAML, JSON, Metadata, Controller, Resource Name e UID. **Namespace** reescrito (de 🌱 semente para 🟡 desenvolvido). **Control Loop** virou remissão para Controller e Reconciliação.
+- **10 verbetes novos:** API Server, API Group, API Version, Manifest, YAML, JSON, Metadata, Controller, Resource Name e UID. **Namespace** reescrito (de 🌱 semente para 🟡 desenvolvido). **Control Loop** virou remissão para Controller e Reconciliation.
 - Fontes: `kubernetes/website` `release-1.35` (names, namespaces, using-api, api-concepts, components, controller, glossário), API Conventions e `openshift-docs` `enterprise-4.22` (control plane / machine roles, working with projects, glossary).
 - Todos 🟡: **sem validação no cluster**; pendências em [TERMOS-A-VALIDAR](TERMOS-A-VALIDAR.md).
 - **README:** abertura com apresentação do autor, LinkedIn e Credly. Os repositórios de curso privados não são mais citados.
@@ -27,7 +27,7 @@ Project, Label, Annotation, Selector, OwnerReference, Finalizer, Garbage Collect
 ## Rodada 2026-11-04 — categoria 00, lote 1
 
 - **Kit inicial importado** para a `main` sem alterações (commit próprio).
-- **12 verbetes desenvolvidos** na categoria 00, mais 1 remissão (K8s): Kubernetes, OpenShift Container Platform, Cluster, API, Objeto, Recurso, Kind, Spec, Status, Estado desejado, Estado observado, Reconciliação.
+- **12 verbetes desenvolvidos** na categoria 00, mais 1 remissão (K8s): Kubernetes, OpenShift Container Platform, Cluster, API, Objeto, Recurso, Kind, Spec, Status, Desired state, Current state, Reconciliation.
 - Estado de todos: 🟡 **desenvolvido**. Fontes oficiais conferidas, mas **sem validação no cluster** e com as URLs publicadas não abertas (detalhes em [TERMOS-A-VALIDAR](TERMOS-A-VALIDAR.md)). Nenhum deles é considerado "concluído".
 - **Versão de referência confirmada:** o OCP 4.22 usa **Kubernetes 1.35** com CRI-O (release notes 4.22). Os fontes do Kubernetes foram lidos na branch `release-1.35`.
 - **Novos índices:** [por categoria](INDICE-POR-CATEGORIA.md), [mapa de relações](MAPA-DE-RELACOES.md), [termos a validar](TERMOS-A-VALIDAR.md); [índice alfabético](INDICE-ALFABETICO.md) refeito com estados e remissões.
@@ -37,7 +37,7 @@ Project, Label, Annotation, Selector, OwnerReference, Finalizer, Garbage Collect
 
 ### Próximo lote recomendado na época (categoria 00, lote 2) — concluído
 
-API Server, API Group, API Version, Manifest, YAML, JSON, Metadata, Controller, Control Loop (remissão para Reconciliação), Resource Name, UID e revisão do Namespace (semente → desenvolvido). Lote 3: Project, Label, Annotation, Selector, OwnerReference, Finalizer, Garbage Collection, ResourceVersion, Generation, ObservedGeneration, Conditions, Events.
+API Server, API Group, API Version, Manifest, YAML, JSON, Metadata, Controller, Control Loop (remissão para Reconciliation), Resource Name, UID e revisão do Namespace (semente → desenvolvido). Lote 3: Project, Label, Annotation, Selector, OwnerReference, Finalizer, Garbage Collection, ResourceVersion, Generation, ObservedGeneration, Conditions, Events.
 
 ## Estado inicial — 2026-11-03
 

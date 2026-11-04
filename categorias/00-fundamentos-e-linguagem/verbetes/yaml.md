@@ -84,7 +84,7 @@ Estude YAML com `-o yaml` em objetos não sensíveis e com `oc explain`. **Não*
 
 ## Termos relacionados
 
-[JSON](json.md) · [Manifest](manifest.md) · [Objeto](object.md) · [Kind](kind.md) · [Metadata](metadata.md)
+[JSON](json.md) · [Manifest](manifest.md) · [Object](object.md) · [Kind](kind.md) · [Metadata](metadata.md)
 
 ## Fontes oficiais
 

@@ -4,7 +4,7 @@
 
 ## Definição em uma frase
 
-`observedGeneration` é o campo em que o componente responsável registra **qual [generation](generation.md) do objeto ele observou por último**, e permite saber se o `status` reflete o estado desejado mais recente.
+`observedGeneration` é o campo em que o componente responsável registra **qual [generation](generation.md) do objeto ele observou por último**, e permite saber se o `status` reflete o desired state mais recente.
 
 ## Explicação didática
 
@@ -26,7 +26,7 @@ Quem preenche é o controller do tipo. O campo é **opcional**, e nem todo tipo 
 ## Relações e dependências
 
 - Comparado com [Generation](generation.md); fica em [Status](status.md) e em [Conditions](conditions.md).
-- Sinal direto do andamento da [reconciliação](reconciliation.md).
+- Sinal direto do andamento da [reconciliation](reconciliation.md).
 
 ## Exemplo de situação real
 
@@ -65,11 +65,11 @@ Mesmo conceito. Em objetos do OpenShift e de Operators, procure `observedGenerat
 
 ## No HomeLab SNO
 
-`oc rollout status` é leitura e ótimo para estudo; nos seus próprios Deployments, mostra a reconciliação acontecendo.
+`oc rollout status` é leitura e ótimo para estudo; nos seus próprios Deployments, mostra a reconciliation acontecendo.
 
 ## Termos relacionados
 
-[Generation](generation.md) · [Conditions](conditions.md) · [Status](status.md) · [Reconciliação](reconciliation.md) · [ResourceVersion](resource-version.md)
+[Generation](generation.md) · [Conditions](conditions.md) · [Status](status.md) · [Reconciliation](reconciliation.md) · [ResourceVersion](resource-version.md)
 
 ## Fontes oficiais
 

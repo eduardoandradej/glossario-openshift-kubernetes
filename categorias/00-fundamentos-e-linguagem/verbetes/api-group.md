@@ -89,7 +89,7 @@ O OpenShift acrescenta muitos grupos `*.openshift.io` (`route`, `project`, `buil
 
 ## Termos relacionados
 
-[API Version](api-version.md) · [API](kubernetes-api.md) · [Kind](kind.md) · [Recurso](resource.md) · [API Server](api-server.md) · [CustomResourceDefinition](../../09-operators-e-extensoes/verbetes/customresourcedefinition.md)
+[API Version](api-version.md) · [API](kubernetes-api.md) · [Kind](kind.md) · [Resource](resource.md) · [API Server](api-server.md) · [CustomResourceDefinition](../../09-operators-e-extensoes/verbetes/customresourcedefinition.md)
 
 ## Fontes oficiais
 

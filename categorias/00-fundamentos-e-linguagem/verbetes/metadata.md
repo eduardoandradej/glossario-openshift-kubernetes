@@ -8,7 +8,7 @@
 
 ## Explicação didática
 
-Se `spec` é "o que eu quero" e `status` é "o que aconteceu", o `metadata` é a **carteira de identidade** do objeto, mais algumas etiquetas de controle. É a parte do objeto que funciona igual para **todos** os kinds, e é por isso que ferramentas genéricas (coleta de lixo, quotas, o próprio `oc`) conseguem tratar qualquer tipo.
+Se `spec` é "o que eu quero" e `status` é "o que aconteceu", o `metadata` é a **carteira de identidade** do objeto, mais algumas etiquetas de controle. É a parte do objeto que funciona igual para **todos** os kinds, e é por isso que ferramentas genéricas (garbage collection, quotas, o próprio `oc`) conseguem tratar qualquer tipo.
 
 ## Para que existe e qual problema resolve
 
@@ -24,7 +24,7 @@ Campos que as convenções da API exigem (**MUST**) e recomendam (**SHOULD**):
 | `namespace` | usuário | escopo do objeto (só tipos namespaced) | [Namespace](namespace.md) |
 | `uid` | sistema | identidade única no tempo e no espaço | [UID](uid.md) |
 | `resourceVersion` | sistema | versão interna, para concorrência e watch | [ResourceVersion](resource-version.md) |
-| `generation` | sistema | número crescente de versões do estado desejado | [Generation](generation.md) |
+| `generation` | sistema | número crescente de versões do desired state | [Generation](generation.md) |
 | `creationTimestamp` | sistema | data de criação (RFC 3339) | — |
 | `deletionTimestamp` | sistema | marca a exclusão em andamento | [Finalizer](finalizer.md) |
 | `labels` | usuário/ferramentas | organizar e **selecionar** | [Label](label.md) |
@@ -83,11 +83,11 @@ O OpenShift usa muitas annotations próprias. Exemplos: o projeto guarda `opensh
 
 ## No HomeLab SNO
 
-Ler metadados é seguro. Não remova `finalizers` nem `ownerReferences` de objetos para "destravar" algo: isso interfere na coleta de lixo e na reconciliação.
+Ler metadados é seguro. Não remova `finalizers` nem `ownerReferences` de objetos para "destravar" algo: isso interfere na garbage collection e na reconciliation.
 
 ## Termos relacionados
 
-[Objeto](object.md) · [Resource Name](resource-name.md) · [UID](uid.md) · [Namespace](namespace.md) · [Spec](spec.md) · [Status](status.md)
+[Object](object.md) · [Resource Name](resource-name.md) · [UID](uid.md) · [Namespace](namespace.md) · [Spec](spec.md) · [Status](status.md)
 
 ## Fontes oficiais
 

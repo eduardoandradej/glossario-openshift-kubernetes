@@ -30,7 +30,7 @@ Dá a outros componentes um **resumo pronto** sem que precisem entender os detal
 - A lista é tratada como um **mapa por `type`**: no máximo uma condição de cada tipo.
 - Condições **complementam** o status detalhado, sem substituí-lo.
 - **Polaridade:** algumas são normais quando `True` (`Ready`, `Available`), e outras quando `False` (`Degraded`, `MemoryPressure`). Sem conhecer o tipo, não dá para resumir genericamente.
-- **Ausência de uma condição conhecida** equivale a `Unknown`; em geral, a reconciliação ainda não terminou.
+- **Ausência de uma condição conhecida** equivale a `Unknown`; em geral, a reconciliation ainda não terminou.
 - O significado de uma condição, depois de definido, faz parte da API e não pode mudar arbitrariamente.
 - **`phase` é padrão antigo:** alguns tipos v1 (como Pod e Namespace) têm o campo `phase`; a convenção o considera **deprecated** para tipos novos, que devem usar conditions.
 
@@ -84,7 +84,7 @@ Condições são a leitura de saúde mais rica e segura. Comece por `oc get clus
 
 ## Termos relacionados
 
-[Status](status.md) · [ObservedGeneration](observed-generation.md) · [Events](events.md) · [Estado observado](current-state.md) · [ClusterOperator](../../09-operators-e-extensoes/verbetes/clusteroperator.md) · [Pod](../../03-workloads/verbetes/pod.md)
+[Status](status.md) · [ObservedGeneration](observed-generation.md) · [Events](events.md) · [Current State](current-state.md) · [ClusterOperator](../../09-operators-e-extensoes/verbetes/clusteroperator.md) · [Pod](../../03-workloads/verbetes/pod.md)
 
 ## Fontes oficiais
 

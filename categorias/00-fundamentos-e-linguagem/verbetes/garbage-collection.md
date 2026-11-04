@@ -21,7 +21,7 @@ Segundo a documentação, a coleta cuida de, entre outros:
 
 ## Para que existe e qual problema resolve
 
-Sem coleta de lixo, cada exclusão deixaria restos: Pods sem dono, discos esquecidos, imagens ocupando o nó. A coleta mantém o cluster coerente com o estado desejado também **na hora de remover**.
+Sem garbage collection, cada exclusão deixaria restos: Pods sem dono, discos esquecidos, imagens ocupando o nó. A coleta mantém o cluster coerente com o desired state também **na hora de remover**.
 
 ## Funcionamento técnico e ciclo de vida
 
@@ -41,7 +41,7 @@ No CLI, a escolha é feita com `--cascade=background|foreground|orphan` em `oc d
 ## Relações e dependências
 
 - Baseia-se em [OwnerReference](owner-reference.md) e usa [Finalizers](finalizer.md).
-- Executada por controllers do plano de controle (o *garbage collector* fica no kube-controller-manager; ver [Controller](controller.md)) e, para imagens e contêineres, pelo kubelet.
+- Executada por controllers do control plane (o *garbage collector* fica no kube-controller-manager; ver [Controller](controller.md)) e, para imagens e contêineres, pelo kubelet.
 
 ## Exemplo de situação real
 

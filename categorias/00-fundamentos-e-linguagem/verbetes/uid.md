@@ -17,7 +17,7 @@ Os UIDs do Kubernetes são **UUIDs** (identificadores universalmente únicos, pa
 Evita confusão entre um objeto apagado e um recriado com o mesmo nome. Isso é essencial para:
 
 - **Relações de dono:** `ownerReferences` guarda o `uid` do dono. Um Pod órfão não é "adotado" por engano por um ReplicaSet recriado com o mesmo nome, a menos que os seletores e as regras de adoção permitam.
-- **Coleta de lixo:** dependentes cujo dono (pelo UID) não existe mais podem ser removidos.
+- **Garbage collection:** dependentes cujo dono (pelo UID) não existe mais podem ser removidos.
 - **Auditoria e eventos:** os Events referenciam o `uid` do objeto envolvido.
 
 ## Funcionamento técnico e ciclo de vida
@@ -70,7 +70,7 @@ Leitura segura com `-o jsonpath`. Os UIDs não são segredos, mas também não h
 
 ## Termos relacionados
 
-[Resource Name](resource-name.md) · [Metadata](metadata.md) · [Objeto](object.md) · [Namespace](namespace.md) · [ReplicaSet](../../03-workloads/verbetes/replicaset.md)
+[Resource Name](resource-name.md) · [Metadata](metadata.md) · [Object](object.md) · [Namespace](namespace.md) · [ReplicaSet](../../03-workloads/verbetes/replicaset.md)
 
 ## Fontes oficiais
 

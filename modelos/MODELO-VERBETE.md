@@ -23,4 +23,4 @@
 ## Fontes oficiais (URLs precisas)
 ## Revisão editorial (verificação, ressalvas e pendências)
 
-Regras: definir em português e conservar o termo original em inglês; distinguir objeto API de conceito; não inventar resultados, recursos, sintaxe, versões, disponibilidade ou exemplos de saída. Evitar comandos que alterem recursos no bloco de inspeção. Usar caminhos portáveis e placeholders. Aplicar status "a confirmar" quando houver incerteza.
+Regras: **título e termos técnicos no original em inglês** (ex.: Control Plane, Desired State), com a explicação do conceito em português e a tradução só como apoio; distinguir objeto API de conceito; não inventar resultados, recursos, sintaxe, versões, disponibilidade ou exemplos de saída. Evitar comandos que alterem recursos no bloco de inspeção. Usar caminhos portáveis e placeholders. Aplicar status "a confirmar" quando houver incerteza.

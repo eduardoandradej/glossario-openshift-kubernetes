@@ -4,7 +4,7 @@
 
 ## Definição em uma frase
 
-`spec` é o campo de um [objeto](object.md) que descreve o seu **[estado desejado](desired-state.md)**: aquilo que o usuário, ou outro componente, quer que seja verdade.
+`spec` é o campo de um [objeto](object.md) que descreve o seu **[desired state](desired-state.md)**: aquilo que o usuário, ou outro componente, quer que seja verdade.
 
 ## Explicação didática
 
@@ -30,7 +30,7 @@ Separar `spec` de `status` permite:
 ## Relações e dependências
 
 - Contraparte: [`status`](status.md).
-- Conceitos: [estado desejado](desired-state.md) e [reconciliação](reconciliation.md).
+- Conceitos: [desired state](desired-state.md) e [reconciliation](reconciliation.md).
 - Templates: controllers de workload (Deployment, Job, StatefulSet...) carregam um `spec.template`, que é o **spec dos Pods** que vão criar.
 
 ## Exemplo de situação real
@@ -88,7 +88,7 @@ flowchart LR
 
 ## Termos relacionados
 
-[Status](status.md) · [Estado desejado](desired-state.md) · [Reconciliação](reconciliation.md) · [Objeto](object.md) · [Kind](kind.md) · [Deployment](../../03-workloads/verbetes/deployment.md) · [Pod](../../03-workloads/verbetes/pod.md)
+[Status](status.md) · [Desired State](desired-state.md) · [Reconciliation](reconciliation.md) · [Object](object.md) · [Kind](kind.md) · [Deployment](../../03-workloads/verbetes/deployment.md) · [Pod](../../03-workloads/verbetes/pod.md)
 
 ## Fontes oficiais
 

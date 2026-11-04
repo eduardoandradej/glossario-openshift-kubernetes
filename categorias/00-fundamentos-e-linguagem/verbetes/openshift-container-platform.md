@@ -17,14 +17,14 @@ Por ser **certificado**, o OpenShift aceita o `kubectl` e os objetos padrão do 
 A documentação da Red Hat destaca que o Kubernetes **não especifica nem gerencia** os requisitos de plataforma, nem o processo de implantação do próprio cluster. O OCP resolve isso com:
 
 - **SO próprio (RHCOS):** sistema operacional orientado a contêineres, com Ignition (configuração no primeiro boot), CRI-O (runtime) e kubelet.
-- **Instalação e atualização automatizadas:** o cluster controla o SO e os serviços de cada máquina a partir do plano de controle, e a atualização vira um processo orquestrado.
+- **Instalação e atualização automatizadas:** o cluster controla o SO e os serviços de cada máquina a partir do control plane, e a atualização vira um processo orquestrado.
 - **Gestão por Operators:** cada componente da plataforma é mantido por um Operator, e o estado de cada um é exposto num objeto `ClusterOperator`.
 - **APIs adicionais:** por exemplo Route, Project, BuildConfig e ImageStream, nos grupos `*.openshift.io`.
 
 ## Funcionamento técnico e ciclo de vida
 
 1. **Instalação:** o instalador cria o cluster com uma topologia que é **definitiva**. A documentação do SNO alerta que um cluster de nó único não pode ser convertido em HA depois.
-2. **Operação:** Operators de plataforma reconciliam continuamente os componentes (API server, rede, ingress, registry...). É o mesmo modelo de [reconciliação](reconciliation.md) do Kubernetes, aplicado à própria plataforma.
+2. **Operação:** Operators de plataforma reconciliam continuamente os componentes (API server, rede, ingress, registry...). É o mesmo modelo de [reconciliation](reconciliation.md) do Kubernetes, aplicado à própria plataforma.
 3. **Atualização:** a versão desejada do cluster é declarada num objeto `ClusterVersion` (grupo `config.openshift.io`), e os Operators levam a plataforma até ela.
 
 ## Relações e dependências
@@ -83,12 +83,12 @@ version   4.22.x    True        False         5d      Cluster version is 4.22.x
 ## No OpenShift 4.22 versus Kubernetes
 
 - Kubernetes 1.35, runtime CRI-O.
-- O plano de controle exige RHCOS. A documentação admite RHEL nos nós de compute, com mais manutenção manual.
+- O control plane exige RHCOS. A documentação admite RHEL nos nós de compute, com mais manutenção manual.
 - Termos como Route, Project e ClusterOperator **não existem** num Kubernetes upstream.
 
 ## No HomeLab SNO
 
-O SNO é um OCP 4.22 completo num único nó, que acumula o papel de plano de controle e o de compute. Pela documentação oficial, o maior compromisso dessa topologia é a **falta de alta disponibilidade**, e não há como convertê-la em HA depois. O OVN-Kubernetes é o plugin de rede padrão. Os comandos acima são só de leitura e servem para conhecer o cluster sem alterá-lo.
+O SNO é um OCP 4.22 completo num único nó, que acumula o papel de control plane e o de compute. Pela documentação oficial, o maior compromisso dessa topologia é a **falta de alta disponibilidade**, e não há como convertê-la em HA depois. O OVN-Kubernetes é o plugin de rede padrão. Os comandos acima são só de leitura e servem para conhecer o cluster sem alterá-lo.
 
 ## Diagrama Mermaid
 

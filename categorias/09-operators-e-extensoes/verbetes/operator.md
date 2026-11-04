@@ -7,11 +7,11 @@
 
 ## Definição
 
-Software que codifica conhecimento operacional de uma aplicação ou componente, reagindo ao estado observado de recursos e reconciliando-o com o estado desejado.
+Software que codifica conhecimento operacional de uma aplicação ou componente, reagindo ao current state de recursos e reconciliando-o com o desired state.
 
 ## Por que existe?
 
-Automatizar instalação, manutenção, reconciliação e atualização de serviços complexos.
+Automatizar instalação, manutenção, reconciliation e atualização de serviços complexos.
 
 ## Relações
 

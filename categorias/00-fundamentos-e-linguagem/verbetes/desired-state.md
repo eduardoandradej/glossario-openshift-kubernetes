@@ -1,14 +1,14 @@
-# Estado desejado (desired state)
+# Desired State (estado desejado)
 
 > **ID:** 00-fundamentos-e-linguagem/desired-state | **Termo original:** desired state | **Tradução:** estado desejado | **Classe ontológica:** conceito / padrão (modelo declarativo) | **Plataforma:** Kubernetes / OpenShift | **Escopo:** não aplicável | **Disponibilidade:** nativo | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** básico | **Atualizado em:** 2026-11-04
 
 ## Definição em uma frase
 
-Estado desejado é a **descrição de como algo deve estar**, registrada num [objeto](object.md), normalmente no seu [`spec`](spec.md), e que o sistema trabalha continuamente para tornar realidade.
+Desired state é a **descrição de como algo deve estar**, registrada num [objeto](object.md), normalmente no seu [`spec`](spec.md), e que o sistema trabalha continuamente para tornar realidade.
 
 ## Explicação didática
 
-A analogia oficial é o **termostato**. Você ajusta 22 °C: esse é o estado desejado. A temperatura real da sala é o [estado observado](current-state.md). O termostato liga e desliga o equipamento para aproximar um do outro. Você não diz "ligue o aquecedor por 10 minutos"; diz "quero 22 °C".
+A analogia oficial é o **termostato**. Você ajusta 22 °C: esse é o desired state. A temperatura real da sala é o [current state](current-state.md). O termostato liga e desliga o equipamento para aproximar um do outro. Você não diz "ligue o aquecedor por 10 minutos"; diz "quero 22 °C".
 
 No Kubernetes é igual: "quero 3 réplicas desta imagem, expostas na porta 8080". Como chegar lá é problema dos controllers.
 
@@ -27,65 +27,65 @@ O modelo **declarativo** resolve problemas do modelo **imperativo** (sequências
 
 ## Funcionamento técnico e ciclo de vida
 
-1. O estado desejado é **declarado**: um manifesto aplicado, um comando do CLI ou outro controller (um Deployment declara o estado desejado de um ReplicaSet, que declara o de Pods).
+1. O desired state é **declarado**: um manifesto aplicado, um comando do CLI ou outro controller (um Deployment declara o desired state de um ReplicaSet, que declara o de Pods).
 2. Fica **persistido** na API, e não na memória de um processo.
-3. **Controllers** comparam esse estado com o observado e agem. Ver [Reconciliação](reconciliation.md).
-4. Quando o `spec` muda, o novo estado desejado substitui o anterior. O sistema persegue sempre o **mais recente**, sem precisar passar por estados intermediários.
-5. Pode haver **cascata**: o estado observado de um nível (Pods criados) vira o estado desejado de outro. Após o scheduling, por exemplo, o Pod passa a fazer parte do estado desejado do kubelet do nó.
+3. **Controllers** comparam esse estado com o observado e agem. Ver [Reconciliation](reconciliation.md).
+4. Quando o `spec` muda, o novo desired state substitui o anterior. O sistema persegue sempre o **mais recente**, sem precisar passar por estados intermediários.
+5. Pode haver **cascata**: o current state de um nível (Pods criados) vira o desired state de outro. Após o scheduling, por exemplo, o Pod passa a fazer parte do desired state do kubelet do nó.
 
 ## Relações e dependências
 
-- Materializado em [`spec`](spec.md); comparado com o [estado observado](current-state.md) relatado em [`status`](status.md).
-- Imposto pela [reconciliação](reconciliation.md).
+- Materializado em [`spec`](spec.md); comparado com o [current state](current-state.md) relatado em [`status`](status.md).
+- Imposto pela [reconciliation](reconciliation.md).
 - Hierarquia: Deployment → ReplicaSet → Pod. Ver [Deployment](../../03-workloads/verbetes/deployment.md) e [ReplicaSet](../../03-workloads/verbetes/replicaset.md).
 
 ## Exemplo de situação real
 
-Um administrador apaga um Pod para "reiniciá-lo". O Pod volta com outro nome. Não é falha: o estado desejado (3 réplicas, no ReplicaSet) continua igual, e o controller recriou o que faltava. Para mudar de verdade, é preciso alterar o estado desejado, por exemplo `spec.replicas` no Deployment.
+Um administrador apaga um Pod para "reiniciá-lo". O Pod volta com outro nome. Não é falha: o desired state (3 réplicas, no ReplicaSet) continua igual, e o controller recriou o que faltava. Para mudar de verdade, é preciso alterar o desired state, por exemplo `spec.replicas` no Deployment.
 
 ## Como visualizar e inspecionar (somente leitura)
 
-O estado desejado se lê no `spec` dos objetos:
+O desired state se lê no `spec` dos objetos:
 
 ```bash
-# Estado desejado de réplicas de um Deployment
+# Desired state de réplicas de um Deployment
 oc get deployment <nome> -n <namespace> -o jsonpath='{.spec.replicas}{"\n"}'
 
 # Comparação lado a lado: desejado × pronto
 oc get deployment <nome> -n <namespace> \
   -o custom-columns=NOME:.metadata.name,DESEJADO:.spec.replicas,PRONTO:.status.readyReplicas
 
-# Quanto o seu manifesto local difere do estado desejado guardado no cluster
+# Quanto o seu manifesto local difere do desired state guardado no cluster
 # (somente leitura: oc diff não aplica nada)
 oc diff -f <arquivo>.yaml
 ```
 
 ## Como interpretar a saída
 
-- Em `custom-columns`, `DESEJADO` diferente de `PRONTO` significa que a reconciliação está em curso ou bloqueada; investigue `status.conditions` e os Events.
-- O `oc diff` mostra no formato *diff* o que **mudaria** no estado desejado se o arquivo fosse aplicado. Saída vazia indica que o manifesto local já coincide com o armazenado.
+- Em `custom-columns`, `DESEJADO` diferente de `PRONTO` significa que a reconciliation está em curso ou bloqueada; investigue `status.conditions` e os Events.
+- O `oc diff` mostra no formato *diff* o que **mudaria** no desired state se o arquivo fosse aplicado. Saída vazia indica que o manifesto local já coincide com o armazenado.
 - Um valor `<none>` em `PRONTO` costuma significar que o campo ainda não foi preenchido pelo controller.
 
 ## Diferenças e confusões frequentes
 
-- **Estado desejado ≠ manifesto local:** o que vale é o que está **na API**. Um YAML no seu disco ou no Git só vira estado desejado quando é aplicado (base do GitOps, categoria 15).
-- **Estado desejado ≠ resultado garantido:** declarar 3 réplicas não garante 3 Pods prontos (pode faltar CPU, a imagem pode não existir...).
-- **Declarativo × imperativo no CLI:** `oc apply -f` trabalha com o estado desejado completo; `oc scale`, `oc set image` são atalhos imperativos que **também** alteram o estado desejado. O efeito final está sempre no objeto.
+- **Desired state ≠ manifesto local:** o que vale é o que está **na API**. Um YAML no seu disco ou no Git só vira desired state quando é aplicado (base do GitOps, categoria 15).
+- **Desired state ≠ resultado garantido:** declarar 3 réplicas não garante 3 Pods prontos (pode faltar CPU, a imagem pode não existir...).
+- **Declarativo × imperativo no CLI:** `oc apply -f` trabalha com o desired state completo; `oc scale`, `oc set image` são atalhos imperativos que **também** alteram o desired state. O efeito final está sempre no objeto.
 
 ## No OpenShift 4.22 versus Kubernetes
 
-O OpenShift aplica o mesmo modelo **à própria plataforma**: a versão desejada do cluster é declarada em `ClusterVersion` e a configuração em objetos de `config.openshift.io`. Os Operators reconciliam os componentes até esse estado. Em clusters gerenciados por Operators, alterar recursos internos à mão pode ser desfeito pela reconciliação.
+O OpenShift aplica o mesmo modelo **à própria plataforma**: a versão desejada do cluster é declarada em `ClusterVersion` e a configuração em objetos de `config.openshift.io`. Os Operators reconciliam os componentes até esse estado. Em clusters gerenciados por Operators, alterar recursos internos à mão pode ser desfeito pela reconciliation.
 
 ## No HomeLab SNO
 
-Observe o estado desejado à vontade com `get`, `-o jsonpath` e `oc diff`. **Não** altere o estado desejado de objetos em `openshift-*`: o Operator correspondente pode reverter a mudança, ou pior, a configuração passa a divergir do suportado.
+Observe o desired state à vontade com `get`, `-o jsonpath` e `oc diff`. **Não** altere o desired state de objetos em `openshift-*`: o Operator correspondente pode reverter a mudança, ou pior, a configuração passa a divergir do suportado.
 
 ## Diagrama Mermaid
 
 ```mermaid
 flowchart LR
-    D["Estado desejado<br/>(spec)"] --> CMP{"Controller compara"}
-    O["Estado observado<br/>(status / mundo real)"] --> CMP
+    D["Desired state<br/>(spec)"] --> CMP{"Controller compara"}
+    O["Current state<br/>(status / mundo real)"] --> CMP
     CMP -->|"diferença"| ACT["Ação: criar, remover, atualizar"]
     ACT --> O
     CMP -->|"sem diferença"| W["Aguarda novo evento"]
@@ -93,7 +93,7 @@ flowchart LR
 
 ## Termos relacionados
 
-[Estado observado](current-state.md) · [Reconciliação](reconciliation.md) · [Spec](spec.md) · [Status](status.md) · [Objeto](object.md) · [Deployment](../../03-workloads/verbetes/deployment.md)
+[Current State](current-state.md) · [Reconciliation](reconciliation.md) · [Spec](spec.md) · [Status](status.md) · [Object](object.md) · [Deployment](../../03-workloads/verbetes/deployment.md)
 
 ## Fontes oficiais
 

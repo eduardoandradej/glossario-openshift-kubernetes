@@ -1,4 +1,4 @@
-# Objeto (Kubernetes object)
+# Object (objeto)
 
 > **ID:** 00-fundamentos-e-linguagem/object | **Termo original:** Kubernetes object / API object | **Tradução:** objeto (do Kubernetes) | **Classe ontológica:** conceito (modelo de dados da API) | **Plataforma:** Kubernetes / OpenShift | **Escopo:** cada objeto é namespaced ou cluster-scoped, conforme o seu tipo | **Disponibilidade:** nativo | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** básico | **Atualizado em:** 2026-11-04
 
@@ -19,9 +19,9 @@ kind: Deployment           # tipo do objeto
 metadata:                  # identidade: name, namespace, uid, labels, annotations...
   name: exemplo
   namespace: minha-app
-spec:                      # estado desejado (escrito por você)
+spec:                      # desired state (escrito por você)
   replicas: 3
-status:                    # estado observado (escrito pelo sistema)
+status:                    # current state (escrito pelo sistema)
   readyReplicas: 3
 ```
 
@@ -35,16 +35,16 @@ Segundo a documentação, objetos descrevem, por exemplo: quais aplicações con
 
 1. **Criação:** o cliente envia o objeto (JSON) à [API](kubernetes-api.md). São obrigatórios `apiVersion`, `kind`, `metadata` (com `name`) e, nos tipos que o têm, `spec`.
 2. **Persistência:** o API server valida, aplica valores padrão (*defaulting*) e grava no etcd. O sistema preenche `metadata.uid`, `metadata.resourceVersion` e `metadata.creationTimestamp`.
-3. **Reconciliação:** controllers leem o [`spec`](spec.md), agem e escrevem o [`status`](status.md).
-4. **Alteração:** mudanças em `spec` incrementam `metadata.generation` na maioria dos tipos; os controllers retomam a reconciliação.
-5. **Exclusão:** o objeto pode passar por [finalizers](finalizer.md) e pela [coleta de lixo](garbage-collection.md) dos objetos dependentes.
+3. **Reconciliation:** controllers leem o [`spec`](spec.md), agem e escrevem o [`status`](status.md).
+4. **Alteração:** mudanças em `spec` incrementam `metadata.generation` na maioria dos tipos; os controllers retomam a reconciliation.
+5. **Exclusão:** o objeto pode passar por [finalizers](finalizer.md) e pela [garbage collection](garbage-collection.md) dos objetos dependentes.
 
 **Unicidade:** dentro de um namespace só pode existir um objeto de um dado tipo com um dado nome. Para tipos cluster-scoped, como Node, o nome é único no cluster todo.
 
 ## Relações e dependências
 
 - É uma instância de um [recurso](resource.md), e o seu esquema é definido pelo [kind](kind.md).
-- Carrega o [estado desejado](desired-state.md) e o [estado observado](current-state.md).
+- Carrega o [desired state](desired-state.md) e o [current state](current-state.md).
 - Exceções: alguns tipos não são persistidos. São "virtuais", como `SubjectAccessReview`, que representa uma operação (uma pergunta de permissão) e não uma entidade.
 
 ## Exemplo de situação real
@@ -83,7 +83,7 @@ Se o `status` estiver vazio logo após a criação, isso costuma significar que 
 
 ## Diferenças e confusões frequentes
 
-- **Objeto × recurso:** a documentação usa "resource" para a instância na URL e "object" para a entidade persistente; na prática, os termos se sobrepõem. Ver [Recurso](resource.md).
+- **Objeto × recurso:** a documentação usa "resource" para a instância na URL e "object" para a entidade persistente; na prática, os termos se sobrepõem. Ver [Resource](resource.md).
 - **Objeto × manifesto:** o manifesto é o **arquivo** (YAML/JSON) que descreve o objeto. O objeto é o que fica **armazenado** na API, já com `uid`, `status` e padrões.
 - **Objeto × processo:** um Pod é um objeto; os contêineres que ele descreve são processos nos nós.
 - **`kind: List`** que aparece em algumas saídas do `oc`/`kubectl` não é um objeto da API: é um artifício do cliente.
@@ -108,7 +108,7 @@ flowchart LR
 
 ## Termos relacionados
 
-[Recurso](resource.md) · [Kind](kind.md) · [Spec](spec.md) · [Status](status.md) · [Estado desejado](desired-state.md) · [API](kubernetes-api.md) · [Namespace](namespace.md)
+[Resource](resource.md) · [Kind](kind.md) · [Spec](spec.md) · [Status](status.md) · [Desired State](desired-state.md) · [API](kubernetes-api.md) · [Namespace](namespace.md)
 
 ## Fontes oficiais
 

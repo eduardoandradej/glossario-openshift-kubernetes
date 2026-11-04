@@ -18,11 +18,11 @@
 | [OpenShift Container Platform](../categorias/00-fundamentos-e-linguagem/verbetes/openshift-container-platform.md) | Colunas de `oc get clusterversion`; URL `html/architecture/architecture` | SNO; abrir URL |
 | [Cluster](../categorias/00-fundamentos-e-linguagem/verbetes/cluster.md) | `ROLES` no SNO; campos `controlPlaneTopology`/`infrastructureTopology`; slug da URL do guia de SNO | `oc get nodes`; `oc explain infrastructure.status` |
 | [API](../categorias/00-fundamentos-e-linguagem/verbetes/kubernetes-api.md) | Colunas de `oc api-resources -o wide` | SNO |
-| [Recurso](../categorias/00-fundamentos-e-linguagem/verbetes/resource.md) | Texto exato das mensagens de erro (Forbidden / resource type); `oc auth can-i --subresource` | SNO; `--help` |
+| [Resource](../categorias/00-fundamentos-e-linguagem/verbetes/resource.md) | Texto exato das mensagens de erro (Forbidden / resource type); `oc auth can-i --subresource` | SNO; `--help` |
 | [Kind](../categorias/00-fundamentos-e-linguagem/verbetes/kind.md) | Cabeçalho de `oc explain` | SNO |
 | [Spec](../categorias/00-fundamentos-e-linguagem/verbetes/spec.md) | Defaults citados de `Deployment.spec` | `oc explain deployment.spec` |
-| [Estado desejado](../categorias/00-fundamentos-e-linguagem/verbetes/desired-state.md) | `oc diff` como somente leitura no cliente 4.22; URL publicada do "Kubernetes overview" do OCP | `oc diff --help`; abrir docs |
-| [Reconciliação](../categorias/00-fundamentos-e-linguagem/verbetes/reconciliation.md) | URL publicada do "Kubernetes overview" do OCP | abrir docs |
+| [Desired State](../categorias/00-fundamentos-e-linguagem/verbetes/desired-state.md) | `oc diff` como somente leitura no cliente 4.22; URL publicada do "Kubernetes overview" do OCP | `oc diff --help`; abrir docs |
+| [Reconciliation](../categorias/00-fundamentos-e-linguagem/verbetes/reconciliation.md) | URL publicada do "Kubernetes overview" do OCP | abrir docs |
 
 ### Lote 2
 
@@ -59,8 +59,8 @@
 
 ## Decisões de nomenclatura a confirmar com o autor
 
-- **Estado observado:** slug `current-state` (termo oficial), título PT "Estado observado", remissões *actual state* e *observed state*.
+- **Termos técnicos em inglês (decisão do autor, 2026-11-04):** títulos e termos técnicos ficam no original em inglês (Control Plane, Desired State, Current State, Reconciliation, Object, Resource...). A explicação é em português. A tradução aparece só como apoio, entre parênteses ou no campo **Tradução**.
 - **API:** slug `kubernetes-api`, título "API (Kubernetes API)". O verbete *API Server* fica separado, no próximo lote.
-- **Objeto/Recurso:** slugs em inglês (`object`, `resource`) e títulos em português.
-- **Control Loop:** sem página própria; remissão para Controller e Reconciliação.
+- **Object/Resource:** slugs e títulos em inglês (`object`, `resource`).
+- **Control Loop:** sem página própria; remissão para Controller e Reconciliation.
 - **Resource Name / UID:** slugs `resource-name` e `uid`; títulos com o campo (`metadata.name`, `metadata.uid`).

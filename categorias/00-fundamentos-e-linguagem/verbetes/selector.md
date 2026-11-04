@@ -78,7 +78,7 @@ oc get pods -n <namespace> --field-selector=status.phase=Running
 
 - **Selector × label:** a label está **no objeto-alvo**; o selector está **em quem procura**.
 - **Label selector × field selector:** um filtra labels; o outro, campos (como `metadata.name` ou `status.phase`).
-- **Selector × ownerReferences:** o selector diz "quais objetos me interessam"; o `ownerReferences` diz "quem é dono de quem" e governa a coleta de lixo.
+- **Selector × ownerReferences:** o selector diz "quais objetos me interessam"; o `ownerReferences` diz "quem é dono de quem" e governa a garbage collection.
 - **`spec.selector` de Deployment é imutável** depois de criado em `apps/v1`. Mudá-lo exige recriar o Deployment.
 
 ## No OpenShift 4.22 versus Kubernetes

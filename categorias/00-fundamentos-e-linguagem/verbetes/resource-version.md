@@ -29,7 +29,7 @@ Cada vez que **qualquer coisa** num objeto é gravada (`spec`, `status`, labels.
 ## Relações e dependências
 
 - Campo de [metadata](metadata.md).
-- **Não confundir** com [Generation](generation.md): a `generation` muda só com o estado desejado; a `resourceVersion` muda com qualquer escrita.
+- **Não confundir** com [Generation](generation.md): a `generation` muda só com o desired state; a `resourceVersion` muda com qualquer escrita.
 - Usada internamente por [controllers](controller.md) (informers e watches).
 
 ## Exemplo de situação real
@@ -52,7 +52,7 @@ oc get deployment <nome> -n <namespace> -w -o jsonpath='{.metadata.resourceVersi
 
 ## Como interpretar a saída
 
-- Se a `rv` mudou e a `gen` não, houve escrita que não alterou o estado desejado (normalmente atualização de `status`, de labels ou de annotations).
+- Se a `rv` mudou e a `gen` não, houve escrita que não alterou o desired state (normalmente atualização de `status`, de labels ou de annotations).
 - No `-w`, cada linha nova indica uma gravação no objeto. Rajadas frequentes num objeto estável podem indicar um controller "brigando" com outro.
 - A mensagem `the object has been modified` é o **409 Conflict** da concorrência otimista. Não é corrupção.
 

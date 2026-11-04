@@ -11,8 +11,8 @@
 
 **Linguagem da API**
 - 🟡 [API (Kubernetes API)](../categorias/00-fundamentos-e-linguagem/verbetes/kubernetes-api.md) · [API Server](../categorias/00-fundamentos-e-linguagem/verbetes/api-server.md) · [API Group](../categorias/00-fundamentos-e-linguagem/verbetes/api-group.md) · [API Version](../categorias/00-fundamentos-e-linguagem/verbetes/api-version.md)
-- 🟡 [Objeto](../categorias/00-fundamentos-e-linguagem/verbetes/object.md)
-- 🟡 [Recurso](../categorias/00-fundamentos-e-linguagem/verbetes/resource.md)
+- 🟡 [Object](../categorias/00-fundamentos-e-linguagem/verbetes/object.md)
+- 🟡 [Resource](../categorias/00-fundamentos-e-linguagem/verbetes/resource.md)
 - 🟡 [Kind](../categorias/00-fundamentos-e-linguagem/verbetes/kind.md)
 - 🟡 [Spec](../categorias/00-fundamentos-e-linguagem/verbetes/spec.md)
 - 🟡 [Status](../categorias/00-fundamentos-e-linguagem/verbetes/status.md)
@@ -22,9 +22,9 @@
 - 🟡 [Manifest](../categorias/00-fundamentos-e-linguagem/verbetes/manifest.md) · [YAML](../categorias/00-fundamentos-e-linguagem/verbetes/yaml.md) · [JSON](../categorias/00-fundamentos-e-linguagem/verbetes/json.md)
 
 **Modelo declarativo**
-- 🟡 [Estado desejado](../categorias/00-fundamentos-e-linguagem/verbetes/desired-state.md)
-- 🟡 [Estado observado](../categorias/00-fundamentos-e-linguagem/verbetes/current-state.md)
-- 🟡 [Reconciliação](../categorias/00-fundamentos-e-linguagem/verbetes/reconciliation.md)
+- 🟡 [Desired State](../categorias/00-fundamentos-e-linguagem/verbetes/desired-state.md)
+- 🟡 [Current State](../categorias/00-fundamentos-e-linguagem/verbetes/current-state.md)
+- 🟡 [Reconciliation](../categorias/00-fundamentos-e-linguagem/verbetes/reconciliation.md)
 - 🟡 [Controller](../categorias/00-fundamentos-e-linguagem/verbetes/controller.md) (↪ Control Loop)
 
 **Organização**

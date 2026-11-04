@@ -4,11 +4,11 @@
 
 ## Definição em uma frase
 
-Um controller é um **laço de controle** (*control loop*) que observa o estado do cluster pela API e faz, ou pede, mudanças para aproximar o estado atual do estado desejado.
+Um controller é um **control loop** (*control loop*) que observa o estado do cluster pela API e faz, ou pede, mudanças para aproximar o estado atual do desired state.
 
 ## Explicação didática
 
-O [verbete Reconciliação](reconciliation.md) explica **o que** acontece a cada volta do laço. Este verbete trata de **quem** faz: os controllers são os programas que executam a reconciliação.
+O [verbete Reconciliation](reconciliation.md) explica **o que** acontece a cada volta do laço. Este verbete trata de **quem** faz: os controllers são os programas que executam a reconciliation.
 
 - **Control loop** é o mecanismo genérico (o termostato é o exemplo clássico): um laço que **não termina** e regula um sistema.
 - **Controller** é um control loop aplicado a um ou mais tipos de recurso do Kubernetes.
@@ -31,7 +31,7 @@ Em vez de um "cérebro" monolítico, o Kubernetes usa **muitos controllers simpl
 
 ## Relações e dependências
 
-- Executa a [reconciliação](reconciliation.md) entre o [estado desejado](desired-state.md) e o [estado observado](current-state.md).
+- Executa a [reconciliation](reconciliation.md) entre o [desired state](desired-state.md) e o [current state](current-state.md).
 - Um [Operator](../../09-operators-e-extensoes/verbetes/operator.md) é um controller (ou um conjunto deles) com conhecimento operacional de uma aplicação, geralmente com CRDs.
 - Os Operators de plataforma do OpenShift relatam seu estado em [ClusterOperator](../../09-operators-e-extensoes/verbetes/clusteroperator.md).
 
@@ -70,7 +70,7 @@ oc get leases -n kube-system
 
 - **Controller ≠ Operator:** todo Operator usa controllers, mas a maioria dos controllers nativos não é Operator.
 - **Controller ≠ "controlador de workload":** muita gente chama Deployment, StatefulSet etc. de "controllers", mas esses são **objetos**. O controller é o código que os reconcilia.
-- **Controller manager ≠ scheduler:** o scheduler escolhe o nó de um Pod; não é um controller de reconciliação de objetos.
+- **Controller manager ≠ scheduler:** o scheduler escolhe o nó de um Pod; não é um controller de reconciliation de objetos.
 - **IngressController (OpenShift)** é um **objeto** de configuração do Operator de ingress, apesar do nome. Ver [IngressController](../../04-networking/verbetes/ingresscontroller.md).
 
 ## No OpenShift 4.22 versus Kubernetes
@@ -100,7 +100,7 @@ flowchart LR
 
 ## Termos relacionados
 
-[Reconciliação](reconciliation.md) · [Estado desejado](desired-state.md) · [API Server](api-server.md) · [Operator](../../09-operators-e-extensoes/verbetes/operator.md) · [ClusterOperator](../../09-operators-e-extensoes/verbetes/clusteroperator.md) · [ReplicaSet](../../03-workloads/verbetes/replicaset.md)
+[Reconciliation](reconciliation.md) · [Desired State](desired-state.md) · [API Server](api-server.md) · [Operator](../../09-operators-e-extensoes/verbetes/operator.md) · [ClusterOperator](../../09-operators-e-extensoes/verbetes/clusteroperator.md) · [ReplicaSet](../../03-workloads/verbetes/replicaset.md)
 
 ## Fontes oficiais
 
@@ -111,5 +111,5 @@ flowchart LR
 ## Revisão editorial
 
 - **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
-- **Remissão:** "Control Loop" (inventário da categoria 00) aponta para este verbete e para [Reconciliação](reconciliation.md); não há página separada.
+- **Remissão:** "Control Loop" (inventário da categoria 00) aponta para este verbete e para [Reconciliation](reconciliation.md); não há página separada.
 - **Pendências:** confirmar o namespace dos Leases de eleição de líder no OCP 4.22 e os nomes dos campos de origem dos Events no SNO, que **não foram executados**.

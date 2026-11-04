@@ -4,7 +4,7 @@
 
 ## Definição em uma frase
 
-`metadata.generation` é um **número sequencial, definido pelo sistema e sempre crescente**, que representa uma versão específica do **[estado desejado](desired-state.md)** de um objeto.
+`metadata.generation` é um **número sequencial, definido pelo sistema e sempre crescente**, que representa uma versão específica do **[desired state](desired-state.md)** de um objeto.
 
 ## Explicação didática
 
@@ -12,18 +12,18 @@ Toda vez que você muda o que **pede** (o `spec`), a geração sobe: 1, 2, 3... 
 
 ## Para que existe e qual problema resolve
 
-A [resourceVersion](resource-version.md) muda com qualquer escrita, até as do próprio controller, e não diz se o **pedido** mudou. A `generation` isola esse sinal: ela só avança quando o estado desejado muda.
+A [resourceVersion](resource-version.md) muda com qualquer escrita, até as do próprio controller, e não diz se o **pedido** mudou. A `generation` isola esse sinal: ela só avança quando o desired state muda.
 
 ## Funcionamento técnico e ciclo de vida
 
 - **Definida pelo sistema:** começa em 1 na criação e cresce de forma monotônica, por objeto.
-- **Quando sobe:** em mudanças no estado desejado, que na maioria dos tipos é o `spec`. Quais campos contam depende do tipo. Para recursos personalizados com o subrecurso `status` habilitado, mudanças em `metadata` e `status` não incrementam a geração.
+- **Quando sobe:** em mudanças no desired state, que na maioria dos tipos é o `spec`. Quais campos contam depende do tipo. Para recursos personalizados com o subrecurso `status` habilitado, mudanças em `metadata` e `status` não incrementam a geração.
 - **Uso típico:** o controller copia a geração que acabou de processar para `status.observedGeneration`, e para `observedGeneration` dentro de cada condição quando o tipo suporta.
 
 ## Relações e dependências
 
 - Campo de [metadata](metadata.md), comparado com [ObservedGeneration](observed-generation.md).
-- Ligado ao [spec](spec.md) e à [reconciliação](reconciliation.md).
+- Ligado ao [spec](spec.md) e à [reconciliation](reconciliation.md).
 
 ## Exemplo de situação real
 
@@ -65,7 +65,7 @@ Comparar `generation` e `observedGeneration` é o diagnóstico mais barato e seg
 
 ## Termos relacionados
 
-[ObservedGeneration](observed-generation.md) · [ResourceVersion](resource-version.md) · [Spec](spec.md) · [Status](status.md) · [Reconciliação](reconciliation.md) · [Deployment](../../03-workloads/verbetes/deployment.md)
+[ObservedGeneration](observed-generation.md) · [ResourceVersion](resource-version.md) · [Spec](spec.md) · [Status](status.md) · [Reconciliation](reconciliation.md) · [Deployment](../../03-workloads/verbetes/deployment.md)
 
 ## Fontes oficiais
 

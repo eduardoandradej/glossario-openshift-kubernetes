@@ -15,7 +15,7 @@ Por isso, entender a API é entender o Kubernetes: cada tipo de objeto tem um ca
 ## Para que existe e qual problema resolve
 
 - **Fonte única da verdade:** o estado declarado fica num só lugar (o etcd), acessível apenas pelo API server, que valida, autentica e autoriza cada pedido.
-- **Coordenação sem acoplamento:** os componentes não conversam entre si. Cada um observa a API e reage. Ver [Reconciliação](reconciliation.md).
+- **Coordenação sem acoplamento:** os componentes não conversam entre si. Cada um observa a API e reage. Ver [Reconciliation](reconciliation.md).
 - **Extensibilidade:** novos tipos podem ser acrescentados (CRDs, APIs agregadas) sem mudar os clientes.
 
 ## Funcionamento técnico e ciclo de vida
@@ -116,7 +116,7 @@ sequenceDiagram
 
 ## Termos relacionados
 
-[Objeto](object.md) · [Recurso](resource.md) · [Kind](kind.md) · [Kubernetes](kubernetes.md) · [Reconciliação](reconciliation.md) · [CustomResourceDefinition](../../09-operators-e-extensoes/verbetes/customresourcedefinition.md)
+[Object](object.md) · [Resource](resource.md) · [Kind](kind.md) · [Kubernetes](kubernetes.md) · [Reconciliation](reconciliation.md) · [CustomResourceDefinition](../../09-operators-e-extensoes/verbetes/customresourcedefinition.md)
 
 ## Fontes oficiais
 

@@ -16,8 +16,8 @@
 - [x] [Cluster](verbetes/cluster.md) 🟡
 - [x] [API](verbetes/kubernetes-api.md) 🟡
 - [x] [API Server](verbetes/api-server.md) 🟡
-- [x] [Objeto](verbetes/object.md) 🟡
-- [x] [Recurso](verbetes/resource.md) 🟡
+- [x] [Object](verbetes/object.md) 🟡
+- [x] [Resource](verbetes/resource.md) 🟡
 - [x] [Kind](verbetes/kind.md) 🟡
 - [x] [API Group](verbetes/api-group.md) 🟡
 - [x] [API Version](verbetes/api-version.md) 🟡
@@ -27,11 +27,11 @@
 - [x] [Spec](verbetes/spec.md) 🟡
 - [x] [Status](verbetes/status.md) 🟡
 - [x] [Metadata](verbetes/metadata.md) 🟡
-- [x] [Estado desejado](verbetes/desired-state.md) 🟡
-- [x] [Estado observado](verbetes/current-state.md) 🟡
-- [x] [Reconciliação](verbetes/reconciliation.md) 🟡
+- [x] [Desired State](verbetes/desired-state.md) 🟡
+- [x] [Current State](verbetes/current-state.md) 🟡
+- [x] [Reconciliation](verbetes/reconciliation.md) 🟡
 - [x] [Controller](verbetes/controller.md) 🟡
-- [x] [Control Loop](verbetes/controller.md) — remissão para Controller e [Reconciliação](verbetes/reconciliation.md) 🟡
+- [x] [Control Loop](verbetes/controller.md) — remissão para Controller e [Reconciliation](verbetes/reconciliation.md) 🟡
 - [x] [Namespace](verbetes/namespace.md) 🟡 (reescrito no lote 2)
 - [x] [Project](verbetes/project.md) 🟡
 - [x] [Resource Name](verbetes/resource-name.md) 🟡

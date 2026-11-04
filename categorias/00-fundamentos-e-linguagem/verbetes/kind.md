@@ -78,7 +78,7 @@ VERSION:    v1
 | **Short name** | `deploy` | Atalho do CLI |
 | **`type`** | `ClusterIP`, `Ready` | Subcategoria **dentro** de um objeto |
 
-- **Kind ≠ classe ontológica deste glossário.** Nem todo verbete tem kind: "Cluster", "Estado desejado" e "Reconciliação" são conceitos sem objeto.
+- **Kind ≠ classe ontológica deste glossário.** Nem todo verbete tem kind: "Cluster", "Desired state" e "Reconciliation" são conceitos sem objeto.
 
 ## No OpenShift 4.22 versus Kubernetes
 
@@ -101,7 +101,7 @@ flowchart LR
 
 ## Termos relacionados
 
-[Recurso](resource.md) · [Objeto](object.md) · [API](kubernetes-api.md) · [Spec](spec.md) · [CustomResourceDefinition](../../09-operators-e-extensoes/verbetes/customresourcedefinition.md)
+[Resource](resource.md) · [Object](object.md) · [API](kubernetes-api.md) · [Spec](spec.md) · [CustomResourceDefinition](../../09-operators-e-extensoes/verbetes/customresourcedefinition.md)
 
 ## Fontes oficiais
 

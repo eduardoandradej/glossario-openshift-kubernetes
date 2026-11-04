@@ -47,7 +47,7 @@ Vamos nessa! 🚀
 - [Mapa de categorias](docs/MAPA-DE-CATEGORIAS.md)
 - [Índice alfabético](docs/INDICE-ALFABETICO.md) · [Índice por categoria](docs/INDICE-POR-CATEGORIA.md) · [Mapa de relações](docs/MAPA-DE-RELACOES.md)
 - [Estado do projeto](docs/ESTADO-DO-PROJETO.md) · [Termos a validar](docs/TERMOS-A-VALIDAR.md)
-- [Modelo declarativo (spec → reconciliação → status)](diagramas/00-modelo-declarativo.md)
+- [Modelo declarativo (spec → reconciliation → status)](diagramas/00-modelo-declarativo.md)
 - [Diagrama de arquitetura](diagramas/01-visao-geral.md)
 - [Workloads e controllers](diagramas/02-workloads.md)
 - [Tráfego e networking](diagramas/03-networking.md)

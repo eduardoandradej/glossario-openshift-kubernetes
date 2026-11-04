@@ -4,7 +4,7 @@
 
 ## Definição em uma frase
 
-O API server é o componente do plano de controle que **expõe a [API](kubernetes-api.md) do Kubernetes**: recebe todas as requisições, autentica, autoriza, valida e grava o estado no etcd. É a "porta de entrada" do cluster.
+O API server é o componente do control plane que **expõe a [API](kubernetes-api.md) do Kubernetes**: recebe todas as requisições, autentica, autoriza, valida e grava o estado no etcd. É a "porta de entrada" do cluster.
 
 ## Explicação didática
 
@@ -39,7 +39,7 @@ Leituras passam pelos passos 1 e 2 e são atendidas a partir dos dados do etcd (
 
 ## Exemplo de situação real
 
-O `oc` fica lento e alguns comandos dão *timeout*, mas os Pods das aplicações continuam respondendo. O plano de controle (API server) está com problema, mas os nós continuam rodando o que já estava atribuído. Aplicações em execução não dependem do API server a cada requisição; mudanças e novos agendamentos, sim.
+O `oc` fica lento e alguns comandos dão *timeout*, mas os Pods das aplicações continuam respondendo. O control plane (API server) está com problema, mas os nós continuam rodando o que já estava atribuído. Aplicações em execução não dependem do API server a cada requisição; mudanças e novos agendamentos, sim.
 
 ## Como visualizar e inspecionar (somente leitura)
 
@@ -75,11 +75,11 @@ oc get apiservices | grep openshift.io
 
 ## No OpenShift 4.22 versus Kubernetes
 
-A documentação do OCP lista no plano de controle os serviços Kubernetes (API server, etcd, controller manager, scheduler) e os serviços OpenShift (OpenShift API server, OpenShift controller manager, OpenShift OAuth API server, OpenShift OAuth server). Parte deles roda como **static pods**; o CRI-O e o kubelet rodam como serviços **systemd** no host.
+A documentação do OCP lista no control plane os serviços Kubernetes (API server, etcd, controller manager, scheduler) e os serviços OpenShift (OpenShift API server, OpenShift controller manager, OpenShift OAuth API server, OpenShift OAuth server). Parte deles roda como **static pods**; o CRI-O e o kubelet rodam como serviços **systemd** no host.
 
 ## No HomeLab SNO
 
-Há uma só instância de cada API server, porque há um só nó de plano de controle. Uma reinicialização do API server (por exemplo, ao rotacionar certificados) deixa a API indisponível por alguns instantes. Observe; não reinicie Pods de `openshift-kube-apiserver`.
+Há uma só instância de cada API server, porque há um só nó de control plane. Uma reinicialização do API server (por exemplo, ao rotacionar certificados) deixa a API indisponível por alguns instantes. Observe; não reinicie Pods de `openshift-kube-apiserver`.
 
 ## Diagrama Mermaid
 
@@ -102,7 +102,7 @@ flowchart LR
 
 - Kubernetes Glossary — kube-apiserver: <https://kubernetes.io/docs/reference/glossary/?all=true#term-kube-apiserver> (fonte: `kubernetes/website` `release-1.35`, `reference/glossary/kube-apiserver.md`)
 - Kubernetes — Components: <https://kubernetes.io/docs/concepts/overview/components/>
-- OCP 4.22 — Control plane architecture, "Machine roles" (serviços Kubernetes e OpenShift no plano de controle; static pods e systemd): <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/architecture/control-plane> (fonte: `architecture/control-plane.adoc` → `modules/architecture-machine-roles.adoc`)
+- OCP 4.22 — Control plane architecture, "Machine roles" (serviços Kubernetes e OpenShift no control plane; static pods e systemd): <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/architecture/control-plane> (fonte: `architecture/control-plane.adoc` → `modules/architecture-machine-roles.adoc`)
 
 ## Revisão editorial
 

@@ -4,26 +4,26 @@
 
 ## Definição em uma frase
 
-Um cluster Kubernetes é o conjunto formado por um **plano de controle** (*control plane*), que expõe a API e toma as decisões, e por **nós** (*nodes*), as máquinas que executam os contêineres das aplicações.
+Um cluster Kubernetes é o conjunto formado por um **control plane** (*control plane*), que expõe a API e toma as decisões, e por **nós** (*nodes*), as máquinas que executam os contêineres das aplicações.
 
 ## Explicação didática
 
 Do lado de fora, o cluster parece um único computador grande: você pede "rode isto", e ele resolve onde e como. Por dentro há uma divisão de tarefas:
 
-- o **plano de controle** guarda o estado (etcd), atende os pedidos (API server), decide em que nó cada Pod roda (scheduler) e corrige desvios (controllers);
+- o **control plane** guarda o estado (etcd), atende os pedidos (API server), decide em que nó cada Pod roda (scheduler) e corrige desvios (controllers);
 - os **nós** executam os Pods, por meio do kubelet e do runtime de contêineres.
 
 **Não existe um `kind: Cluster`** no Kubernetes padrão. "Cluster" é o nome do sistema inteiro, e não um objeto que você cria com YAML. No OpenShift há objetos que **descrevem** o cluster, como `ClusterVersion` e `Infrastructure` (grupo `config.openshift.io`), mas eles não são "o cluster".
 
 ## Para que existe e qual problema resolve
 
-Juntar máquinas num cluster permite tratar a capacidade como um *pool*: as falhas de uma máquina são absorvidas pelas outras, e a carga pode crescer acrescentando nós. Em produção, o plano de controle costuma estar distribuído em vários computadores, o que dá tolerância a falhas e alta disponibilidade.
+Juntar máquinas num cluster permite tratar a capacidade como um *pool*: as falhas de uma máquina são absorvidas pelas outras, e a carga pode crescer acrescentando nós. Em produção, o control plane costuma estar distribuído em vários computadores, o que dá tolerância a falhas e alta disponibilidade.
 
 ## Funcionamento técnico e ciclo de vida
 
 ```mermaid
 flowchart LR
-    subgraph CP["Plano de controle"]
+    subgraph CP["Control plane"]
         API["kube-apiserver"] <--> ETCD[("etcd")]
         SCH["kube-scheduler"] --> API
         CM["kube-controller-manager"] --> API
@@ -41,18 +41,18 @@ flowchart LR
 *Legenda: todos os componentes conversam com o API server; nenhum fala direto com o etcd, a não ser o próprio API server.*
 
 1. **Formação:** o cluster é criado pela instalação, no OpenShift com o instalador e Ignition.
-2. **Operação:** os nós se registram como objetos [Node](../../02-compute-e-nodes/verbetes/node.md) e relatam sua saúde. O plano de controle distribui o trabalho.
-3. **Evolução:** nós entram e saem; o plano de controle é atualizado. No OpenShift, a topologia escolhida na instalação, por exemplo SNO, é fixa para todo o ciclo de vida.
+2. **Operação:** os nós se registram como objetos [Node](../../02-compute-e-nodes/verbetes/node.md) e relatam sua saúde. O control plane distribui o trabalho.
+3. **Evolução:** nós entram e saem; o control plane é atualizado. No OpenShift, a topologia escolhida na instalação, por exemplo SNO, é fixa para todo o ciclo de vida.
 
 ## Relações e dependências
 
 - Contém [Nodes](../../02-compute-e-nodes/verbetes/node.md) e os [Namespaces](namespace.md), que dividem o cluster logicamente.
-- Define as fronteiras dos escopos: recursos são **namespaced** ou **cluster-scoped**. Ver [Recurso](resource.md).
+- Define as fronteiras dos escopos: recursos são **namespaced** ou **cluster-scoped**. Ver [Resource](resource.md).
 - É gerenciado por meio da [API](kubernetes-api.md).
 
 ## Exemplo de situação real
 
-Uma empresa mantém um cluster de produção com três nós de plano de controle e dez de compute, e um cluster de desenvolvimento menor. As equipes compartilham cada cluster separadas por namespaces. Quem administra pensa em "capacidade do cluster", e não em "servidor X".
+Uma empresa mantém um cluster de produção com três nós de control plane e dez de compute, e um cluster de desenvolvimento menor. As equipes compartilham cada cluster separadas por namespaces. Quem administra pensa em "capacidade do cluster", e não em "servidor X".
 
 ## Como visualizar e inspecionar (somente leitura)
 
@@ -104,7 +104,7 @@ Um único nó acumula os papéis de controle e de compute: o cluster existe, mas
 
 ## Termos relacionados
 
-[Kubernetes](kubernetes.md) · [OpenShift Container Platform](openshift-container-platform.md) · [Node](../../02-compute-e-nodes/verbetes/node.md) · [Namespace](namespace.md) · [Recurso](resource.md) · [API](kubernetes-api.md)
+[Kubernetes](kubernetes.md) · [OpenShift Container Platform](openshift-container-platform.md) · [Node](../../02-compute-e-nodes/verbetes/node.md) · [Namespace](namespace.md) · [Resource](resource.md) · [API](kubernetes-api.md)
 
 ## Fontes oficiais
 

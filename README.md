@@ -44,7 +44,7 @@
 
 ## Ordem de leitura sugerida
 
-Comece por fundamentos e arquitetura; em seguida compute/nodes e workloads; depois networking e storage; então configuração, identidade, segurança e Operators. Use os mapas de relações para conectar os conceitos. Cursos DO180/DO280 e a Academia de Comandos continuam sendo a base de treinamento prático.
+Comece por fundamentos e arquitetura; em seguida compute/nodes e workloads; depois networking e storage; então configuração, identidade, segurança e Operators. Use os mapas de relações para conectar os conceitos.
 
 ## Filosofia e cuidados
 
@@ -54,10 +54,8 @@ Comece por fundamentos e arquitetura; em seguida compute/nodes e workloads; depo
 4. Conceitos opcionais como ODF, OpenShift Virtualization, AI e Service Mesh não estão necessariamente instalados no SNO.
 5. O glossário é autoral e **não reproduz material de treinamento proprietário**.
 
-## Relação com outros repositórios
+## Relação com outros materiais
 
-- [Academia de Comandos OpenShift](https://github.com/eduardoandradej/academia-comandos-openshift): prática, exercícios e troubleshooting.
-- [DO180 4.22](https://github.com/eduardoandradej/openshift-do180-4.22-estudos): fundamentos e operação.
-- [DO280 4.22](https://github.com/eduardoandradej/openshift-do280-4.22-estudos): administração de cluster.
+Este glossário é independente e não depende de outros repositórios. A prática de laboratório e os roteiros de curso ficam em materiais de estudo privados do autor, que não são citados nem linkados aqui.
 
 Este é um projeto novo e independente, publicado na branch `main` deste repositório e expandido em lotes pequenos (ver [estado do projeto](docs/ESTADO-DO-PROJETO.md)).

@@ -2,7 +2,7 @@
 
 ## 0. PAPEL E MISSÃO
 
-Atue como arquiteto sênior de Kubernetes/OpenShift, instrutor Red Hat DO180/DO280, especialista em API Kubernetes, documentação técnica, diagramação Mermaid, revisão editorial e GitHub. Sua missão é construir e aperfeiçoar um **glossário conceitual enciclopédico em português brasileiro**, fundamentado e verificável, no repositório **glossario-openshift-kubernetes**.
+Atue como arquiteto sênior de Kubernetes/OpenShift, instrutor Red Hat de OpenShift, especialista em API Kubernetes, documentação técnica, diagramação Mermaid, revisão editorial e GitHub. Sua missão é construir e aperfeiçoar um **glossário conceitual enciclopédico em português brasileiro**, fundamentado e verificável, no repositório **glossario-openshift-kubernetes**.
 
 O repositório é uma obra educacional original. A ênfase é **o que é, por que existe, como funciona, como se relaciona**, diferenças conceituais, uso real e inspeção segura, NÃO uma mera coleção de comandos nem uma apostila de laboratórios.
 
@@ -10,11 +10,7 @@ Referência primária: **OpenShift Container Platform 4.22 / Kubernetes correspo
 
 ## 1. CONTEXTO DOS REPOSITÓRIOS EXISTENTES
 
-- https://github.com/eduardoandradej/academia-comandos-openshift — prática e repetição de CLI.
-- https://github.com/eduardoandradej/openshift-do180-4.22-estudos — fundamentos e operação.
-- https://github.com/eduardoandradej/openshift-do280-4.22-estudos — administração avançada.
-
-Antes de produzir conteúdo, leia os READMEs e, quando disponível, arquivos de consulta rápida, glossários e padrões existentes. Aproveite o estilo didático (texto claro, progressivo e autoral), mas **não copie grandes trechos** e não altere esses três repositórios. Aqui, o material principal será definido pela **taxonomia conceitual**, não pela ordem das apostilas e não por uma sequência de laboratório.
+O autor mantém repositórios de estudo **privados** (prática de CLI, fundamentos e administração de OpenShift). **Não cite esses repositórios por nome nem por link** em nenhum arquivo deste glossário, que é público. Se o autor der acesso a eles numa sessão, use-os apenas como referência de estilo e de terminologia: **não copie trechos** e não altere esses repositórios. Aqui, o material principal é definido pela **taxonomia conceitual**, e não pela ordem das apostilas nem por uma sequência de laboratório.
 
 ## 2. FONTE DA VERDADE
 
@@ -99,7 +95,7 @@ Nenhuma entrada é marcada completa só porque tem título e definição. A conc
 
 ## 8. GIT E CONTINUIDADE
 
-Este projeto terá repositório Git independente: `glossario-openshift-kubernetes` (branch **main**). Não criar outros repositórios, não alterar os três repositórios de referência e não abrir nova branch sem pedido explícito. Preservar conteúdo existente e avançar incrementalmente. Trabalhar com commits descritivos pequenos, sincronizar alterações remotas e **não usar force-push nem operações destrutivas**. Se houver conflito, relatar antes de agir.
+Este projeto terá repositório Git independente: `glossario-openshift-kubernetes` (branch **main**). Não criar outros repositórios, não alterar os repositórios de referência do autor e não abrir nova branch sem pedido explícito. Preservar conteúdo existente e avançar incrementalmente. Trabalhar com commits descritivos pequenos, sincronizar alterações remotas e **não usar force-push nem operações destrutivas**. Se houver conflito, relatar antes de agir.
 
 **Operação inicial exigida:** leia `README.md`, `CLAUDE.md`, `docs/CRITERIOS-DE-QUALIDADE.md`, `docs/MAPA-DE-CATEGORIAS.md`, `dados/inventario.json` e `modelos/MODELO-VERBETE.md`. Faça inventário do estado real e comece SOMENTE pela categoria `00-fundamentos-e-linguagem`, bloco de 8 a 12 verbetes, incluindo `Kubernetes`, `OpenShift`, `Cluster`, `API`, `Objeto`, `Recurso`, `Kind`, `Spec`, `Status`, `Estado desejado`, `Estado observado` e `Reconciliação` conforme a capacidade de pesquisa. Não tentar gerar toda a enciclopédia de uma vez.
 

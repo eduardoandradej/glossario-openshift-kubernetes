@@ -6,12 +6,33 @@
 [![Licença Apache 2.0](https://img.shields.io/badge/licen%C3%A7a-Apache%202.0-D22128?style=for-the-badge&logo=apache&logoColor=white)](LICENSE)
 
 [![Categorias](https://img.shields.io/badge/categorias-18-6F42C1?style=flat-square)](docs/MAPA-DE-CATEGORIAS.md)
-[![Verbetes desenvolvidos](https://img.shields.io/badge/verbetes%20desenvolvidos-12-F2C744?style=flat-square)](docs/INDICE-POR-CATEGORIA.md)
+[![Verbetes desenvolvidos](https://img.shields.io/badge/verbetes%20desenvolvidos-23-F2C744?style=flat-square)](docs/INDICE-POR-CATEGORIA.md)
 [![Sementes](https://img.shields.io/badge/sementes-23-8BC34A?style=flat-square)](docs/INDICE-ALFABETICO.md)
 [![Candidatos](https://img.shields.io/badge/candidatos-680-9E9E9E?style=flat-square)](dados/inventario.json)
 [![Lote atual](https://img.shields.io/badge/lote%20atual-00%20%C2%B7%20fundamentos-0A7EA4?style=flat-square)](categorias/00-fundamentos-e-linguagem/README.md)
 [![Diagramas](https://img.shields.io/badge/diagramas-Mermaid-FF3670?style=flat-square&logo=mermaid&logoColor=white)](diagramas/00-modelo-declarativo.md)
 [![Validação no cluster](https://img.shields.io/badge/valida%C3%A7%C3%A3o%20no%20cluster-pendente-orange?style=flat-square)](docs/TERMOS-A-VALIDAR.md)
+
+## 👋 Antes de tudo: bem-vindo!
+
+Já pensou em aprender, de verdade, a tecnologia que está mudando a forma como o mundo inteiro roda aplicações? Kubernetes e OpenShift estão por trás de bancos, operadoras, streaming, governo e de boa parte da nuvem que você usa todo dia. E, convenhamos: a primeira impressão costuma ser de uma sopa de siglas, YAML e conceitos que parecem iguais, mas não são.
+
+Este glossário nasceu exatamente para isso: **desembaraçar essa sopa**, um conceito de cada vez, em português claro e sem perder o rigor técnico.
+
+### Quem vos fala
+
+Sou **Eduardo Andrade**, profissional especializado em **infraestrutura Linux corporativa, cibersegurança, automação e computação em nuvem**, com longa experiência em ambientes de missão crítica baseados em **Red Hat Enterprise Linux (RHEL)**, virtualização, observabilidade e operações de alta disponibilidade. Sou **mestre em Computação Aplicada, com ênfase em Cibersegurança**.
+
+Sou um eterno aprendiz, apaixonado por resolver problemas complexos e por aprender com os erros e com os acertos, para um dia repassar tudo isso com **leveza**. A ideia aqui é absorver o máximo dessas tecnologias complexas e traduzi-las de um jeito fácil e amigável.
+
+Vamos nessa! 🚀
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-eduardoandradej-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eduardoandradej/)
+[![Credly](https://img.shields.io/badge/Credly-certifica%C3%A7%C3%B5es-FF6B00?style=for-the-badge&logo=credly&logoColor=white)](https://www.credly.com/users/eduardoandradej)
+
+---
+
+## Sobre o glossário
 
 **Enciclopédia conceitual, visual e operacional em português brasileiro**, focada no ecossistema Kubernetes e no OpenShift Container Platform 4.22.
 
@@ -38,8 +59,8 @@
 
 - **18 categorias** temáticas organizadas.
 - **680 entradas candidatas brutas** no inventário (contém remissões e duplicações; não são verbetes prontos).
-- **12 verbetes desenvolvidos** (categoria 00, lote 1, 2026-11-04): fontes oficiais conferidas, **sem validação no cluster**.
-- **23 verbetes-semente** herdados do kit, **ainda pendentes de aprofundamento editorial** (o Namespace inclusive).
+- **23 verbetes desenvolvidos** (categoria 00, lotes 1 e 2, 2026-11-04): fontes oficiais conferidas, **sem validação no cluster**.
+- **23 verbetes-semente** herdados do kit, **ainda pendentes de aprofundamento editorial**.
 - **5 diagramas** autorais em Mermaid.
 
 ## Ordem de leitura sugerida
@@ -56,6 +77,8 @@ Comece por fundamentos e arquitetura; em seguida compute/nodes e workloads; depo
 
 ## Relação com outros materiais
 
-Este glossário é independente e não depende de outros repositórios. A prática de laboratório e os roteiros de curso ficam em materiais de estudo privados do autor, que não são citados nem linkados aqui.
+Este glossário é independente. Para praticar os comandos de inspeção, use a [Academia de Comandos OpenShift](https://github.com/eduardoandradej/academia-comandos-openshift): prática, exercícios e troubleshooting de CLI.
+
+Os roteiros de curso ficam em materiais de estudo privados do autor, que não são citados nem linkados aqui.
 
 Este é um projeto novo e independente, publicado na branch `main` deste repositório e expandido em lotes pequenos (ver [estado do projeto](docs/ESTADO-DO-PROJETO.md)).

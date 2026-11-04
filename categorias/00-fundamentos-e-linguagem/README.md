@@ -8,34 +8,34 @@
 
 **Legenda:** `[x] … 🟡` = verbete desenvolvido, com fontes oficiais conferidas, mas **sem validação no cluster** (não conta como concluído) · `[ ]` = candidato ou semente.
 
-**Lote 1 (2026-11-04):** 12 verbetes + 1 remissão (K8s). Próximo lote: ver [estado do projeto](../../docs/ESTADO-DO-PROJETO.md).
+**Lote 1 (2026-11-04):** 12 verbetes + 1 remissão (K8s). **Lote 2 (2026-11-04):** 10 verbetes novos, Namespace reescrito, 1 remissão (Control Loop). Próximo lote: ver [estado do projeto](../../docs/ESTADO-DO-PROJETO.md).
 
 - [x] [Kubernetes](verbetes/kubernetes.md) 🟡
 - [x] [K8s](verbetes/kubernetes.md) — remissão 🟡
 - [x] [OpenShift Container Platform](verbetes/openshift-container-platform.md) 🟡
 - [x] [Cluster](verbetes/cluster.md) 🟡
 - [x] [API](verbetes/kubernetes-api.md) 🟡
-- [ ] API Server
+- [x] [API Server](verbetes/api-server.md) 🟡
 - [x] [Objeto](verbetes/object.md) 🟡
 - [x] [Recurso](verbetes/resource.md) 🟡
 - [x] [Kind](verbetes/kind.md) 🟡
-- [ ] API Group
-- [ ] API Version
-- [ ] Manifest
-- [ ] YAML
-- [ ] JSON
+- [x] [API Group](verbetes/api-group.md) 🟡
+- [x] [API Version](verbetes/api-version.md) 🟡
+- [x] [Manifest](verbetes/manifest.md) 🟡
+- [x] [YAML](verbetes/yaml.md) 🟡
+- [x] [JSON](verbetes/json.md) 🟡
 - [x] [Spec](verbetes/spec.md) 🟡
 - [x] [Status](verbetes/status.md) 🟡
-- [ ] Metadata
+- [x] [Metadata](verbetes/metadata.md) 🟡
 - [x] [Estado desejado](verbetes/desired-state.md) 🟡
 - [x] [Estado observado](verbetes/current-state.md) 🟡
 - [x] [Reconciliação](verbetes/reconciliation.md) 🟡
-- [ ] Controller
-- [ ] Control Loop
-- [ ] [Namespace](verbetes/namespace.md) — semente, pendente de aprofundamento
+- [x] [Controller](verbetes/controller.md) 🟡
+- [x] [Control Loop](verbetes/controller.md) — remissão para Controller e [Reconciliação](verbetes/reconciliation.md) 🟡
+- [x] [Namespace](verbetes/namespace.md) 🟡 (reescrito no lote 2)
 - [ ] Project
-- [ ] Resource Name
-- [ ] UID
+- [x] [Resource Name](verbetes/resource-name.md) 🟡
+- [x] [UID](verbetes/uid.md) 🟡
 - [ ] Label
 - [ ] Annotation
 - [ ] Selector

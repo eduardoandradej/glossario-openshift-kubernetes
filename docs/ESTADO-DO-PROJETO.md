@@ -1,5 +1,16 @@
 # Estado do projeto
 
+## Rodada 2026-11-04 (2) — categoria 00, lote 2
+
+- **10 verbetes novos:** API Server, API Group, API Version, Manifest, YAML, JSON, Metadata, Controller, Resource Name e UID. **Namespace** reescrito (de 🌱 semente para 🟡 desenvolvido). **Control Loop** virou remissão para Controller e Reconciliação.
+- Fontes: `kubernetes/website` `release-1.35` (names, namespaces, using-api, api-concepts, components, controller, glossário), API Conventions e `openshift-docs` `enterprise-4.22` (control plane / machine roles, working with projects, glossary).
+- Todos 🟡: **sem validação no cluster**; pendências em [TERMOS-A-VALIDAR](TERMOS-A-VALIDAR.md).
+- **README:** abertura com apresentação do autor, LinkedIn e Credly. Os repositórios de curso privados não são mais citados.
+
+### Próximo lote recomendado (categoria 00, lote 3, que fecha a categoria)
+
+Project, Label, Annotation, Selector, OwnerReference, Finalizer, Garbage Collection, ResourceVersion, Generation, ObservedGeneration, Conditions e Events.
+
 ## Rodada 2026-11-04 — categoria 00, lote 1
 
 - **Kit inicial importado** para a `main` sem alterações (commit próprio).
@@ -11,7 +22,7 @@
 - **Inventário:** as 13 entradas trabalhadas em `dados/inventario.json` foram classificadas (`kind_class`, `scope`, `fontes`, `slug_verbete`, `relacoes`, `verificado_em`, `validacao_cluster`).
 - **HomeLab:** não acessado. Nenhum comando foi executado no cluster.
 
-### Próximo lote recomendado (categoria 00, lote 2)
+### Próximo lote recomendado na época (categoria 00, lote 2) — concluído
 
 API Server, API Group, API Version, Manifest, YAML, JSON, Metadata, Controller, Control Loop (remissão para Reconciliação), Resource Name, UID e revisão do Namespace (semente → desenvolvido). Lote 3: Project, Label, Annotation, Selector, OwnerReference, Finalizer, Garbage Collection, ResourceVersion, Generation, ObservedGeneration, Conditions, Events.
 

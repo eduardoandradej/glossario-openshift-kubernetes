@@ -43,3 +43,34 @@ flowchart TB
 - **Recurso × Kind × Objeto:** `deployments` (URL/RBAC) × `Deployment` (esquema) × o Deployment `web` (instância).
 - **`status` (campo) × coluna `STATUS` × kind `Status`:** três coisas diferentes.
 - **Estado desejado no Git × estado desejado na API:** só vale o que está na API.
+
+## Categoria 00 — lote 2: API, identidade e formatos
+
+```mermaid
+flowchart LR
+    MAN["Manifest<br/>(YAML / JSON)"] -->|"enviado ao"| KAS["API Server"]
+    KAS -->|"serve"| GRP["API Group"]
+    GRP -->|"tem"| VER["API Version"]
+    VER -->|"define esquema de"| KIND["Kind"]
+    KAS -->|"persiste"| OBJ["Objeto"]
+    OBJ -->|"contém"| META["Metadata"]
+    META --> NAME["Resource Name"]
+    META --> UID["UID"]
+    META --> NS["Namespace"]
+    CTRL["Controller"] -->|"watch e escrita via"| KAS
+    CTRL -->|"executa"| REC["Reconciliação"]
+```
+
+| De | Relação | Para |
+|---|---|---|
+| [Manifest](../categorias/00-fundamentos-e-linguagem/verbetes/manifest.md) | é escrito em | [YAML](../categorias/00-fundamentos-e-linguagem/verbetes/yaml.md) ou [JSON](../categorias/00-fundamentos-e-linguagem/verbetes/json.md) |
+| [API Server](../categorias/00-fundamentos-e-linguagem/verbetes/api-server.md) | serve | [API Group](../categorias/00-fundamentos-e-linguagem/verbetes/api-group.md) → [API Version](../categorias/00-fundamentos-e-linguagem/verbetes/api-version.md) |
+| [Metadata](../categorias/00-fundamentos-e-linguagem/verbetes/metadata.md) | identifica por | [Resource Name](../categorias/00-fundamentos-e-linguagem/verbetes/resource-name.md), [UID](../categorias/00-fundamentos-e-linguagem/verbetes/uid.md), [Namespace](../categorias/00-fundamentos-e-linguagem/verbetes/namespace.md) |
+| [Controller](../categorias/00-fundamentos-e-linguagem/verbetes/controller.md) | executa | [Reconciliação](../categorias/00-fundamentos-e-linguagem/verbetes/reconciliation.md) |
+
+## Distinções críticas do lote 2
+
+- **API × API Server × OpenShift API server:** contrato × componente × servidor dos grupos `*.openshift.io`.
+- **Nome × UID:** o nome se reutiliza; o UID nunca.
+- **Controller (código) × "controllers de workload" (objetos) × IngressController (objeto de configuração).**
+- **UID do objeto × UID do processo (SCC).**

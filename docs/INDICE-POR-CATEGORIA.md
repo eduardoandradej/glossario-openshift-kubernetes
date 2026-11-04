@@ -10,20 +10,25 @@
 - 🟡 [Cluster](../categorias/00-fundamentos-e-linguagem/verbetes/cluster.md)
 
 **Linguagem da API**
-- 🟡 [API (Kubernetes API)](../categorias/00-fundamentos-e-linguagem/verbetes/kubernetes-api.md)
+- 🟡 [API (Kubernetes API)](../categorias/00-fundamentos-e-linguagem/verbetes/kubernetes-api.md) · [API Server](../categorias/00-fundamentos-e-linguagem/verbetes/api-server.md) · [API Group](../categorias/00-fundamentos-e-linguagem/verbetes/api-group.md) · [API Version](../categorias/00-fundamentos-e-linguagem/verbetes/api-version.md)
 - 🟡 [Objeto](../categorias/00-fundamentos-e-linguagem/verbetes/object.md)
 - 🟡 [Recurso](../categorias/00-fundamentos-e-linguagem/verbetes/resource.md)
 - 🟡 [Kind](../categorias/00-fundamentos-e-linguagem/verbetes/kind.md)
 - 🟡 [Spec](../categorias/00-fundamentos-e-linguagem/verbetes/spec.md)
 - 🟡 [Status](../categorias/00-fundamentos-e-linguagem/verbetes/status.md)
+- 🟡 [Metadata](../categorias/00-fundamentos-e-linguagem/verbetes/metadata.md) · [Resource Name](../categorias/00-fundamentos-e-linguagem/verbetes/resource-name.md) · [UID](../categorias/00-fundamentos-e-linguagem/verbetes/uid.md)
+
+**Formatos e artefatos**
+- 🟡 [Manifest](../categorias/00-fundamentos-e-linguagem/verbetes/manifest.md) · [YAML](../categorias/00-fundamentos-e-linguagem/verbetes/yaml.md) · [JSON](../categorias/00-fundamentos-e-linguagem/verbetes/json.md)
 
 **Modelo declarativo**
 - 🟡 [Estado desejado](../categorias/00-fundamentos-e-linguagem/verbetes/desired-state.md)
 - 🟡 [Estado observado](../categorias/00-fundamentos-e-linguagem/verbetes/current-state.md)
 - 🟡 [Reconciliação](../categorias/00-fundamentos-e-linguagem/verbetes/reconciliation.md)
+- 🟡 [Controller](../categorias/00-fundamentos-e-linguagem/verbetes/controller.md) (↪ Control Loop)
 
 **Organização**
-- 🌱 [Namespace](../categorias/00-fundamentos-e-linguagem/verbetes/namespace.md)
+- 🟡 [Namespace](../categorias/00-fundamentos-e-linguagem/verbetes/namespace.md)
 
 ## [02 — Compute, nodes e capacidade](../categorias/02-compute-e-nodes/README.md)
 - 🌱 [Node](../categorias/02-compute-e-nodes/verbetes/node.md)

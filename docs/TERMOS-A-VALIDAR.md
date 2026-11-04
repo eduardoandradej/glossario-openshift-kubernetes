@@ -24,8 +24,26 @@
 | [Estado desejado](../categorias/00-fundamentos-e-linguagem/verbetes/desired-state.md) | `oc diff` como somente leitura no cliente 4.22; URL publicada do "Kubernetes overview" do OCP | `oc diff --help`; abrir docs |
 | [Reconciliação](../categorias/00-fundamentos-e-linguagem/verbetes/reconciliation.md) | URL publicada do "Kubernetes overview" do OCP | abrir docs |
 
+### Lote 2
+
+| Verbete | O que validar | Como |
+|---|---|---|
+| [API Server](../categorias/00-fundamentos-e-linguagem/verbetes/api-server.md) | `oc get apiservices` com `SERVICE` = `openshift-apiserver/api` nos grupos `*.openshift.io`; permissão de `/readyz?verbose`; URL `html/architecture/control-plane` | SNO / `--help` / docs |
+| [API Group](../categorias/00-fundamentos-e-linguagem/verbetes/api-group.md) | Tabela de grupos/kinds do OpenShift (`config.openshift.io`) | SNO / `--help` / docs |
+| [API Version](../categorias/00-fundamentos-e-linguagem/verbetes/api-version.md) | Texto das mensagens `Warning:` e `no matches for kind` | SNO / `--help` / docs |
+| [Manifest](../categorias/00-fundamentos-e-linguagem/verbetes/manifest.md) | Resposta de `oc apply --dry-run=server` | SNO / `--help` / docs |
+| [YAML](../categorias/00-fundamentos-e-linguagem/verbetes/yaml.md) | Erros de tipo/`strict decoding` reproduzidos no cliente 4.22 | SNO / `--help` / docs |
+| [JSON](../categorias/00-fundamentos-e-linguagem/verbetes/json.md) | Exemplos de `jsonpath` com `range` no SNO | SNO / `--help` / docs |
+| [Metadata](../categorias/00-fundamentos-e-linguagem/verbetes/metadata.md) | Annotations `openshift.io/sa.scc.*` (aprofundar na categoria 08) | SNO / `--help` / docs |
+| [Controller](../categorias/00-fundamentos-e-linguagem/verbetes/controller.md) | Namespace dos Leases de eleição de líder; campo de origem dos Events | SNO / `--help` / docs |
+| [Resource Name](../categorias/00-fundamentos-e-linguagem/verbetes/resource-name.md) | Coluna "Usada por" (inferida); URL de "Working with projects" | SNO / `--help` / docs |
+| [UID](../categorias/00-fundamentos-e-linguagem/verbetes/uid.md) | Adoção após `--cascade=orphan` (lote 3: OwnerReference, Garbage Collection) | SNO / `--help` / docs |
+| [Namespace](../categorias/00-fundamentos-e-linguagem/verbetes/namespace.md) | Label `kubernetes.io/metadata.name` e annotations `openshift.io/*` em `oc describe namespace` | SNO / `--help` / docs |
+
 ## Decisões de nomenclatura a confirmar com o autor
 
 - **Estado observado:** slug `current-state` (termo oficial), título PT "Estado observado", remissões *actual state* e *observed state*.
 - **API:** slug `kubernetes-api`, título "API (Kubernetes API)". O verbete *API Server* fica separado, no próximo lote.
 - **Objeto/Recurso:** slugs em inglês (`object`, `resource`) e títulos em português.
+- **Control Loop:** sem página própria; remissão para Controller e Reconciliação.
+- **Resource Name / UID:** slugs `resource-name` e `uid`; títulos com o campo (`metadata.name`, `metadata.uid`).

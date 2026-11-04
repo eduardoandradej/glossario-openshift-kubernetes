@@ -10,7 +10,9 @@ Referência primária: **OpenShift Container Platform 4.22 / Kubernetes correspo
 
 ## 1. CONTEXTO DOS REPOSITÓRIOS EXISTENTES
 
-O autor mantém repositórios de estudo **privados** (prática de CLI, fundamentos e administração de OpenShift). **Não cite esses repositórios por nome nem por link** em nenhum arquivo deste glossário, que é público. Se o autor der acesso a eles numa sessão, use-os apenas como referência de estilo e de terminologia: **não copie trechos** e não altere esses repositórios. Aqui, o material principal é definido pela **taxonomia conceitual**, e não pela ordem das apostilas nem por uma sequência de laboratório.
+- https://github.com/eduardoandradej/academia-comandos-openshift — prática e repetição de CLI (**público**; pode ser citado e linkado).
+
+O autor também mantém repositórios de estudo **privados** de cursos (fundamentos e administração de OpenShift). **Não cite esses repositórios por nome nem por link** em nenhum arquivo deste glossário, que é público. Se o autor der acesso aos repositórios de referência numa sessão, use-os apenas como referência de estilo e de terminologia: **não copie trechos** e não altere esses repositórios. Aqui, o material principal é definido pela **taxonomia conceitual**, e não pela ordem das apostilas nem por uma sequência de laboratório.
 
 ## 2. FONTE DA VERDADE
 

@@ -91,6 +91,7 @@ Para exercitar os comandos de inspeção, consulte a [Academia de Comandos OpenS
 <details>
 <summary><b>Bastidores do projeto</b> (para quem mantém ou contribui)</summary>
 
+- [Continuar daqui (contexto de retomada)](docs/CONTINUAR-DAQUI.md)
 - [Estado do projeto e próximos lotes](docs/ESTADO-DO-PROJETO.md)
 - [Termos e afirmações a validar](docs/TERMOS-A-VALIDAR.md)
 - [Critérios de qualidade](docs/CRITERIOS-DE-QUALIDADE.md) · [Modelo de verbete](modelos/MODELO-VERBETE.md) · [Inspeção segura no HomeLab](docs/LAB-INSPECAO-SEGURA.md)

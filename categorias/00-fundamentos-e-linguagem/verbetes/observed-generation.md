@@ -76,7 +76,10 @@ Mesmo conceito. Em objetos do OpenShift e de Operators, procure `observedGenerat
 - Kubernetes API Conventions — "Typical status properties" (`observedGeneration` no objeto e na condição, com o exemplo 12 × 9): <https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md>
 - Kubernetes — Deployments, "Deployment status": <https://kubernetes.io/docs/concepts/workloads/controllers/deployment/> (fonte: `kubernetes/website` `release-1.35`)
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** confirmar que `oc rollout status` considera `observedGeneration` (comportamento conhecido do `kubectl`), o que **não foi verificado** no código ou na documentação desta rodada.
+
+</details>

@@ -107,7 +107,10 @@ flowchart LR
 - OCP 4.22 — Release notes, "About this release": <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/release_notes/ocp-4-22-release-notes> (fonte conferida: `openshift/openshift-docs`, branch `enterprise-4.22`, `modules/rn-ocp-about-this-release.adoc`)
 - OCP 4.22 — CLI `oc`: <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/cli_tools/openshift-cli-oc>
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. O conteúdo foi conferido nos fontes oficiais (GitHub) em 2026-11-04.
+- **Estado:** desenvolvido. O conteúdo foi conferido nos fontes oficiais (GitHub) em 2026-11-04.
 - **Pendências:** abrir as URLs publicadas (kubernetes.io e docs.redhat.com estavam bloqueados pela rede da sessão); validar a saída de `oc version` no SNO. A saída mostrada é ilustrativa e **não foi executada**.
+
+</details>

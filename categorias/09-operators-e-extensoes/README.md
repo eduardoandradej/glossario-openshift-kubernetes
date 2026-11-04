@@ -1,50 +1,18 @@
 # 09 — Operators, OLM e extensões
 
-> Inventário inicial de candidatos a verbetes. Não significa que todos sejam objetos de API, instalados por padrão ou suportados na versão 4.22. Cada termo deve ser pesquisado e classificado.
+Como o software é operado de forma automatizada: Operators, CRDs, ClusterOperators e o OLM (Classic e v1).
 
-**Total inicial:** 38 termos candidatos.
+## Termos publicados
 
-## Termos desta categoria
+- [Operator](verbetes/operator.md) *(versão inicial)*
+- [ClusterExtension](verbetes/clusterextension.md) *(versão inicial)*
+- [CustomResourceDefinition](verbetes/customresourcedefinition.md) *(versão inicial)*
+- [ClusterOperator](verbetes/clusteroperator.md) *(versão inicial)*
 
-- [ ] Operator Pattern
-- [ ] Operator
-- [ ] Controller
-- [ ] Reconciliation Loop
-- [ ] Operand
-- [ ] OperatorHub
-- [ ] Operator Lifecycle Manager
-- [ ] OLM Classic
-- [ ] OLM v1
-- [ ] Subscription
-- [ ] InstallPlan
-- [ ] ClusterServiceVersion
-- [ ] CSV
-- [ ] CatalogSource
-- [ ] OperatorGroup
-- [ ] PackageManifest
-- [ ] Bundle
-- [ ] Channel
-- [ ] File Based Catalog
-- [ ] Catalogd
-- [ ] Operator Controller
-- [ ] ClusterExtension
-- [ ] ClusterCatalog
-- [ ] CustomResourceDefinition
-- [ ] Custom Resource
-- [ ] ClusterOperator
-- [ ] Cluster Version Operator
-- [ ] Operand Namespace
-- [ ] Install Mode
-- [ ] Upgrade Graph
-- [ ] AllNamespaces
-- [ ] OwnNamespace
-- [ ] TargetNamespaces
-- [ ] Operator Conditions
-- [ ] APIService
-- [ ] Operator SDK
-- [ ] Helm-based Operator
-- [ ] Ansible-based Operator
+## Em breve
 
-## Como expandir
+Operator Pattern, Controller, Reconciliation Loop, Operand, OperatorHub, Operator Lifecycle Manager, OLM Classic, OLM v1, Subscription, InstallPlan, ClusterServiceVersion, CSV, CatalogSource, OperatorGroup, PackageManifest, Bundle, Channel, File Based Catalog, Catalogd, Operator Controller, ClusterCatalog, Custom Resource, Cluster Version Operator, Operand Namespace, Install Mode, Upgrade Graph, AllNamespaces, OwnNamespace, TargetNamespaces, Operator Conditions, APIService, Operator SDK, Helm-based Operator, Ansible-based Operator.
 
-Use o [modelo de verbete](../../modelos/MODELO-VERBETE.md), consultando o [prompt mestre](../../PROMPT-MESTRE.md). Antes de marcar um termo, criar verbete original, verificar fontes oficiais, incluir comandos de inspeção quando pertinentes e revisar nomenclaturas e diferenças entre as versões.
+---
+
+[← Voltar ao início](../../README.md) · [Índice alfabético](../../docs/INDICE-ALFABETICO.md) · [Índice por categoria](../../docs/INDICE-POR-CATEGORIA.md)

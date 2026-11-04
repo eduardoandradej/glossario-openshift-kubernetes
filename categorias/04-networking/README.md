@@ -1,70 +1,19 @@
 # 04 — Networking, Services e publicação
 
-> Inventário inicial de candidatos a verbetes. Não significa que todos sejam objetos de API, instalados por padrão ou suportados na versão 4.22. Cada termo deve ser pesquisado e classificado.
+Como as aplicações se encontram e são publicadas: Services, DNS, Routes, Ingress e políticas de rede.
 
-**Total inicial:** 58 termos candidatos.
+## Termos publicados
 
-## Termos desta categoria
+- [Service](verbetes/service.md) *(versão inicial)*
+- [NetworkPolicy](verbetes/networkpolicy.md) *(versão inicial)*
+- [IngressController](verbetes/ingresscontroller.md) *(versão inicial)*
+- [Route](verbetes/route.md) *(versão inicial)*
+- [Ingress](verbetes/ingress.md) *(versão inicial)*
 
-- [ ] Cluster Network
-- [ ] Pod Network
-- [ ] Service Network
-- [ ] CIDR
-- [ ] CNI
-- [ ] OVN-Kubernetes
-- [ ] SDN
-- [ ] Pod IP
-- [ ] Service IP
-- [ ] ClusterIP
-- [ ] NodePort
-- [ ] LoadBalancer Service
-- [ ] ExternalName
-- [ ] Headless Service
-- [ ] Service
-- [ ] Service Discovery
-- [ ] EndpointSlice
-- [ ] Endpoint
-- [ ] DNS
-- [ ] CoreDNS
-- [ ] NetworkPolicy
-- [ ] AdminNetworkPolicy
-- [ ] BaselineAdminNetworkPolicy
-- [ ] Egress
-- [ ] Ingress Traffic
-- [ ] Ingress Resource
-- [ ] IngressController
-- [ ] OpenShift Router
-- [ ] Route
-- [ ] Hostname
-- [ ] TLS Termination
-- [ ] Edge Termination
-- [ ] Re-encrypt Termination
-- [ ] Passthrough Termination
-- [ ] SNI
-- [ ] HTTP
-- [ ] HTTPS
-- [ ] TCP
-- [ ] UDP
-- [ ] SCTP
-- [ ] IngressClass
-- [ ] Gateway API
-- [ ] GatewayClass
-- [ ] Gateway
-- [ ] HTTPRoute
-- [ ] Service Mesh
-- [ ] Multus
-- [ ] NetworkAttachmentDefinition
-- [ ] Secondary Network
-- [ ] UserDefinedNetwork
-- [ ] ClusterUserDefinedNetwork
-- [ ] EgressIP
-- [ ] EgressFirewall
-- [ ] EgressRouter
-- [ ] NAT
-- [ ] MTU
-- [ ] DNSPolicy
-- [ ] DNSConfig
+## Em breve
 
-## Como expandir
+Cluster Network, Pod Network, Service Network, CIDR, CNI, OVN-Kubernetes, SDN, Pod IP, Service IP, ClusterIP, NodePort, LoadBalancer Service, ExternalName, Headless Service, Service Discovery, EndpointSlice, Endpoint, DNS, CoreDNS, AdminNetworkPolicy, BaselineAdminNetworkPolicy, Egress, Ingress Traffic, OpenShift Router, Hostname, TLS Termination, Edge Termination, Re-encrypt Termination, Passthrough Termination, SNI, HTTP, HTTPS, TCP, UDP, SCTP, IngressClass, Gateway API, GatewayClass, Gateway, HTTPRoute, Service Mesh, Multus, NetworkAttachmentDefinition, Secondary Network, UserDefinedNetwork, ClusterUserDefinedNetwork, EgressIP, EgressFirewall, EgressRouter, NAT, MTU, DNSPolicy, DNSConfig.
 
-Use o [modelo de verbete](../../modelos/MODELO-VERBETE.md), consultando o [prompt mestre](../../PROMPT-MESTRE.md). Antes de marcar um termo, criar verbete original, verificar fontes oficiais, incluir comandos de inspeção quando pertinentes e revisar nomenclaturas e diferenças entre as versões.
+---
+
+[← Voltar ao início](../../README.md) · [Índice alfabético](../../docs/INDICE-ALFABETICO.md) · [Índice por categoria](../../docs/INDICE-POR-CATEGORIA.md)

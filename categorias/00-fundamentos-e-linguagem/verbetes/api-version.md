@@ -87,7 +87,10 @@ Os avisos `Warning:` não alteram nada e são uma ótima fonte de estudo: anote 
 - Kubernetes — Deprecation Policy: <https://kubernetes.io/docs/reference/using-api/deprecation-policy/>
 - OCP 4.22 — Release notes, tabelas de deprecated e removed: <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/release_notes/ocp-4-22-release-notes>
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** os textos das mensagens `Warning:` e `no matches for kind` seguem o formato conhecido do cliente, mas **não foram reproduzidos** no SNO. Verificar a orientação atual da Red Hat sobre a checagem de APIs removidas antes de atualizar o cluster (categoria 13).
+
+</details>

@@ -92,7 +92,10 @@ Estude YAML com `-o yaml` em objetos não sensíveis e com `oc explain`. **Não*
 - Kubernetes — Objects In Kubernetes ("By convention, manifests are YAML"): <https://kubernetes.io/docs/concepts/overview/working-with-objects/>
 - Especificação YAML (fonte externa ao Kubernetes): <https://yaml.org/>
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** a regra dos tipos implícitos depende da versão do YAML usada pelo parser do cliente. Os exemplos de erro de ConfigMap e de `strict decoding error` seguem o comportamento documentado da validação de campos, mas **não foram reproduzidos** no SNO.
+
+</details>

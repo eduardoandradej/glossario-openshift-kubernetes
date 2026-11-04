@@ -1,50 +1,20 @@
 # 03 — Workloads e execução de aplicações
 
-> Inventário inicial de candidatos a verbetes. Não significa que todos sejam objetos de API, instalados por padrão ou suportados na versão 4.22. Cada termo deve ser pesquisado e classificado.
+Como as aplicações rodam: Pods, contêineres e os controllers de workload (Deployment, StatefulSet, DaemonSet, Job...).
 
-**Total inicial:** 38 termos candidatos.
+## Termos publicados
 
-## Termos desta categoria
+- [Pod](verbetes/pod.md) *(versão inicial)*
+- [Deployment](verbetes/deployment.md) *(versão inicial)*
+- [ReplicaSet](verbetes/replicaset.md) *(versão inicial)*
+- [StatefulSet](verbetes/statefulset.md) *(versão inicial)*
+- [DaemonSet](verbetes/daemonset.md) *(versão inicial)*
+- [Job](verbetes/job.md) *(versão inicial)*
 
-- [ ] Pod
-- [ ] Container
-- [ ] Init Container
-- [ ] Sidecar Container
-- [ ] Ephemeral Container
-- [ ] Pod Lifecycle
-- [ ] Container Lifecycle
-- [ ] Pod Phase
-- [ ] Pod Condition
-- [ ] Restart Policy
-- [ ] Deployment
-- [ ] ReplicaSet
-- [ ] ReplicationController
-- [ ] DeploymentConfig
-- [ ] StatefulSet
-- [ ] DaemonSet
-- [ ] Job
-- [ ] CronJob
-- [ ] Batch
-- [ ] RollingUpdate
-- [ ] Recreate
-- [ ] Rollout
-- [ ] Rollback
-- [ ] Replica
-- [ ] Pod Template
-- [ ] Readiness Probe
-- [ ] Liveness Probe
-- [ ] Startup Probe
-- [ ] Lifecycle Hook
-- [ ] PreStop
-- [ ] CrashLoopBackOff
-- [ ] ImagePullBackOff
-- [ ] Completed
-- [ ] Pending
-- [ ] Running
-- [ ] Terminating
-- [ ] Termination Grace Period
-- [ ] HorizontalPodAutoscaler
+## Em breve
 
-## Como expandir
+Container, Init Container, Sidecar Container, Ephemeral Container, Pod Lifecycle, Container Lifecycle, Pod Phase, Pod Condition, Restart Policy, ReplicationController, DeploymentConfig, CronJob, Batch, RollingUpdate, Recreate, Rollout, Rollback, Replica, Pod Template, Readiness Probe, Liveness Probe, Startup Probe, Lifecycle Hook, PreStop, CrashLoopBackOff, ImagePullBackOff, Completed, Pending, Running, Terminating, Termination Grace Period, HorizontalPodAutoscaler.
 
-Use o [modelo de verbete](../../modelos/MODELO-VERBETE.md), consultando o [prompt mestre](../../PROMPT-MESTRE.md). Antes de marcar um termo, criar verbete original, verificar fontes oficiais, incluir comandos de inspeção quando pertinentes e revisar nomenclaturas e diferenças entre as versões.
+---
+
+[← Voltar ao início](../../README.md) · [Índice alfabético](../../docs/INDICE-ALFABETICO.md) · [Índice por categoria](../../docs/INDICE-POR-CATEGORIA.md)

@@ -112,7 +112,10 @@ Um único nó acumula os papéis de controle e de compute: o cluster existe, mas
 - Kubernetes — Cluster Architecture: <https://kubernetes.io/docs/concepts/architecture/>
 - OCP 4.22 — Single-node OpenShift: <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/installing_on_a_single_node/index> (fonte: `modules/install-sno-about-installing-on-a-single-node.adoc`)
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** validar no SNO a coluna `ROLES` e os campos de topologia do `Infrastructure`, que **não foram executados**; confirmar a URL publicada do guia de SNO (o slug `installing_on_a_single_node` é a verificar).
+
+</details>

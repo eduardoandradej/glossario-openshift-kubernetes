@@ -110,7 +110,10 @@ flowchart LR
 - Kubernetes — Use Cascading Deletion in a Cluster: <https://kubernetes.io/docs/tasks/administer-cluster/use-cascading-deletion/>
 - Kubernetes — Owners and Dependents: <https://kubernetes.io/docs/concepts/overview/working-with-objects/owners-dependents/>
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** as flags `--cascade=background|foreground|orphan` foram conferidas na página de tarefa "Use Cascading Deletion" (`release-1.35`). Conferir a configuração de GC de imagens via `KubeletConfig` no OCP 4.22 (categoria 02) e a localização do garbage collector no kube-controller-manager.
+
+</details>

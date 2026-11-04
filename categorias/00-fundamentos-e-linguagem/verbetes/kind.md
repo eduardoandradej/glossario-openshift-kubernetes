@@ -110,7 +110,10 @@ flowchart LR
 - Kubernetes — Objects In Kubernetes, "Required fields": <https://kubernetes.io/docs/concepts/overview/working-with-objects/>
 - OCP 4.22 — Release notes, tabela de deprecated e removed (`DeploymentConfig`): <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/release_notes/ocp-4-22-release-notes>
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** o formato do cabeçalho de `oc explain` é ilustrativo e **não foi executado**. A deprecação do `DeploymentConfig` foi confirmada nas release notes do 4.14 (fonte: `openshift-docs` `enterprise-4.14`, seção "DeploymentConfig resources are now deprecated") e na tabela de deprecated do 4.22.
+
+</details>

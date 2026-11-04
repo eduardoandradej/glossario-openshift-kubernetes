@@ -1,47 +1,15 @@
-# 02 — Compute, nodes e capacidade
+# 02 — Compute, Nodes e capacidade
 
-> Inventário inicial de candidatos a verbetes. Não significa que todos sejam objetos de API, instalados por padrão ou suportados na versão 4.22. Cada termo deve ser pesquisado e classificado.
+As máquinas do cluster: Nodes, recursos de CPU e memória, configuração dos nós e como a capacidade é medida e reservada.
 
-**Total inicial:** 35 termos candidatos.
+## Termos publicados
 
-## Termos desta categoria
+- [Node](verbetes/node.md) *(versão inicial)*
 
-- [ ] Node
-- [ ] Machine
-- [ ] MachineSet
-- [ ] MachineHealthCheck
-- [ ] BareMetalHost
-- [ ] RHCOS
-- [ ] Capacity
-- [ ] Allocatable
-- [ ] CPU
-- [ ] Memory
-- [ ] Ephemeral Storage
-- [ ] HugePages
-- [ ] Extended Resource
-- [ ] Device Plugin
-- [ ] Node Label
-- [ ] Node Annotation
-- [ ] Node Condition
-- [ ] Node Ready
-- [ ] Node Pressure
-- [ ] Taint
-- [ ] Toleration
-- [ ] Cordon
-- [ ] Drain
-- [ ] Uncordon
-- [ ] Node Debug
-- [ ] Node Affinity
-- [ ] Node Selector
-- [ ] NUMA
-- [ ] cgroups
-- [ ] OOMKill
-- [ ] QoS Class
-- [ ] Resource Request
-- [ ] Resource Limit
-- [ ] LimitRange
-- [ ] ResourceQuota
+## Em breve
 
-## Como expandir
+Machine, MachineSet, MachineHealthCheck, BareMetalHost, RHCOS, Capacity, Allocatable, CPU, Memory, Ephemeral Storage, HugePages, Extended Resource, Device Plugin, Node Label, Node Annotation, Node Condition, Node Ready, Node Pressure, Taint, Toleration, Cordon, Drain, Uncordon, Node Debug, Node Affinity, Node Selector, NUMA, cgroups, OOMKill, QoS Class, Resource Request, Resource Limit, LimitRange, ResourceQuota.
 
-Use o [modelo de verbete](../../modelos/MODELO-VERBETE.md), consultando o [prompt mestre](../../PROMPT-MESTRE.md). Antes de marcar um termo, criar verbete original, verificar fontes oficiais, incluir comandos de inspeção quando pertinentes e revisar nomenclaturas e diferenças entre as versões.
+---
+
+[← Voltar ao início](../../README.md) · [Índice alfabético](../../docs/INDICE-ALFABETICO.md) · [Índice por categoria](../../docs/INDICE-POR-CATEGORIA.md)

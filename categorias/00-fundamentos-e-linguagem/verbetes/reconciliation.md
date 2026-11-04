@@ -116,7 +116,10 @@ flowchart TB
 - Kubernetes API Conventions — *level-based* vs *edge-based*: <https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md>
 - OCP 4.22 — "Kubernetes overview", seção "Kubernetes resources" ("An Operator acts as a control loop..."). Fonte conferida: `openshift-docs` `enterprise-4.22`, `welcome/kubernetes-overview.adoc` → `modules/kubernetes-resources.adoc`. URL publicada **a verificar**: <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22>
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** o verbete [Controller](controller.md) foi criado no lote 2, e *Control Loop* é remissão para ele e para cá. A sequência de estados no `-w` é **ilustrativa**; não foi observada no SNO.
+
+</details>

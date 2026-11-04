@@ -106,7 +106,10 @@ O OpenShift usa intensamente o padrão de condições `Available` / `Progressing
 - Kubernetes — Objects In Kubernetes, "Object spec and status": <https://kubernetes.io/docs/concepts/overview/working-with-objects/> (fonte: `kubernetes/website` `release-1.35`)
 - Kubernetes API Conventions — "Spec and Status", "Typical status properties": <https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md>
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** os `reason` do Deployment (`MinimumReplicasAvailable`, `NewReplicaSetAvailable`, `ProgressDeadlineExceeded`) foram conferidos na página Deployments da documentação Kubernetes 1.35 (`concepts/workloads/controllers/deployment.md`). O YAML é **ilustrativo** e não foi coletado no SNO. Aprofundar nos verbetes *Conditions* e *ObservedGeneration*.
+
+</details>

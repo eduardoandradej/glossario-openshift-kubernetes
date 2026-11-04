@@ -97,7 +97,10 @@ O OpenShift acrescenta muitos grupos `*.openshift.io` (`route`, `project`, `buil
 - Kubernetes Glossary — API Group: <https://kubernetes.io/docs/reference/glossary/?all=true#term-api-group>
 - Kubernetes — The Kubernetes API, "API groups and versioning": <https://kubernetes.io/docs/concepts/overview/kubernetes-api/>
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** a tabela de grupos combina a documentação Kubernetes com o conhecimento dos grupos do OpenShift. Conferir no SNO com `oc api-resources --api-group=<grupo>`, especialmente `config.openshift.io`, que **não foi executado**.
+
+</details>

@@ -98,7 +98,10 @@ flowchart BT
 - Kubernetes — Owners and Dependents: <https://kubernetes.io/docs/concepts/overview/working-with-objects/owners-dependents/> (fonte: `kubernetes/website` `release-1.35`, `concepts/overview/working-with-objects/owners-dependents.md`)
 - Kubernetes — Garbage Collection, "Owners and dependents": <https://kubernetes.io/docs/concepts/architecture/garbage-collection/>
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** as regras de adoção de Pods pelo ReplicaSet devem ser conferidas na página de ReplicaSet (categoria 03), que **não foi lida** nesta rodada. Exemplos **não executados** no SNO.
+
+</details>

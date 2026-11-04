@@ -108,8 +108,11 @@ flowchart LR
 - Kubernetes Glossary — Controller e kube-controller-manager: <https://kubernetes.io/docs/reference/glossary/?all=true#term-kube-controller-manager>
 - OCP 4.22 — Control plane architecture, "Machine roles" (Kubernetes controller manager com um líder ativo; OpenShift controller manager): <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/architecture/control-plane> (fonte: `modules/architecture-machine-roles.adoc`)
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Remissão:** "Control Loop" (inventário da categoria 00) aponta para este verbete e para [Reconciliation](reconciliation.md); não há página separada.
 - **Pendências:** confirmar o namespace dos Leases de eleição de líder no OCP 4.22 e os nomes dos campos de origem dos Events no SNO, que **não foram executados**.
+
+</details>

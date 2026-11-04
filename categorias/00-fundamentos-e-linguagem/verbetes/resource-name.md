@@ -84,7 +84,10 @@ Observe nomes com `-o name` e `oc explain`; nada disso altera o cluster.
 - Kubernetes — API Concepts, "Object names": <https://kubernetes.io/docs/reference/using-api/api-concepts/>
 - OCP 4.22 — Working with projects (prefixos reservados): <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/building_applications/projects> (fonte: `applications/projects/working-with-projects.adoc`)
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** a coluna "Usada por" da tabela de restrições foi inferida (a página oficial não lista os tipos para cada regra). Confirmar a regra de Namespace (RFC 1123 label) na página de Namespaces, onde está documentada, e as demais no esquema de cada tipo. A mensagem de erro é ilustrativa; a URL publicada de "Working with projects" está **a verificar**.
+
+</details>

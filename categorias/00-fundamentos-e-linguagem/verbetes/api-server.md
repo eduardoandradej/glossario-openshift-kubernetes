@@ -104,7 +104,10 @@ flowchart LR
 - Kubernetes — Components: <https://kubernetes.io/docs/concepts/overview/components/>
 - OCP 4.22 — Control plane architecture, "Machine roles" (serviços Kubernetes e OpenShift no control plane; static pods e systemd): <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/architecture/control-plane> (fonte: `architecture/control-plane.adoc` → `modules/architecture-machine-roles.adoc`)
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** confirmar no SNO que os grupos `*.openshift.io` aparecem em `oc get apiservices` com `SERVICE` = `openshift-apiserver/api` (é o modelo de agregação esperado, mas **não foi verificado** nesta rodada); confirmar a permissão necessária para `/readyz?verbose`; confirmar a URL publicada de "Control plane architecture".
+
+</details>

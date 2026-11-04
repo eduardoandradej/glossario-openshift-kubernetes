@@ -2,8 +2,7 @@
 
 > **Classe:** Objeto API (cluster-scoped)  
 > **Categoria:** 02-compute-e-nodes  
-> **Plataforma:** OpenShift 4.22 / Kubernetes, conforme aplicável  
-> **Estado editorial:** base revisada; aprofundamento ainda previsto
+> **Plataforma:** OpenShift 4.22 / Kubernetes, conforme aplicável
 
 ## Definição
 
@@ -36,4 +35,10 @@ Em um Single Node OpenShift, o mesmo nó desempenha funções de control plane e
 - [Conceitos Kubernetes](https://kubernetes.io/docs/concepts/)
 - [Documentação OpenShift 4.22](https://docs.redhat.com/en/documentation/openshift_container_platform/4.22)
 
-> Próxima revisão: completar diagrama, exemplo real, correspondências entre API Groups, interpretação detalhada de campos, comparação e links cruzados. Nunca declarar o verbete "completo" antes desses itens.
+
+<details>
+<summary>Notas de revisão</summary>
+
+Versão inicial. Próxima revisão: completar diagrama, exemplo real, correspondências entre API Groups, interpretação detalhada de campos, comparação e links cruzados. Nunca declarar o verbete "completo" antes desses itens.
+
+</details>

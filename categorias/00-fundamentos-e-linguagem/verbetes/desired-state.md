@@ -102,7 +102,10 @@ flowchart LR
 - Kubernetes API Conventions — "Spec and Status" (*level-based*): <https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md>
 - OCP 4.22 — "Kubernetes overview", seção "Kubernetes resources" (modelo declarativo e Operators como control loop). Fonte conferida: `openshift-docs` `enterprise-4.22`, `welcome/kubernetes-overview.adoc` → `modules/kubernetes-resources.adoc`. URL publicada **a verificar**: <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22>
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** confirmar com `oc diff --help` no cliente 4.22 que o comportamento é somente leitura (assim está documentado no `kubectl diff`). Exemplos **não executados**.
+
+</details>

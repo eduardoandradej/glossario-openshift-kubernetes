@@ -108,7 +108,10 @@ Mesmo modelo. O console web do OpenShift mostra os eventos por projeto e por obj
 - Kubernetes API Reference — Event (`events.k8s.io/v1`): <https://kubernetes.io/docs/reference/kubernetes-api/cluster-resources/event-v1/>
 - Kubernetes — Owners and Dependents (exemplo de consulta por `--field-selector=reason=...`): <https://kubernetes.io/docs/concepts/overview/working-with-objects/owners-dependents/>
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** confirmar o valor padrão de `--event-ttl` no kube-apiserver 1.35 e o valor configurado pelo OCP 4.22; confirmar se o `oc` 4.22 expõe `oc events`; validar os field selectors (`type`, `involvedObject.name`) no SNO. Nada disso foi **verificado** nesta rodada.
+
+</details>

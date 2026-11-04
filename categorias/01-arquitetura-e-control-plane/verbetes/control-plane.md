@@ -108,7 +108,10 @@ flowchart TB
 - Kubernetes — Components: <https://kubernetes.io/docs/concepts/overview/components/>
 - OCP 4.22 — Control plane architecture, "Machine roles" (papel `master`, três nós, quorum, systemd × static pods): <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/architecture/control-plane> (fonte: `modules/architecture-machine-roles.adoc`)
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** confirmar no SNO a label `node-role.kubernetes.io/control-plane` e os nomes dos ClusterOperators; confirmar a URL publicada. Nada foi **executado**.
+
+</details>

@@ -125,7 +125,10 @@ sequenceDiagram
 - Kubernetes Glossary — API Group: <https://kubernetes.io/docs/reference/glossary/?all=true#term-api-group>
 - OCP 4.22 — CLI `oc`: <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/cli_tools/openshift-cli-oc>
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** validar no SNO as colunas de `oc api-resources -o wide`. A linha mostrada é ilustrativa, montada a partir da documentação, e **não foi executada**. Os verbetes [API Server](api-server.md), [API Group](api-group.md) e [API Version](api-version.md) foram criados no lote 2.
+
+</details>

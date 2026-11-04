@@ -73,7 +73,10 @@ Prefira `oc get nodes -o wide` e `oc adm node-logs`. `oc debug node` cria um Pod
 - Kubernetes — Container Runtime Interface (CRI): <https://kubernetes.io/docs/concepts/containers/cri/> (fonte: `kubernetes/website` `release-1.35`, `concepts/containers/cri.md`)
 - Kubernetes Glossary — CRI: <https://kubernetes.io/docs/reference/glossary/?all=true#term-cri>
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** confirmar a unidade systemd `crio` em `oc adm node-logs -u crio` e as mensagens citadas, que **não foram verificadas**.
+
+</details>

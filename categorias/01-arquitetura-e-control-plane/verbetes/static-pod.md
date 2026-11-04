@@ -90,7 +90,10 @@ flowchart LR
 - Kubernetes Glossary — Static Pod: <https://kubernetes.io/docs/reference/glossary/?all=true#term-static-pod>
 - OCP 4.22 — Control plane architecture, "Machine roles" (systemd × static pods; `installer-*` e `revision-pruner-*`; namespaces): <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/architecture/control-plane>
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** confirmar no SNO o dono `Node` dos mirror Pods e os nomes das annotations `kubernetes.io/config.*`, conhecidos do comportamento do kubelet, mas **não verificados** nesta rodada.
+
+</details>

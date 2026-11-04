@@ -122,7 +122,10 @@ flowchart TB
 - OCP 4.22 — Working with projects (projetos padrão `openshift-`/`kube-`): <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/building_applications/projects> (fonte: `applications/projects/working-with-projects.adoc`)
 - OCP 4.22 — Glossary, "project" (namespace com annotations adicionais para RBAC e gestão; fonte: `welcome/glossary.adoc`)
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido (antes 🌱 semente). Reescrito no lote 2 com base nas fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido (antes era uma versão inicial). Reescrito no lote 2 com base nas fontes conferidas em 2026-11-04.
 - **Pendências:** a label automática `kubernetes.io/metadata.name` e as annotations `openshift.io/*` devem ser conferidas no SNO com `oc describe namespace <nome>`, que **não foi executado**. As causas de `Terminating` travado devem ser aprofundadas no verbete *Finalizer*. A URL publicada de "Working with projects" está **a verificar**.
+
+</details>

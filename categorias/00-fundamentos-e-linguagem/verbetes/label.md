@@ -87,7 +87,10 @@ Ler labels é seguro. **Não** rotule nem remova labels de nós e de objetos de 
 - Kubernetes — Recommended Labels: <https://kubernetes.io/docs/concepts/overview/working-with-objects/common-labels/>
 - Kubernetes — Well-Known Labels, Annotations and Taints: <https://kubernetes.io/docs/reference/labels-annotations-taints/>
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** as páginas "Recommended Labels" e "Well-Known Labels" foram citadas a partir dos links da página principal, mas **não foram lidas** nesta rodada. Confirmar o uso de `app.kubernetes.io/part-of` pela Topology do console do OCP 4.22.
+
+</details>

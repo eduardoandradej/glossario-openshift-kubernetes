@@ -67,7 +67,10 @@ O nó único mostra `control-plane,master,worker` em `ROLES`.
 - Kubernetes Glossary — Master ("Legacy term"): <https://kubernetes.io/docs/reference/glossary/?all=true#term-master> (fonte: `kubernetes/website` `release-1.35`, `reference/glossary/master.md`)
 - OCP 4.22 — Control plane architecture, "Machine roles" (papéis `master`, `worker`, `bootstrap`): <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/architecture/control-plane> (fonte: `modules/architecture-machine-roles.adoc`)
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** confirmar no SNO a presença das duas labels e a forma como `-L` exibe labels de valor vazio, o que **não foi executado**.
+
+</details>

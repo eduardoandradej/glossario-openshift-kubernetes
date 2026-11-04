@@ -2,8 +2,7 @@
 
 > **Classe:** Objeto API Kubernetes (namespaced)  
 > **Categoria:** 04-networking  
-> **Plataforma:** OpenShift 4.22 / Kubernetes, conforme aplicável  
-> **Estado editorial:** base revisada; aprofundamento ainda previsto
+> **Plataforma:** OpenShift 4.22 / Kubernetes, conforme aplicável
 
 ## Definição
 
@@ -35,4 +34,10 @@ O objeto Ingress, o controlador de ingress e o IngressController do OpenShift s�
 - [Conceitos Kubernetes](https://kubernetes.io/docs/concepts/)
 - [Documentação OpenShift 4.22](https://docs.redhat.com/en/documentation/openshift_container_platform/4.22)
 
-> Próxima revisão: completar diagrama, exemplo real, correspondências entre API Groups, interpretação detalhada de campos, comparação e links cruzados. Nunca declarar o verbete "completo" antes desses itens.
+
+<details>
+<summary>Notas de revisão</summary>
+
+Versão inicial. Próxima revisão: completar diagrama, exemplo real, correspondências entre API Groups, interpretação detalhada de campos, comparação e links cruzados. Nunca declarar o verbete "completo" antes desses itens.
+
+</details>

@@ -79,7 +79,10 @@ Não há worker separado: o único nó tem os papéis `control-plane`, `master` 
 - Kubernetes — Nodes: <https://kubernetes.io/docs/concepts/architecture/nodes/>
 - OCP 4.22 — Control plane architecture, "Machine roles" → "Cluster workers": <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/architecture/control-plane> (fonte: `modules/architecture-machine-roles.adoc`)
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** confirmar a label `node-role.kubernetes.io/worker` e as seções do `describe node` no SNO, que **não foram executados**.
+
+</details>

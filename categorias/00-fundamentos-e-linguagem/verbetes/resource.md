@@ -113,7 +113,10 @@ flowchart TB
 - Kubernetes — API Concepts: "Kubernetes API terminology", "Resource URIs": <https://kubernetes.io/docs/reference/using-api/api-concepts/> (fonte: `kubernetes/website` `release-1.35`, `content/en/docs/reference/using-api/api-concepts.md`)
 - Kubernetes API Conventions — "Resources", subresources `/status`, `/scale`, `/binding`: <https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md>
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** as mensagens de erro da tabela seguem o formato conhecido do `kubectl`/`oc`, mas **não foram reproduzidas** no SNO nesta rodada; validar o texto exato. Confirmar o uso de `oc auth can-i ... --subresource` com `oc auth can-i --help`.
+
+</details>

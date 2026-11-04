@@ -78,7 +78,10 @@ Leitura segura com `-o jsonpath`. Os UIDs não são segredos, mas também não h
 - Kubernetes Glossary — UID: <https://kubernetes.io/docs/reference/glossary/?all=true#term-uid>
 - Kubernetes API Conventions — "Metadata" (`uid`): <https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md>
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** o comportamento de adoção depois de `--cascade=orphan` deve ser aprofundado e conferido nos verbetes *OwnerReference* e *Garbage Collection* (lote 3). Exemplos **não executados** no SNO.
+
+</details>

@@ -73,7 +73,10 @@ Uma única réplica: se ela reiniciar, a reconciliação dos tipos nativos pausa
 - Kubernetes — Controllers, "Ways of running controllers": <https://kubernetes.io/docs/concepts/architecture/controller/>
 - OCP 4.22 — Control plane architecture, "Machine roles" (um líder ativo; OpenShift controller manager): <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/architecture/control-plane>
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** a localização do garbage collector dentro do KCM é conhecida da arquitetura do Kubernetes, mas **não foi citada** nas páginas lidas; conferir na referência do `kube-controller-manager`.
+
+</details>

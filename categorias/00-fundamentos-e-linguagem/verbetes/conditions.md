@@ -91,7 +91,10 @@ Condições são a leitura de saúde mais rica e segura. Comece por `oc get clus
 - Kubernetes API Conventions — "Typical status properties" (conditions, polaridade, campos, `phase` deprecated): <https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md>
 - Kubernetes — Pod Lifecycle, "Pod conditions": <https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/>
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** as condições de Pod listadas são as conhecidas da página Pod Lifecycle, que **não foi lida** nesta rodada (o 1.35 pode listar outras, como `PodReadyToStartContainers`); conferir na categoria 03. Confirmar a condição `Upgradeable` em ClusterOperators (categoria 09).
+
+</details>

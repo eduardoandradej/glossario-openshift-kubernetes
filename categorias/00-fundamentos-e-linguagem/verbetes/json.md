@@ -87,7 +87,10 @@ Sem diferença de formato. As APIs `*.openshift.io` seguem as mesmas regras de s
 - Kubernetes — JSONPath Support (kubectl): <https://kubernetes.io/docs/reference/kubectl/jsonpath/>
 - Especificação JSON (fonte externa): <https://www.json.org/json-en.html>
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** a sintaxe `range`/`end` foi conferida na página "JSONPath Support" (`reference/kubectl/jsonpath.md`, `release-1.35`). Validar os exemplos no SNO, onde **não foram executados**.
+
+</details>

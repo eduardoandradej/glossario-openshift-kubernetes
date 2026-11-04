@@ -95,7 +95,10 @@ flowchart LR
 - Kubernetes — Objects In Kubernetes, "Object spec and status": <https://kubernetes.io/docs/concepts/overview/working-with-objects/> (fonte: `kubernetes/website` `release-1.35`)
 - Kubernetes API Conventions — "Spec and Status" e "Defaulting": <https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md>
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** a lista de defaults citados para Deployment vem da referência da API (`apps/v1`) e **não foi conferida** no SNO; validar com `oc explain deployment.spec`.
+
+</details>

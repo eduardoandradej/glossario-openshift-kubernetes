@@ -94,7 +94,10 @@ sequenceDiagram
 - Kubernetes — Nodes (heartbeats, Leases): <https://kubernetes.io/docs/concepts/architecture/nodes/>
 - OCP 4.22 — Control plane architecture, "Machine roles" (kubelet como systemd; defasagem de versão): <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/architecture/control-plane>
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** confirmar a sintaxe de `oc adm node-logs ... -u kubelet --tail` no cliente 4.22 e os `reason` de eventos citados, que **não foram verificados**. A página Nodes foi baixada, mas lida só em parte.
+
+</details>

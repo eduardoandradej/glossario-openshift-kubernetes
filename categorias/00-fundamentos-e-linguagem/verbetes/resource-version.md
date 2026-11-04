@@ -80,8 +80,11 @@ Observar `resourceVersion` é seguro. Usar `-w` por muito tempo mantém uma cone
 - Kubernetes — API Concepts, "Resource versions" (ordenação no 1.35, semântica de get/list/watch, 410 Gone): <https://kubernetes.io/docs/reference/using-api/api-concepts/#resource-versions> (fonte: `kubernetes/website` `release-1.35`)
 - Kubernetes API Conventions — "Concurrency Control and Consistency": <https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md>
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Correção transversal:** o verbete [Metadata](metadata.md) foi ajustado para refletir a regra de ordenação do 1.35.
 - **Pendências:** confirmar o texto da mensagem de conflito no cliente 4.22 e a aplicação da regra de ordenação aos grupos `*.openshift.io` servidos por agregação, que **não foram verificados**.
+
+</details>

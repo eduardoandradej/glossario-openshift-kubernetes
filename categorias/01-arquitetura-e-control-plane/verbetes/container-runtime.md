@@ -93,7 +93,10 @@ flowchart LR
 - OCP 4.22 — Control plane architecture, "Machine roles" (CRI-O como engine; crun padrão; runC via `ContainerRuntimeConfig`): <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/architecture/control-plane>
 - OCP 4.22 — Architecture overview, "Custom operating system" (CRI-O substitui o Docker do OpenShift 3; fonte: `modules/architecture-platform-benefits.adoc`)
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** confirmar no SNO o formato `cri-o://` em `containerRuntimeVersion` e os `waiting.reason` citados, que **não foram executados**.
+
+</details>

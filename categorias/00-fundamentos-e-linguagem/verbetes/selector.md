@@ -113,7 +113,10 @@ flowchart LR
 - Kubernetes — Field Selectors: <https://kubernetes.io/docs/concepts/overview/working-with-objects/field-selectors/>
 - Kubernetes — Deployments (seletor imutável em `apps/v1`): <https://kubernetes.io/docs/concepts/workloads/controllers/deployment/>
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** a imutabilidade do seletor do Deployment foi conferida na página Deployments (`release-1.35`). Falta conferir a label `kubernetes.io/service-name` dos EndpointSlices (categoria 04). Exemplos **não executados** no SNO.
+
+</details>

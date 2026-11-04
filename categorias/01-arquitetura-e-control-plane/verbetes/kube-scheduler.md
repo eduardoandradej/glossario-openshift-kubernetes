@@ -94,7 +94,10 @@ flowchart LR
 - Kubernetes Glossary — kube-scheduler: <https://kubernetes.io/docs/reference/glossary/?all=true#term-kube-scheduler>
 - OCP 4.22 — Control plane architecture, "Machine roles": <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/architecture/control-plane>
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** confirmar no SNO o recurso `scheduler.config.openshift.io/cluster` e o campo `mastersSchedulable`, conhecidos da documentação de configuração do scheduler, que **não foi lida** nesta rodada. Os textos das mensagens de `FailedScheduling` são ilustrativos.
+
+</details>

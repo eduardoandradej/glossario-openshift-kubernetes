@@ -97,8 +97,11 @@ sequenceDiagram
 - Kubernetes — Objects In Kubernetes ("The status describes the current state"): <https://kubernetes.io/docs/concepts/overview/working-with-objects/>
 - Kubernetes API Conventions — "Spec and Status" ("most recent observations of actual state"): <https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md>
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Decisão de nomenclatura:** slug e título com o termo oficial em inglês (`current-state`, "Current State"); "estado observado" como explicação em português; remissões para *actual state* e *observed state*.
 - **Pendências:** validar no SNO os exemplos de `jsonpath`, que **não foram executados**; aprofundar Events e Conditions nos verbetes próprios.
+
+</details>

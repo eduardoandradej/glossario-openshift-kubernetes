@@ -73,7 +73,10 @@ Um SNO em KVM costuma ter plataforma `None`: não espere CCM nem Services `LoadB
 - Kubernetes Glossary — cloud-controller-manager: <https://kubernetes.io/docs/reference/glossary/?all=true#term-cloud-controller-manager>
 - OCP 4.22 — Cluster Operators reference / Cluster capabilities, "Cloud Controller Manager Operator" (fonte: `modules/cluster-cloud-controller-manager-operator.adoc`)
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** confirmar no SNO a plataforma (`None` é uma hipótese, porque a topologia do HomeLab não foi inspecionada), o nome do ClusterOperator e o caminho `status.capabilities.enabledCapabilities`, que **não foram executados**.
+
+</details>

@@ -114,7 +114,10 @@ Leia manifestos de objetos à vontade com `-o yaml`, **exceto Secrets** (o `data
 - Kubernetes — Objects In Kubernetes, "Describing a Kubernetes object": <https://kubernetes.io/docs/concepts/overview/working-with-objects/>
 - OCP 4.22 — Glossary, "kubernetes manifest" (fonte: `welcome/glossary.adoc`)
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** confirmar o texto exato da resposta de `--dry-run=server` no cliente 4.22, que **não foi executado**.
+
+</details>

@@ -113,7 +113,10 @@ sequenceDiagram
 - OCP 4.22 — Configuring project creation (template, parâmetros, papel `admin`, self-provisioning; fonte: `applications/projects/configuring-project-creation.adoc` → `modules/about-project-creation.adoc`)
 - OCP 4.22 — Glossary, "project" (fonte: `welcome/glossary.adoc`)
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** confirmar no SNO o nome exato do recurso de configuração (`project.config.openshift.io/cluster`) e as colunas de `oc get projects`; detalhar o self-provisioning (papel `self-provisioner`) na categoria 07. Nada foi **executado**. A URL publicada está **a verificar**.
+
+</details>

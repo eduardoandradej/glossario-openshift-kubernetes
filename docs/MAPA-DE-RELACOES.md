@@ -1,8 +1,8 @@
 # Mapa de relações
 
-> Relações entre os verbetes **desenvolvidos**. As setas indicam o sentido da relação descrita no rótulo; não indicam fluxo de rede. Ele cresce a cada lote.
+Como os termos do glossário se conectam. As setas indicam o sentido da relação descrita no rótulo, e não fluxo de rede.
 
-## Categoria 00 — o modelo declarativo
+## O modelo declarativo
 
 ```mermaid
 flowchart TB
@@ -22,7 +22,7 @@ flowchart TB
     REC -->|"cria/altera objetos via"| API
 ```
 
-## Tabela de relações (lote 1)
+## Relações do modelo declarativo
 
 | De | Relação | Para |
 |---|---|---|
@@ -38,13 +38,13 @@ flowchart TB
 | [Reconciliation](../categorias/00-fundamentos-e-linguagem/verbetes/reconciliation.md) | encadeia | [Deployment](../categorias/03-workloads/verbetes/deployment.md) → [ReplicaSet](../categorias/03-workloads/verbetes/replicaset.md) → [Pod](../categorias/03-workloads/verbetes/pod.md) |
 | [OpenShift Container Platform](../categorias/00-fundamentos-e-linguagem/verbetes/openshift-container-platform.md) | relata a saúde da plataforma em | [ClusterOperator](../categorias/09-operators-e-extensoes/verbetes/clusteroperator.md) |
 
-## Distinções críticas já tratadas
+## Distinções importantes: modelo declarativo
 
 - **Recurso × Kind × Objeto:** `deployments` (URL/RBAC) × `Deployment` (esquema) × o Deployment `web` (instância).
 - **`status` (campo) × coluna `STATUS` × kind `Status`:** três coisas diferentes.
 - **Desired state no Git × desired state na API:** só vale o que está na API.
 
-## Categoria 00 — lote 2: API, identidade e formatos
+## API, identidade e formatos
 
 ```mermaid
 flowchart LR
@@ -68,14 +68,14 @@ flowchart LR
 | [Metadata](../categorias/00-fundamentos-e-linguagem/verbetes/metadata.md) | identifica por | [Resource Name](../categorias/00-fundamentos-e-linguagem/verbetes/resource-name.md), [UID](../categorias/00-fundamentos-e-linguagem/verbetes/uid.md), [Namespace](../categorias/00-fundamentos-e-linguagem/verbetes/namespace.md) |
 | [Controller](../categorias/00-fundamentos-e-linguagem/verbetes/controller.md) | executa | [Reconciliation](../categorias/00-fundamentos-e-linguagem/verbetes/reconciliation.md) |
 
-## Distinções críticas do lote 2
+## Distinções importantes: API, identidade e controllers
 
 - **API × API Server × OpenShift API server:** contrato × componente × servidor dos grupos `*.openshift.io`.
 - **Nome × UID:** o nome se reutiliza; o UID nunca.
 - **Controller (código) × "controllers de workload" (objetos) × IngressController (objeto de configuração).**
 - **UID do objeto × UID do processo (SCC).**
 
-## Categoria 00 — lote 3: organização, ciclo de vida e sinais
+## Organização, ciclo de vida e sinais de status
 
 ```mermaid
 flowchart TB
@@ -100,13 +100,13 @@ flowchart TB
 | [Conditions](../categorias/00-fundamentos-e-linguagem/verbetes/conditions.md) | são complementadas por | [Events](../categorias/00-fundamentos-e-linguagem/verbetes/events.md) |
 | [Project](../categorias/00-fundamentos-e-linguagem/verbetes/project.md) | é a visão OpenShift de | [Namespace](../categorias/00-fundamentos-e-linguagem/verbetes/namespace.md) |
 
-## Distinções críticas do lote 3
+## Distinções importantes: organização e sinais
 
 - **Label × Annotation × OwnerReference:** seleção × documentação para ferramentas × propriedade e ciclo de vida.
 - **ResourceVersion × Generation:** qualquer escrita × mudança no desired state.
 - **Conditions × Events × phase:** foto atual × histórico × resumo antigo.
 
-## Categoria 01 — lote 1: Control Plane e componentes do nó
+## Control Plane e componentes do nó
 
 ```mermaid
 flowchart TB
@@ -130,7 +130,7 @@ flowchart TB
 | [Static Pod](../categorias/01-arquitetura-e-control-plane/verbetes/static-pod.md) | hospeda, no OpenShift | os componentes do [Control Plane](../categorias/01-arquitetura-e-control-plane/verbetes/control-plane.md) |
 | [Master Node](../categorias/01-arquitetura-e-control-plane/verbetes/master-node.md) | é o nome legado/papel de | nó de [Control Plane](../categorias/01-arquitetura-e-control-plane/verbetes/control-plane.md) |
 
-## Distinções críticas da categoria 01, lote 1
+## Distinções importantes: Control Plane e nó
 
 - **Control Plane (função) × master (termo legado e papel no OpenShift).**
 - **kube-controller-manager × cloud-controller-manager × OpenShift controller manager.**

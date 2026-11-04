@@ -78,7 +78,10 @@ Ler annotations é seguro. **Não** edite annotations de objetos de plataforma: 
 - Kubernetes — Annotations: <https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/> (fonte: `kubernetes/website` `release-1.35`, `concepts/overview/working-with-objects/annotations.md`)
 - Kubernetes API Conventions — "Metadata" (labels × annotations): <https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md>
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** a annotation `kubectl.kubernetes.io/last-applied-configuration` e a `deployment.kubernetes.io/revision` são de uso conhecido, mas **não foram conferidas** nesta rodada; validar no SNO. Detalhar a relação com o *server-side apply* (`managedFields`) na categoria 14.
+
+</details>

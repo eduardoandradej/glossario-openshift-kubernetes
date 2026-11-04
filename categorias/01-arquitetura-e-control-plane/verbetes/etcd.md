@@ -90,7 +90,10 @@ flowchart LR
 - OCP 4.22 — Control plane architecture, "etcd key-value store" (fonte: `modules/etcd-overview.adoc`) e "Machine roles" (quorum com 3, 4 e 5 nós): <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/architecture/control-plane>
 - Projeto etcd (fonte externa ao Kubernetes): <https://etcd.io/docs/>
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** confirmar a label `app=etcd` dos Pods e o texto das condições do Operator no SNO, que **não foram executados**. Detalhar backup e restore na categoria 13.
+
+</details>

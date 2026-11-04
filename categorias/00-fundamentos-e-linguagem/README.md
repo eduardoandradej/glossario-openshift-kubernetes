@@ -1,53 +1,47 @@
 # 00 — Fundamentos, linguagem e modelo declarativo
 
-> Inventário inicial de candidatos a verbetes. Não significa que todos sejam objetos de API, instalados por padrão ou suportados na versão 4.22. Cada termo deve ser pesquisado e classificado.
+O vocabulário básico do Kubernetes e do OpenShift: o que é um objeto, como a API se organiza, o que significam Spec e Status e como funciona o modelo declarativo (Desired State e Reconciliation).
 
-**Total inicial:** 37 termos candidatos.
+## Termos publicados
 
-## Termos desta categoria
+- [Kubernetes](verbetes/kubernetes.md)
+- [OpenShift Container Platform](verbetes/openshift-container-platform.md)
+- [Cluster](verbetes/cluster.md)
+- [API](verbetes/kubernetes-api.md)
+- [API Server](verbetes/api-server.md)
+- [Object](verbetes/object.md)
+- [Resource](verbetes/resource.md)
+- [Kind](verbetes/kind.md)
+- [API Group](verbetes/api-group.md)
+- [API Version](verbetes/api-version.md)
+- [Manifest](verbetes/manifest.md)
+- [YAML](verbetes/yaml.md)
+- [JSON](verbetes/json.md)
+- [Spec](verbetes/spec.md)
+- [Status](verbetes/status.md)
+- [Metadata](verbetes/metadata.md)
+- [Desired State](verbetes/desired-state.md)
+- [Current State](verbetes/current-state.md)
+- [Reconciliation](verbetes/reconciliation.md)
+- [Controller](verbetes/controller.md)
+- [Namespace](verbetes/namespace.md)
+- [Project](verbetes/project.md)
+- [Resource Name](verbetes/resource-name.md)
+- [UID](verbetes/uid.md)
+- [Label](verbetes/label.md)
+- [Annotation](verbetes/annotation.md)
+- [Selector](verbetes/selector.md)
+- [OwnerReference](verbetes/owner-reference.md)
+- [Finalizer](verbetes/finalizer.md)
+- [Garbage Collection](verbetes/garbage-collection.md)
+- [ResourceVersion](verbetes/resource-version.md)
+- [Generation](verbetes/generation.md)
+- [ObservedGeneration](verbetes/observed-generation.md)
+- [Conditions](verbetes/conditions.md)
+- [Events](verbetes/events.md)
 
-**Legenda:** `[x] … 🟡` = verbete desenvolvido, com fontes oficiais conferidas, mas **sem validação no cluster** (não conta como concluído) · `[ ]` = candidato ou semente.
+**Outros nomes:** [K8s](verbetes/kubernetes.md) → Kubernetes · [Control Loop](verbetes/controller.md) → Controller
 
-**Lote 1 (2026-11-04):** 12 verbetes + 1 remissão (K8s). **Lote 2 (2026-11-04):** 10 verbetes novos, Namespace reescrito, 1 remissão (Control Loop). **Lote 3 (2026-11-04):** 12 verbetes; **todos os 37 candidatos da categoria cobertos** (34 verbetes, 3 remissões). Próximo lote: ver [estado do projeto](../../docs/ESTADO-DO-PROJETO.md).
+---
 
-- [x] [Kubernetes](verbetes/kubernetes.md) 🟡
-- [x] [K8s](verbetes/kubernetes.md) — remissão 🟡
-- [x] [OpenShift Container Platform](verbetes/openshift-container-platform.md) 🟡
-- [x] [Cluster](verbetes/cluster.md) 🟡
-- [x] [API](verbetes/kubernetes-api.md) 🟡
-- [x] [API Server](verbetes/api-server.md) 🟡
-- [x] [Object](verbetes/object.md) 🟡
-- [x] [Resource](verbetes/resource.md) 🟡
-- [x] [Kind](verbetes/kind.md) 🟡
-- [x] [API Group](verbetes/api-group.md) 🟡
-- [x] [API Version](verbetes/api-version.md) 🟡
-- [x] [Manifest](verbetes/manifest.md) 🟡
-- [x] [YAML](verbetes/yaml.md) 🟡
-- [x] [JSON](verbetes/json.md) 🟡
-- [x] [Spec](verbetes/spec.md) 🟡
-- [x] [Status](verbetes/status.md) 🟡
-- [x] [Metadata](verbetes/metadata.md) 🟡
-- [x] [Desired State](verbetes/desired-state.md) 🟡
-- [x] [Current State](verbetes/current-state.md) 🟡
-- [x] [Reconciliation](verbetes/reconciliation.md) 🟡
-- [x] [Controller](verbetes/controller.md) 🟡
-- [x] [Control Loop](verbetes/controller.md) — remissão para Controller e [Reconciliation](verbetes/reconciliation.md) 🟡
-- [x] [Namespace](verbetes/namespace.md) 🟡 (reescrito no lote 2)
-- [x] [Project](verbetes/project.md) 🟡
-- [x] [Resource Name](verbetes/resource-name.md) 🟡
-- [x] [UID](verbetes/uid.md) 🟡
-- [x] [Label](verbetes/label.md) 🟡
-- [x] [Annotation](verbetes/annotation.md) 🟡
-- [x] [Selector](verbetes/selector.md) 🟡
-- [x] [OwnerReference](verbetes/owner-reference.md) 🟡
-- [x] [Finalizer](verbetes/finalizer.md) 🟡
-- [x] [Garbage Collection](verbetes/garbage-collection.md) 🟡
-- [x] [ResourceVersion](verbetes/resource-version.md) 🟡
-- [x] [Generation](verbetes/generation.md) 🟡
-- [x] [ObservedGeneration](verbetes/observed-generation.md) 🟡
-- [x] [Conditions](verbetes/conditions.md) 🟡
-- [x] [Events](verbetes/events.md) 🟡
-
-## Como expandir
-
-Use o [modelo de verbete](../../modelos/MODELO-VERBETE.md), consultando o [prompt mestre](../../PROMPT-MESTRE.md). Antes de marcar um termo, criar verbete original, verificar fontes oficiais, incluir comandos de inspeção quando pertinentes e revisar nomenclaturas e diferenças entre as versões.
+[← Voltar ao início](../../README.md) · [Índice alfabético](../../docs/INDICE-ALFABETICO.md) · [Índice por categoria](../../docs/INDICE-POR-CATEGORIA.md)

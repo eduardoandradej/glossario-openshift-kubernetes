@@ -101,7 +101,10 @@ stateDiagram-v2
 - Kubernetes — Owners and Dependents, "Ownership and finalizers": <https://kubernetes.io/docs/concepts/overview/working-with-objects/owners-dependents/>
 - Kubernetes — Garbage Collection, "Cascading deletion": <https://kubernetes.io/docs/concepts/architecture/garbage-collection/>
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** os nomes das condições de Namespace (`NamespaceContentRemaining` e `NamespaceFinalizersRemaining`) e o finalizer `kubernetes` em `spec.finalizers` são conhecidos da referência da API, mas **não foram conferidos** nesta rodada; validar com `oc explain namespace.status.conditions` e `oc explain namespace.spec`. O diagrama usa `stateDiagram-v2`.
+
+</details>

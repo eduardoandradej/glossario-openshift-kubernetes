@@ -68,7 +68,7 @@ oc get deployment <nome> -n <namespace> \
 oc explain deployment
 ```
 
-> ⚠️ Não use `-o yaml` em **Secrets**: a saída contém `data` (base64 ≠ cifragem). Para Secrets, use apenas `oc get secret` ou `oc describe secret`.
+> **Atenção:** Não use `-o yaml` em **Secrets**: a saída contém `data` (base64 ≠ cifragem). Para Secrets, use apenas `oc get secret` ou `oc describe secret`.
 
 ## Como interpretar a saída
 
@@ -116,7 +116,10 @@ flowchart LR
 - Kubernetes — API Concepts, "Kubernetes API terminology" e "Object names": <https://kubernetes.io/docs/reference/using-api/api-concepts/>
 - Kubernetes API Conventions — "Types (Kinds)", "Objects": <https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md>
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** a afirmação sobre `metadata.generation` deve ser aprofundada nos verbetes *Generation* e *ObservedGeneration*. Exemplos de saída **não executados** no SNO.
+
+</details>

@@ -73,7 +73,10 @@ O CRI-O do único nó roda todos os contêineres do cluster. Monitore o espaço 
 - OCP 4.22 — Control plane architecture, "Machine roles" (CRI-O como systemd; crun/runC): <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/architecture/control-plane>
 - Projeto CRI-O (fonte externa): <https://cri-o.io/>
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** confirmar que a versão do CRI-O no OCP 4.22 segue a 1.35, que o recurso `containerruntimeconfigs` responde com esse nome e o caminho de armazenamento citado (`/var/lib/containers`). Nada disso foi **verificado** nesta rodada.
+
+</details>

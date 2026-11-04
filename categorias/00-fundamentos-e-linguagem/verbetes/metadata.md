@@ -95,7 +95,10 @@ Ler metadados é seguro. Não remova `finalizers` nem `ownerReferences` de objet
 - Kubernetes — Object Names and IDs: <https://kubernetes.io/docs/concepts/overview/working-with-objects/names/> (fonte: `kubernetes/website` `release-1.35`)
 - Kubernetes — Objects In Kubernetes, "Required fields": <https://kubernetes.io/docs/concepts/overview/working-with-objects/>
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
+- **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** as annotations de SCC citadas devem ser detalhadas e conferidas na categoria 08. Exemplos **não executados** no SNO.
+
+</details>

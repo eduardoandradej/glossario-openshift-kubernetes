@@ -122,7 +122,10 @@ flowchart TB
 - OCP 4.22 — Single-node OpenShift (fonte: `modules/install-sno-about-installing-on-a-single-node.adoc`)
 - OCP 4.22 — About OpenShift Kubernetes Engine (fonte: `welcome/oke_about.adoc`) e Glossary (fonte: `welcome/glossary.adoc`)
 
-## Revisão editorial
+<details>
+<summary>Notas de revisão</summary>
 
-- **Estado:** 🟡 desenvolvido. O conteúdo foi conferido nos fontes oficiais (GitHub) em 2026-11-04.
+- **Estado:** desenvolvido. O conteúdo foi conferido nos fontes oficiais (GitHub) em 2026-11-04.
 - **Pendências:** confirmar as URLs publicadas (docs.redhat.com estava bloqueado pela rede da sessão); validar `oc get clusterversion` no SNO, que **não foi executado**. Detalhar OKE e OKD num verbete próprio se entrarem no inventário.
+
+</details>

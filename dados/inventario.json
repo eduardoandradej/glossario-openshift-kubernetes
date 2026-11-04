@@ -2,37 +2,122 @@
   {
     "term": "Kubernetes",
     "category": "00-fundamentos-e-linguagem",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "tecnologia",
+    "source": "ver campo fontes",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-04",
+    "validacao_cluster": "nao-realizada",
+    "slug_verbete": "kubernetes",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/overview/",
+      "https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/release_notes/ocp-4-22-release-notes"
+    ],
+    "relacoes": [
+      "OpenShift Container Platform",
+      "Cluster",
+      "API",
+      "Reconciliação"
+    ],
+    "plataforma": "Kubernetes"
   },
   {
     "term": "K8s",
     "category": "00-fundamentos-e-linguagem",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "remissao",
+    "source": "ver campo fontes",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-04",
+    "validacao_cluster": "nao-realizada",
+    "slug_verbete": "kubernetes",
+    "remissao_para": "Kubernetes",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/overview/"
+    ],
+    "relacoes": [
+      "Kubernetes"
+    ],
+    "plataforma": "Kubernetes"
   },
   {
     "term": "OpenShift Container Platform",
     "category": "00-fundamentos-e-linguagem",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "tecnologia",
+    "source": "ver campo fontes",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-04",
+    "validacao_cluster": "nao-realizada",
+    "slug_verbete": "openshift-container-platform",
+    "fontes": [
+      "https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/architecture/architecture",
+      "https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/release_notes/ocp-4-22-release-notes"
+    ],
+    "relacoes": [
+      "Kubernetes",
+      "Cluster",
+      "ClusterOperator"
+    ],
+    "plataforma": "OpenShift"
   },
   {
     "term": "Cluster",
     "category": "00-fundamentos-e-linguagem",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "conceito",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-04",
+    "validacao_cluster": "nao-realizada",
+    "slug_verbete": "cluster",
+    "fontes": [
+      "https://kubernetes.io/docs/reference/glossary/?all=true#term-cluster",
+      "https://kubernetes.io/docs/concepts/architecture/"
+    ],
+    "relacoes": [
+      "Node",
+      "Namespace",
+      "API"
+    ]
   },
   {
     "term": "API",
     "category": "00-fundamentos-e-linguagem",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "conceito",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-04",
+    "validacao_cluster": "nao-realizada",
+    "slug_verbete": "kubernetes-api",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/overview/kubernetes-api/",
+      "https://kubernetes.io/docs/reference/using-api/api-concepts/"
+    ],
+    "relacoes": [
+      "Objeto",
+      "Recurso",
+      "Kind",
+      "API Server"
+    ]
   },
   {
     "term": "API Server",
@@ -44,23 +129,79 @@
   {
     "term": "Objeto",
     "category": "00-fundamentos-e-linguagem",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "conceito",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-04",
+    "validacao_cluster": "nao-realizada",
+    "slug_verbete": "object",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/overview/working-with-objects/",
+      "https://kubernetes.io/docs/reference/using-api/api-concepts/",
+      "https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md"
+    ],
+    "relacoes": [
+      "Recurso",
+      "Kind",
+      "Spec",
+      "Status"
+    ]
   },
   {
     "term": "Recurso",
     "category": "00-fundamentos-e-linguagem",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "conceito",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-04",
+    "validacao_cluster": "nao-realizada",
+    "slug_verbete": "resource",
+    "fontes": [
+      "https://kubernetes.io/docs/reference/using-api/api-concepts/",
+      "https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md"
+    ],
+    "relacoes": [
+      "Kind",
+      "Objeto",
+      "Namespace",
+      "CustomResourceDefinition"
+    ]
   },
   {
     "term": "Kind",
     "category": "00-fundamentos-e-linguagem",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "conceito",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-04",
+    "validacao_cluster": "nao-realizada",
+    "slug_verbete": "kind",
+    "fontes": [
+      "https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md",
+      "https://kubernetes.io/docs/reference/using-api/api-concepts/",
+      "https://kubernetes.io/docs/concepts/overview/working-with-objects/"
+    ],
+    "relacoes": [
+      "Recurso",
+      "Objeto",
+      "API Group",
+      "API Version"
+    ]
   },
   {
     "term": "API Group",
@@ -100,16 +241,51 @@
   {
     "term": "Spec",
     "category": "00-fundamentos-e-linguagem",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "conceito",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-04",
+    "validacao_cluster": "nao-realizada",
+    "slug_verbete": "spec",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/overview/working-with-objects/",
+      "https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md"
+    ],
+    "relacoes": [
+      "Status",
+      "Estado desejado",
+      "Generation"
+    ]
   },
   {
     "term": "Status",
     "category": "00-fundamentos-e-linguagem",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "conceito",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-04",
+    "validacao_cluster": "nao-realizada",
+    "slug_verbete": "status",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/overview/working-with-objects/",
+      "https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md"
+    ],
+    "relacoes": [
+      "Spec",
+      "Estado observado",
+      "Conditions",
+      "ObservedGeneration"
+    ]
   },
   {
     "term": "Metadata",
@@ -121,23 +297,78 @@
   {
     "term": "Estado desejado",
     "category": "00-fundamentos-e-linguagem",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "conceito",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-04",
+    "validacao_cluster": "nao-realizada",
+    "slug_verbete": "desired-state",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/architecture/controller/",
+      "https://kubernetes.io/docs/concepts/overview/working-with-objects/",
+      "https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md"
+    ],
+    "relacoes": [
+      "Estado observado",
+      "Reconciliação",
+      "Spec"
+    ]
   },
   {
     "term": "Estado observado",
     "category": "00-fundamentos-e-linguagem",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "conceito",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-04",
+    "validacao_cluster": "nao-realizada",
+    "slug_verbete": "current-state",
+    "termo_oficial": "current state / actual state",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/architecture/controller/",
+      "https://kubernetes.io/docs/concepts/overview/working-with-objects/",
+      "https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md"
+    ],
+    "relacoes": [
+      "Estado desejado",
+      "Status",
+      "Reconciliação"
+    ]
   },
   {
     "term": "Reconciliação",
     "category": "00-fundamentos-e-linguagem",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "padrao",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-04",
+    "validacao_cluster": "nao-realizada",
+    "slug_verbete": "reconciliation",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/architecture/controller/",
+      "https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md"
+    ],
+    "relacoes": [
+      "Controller",
+      "Control Loop",
+      "Operator",
+      "Estado desejado"
+    ]
   },
   {
     "term": "Controller",

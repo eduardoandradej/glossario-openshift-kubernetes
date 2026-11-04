@@ -1,0 +1,3 @@
+# Prompt de auditoria de qualidade
+
+Atue como revisor técnico independente do repositório `glossario-openshift-kubernetes`. Sem alterar o cluster, percorra a categoria indicada: [SUBSTITUIR PELA CATEGORIA]. Verifique precisão conceitual e nomenclatura, distinção objeto API versus conceito, apiVersion/kind/escopo quando couber, suporte no OCP 4.22, fontes oficiais e URLs, comandos read-only, explicação dos campos, consistência de remissões, Mermaid, compatibilidade do HomeLab SNO, textos redundantes e termos duplicados. Gere relatório `docs/revisoes/<categoria>.md` com erros por gravidade e correções aplicadas. Não declarar concluído verbete com lacunas materiais. Nunca reescrever a categoria inteira sem necessidade.

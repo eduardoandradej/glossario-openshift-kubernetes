@@ -1,0 +1,4762 @@
+[
+  {
+    "term": "Kubernetes",
+    "category": "00-fundamentos-e-linguagem",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "K8s",
+    "category": "00-fundamentos-e-linguagem",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "OpenShift Container Platform",
+    "category": "00-fundamentos-e-linguagem",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Cluster",
+    "category": "00-fundamentos-e-linguagem",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "API",
+    "category": "00-fundamentos-e-linguagem",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "API Server",
+    "category": "00-fundamentos-e-linguagem",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Objeto",
+    "category": "00-fundamentos-e-linguagem",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Recurso",
+    "category": "00-fundamentos-e-linguagem",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Kind",
+    "category": "00-fundamentos-e-linguagem",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "API Group",
+    "category": "00-fundamentos-e-linguagem",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "API Version",
+    "category": "00-fundamentos-e-linguagem",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Manifest",
+    "category": "00-fundamentos-e-linguagem",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "YAML",
+    "category": "00-fundamentos-e-linguagem",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "JSON",
+    "category": "00-fundamentos-e-linguagem",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Spec",
+    "category": "00-fundamentos-e-linguagem",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Status",
+    "category": "00-fundamentos-e-linguagem",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Metadata",
+    "category": "00-fundamentos-e-linguagem",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Estado desejado",
+    "category": "00-fundamentos-e-linguagem",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Estado observado",
+    "category": "00-fundamentos-e-linguagem",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Reconciliação",
+    "category": "00-fundamentos-e-linguagem",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Controller",
+    "category": "00-fundamentos-e-linguagem",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Control Loop",
+    "category": "00-fundamentos-e-linguagem",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Namespace",
+    "category": "00-fundamentos-e-linguagem",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Project",
+    "category": "00-fundamentos-e-linguagem",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Resource Name",
+    "category": "00-fundamentos-e-linguagem",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "UID",
+    "category": "00-fundamentos-e-linguagem",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Label",
+    "category": "00-fundamentos-e-linguagem",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Annotation",
+    "category": "00-fundamentos-e-linguagem",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Selector",
+    "category": "00-fundamentos-e-linguagem",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "OwnerReference",
+    "category": "00-fundamentos-e-linguagem",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Finalizer",
+    "category": "00-fundamentos-e-linguagem",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Garbage Collection",
+    "category": "00-fundamentos-e-linguagem",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ResourceVersion",
+    "category": "00-fundamentos-e-linguagem",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Generation",
+    "category": "00-fundamentos-e-linguagem",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ObservedGeneration",
+    "category": "00-fundamentos-e-linguagem",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Conditions",
+    "category": "00-fundamentos-e-linguagem",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Events",
+    "category": "00-fundamentos-e-linguagem",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Control Plane",
+    "category": "01-arquitetura-e-control-plane",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Worker Node",
+    "category": "01-arquitetura-e-control-plane",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Master Node",
+    "category": "01-arquitetura-e-control-plane",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "kube-apiserver",
+    "category": "01-arquitetura-e-control-plane",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "etcd",
+    "category": "01-arquitetura-e-control-plane",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "kube-scheduler",
+    "category": "01-arquitetura-e-control-plane",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "kube-controller-manager",
+    "category": "01-arquitetura-e-control-plane",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "cloud-controller-manager",
+    "category": "01-arquitetura-e-control-plane",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "kubelet",
+    "category": "01-arquitetura-e-control-plane",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Container Runtime",
+    "category": "01-arquitetura-e-control-plane",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "CRI",
+    "category": "01-arquitetura-e-control-plane",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "CRI-O",
+    "category": "01-arquitetura-e-control-plane",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Kube Proxy",
+    "category": "01-arquitetura-e-control-plane",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "OVN-Kubernetes",
+    "category": "01-arquitetura-e-control-plane",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "CoreDNS",
+    "category": "01-arquitetura-e-control-plane",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "DNS Operator",
+    "category": "01-arquitetura-e-control-plane",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Cluster DNS",
+    "category": "01-arquitetura-e-control-plane",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Cluster Version Operator",
+    "category": "01-arquitetura-e-control-plane",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Cluster Operator",
+    "category": "01-arquitetura-e-control-plane",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Machine Config Operator",
+    "category": "01-arquitetura-e-control-plane",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "MachineConfig",
+    "category": "01-arquitetura-e-control-plane",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "MachineConfigPool",
+    "category": "01-arquitetura-e-control-plane",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Bootstrap",
+    "category": "01-arquitetura-e-control-plane",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Quorum",
+    "category": "01-arquitetura-e-control-plane",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "High Availability",
+    "category": "01-arquitetura-e-control-plane",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "SNO",
+    "category": "01-arquitetura-e-control-plane",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "HyperShift",
+    "category": "01-arquitetura-e-control-plane",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Hosted Control Plane",
+    "category": "01-arquitetura-e-control-plane",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Node Agent",
+    "category": "01-arquitetura-e-control-plane",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Static Pod",
+    "category": "01-arquitetura-e-control-plane",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Infrastructure Node",
+    "category": "01-arquitetura-e-control-plane",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Node",
+    "category": "02-compute-e-nodes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Machine",
+    "category": "02-compute-e-nodes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "MachineSet",
+    "category": "02-compute-e-nodes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "MachineHealthCheck",
+    "category": "02-compute-e-nodes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "BareMetalHost",
+    "category": "02-compute-e-nodes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "RHCOS",
+    "category": "02-compute-e-nodes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Capacity",
+    "category": "02-compute-e-nodes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Allocatable",
+    "category": "02-compute-e-nodes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "CPU",
+    "category": "02-compute-e-nodes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Memory",
+    "category": "02-compute-e-nodes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Ephemeral Storage",
+    "category": "02-compute-e-nodes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "HugePages",
+    "category": "02-compute-e-nodes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Extended Resource",
+    "category": "02-compute-e-nodes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Device Plugin",
+    "category": "02-compute-e-nodes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Node Label",
+    "category": "02-compute-e-nodes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Node Annotation",
+    "category": "02-compute-e-nodes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Node Condition",
+    "category": "02-compute-e-nodes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Node Ready",
+    "category": "02-compute-e-nodes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Node Pressure",
+    "category": "02-compute-e-nodes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Taint",
+    "category": "02-compute-e-nodes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Toleration",
+    "category": "02-compute-e-nodes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Cordon",
+    "category": "02-compute-e-nodes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Drain",
+    "category": "02-compute-e-nodes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Uncordon",
+    "category": "02-compute-e-nodes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Node Debug",
+    "category": "02-compute-e-nodes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Node Affinity",
+    "category": "02-compute-e-nodes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Node Selector",
+    "category": "02-compute-e-nodes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "NUMA",
+    "category": "02-compute-e-nodes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "cgroups",
+    "category": "02-compute-e-nodes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "OOMKill",
+    "category": "02-compute-e-nodes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "QoS Class",
+    "category": "02-compute-e-nodes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Resource Request",
+    "category": "02-compute-e-nodes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Resource Limit",
+    "category": "02-compute-e-nodes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "LimitRange",
+    "category": "02-compute-e-nodes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ResourceQuota",
+    "category": "02-compute-e-nodes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Pod",
+    "category": "03-workloads",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Container",
+    "category": "03-workloads",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Init Container",
+    "category": "03-workloads",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Sidecar Container",
+    "category": "03-workloads",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Ephemeral Container",
+    "category": "03-workloads",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Pod Lifecycle",
+    "category": "03-workloads",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Container Lifecycle",
+    "category": "03-workloads",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Pod Phase",
+    "category": "03-workloads",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Pod Condition",
+    "category": "03-workloads",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Restart Policy",
+    "category": "03-workloads",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Deployment",
+    "category": "03-workloads",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ReplicaSet",
+    "category": "03-workloads",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ReplicationController",
+    "category": "03-workloads",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "DeploymentConfig",
+    "category": "03-workloads",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "StatefulSet",
+    "category": "03-workloads",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "DaemonSet",
+    "category": "03-workloads",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Job",
+    "category": "03-workloads",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "CronJob",
+    "category": "03-workloads",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Batch",
+    "category": "03-workloads",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "RollingUpdate",
+    "category": "03-workloads",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Recreate",
+    "category": "03-workloads",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Rollout",
+    "category": "03-workloads",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Rollback",
+    "category": "03-workloads",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Replica",
+    "category": "03-workloads",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Pod Template",
+    "category": "03-workloads",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Readiness Probe",
+    "category": "03-workloads",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Liveness Probe",
+    "category": "03-workloads",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Startup Probe",
+    "category": "03-workloads",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Lifecycle Hook",
+    "category": "03-workloads",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "PreStop",
+    "category": "03-workloads",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "CrashLoopBackOff",
+    "category": "03-workloads",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ImagePullBackOff",
+    "category": "03-workloads",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Completed",
+    "category": "03-workloads",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Pending",
+    "category": "03-workloads",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Running",
+    "category": "03-workloads",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Terminating",
+    "category": "03-workloads",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Termination Grace Period",
+    "category": "03-workloads",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "HorizontalPodAutoscaler",
+    "category": "03-workloads",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Cluster Network",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Pod Network",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Service Network",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "CIDR",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "CNI",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "OVN-Kubernetes",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "SDN",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Pod IP",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Service IP",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ClusterIP",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "NodePort",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "LoadBalancer Service",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ExternalName",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Headless Service",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Service",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Service Discovery",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "EndpointSlice",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Endpoint",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "DNS",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "CoreDNS",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "NetworkPolicy",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "AdminNetworkPolicy",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "BaselineAdminNetworkPolicy",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Egress",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Ingress Traffic",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Ingress Resource",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "IngressController",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "OpenShift Router",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Route",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Hostname",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "TLS Termination",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Edge Termination",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Re-encrypt Termination",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Passthrough Termination",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "SNI",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "HTTP",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "HTTPS",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "TCP",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "UDP",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "SCTP",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "IngressClass",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Gateway API",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "GatewayClass",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Gateway",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "HTTPRoute",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Service Mesh",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Multus",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "NetworkAttachmentDefinition",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Secondary Network",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "UserDefinedNetwork",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ClusterUserDefinedNetwork",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "EgressIP",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "EgressFirewall",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "EgressRouter",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "NAT",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "MTU",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "DNSPolicy",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "DNSConfig",
+    "category": "04-networking",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Volume",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Ephemeral Volume",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "emptyDir",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "hostPath",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Projected Volume",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "PersistentVolume",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "PV",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "PersistentVolumeClaim",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "PVC",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "StorageClass",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Provisioner",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "CSI",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "CSIDriver",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "CSINode",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "CSIStorageCapacity",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "VolumeAttachment",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "VolumeSnapshot",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "VolumeSnapshotClass",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "VolumeSnapshotContent",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Dynamic Provisioning",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Static Provisioning",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Access Mode",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ReadWriteOnce",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ReadWriteOncePod",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ReadOnlyMany",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ReadWriteMany",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Reclaim Policy",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Retain",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Delete",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Binding Mode",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "WaitForFirstConsumer",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Volume Expansion",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Block Volume",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Filesystem Volume",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "MountPath",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "SubPath",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Local Volume",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "NFS",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Ceph",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ODF",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Storage Operator",
+    "category": "05-storage",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ConfigMap",
+    "category": "06-configuracao-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Secret",
+    "category": "06-configuracao-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Opaque Secret",
+    "category": "06-configuracao-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "TLS Secret",
+    "category": "06-configuracao-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ImagePullSecret",
+    "category": "06-configuracao-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ServiceAccount Token",
+    "category": "06-configuracao-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Environment Variable",
+    "category": "06-configuracao-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "envFrom",
+    "category": "06-configuracao-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Downward API",
+    "category": "06-configuracao-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ConfigMap Volume",
+    "category": "06-configuracao-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Secret Volume",
+    "category": "06-configuracao-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Projection",
+    "category": "06-configuracao-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Resource Field Reference",
+    "category": "06-configuracao-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Field Reference",
+    "category": "06-configuracao-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "CustomResourceDefinition",
+    "category": "06-configuracao-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "CRD",
+    "category": "06-configuracao-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Custom Resource",
+    "category": "06-configuracao-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "CR",
+    "category": "06-configuracao-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Aggregated API",
+    "category": "06-configuracao-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "APIService",
+    "category": "06-configuracao-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Admission Controller",
+    "category": "06-configuracao-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Mutating Webhook",
+    "category": "06-configuracao-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Validating Webhook",
+    "category": "06-configuracao-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ValidatingAdmissionPolicy",
+    "category": "06-configuracao-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Schema",
+    "category": "06-configuracao-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "OpenAPI",
+    "category": "06-configuracao-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "oc explain",
+    "category": "06-configuracao-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "API Discovery",
+    "category": "06-configuracao-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "API Deprecation",
+    "category": "06-configuracao-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Defaulting",
+    "category": "06-configuracao-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Validation",
+    "category": "06-configuracao-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Strategic Merge Patch",
+    "category": "06-configuracao-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "JSON Patch",
+    "category": "06-configuracao-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Server Side Apply",
+    "category": "06-configuracao-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Authentication",
+    "category": "07-identidade-e-rbac",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Authorization",
+    "category": "07-identidade-e-rbac",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Authentication Operator",
+    "category": "07-identidade-e-rbac",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "OAuth",
+    "category": "07-identidade-e-rbac",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "OAuth Server",
+    "category": "07-identidade-e-rbac",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Identity Provider",
+    "category": "07-identidade-e-rbac",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "HTPasswd",
+    "category": "07-identidade-e-rbac",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "LDAP",
+    "category": "07-identidade-e-rbac",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "OpenID Connect",
+    "category": "07-identidade-e-rbac",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "User",
+    "category": "07-identidade-e-rbac",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Identity",
+    "category": "07-identidade-e-rbac",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Group",
+    "category": "07-identidade-e-rbac",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ServiceAccount",
+    "category": "07-identidade-e-rbac",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Token",
+    "category": "07-identidade-e-rbac",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Bearer Token",
+    "category": "07-identidade-e-rbac",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Kubeconfig",
+    "category": "07-identidade-e-rbac",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Context",
+    "category": "07-identidade-e-rbac",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ClusterRole",
+    "category": "07-identidade-e-rbac",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Role",
+    "category": "07-identidade-e-rbac",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "RoleBinding",
+    "category": "07-identidade-e-rbac",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ClusterRoleBinding",
+    "category": "07-identidade-e-rbac",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "RBAC",
+    "category": "07-identidade-e-rbac",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Verb",
+    "category": "07-identidade-e-rbac",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Subject",
+    "category": "07-identidade-e-rbac",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Resource",
+    "category": "07-identidade-e-rbac",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Subresource",
+    "category": "07-identidade-e-rbac",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Namespace Isolation",
+    "category": "07-identidade-e-rbac",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "SCC",
+    "category": "07-identidade-e-rbac",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "SubjectAccessReview",
+    "category": "07-identidade-e-rbac",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "SelfSubjectAccessReview",
+    "category": "07-identidade-e-rbac",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "SelfSubjectRulesReview",
+    "category": "07-identidade-e-rbac",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Impersonation",
+    "category": "07-identidade-e-rbac",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "oc auth can-i",
+    "category": "07-identidade-e-rbac",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Certificate Signing Request",
+    "category": "07-identidade-e-rbac",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "CSR",
+    "category": "07-identidade-e-rbac",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Client Certificate",
+    "category": "07-identidade-e-rbac",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Service Account Token Projection",
+    "category": "07-identidade-e-rbac",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "SecurityContext",
+    "category": "08-seguranca-e-politicas",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "PodSecurityContext",
+    "category": "08-seguranca-e-politicas",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Security Context Constraints",
+    "category": "08-seguranca-e-politicas",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "SCC",
+    "category": "08-seguranca-e-politicas",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Pod Security Admission",
+    "category": "08-seguranca-e-politicas",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Pod Security Standards",
+    "category": "08-seguranca-e-politicas",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Privileged",
+    "category": "08-seguranca-e-politicas",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Restricted",
+    "category": "08-seguranca-e-politicas",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Non-root",
+    "category": "08-seguranca-e-politicas",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "RunAsUser",
+    "category": "08-seguranca-e-politicas",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "SELinux",
+    "category": "08-seguranca-e-politicas",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Seccomp",
+    "category": "08-seguranca-e-politicas",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "AppArmor",
+    "category": "08-seguranca-e-politicas",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Capability",
+    "category": "08-seguranca-e-politicas",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Linux Namespace",
+    "category": "08-seguranca-e-politicas",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Container Isolation",
+    "category": "08-seguranca-e-politicas",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "NetworkPolicy",
+    "category": "08-seguranca-e-politicas",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Audit",
+    "category": "08-seguranca-e-politicas",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Encryption at Rest",
+    "category": "08-seguranca-e-politicas",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Secret Encryption",
+    "category": "08-seguranca-e-politicas",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "TLS",
+    "category": "08-seguranca-e-politicas",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "mTLS",
+    "category": "08-seguranca-e-politicas",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Certificate Authority",
+    "category": "08-seguranca-e-politicas",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "CA Bundle",
+    "category": "08-seguranca-e-politicas",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Service CA",
+    "category": "08-seguranca-e-politicas",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Trust Bundle",
+    "category": "08-seguranca-e-politicas",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "KMS",
+    "category": "08-seguranca-e-politicas",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Image Signature",
+    "category": "08-seguranca-e-politicas",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Image Policy",
+    "category": "08-seguranca-e-politicas",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Signature Verification",
+    "category": "08-seguranca-e-politicas",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "FIPS",
+    "category": "08-seguranca-e-politicas",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Compliance Operator",
+    "category": "08-seguranca-e-politicas",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Vulnerability Scanning",
+    "category": "08-seguranca-e-politicas",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Supply Chain Security",
+    "category": "08-seguranca-e-politicas",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "SBOM",
+    "category": "08-seguranca-e-politicas",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Admission Policy",
+    "category": "08-seguranca-e-politicas",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Egress Policy",
+    "category": "08-seguranca-e-politicas",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Least Privilege",
+    "category": "08-seguranca-e-politicas",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Operator Pattern",
+    "category": "09-operators-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Operator",
+    "category": "09-operators-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Controller",
+    "category": "09-operators-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Reconciliation Loop",
+    "category": "09-operators-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Operand",
+    "category": "09-operators-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "OperatorHub",
+    "category": "09-operators-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Operator Lifecycle Manager",
+    "category": "09-operators-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "OLM Classic",
+    "category": "09-operators-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "OLM v1",
+    "category": "09-operators-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Subscription",
+    "category": "09-operators-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "InstallPlan",
+    "category": "09-operators-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ClusterServiceVersion",
+    "category": "09-operators-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "CSV",
+    "category": "09-operators-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "CatalogSource",
+    "category": "09-operators-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "OperatorGroup",
+    "category": "09-operators-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "PackageManifest",
+    "category": "09-operators-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Bundle",
+    "category": "09-operators-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Channel",
+    "category": "09-operators-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "File Based Catalog",
+    "category": "09-operators-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Catalogd",
+    "category": "09-operators-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Operator Controller",
+    "category": "09-operators-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ClusterExtension",
+    "category": "09-operators-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ClusterCatalog",
+    "category": "09-operators-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "CustomResourceDefinition",
+    "category": "09-operators-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Custom Resource",
+    "category": "09-operators-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ClusterOperator",
+    "category": "09-operators-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Cluster Version Operator",
+    "category": "09-operators-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Operand Namespace",
+    "category": "09-operators-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Install Mode",
+    "category": "09-operators-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Upgrade Graph",
+    "category": "09-operators-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "AllNamespaces",
+    "category": "09-operators-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "OwnNamespace",
+    "category": "09-operators-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "TargetNamespaces",
+    "category": "09-operators-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Operator Conditions",
+    "category": "09-operators-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "APIService",
+    "category": "09-operators-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Operator SDK",
+    "category": "09-operators-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Helm-based Operator",
+    "category": "09-operators-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Ansible-based Operator",
+    "category": "09-operators-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Container Image",
+    "category": "10-builds-imagens-registry",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "OCI Image",
+    "category": "10-builds-imagens-registry",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Image Layer",
+    "category": "10-builds-imagens-registry",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Image Digest",
+    "category": "10-builds-imagens-registry",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Image Tag",
+    "category": "10-builds-imagens-registry",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Image Pull Policy",
+    "category": "10-builds-imagens-registry",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Registry",
+    "category": "10-builds-imagens-registry",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Integrated Registry",
+    "category": "10-builds-imagens-registry",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ImageStream",
+    "category": "10-builds-imagens-registry",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ImageStreamTag",
+    "category": "10-builds-imagens-registry",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ImageStreamImage",
+    "category": "10-builds-imagens-registry",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Build",
+    "category": "10-builds-imagens-registry",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "BuildConfig",
+    "category": "10-builds-imagens-registry",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Build Pod",
+    "category": "10-builds-imagens-registry",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Build Strategy",
+    "category": "10-builds-imagens-registry",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Source-to-Image",
+    "category": "10-builds-imagens-registry",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "S2I",
+    "category": "10-builds-imagens-registry",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Docker Strategy",
+    "category": "10-builds-imagens-registry",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Pipeline Strategy",
+    "category": "10-builds-imagens-registry",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Custom Strategy",
+    "category": "10-builds-imagens-registry",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Build Trigger",
+    "category": "10-builds-imagens-registry",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Binary Build",
+    "category": "10-builds-imagens-registry",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Source Build",
+    "category": "10-builds-imagens-registry",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Git Source",
+    "category": "10-builds-imagens-registry",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Buildah",
+    "category": "10-builds-imagens-registry",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Dockerfile",
+    "category": "10-builds-imagens-registry",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Containerfile",
+    "category": "10-builds-imagens-registry",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Build Context",
+    "category": "10-builds-imagens-registry",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Container Registry Authentication",
+    "category": "10-builds-imagens-registry",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Pull Secret",
+    "category": "10-builds-imagens-registry",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Push Secret",
+    "category": "10-builds-imagens-registry",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Image Pruning",
+    "category": "10-builds-imagens-registry",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Image Mirroring",
+    "category": "10-builds-imagens-registry",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ImageContentSourcePolicy",
+    "category": "10-builds-imagens-registry",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ImageDigestMirrorSet",
+    "category": "10-builds-imagens-registry",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ImageTagMirrorSet",
+    "category": "10-builds-imagens-registry",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Image Registry Operator",
+    "category": "10-builds-imagens-registry",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Quay",
+    "category": "10-builds-imagens-registry",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Scheduling",
+    "category": "11-agendamento-e-escalabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "kube-scheduler",
+    "category": "11-agendamento-e-escalabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Scheduling Queue",
+    "category": "11-agendamento-e-escalabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Pending Pod",
+    "category": "11-agendamento-e-escalabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "NodeSelector",
+    "category": "11-agendamento-e-escalabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Node Affinity",
+    "category": "11-agendamento-e-escalabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Pod Affinity",
+    "category": "11-agendamento-e-escalabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Pod Anti-Affinity",
+    "category": "11-agendamento-e-escalabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Taints",
+    "category": "11-agendamento-e-escalabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Tolerations",
+    "category": "11-agendamento-e-escalabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Topology Spread Constraints",
+    "category": "11-agendamento-e-escalabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "PriorityClass",
+    "category": "11-agendamento-e-escalabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Preemption",
+    "category": "11-agendamento-e-escalabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Eviction",
+    "category": "11-agendamento-e-escalabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "PDB",
+    "category": "11-agendamento-e-escalabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "PodDisruptionBudget",
+    "category": "11-agendamento-e-escalabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "HPA",
+    "category": "11-agendamento-e-escalabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "VPA",
+    "category": "11-agendamento-e-escalabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Cluster Autoscaler",
+    "category": "11-agendamento-e-escalabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Machine Autoscaler",
+    "category": "11-agendamento-e-escalabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Replica Scaling",
+    "category": "11-agendamento-e-escalabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Metrics API",
+    "category": "11-agendamento-e-escalabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Requests",
+    "category": "11-agendamento-e-escalabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Limits",
+    "category": "11-agendamento-e-escalabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ResourceQuota",
+    "category": "11-agendamento-e-escalabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "LimitRange",
+    "category": "11-agendamento-e-escalabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "OOMKilled",
+    "category": "11-agendamento-e-escalabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "CPU Throttling",
+    "category": "11-agendamento-e-escalabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Overcommit",
+    "category": "11-agendamento-e-escalabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Bin Packing",
+    "category": "11-agendamento-e-escalabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Topology Manager",
+    "category": "11-agendamento-e-escalabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Descheduler",
+    "category": "11-agendamento-e-escalabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Monitoring",
+    "category": "12-observabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Metrics",
+    "category": "12-observabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Logging",
+    "category": "12-observabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Tracing",
+    "category": "12-observabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Event",
+    "category": "12-observabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Kubernetes Event",
+    "category": "12-observabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "oc logs",
+    "category": "12-observabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "oc describe",
+    "category": "12-observabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "oc adm top",
+    "category": "12-observabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Metrics Server",
+    "category": "12-observabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Prometheus",
+    "category": "12-observabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Prometheus Operator",
+    "category": "12-observabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Alertmanager",
+    "category": "12-observabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Alert",
+    "category": "12-observabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Alert Rule",
+    "category": "12-observabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ServiceMonitor",
+    "category": "12-observabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "PodMonitor",
+    "category": "12-observabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "PrometheusRule",
+    "category": "12-observabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Thanos",
+    "category": "12-observabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "OpenShift Monitoring",
+    "category": "12-observabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "User Workload Monitoring",
+    "category": "12-observabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Cluster Monitoring Operator",
+    "category": "12-observabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Telemetry",
+    "category": "12-observabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "OpenTelemetry",
+    "category": "12-observabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Distributed Tracing",
+    "category": "12-observabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Loki",
+    "category": "12-observabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Log Forwarding",
+    "category": "12-observabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ClusterLogForwarder",
+    "category": "12-observabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Audit Log",
+    "category": "12-observabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Kube State Metrics",
+    "category": "12-observabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Node Exporter",
+    "category": "12-observabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Grafana",
+    "category": "12-observabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Dashboard",
+    "category": "12-observabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "SLI",
+    "category": "12-observabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "SLO",
+    "category": "12-observabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "SLA",
+    "category": "12-observabilidade",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "OpenShift Installer",
+    "category": "13-ciclo-de-vida-cluster",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "IPI",
+    "category": "13-ciclo-de-vida-cluster",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "UPI",
+    "category": "13-ciclo-de-vida-cluster",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Assisted Installer",
+    "category": "13-ciclo-de-vida-cluster",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Agent-based Installer",
+    "category": "13-ciclo-de-vida-cluster",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Ignition",
+    "category": "13-ciclo-de-vida-cluster",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Bootstrap Node",
+    "category": "13-ciclo-de-vida-cluster",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "RHCOS",
+    "category": "13-ciclo-de-vida-cluster",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "MachineConfig",
+    "category": "13-ciclo-de-vida-cluster",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "MachineConfigPool",
+    "category": "13-ciclo-de-vida-cluster",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "MCO",
+    "category": "13-ciclo-de-vida-cluster",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "CVO",
+    "category": "13-ciclo-de-vida-cluster",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ClusterVersion",
+    "category": "13-ciclo-de-vida-cluster",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ClusterOperator",
+    "category": "13-ciclo-de-vida-cluster",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Update Channel",
+    "category": "13-ciclo-de-vida-cluster",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Release Image",
+    "category": "13-ciclo-de-vida-cluster",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Update Graph",
+    "category": "13-ciclo-de-vida-cluster",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Cluster Upgrade",
+    "category": "13-ciclo-de-vida-cluster",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Upgradeability",
+    "category": "13-ciclo-de-vida-cluster",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Cluster Capability",
+    "category": "13-ciclo-de-vida-cluster",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Cluster Health",
+    "category": "13-ciclo-de-vida-cluster",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "etcd Backup",
+    "category": "13-ciclo-de-vida-cluster",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Disaster Recovery",
+    "category": "13-ciclo-de-vida-cluster",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Snapshot etcd",
+    "category": "13-ciclo-de-vida-cluster",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Restore etcd",
+    "category": "13-ciclo-de-vida-cluster",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Single Node OpenShift",
+    "category": "13-ciclo-de-vida-cluster",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Compact Cluster",
+    "category": "13-ciclo-de-vida-cluster",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Disconnected Cluster",
+    "category": "13-ciclo-de-vida-cluster",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Proxy",
+    "category": "13-ciclo-de-vida-cluster",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Trust Bundle",
+    "category": "13-ciclo-de-vida-cluster",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Certificate Rotation",
+    "category": "13-ciclo-de-vida-cluster",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "CSR Approval",
+    "category": "13-ciclo-de-vida-cluster",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Cluster Shutdown",
+    "category": "13-ciclo-de-vida-cluster",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Maintenance Window",
+    "category": "13-ciclo-de-vida-cluster",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "oc",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "kubectl",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "oc api-resources",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "oc api-versions",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "oc explain",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "oc get",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "oc describe",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "oc logs",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "oc events",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "oc adm",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "oc debug",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "oc rsh",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "oc exec",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "oc project",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "oc projects",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "oc whoami",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "oc config",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "oc auth can-i",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "oc rollout",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "oc scale",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "oc expose",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "oc new-app",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "oc new-project",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "oc status",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "kubectl get",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "jsonpath",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "jq",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "yq",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "YAML",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Kustomize",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "kustomization.yaml",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "oc apply",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "oc create",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "oc replace",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "oc patch",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "oc diff",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Server Side Apply",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Dry Run",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Watch",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Wide Output",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Custom Columns",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Label Selector",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Field Selector",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Context",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Kubeconfig",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Namespace",
+    "category": "14-cli-yaml-e-api",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Helm",
+    "category": "15-entrega-e-automacao",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Helm Chart",
+    "category": "15-entrega-e-automacao",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Chart.yaml",
+    "category": "15-entrega-e-automacao",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "values.yaml",
+    "category": "15-entrega-e-automacao",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Helm Release",
+    "category": "15-entrega-e-automacao",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Helm Template",
+    "category": "15-entrega-e-automacao",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Hook",
+    "category": "15-entrega-e-automacao",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Kustomize",
+    "category": "15-entrega-e-automacao",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Base",
+    "category": "15-entrega-e-automacao",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Overlay",
+    "category": "15-entrega-e-automacao",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "GitOps",
+    "category": "15-entrega-e-automacao",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Argo CD",
+    "category": "15-entrega-e-automacao",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "OpenShift GitOps",
+    "category": "15-entrega-e-automacao",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Application CR",
+    "category": "15-entrega-e-automacao",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ApplicationSet",
+    "category": "15-entrega-e-automacao",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Reconciliation",
+    "category": "15-entrega-e-automacao",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Sync",
+    "category": "15-entrega-e-automacao",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Drift",
+    "category": "15-entrega-e-automacao",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Declarative Deployment",
+    "category": "15-entrega-e-automacao",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "CI",
+    "category": "15-entrega-e-automacao",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "CD",
+    "category": "15-entrega-e-automacao",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Tekton",
+    "category": "15-entrega-e-automacao",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "OpenShift Pipelines",
+    "category": "15-entrega-e-automacao",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Task",
+    "category": "15-entrega-e-automacao",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "TaskRun",
+    "category": "15-entrega-e-automacao",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Pipeline",
+    "category": "15-entrega-e-automacao",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "PipelineRun",
+    "category": "15-entrega-e-automacao",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Trigger",
+    "category": "15-entrega-e-automacao",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "EventListener",
+    "category": "15-entrega-e-automacao",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Workspace",
+    "category": "15-entrega-e-automacao",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "PVC Workspace",
+    "category": "15-entrega-e-automacao",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Build",
+    "category": "15-entrega-e-automacao",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "BuildConfig",
+    "category": "15-entrega-e-automacao",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Webhook",
+    "category": "15-entrega-e-automacao",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Promotion",
+    "category": "15-entrega-e-automacao",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Rollback",
+    "category": "15-entrega-e-automacao",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Blue Green Deployment",
+    "category": "15-entrega-e-automacao",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Canary Deployment",
+    "category": "15-entrega-e-automacao",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "OpenShift Virtualization",
+    "category": "16-virtualizacao-ia-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "KubeVirt",
+    "category": "16-virtualizacao-ia-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "VirtualMachine",
+    "category": "16-virtualizacao-ia-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "VirtualMachineInstance",
+    "category": "16-virtualizacao-ia-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "DataVolume",
+    "category": "16-virtualizacao-ia-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "CDI",
+    "category": "16-virtualizacao-ia-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "VM Snapshot",
+    "category": "16-virtualizacao-ia-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Live Migration",
+    "category": "16-virtualizacao-ia-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "NetworkAttachmentDefinition",
+    "category": "16-virtualizacao-ia-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Multus",
+    "category": "16-virtualizacao-ia-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Node Network Configuration Policy",
+    "category": "16-virtualizacao-ia-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "NMState",
+    "category": "16-virtualizacao-ia-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "SR-IOV",
+    "category": "16-virtualizacao-ia-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "GPU Operator",
+    "category": "16-virtualizacao-ia-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "NVIDIA Device Plugin",
+    "category": "16-virtualizacao-ia-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "OpenShift AI",
+    "category": "16-virtualizacao-ia-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "KServe",
+    "category": "16-virtualizacao-ia-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "InferenceService",
+    "category": "16-virtualizacao-ia-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Model Serving",
+    "category": "16-virtualizacao-ia-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Data Science Project",
+    "category": "16-virtualizacao-ia-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Workbench",
+    "category": "16-virtualizacao-ia-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Model Registry",
+    "category": "16-virtualizacao-ia-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Ray",
+    "category": "16-virtualizacao-ia-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Kueue",
+    "category": "16-virtualizacao-ia-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Node Feature Discovery",
+    "category": "16-virtualizacao-ia-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Knative",
+    "category": "16-virtualizacao-ia-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Serverless",
+    "category": "16-virtualizacao-ia-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Service Mesh",
+    "category": "16-virtualizacao-ia-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Istio",
+    "category": "16-virtualizacao-ia-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Gateway API",
+    "category": "16-virtualizacao-ia-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Advanced Cluster Management",
+    "category": "16-virtualizacao-ia-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Multicluster",
+    "category": "16-virtualizacao-ia-e-extensoes",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Troubleshooting",
+    "category": "17-troubleshooting-e-resiliencia",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Event",
+    "category": "17-troubleshooting-e-resiliencia",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Condition",
+    "category": "17-troubleshooting-e-resiliencia",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Degraded",
+    "category": "17-troubleshooting-e-resiliencia",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Available",
+    "category": "17-troubleshooting-e-resiliencia",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Progressing",
+    "category": "17-troubleshooting-e-resiliencia",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Failing",
+    "category": "17-troubleshooting-e-resiliencia",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Pod Pending",
+    "category": "17-troubleshooting-e-resiliencia",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "CrashLoopBackOff",
+    "category": "17-troubleshooting-e-resiliencia",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ImagePullBackOff",
+    "category": "17-troubleshooting-e-resiliencia",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ErrImagePull",
+    "category": "17-troubleshooting-e-resiliencia",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "OOMKilled",
+    "category": "17-troubleshooting-e-resiliencia",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Evicted",
+    "category": "17-troubleshooting-e-resiliencia",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "FailedScheduling",
+    "category": "17-troubleshooting-e-resiliencia",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "FailedMount",
+    "category": "17-troubleshooting-e-resiliencia",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ContainerCreating",
+    "category": "17-troubleshooting-e-resiliencia",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Terminating Pod",
+    "category": "17-troubleshooting-e-resiliencia",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Stuck Finalizer",
+    "category": "17-troubleshooting-e-resiliencia",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "DNS Resolution Failure",
+    "category": "17-troubleshooting-e-resiliencia",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Connection Refused",
+    "category": "17-troubleshooting-e-resiliencia",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Connection Timeout",
+    "category": "17-troubleshooting-e-resiliencia",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "TLS Handshake Failure",
+    "category": "17-troubleshooting-e-resiliencia",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Service Endpoint Missing",
+    "category": "17-troubleshooting-e-resiliencia",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "NetworkPolicy Deny",
+    "category": "17-troubleshooting-e-resiliencia",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "PVC Pending",
+    "category": "17-troubleshooting-e-resiliencia",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Node NotReady",
+    "category": "17-troubleshooting-e-resiliencia",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Cordon",
+    "category": "17-troubleshooting-e-resiliencia",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Drain",
+    "category": "17-troubleshooting-e-resiliencia",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Must Gather",
+    "category": "17-troubleshooting-e-resiliencia",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "oc adm inspect",
+    "category": "17-troubleshooting-e-resiliencia",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "oc debug",
+    "category": "17-troubleshooting-e-resiliencia",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "oc logs --previous",
+    "category": "17-troubleshooting-e-resiliencia",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "API Unavailable",
+    "category": "17-troubleshooting-e-resiliencia",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "etcd Quorum Lost",
+    "category": "17-troubleshooting-e-resiliencia",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Rollout Stalled",
+    "category": "17-troubleshooting-e-resiliencia",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "ClusterOperator Degraded",
+    "category": "17-troubleshooting-e-resiliencia",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  },
+  {
+    "term": "Observability Gap",
+    "category": "17-troubleshooting-e-resiliencia",
+    "status": "a-validar",
+    "kind_class": "a-classificar",
+    "source": "documentacao oficial / oc api-resources quando aplicavel"
+  }
+]

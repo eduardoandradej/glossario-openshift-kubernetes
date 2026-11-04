@@ -1,0 +1,28 @@
+# Índice alfabético — verbetes-semente
+
+> Entradas candidatas ainda não desenvolvidas constam em `dados/inventario.json`. Apenas páginas existentes são indexadas aqui.
+
+- [BuildConfig](../categorias/10-builds-imagens-registry/verbetes/buildconfig.md)
+- [ClusterExtension](../categorias/09-operators-e-extensoes/verbetes/clusterextension.md)
+- [ClusterOperator](../categorias/09-operators-e-extensoes/verbetes/clusteroperator.md)
+- [ConfigMap](../categorias/06-configuracao-e-api/verbetes/configmap.md)
+- [CustomResourceDefinition](../categorias/09-operators-e-extensoes/verbetes/customresourcedefinition.md)
+- [DaemonSet](../categorias/03-workloads/verbetes/daemonset.md)
+- [Deployment](../categorias/03-workloads/verbetes/deployment.md)
+- [Ingress](../categorias/04-networking/verbetes/ingress.md)
+- [IngressController](../categorias/04-networking/verbetes/ingresscontroller.md)
+- [Job](../categorias/03-workloads/verbetes/job.md)
+- [Namespace](../categorias/00-fundamentos-e-linguagem/verbetes/namespace.md)
+- [NetworkPolicy](../categorias/04-networking/verbetes/networkpolicy.md)
+- [Node](../categorias/02-compute-e-nodes/verbetes/node.md)
+- [Operator](../categorias/09-operators-e-extensoes/verbetes/operator.md)
+- [PersistentVolume](../categorias/05-storage/verbetes/persistentvolume.md)
+- [PersistentVolumeClaim](../categorias/05-storage/verbetes/persistentvolumeclaim.md)
+- [Pod](../categorias/03-workloads/verbetes/pod.md)
+- [ReplicaSet](../categorias/03-workloads/verbetes/replicaset.md)
+- [Route](../categorias/04-networking/verbetes/route.md)
+- [Secret](../categorias/06-configuracao-e-api/verbetes/secret.md)
+- [Service](../categorias/04-networking/verbetes/service.md)
+- [ServiceAccount](../categorias/07-identidade-e-rbac/verbetes/serviceaccount.md)
+- [StatefulSet](../categorias/03-workloads/verbetes/statefulset.md)
+- [StorageClass](../categorias/05-storage/verbetes/storageclass.md)

@@ -17,7 +17,7 @@ Este glossário organiza esse vocabulário de forma sistemática. Cada termo é 
 
 Sou **Eduardo Andrade**, profissional especializado em infraestrutura Linux corporativa, cibersegurança, automação e computação em nuvem, com ampla experiência em ambientes de missão crítica baseados em Red Hat Enterprise Linux (RHEL), virtualização, observabilidade e operações de alta disponibilidade. Sou mestre em Computação Aplicada, com ênfase em Cibersegurança.
 
-Sou um eterno aprendiz, movido por problemas complexos e pelo que se aprende com cada erro e cada acerto. Este glossário reúne esse estudo contínuo, com o objetivo de apresentar tecnologias complexas de forma clara e acessível, sem perda de rigor técnico.
+Sou um eterno aprendiz, movido por desafios e problemas complexos e pelo que se aprende com cada erro e cada acerto. Este glossário reúne esse estudo contínuo, com o objetivo de apresentar tecnologias complexas de forma clara e acessível, sem perda de rigor técnico.
 
 <br clear="left" />
 

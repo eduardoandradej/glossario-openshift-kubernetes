@@ -8,7 +8,7 @@
 
 **Legenda:** `[x] … 🟡` = verbete desenvolvido, com fontes oficiais conferidas, mas **sem validação no cluster** (não conta como concluído) · `[ ]` = candidato ou semente.
 
-**Lote 1 (2026-11-04):** 12 verbetes + 1 remissão (K8s). **Lote 2 (2026-11-04):** 10 verbetes novos, Namespace reescrito, 1 remissão (Control Loop). Próximo lote: ver [estado do projeto](../../docs/ESTADO-DO-PROJETO.md).
+**Lote 1 (2026-11-04):** 12 verbetes + 1 remissão (K8s). **Lote 2 (2026-11-04):** 10 verbetes novos, Namespace reescrito, 1 remissão (Control Loop). **Lote 3 (2026-11-04):** 12 verbetes; **todos os 37 candidatos da categoria cobertos** (34 verbetes, 3 remissões). Próximo lote: ver [estado do projeto](../../docs/ESTADO-DO-PROJETO.md).
 
 - [x] [Kubernetes](verbetes/kubernetes.md) 🟡
 - [x] [K8s](verbetes/kubernetes.md) — remissão 🟡
@@ -33,20 +33,20 @@
 - [x] [Controller](verbetes/controller.md) 🟡
 - [x] [Control Loop](verbetes/controller.md) — remissão para Controller e [Reconciliação](verbetes/reconciliation.md) 🟡
 - [x] [Namespace](verbetes/namespace.md) 🟡 (reescrito no lote 2)
-- [ ] Project
+- [x] [Project](verbetes/project.md) 🟡
 - [x] [Resource Name](verbetes/resource-name.md) 🟡
 - [x] [UID](verbetes/uid.md) 🟡
-- [ ] Label
-- [ ] Annotation
-- [ ] Selector
-- [ ] OwnerReference
-- [ ] Finalizer
-- [ ] Garbage Collection
-- [ ] ResourceVersion
-- [ ] Generation
-- [ ] ObservedGeneration
-- [ ] Conditions
-- [ ] Events
+- [x] [Label](verbetes/label.md) 🟡
+- [x] [Annotation](verbetes/annotation.md) 🟡
+- [x] [Selector](verbetes/selector.md) 🟡
+- [x] [OwnerReference](verbetes/owner-reference.md) 🟡
+- [x] [Finalizer](verbetes/finalizer.md) 🟡
+- [x] [Garbage Collection](verbetes/garbage-collection.md) 🟡
+- [x] [ResourceVersion](verbetes/resource-version.md) 🟡
+- [x] [Generation](verbetes/generation.md) 🟡
+- [x] [ObservedGeneration](verbetes/observed-generation.md) 🟡
+- [x] [Conditions](verbetes/conditions.md) 🟡
+- [x] [Events](verbetes/events.md) 🟡
 
 ## Como expandir
 

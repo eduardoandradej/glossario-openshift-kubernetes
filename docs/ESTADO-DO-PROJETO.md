@@ -1,5 +1,18 @@
 # Estado do projeto
 
+## Rodada 2026-11-04 (3) — categoria 00, lote 3 (categoria coberta)
+
+- **12 verbetes novos:** Project, Label, Annotation, Selector, OwnerReference, Finalizer, Garbage Collection, ResourceVersion, Generation, ObservedGeneration, Conditions e Events.
+- **Categoria 00 coberta:** os 37 candidatos viraram 34 verbetes e 3 remissões (K8s, Control Loop e o próprio API/Kubernetes API). Todos 🟡: **sem validação no cluster**.
+- **Correção transversal:** no Kubernetes 1.35, `resourceVersion` passou a ser ordenável dentro do mesmo tipo de recurso (requisito de conformidade). O verbete Metadata foi ajustado.
+- Remissões "verbete futuro" dos lotes anteriores agora apontam para páginas existentes.
+
+### Próximo passo recomendado
+
+1. **Revisão da categoria 00** com o [prompt de revisão](../PROMPT-REVISAO.md), gerando `docs/revisoes/00-fundamentos-e-linguagem.md`.
+2. **Validação no SNO**, com autorização do autor, dos itens de [TERMOS-A-VALIDAR](TERMOS-A-VALIDAR.md).
+3. Depois disso, a categoria **01 — Arquitetura e control plane**.
+
 ## Rodada 2026-11-04 (2) — categoria 00, lote 2
 
 - **10 verbetes novos:** API Server, API Group, API Version, Manifest, YAML, JSON, Metadata, Controller, Resource Name e UID. **Namespace** reescrito (de 🌱 semente para 🟡 desenvolvido). **Control Loop** virou remissão para Controller e Reconciliação.
@@ -7,7 +20,7 @@
 - Todos 🟡: **sem validação no cluster**; pendências em [TERMOS-A-VALIDAR](TERMOS-A-VALIDAR.md).
 - **README:** abertura com apresentação do autor, LinkedIn e Credly. Os repositórios de curso privados não são mais citados.
 
-### Próximo lote recomendado (categoria 00, lote 3, que fecha a categoria)
+### Próximo lote recomendado na época (categoria 00, lote 3) — concluído
 
 Project, Label, Annotation, Selector, OwnerReference, Finalizer, Garbage Collection, ResourceVersion, Generation, ObservedGeneration, Conditions e Events.
 

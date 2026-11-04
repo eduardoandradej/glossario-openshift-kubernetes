@@ -37,7 +37,7 @@ Segundo a documentação, objetos descrevem, por exemplo: quais aplicações con
 2. **Persistência:** o API server valida, aplica valores padrão (*defaulting*) e grava no etcd. O sistema preenche `metadata.uid`, `metadata.resourceVersion` e `metadata.creationTimestamp`.
 3. **Reconciliação:** controllers leem o [`spec`](spec.md), agem e escrevem o [`status`](status.md).
 4. **Alteração:** mudanças em `spec` incrementam `metadata.generation` na maioria dos tipos; os controllers retomam a reconciliação.
-5. **Exclusão:** o objeto pode passar por *finalizers* e coleta de lixo (*garbage collection*) dos objetos dependentes (verbetes futuros desta categoria).
+5. **Exclusão:** o objeto pode passar por [finalizers](finalizer.md) e pela [coleta de lixo](garbage-collection.md) dos objetos dependentes.
 
 **Unicidade:** dentro de um namespace só pode existir um objeto de um dado tipo com um dado nome. Para tipos cluster-scoped, como Node, o nome é único no cluster todo.
 

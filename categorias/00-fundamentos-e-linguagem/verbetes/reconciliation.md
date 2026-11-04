@@ -119,4 +119,4 @@ flowchart TB
 ## Revisão editorial
 
 - **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
-- **Pendências:** criar os verbetes *Controller* e *Control Loop* (inventário da categoria 00) com remissão para cá, sem duplicar o conteúdo. A sequência de estados no `-w` é **ilustrativa**; não foi observada no SNO.
+- **Pendências:** o verbete [Controller](controller.md) foi criado no lote 2, e *Control Loop* é remissão para ele e para cá. A sequência de estados no `-w` é **ilustrativa**; não foi observada no SNO.

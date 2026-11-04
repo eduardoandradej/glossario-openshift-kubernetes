@@ -33,7 +33,7 @@ A documentação faz duas ressalvas: clusters pequenos, com poucos usuários, po
 - Define o escopo do [nome](resource-name.md) e se aplica a [recursos](resource.md) namespaced.
 - É gerenciado pelo controller de namespace (ver [Controller](controller.md)).
 - Fronteira para RBAC, quotas e [NetworkPolicy](../../04-networking/verbetes/networkpolicy.md).
-- No OpenShift, cada namespace de usuário é apresentado como um **Project** (verbete futuro, lote 3).
+- No OpenShift, cada namespace de usuário é apresentado como um **Project** (ver [Project](project.md)).
 
 ## Exemplo de situação real
 

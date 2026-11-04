@@ -87,7 +87,7 @@ deployments   deploy       apps/v1      true         Deployment   create,delete,
 
 ## Diferenças e confusões frequentes
 
-- **API ≠ API server.** A API é a interface (contrato). O kube-apiserver é o componente que a serve (verbete futuro: *API Server*).
+- **API ≠ API server.** A API é a interface (contrato). O kube-apiserver é o componente que a serve (ver [API Server](api-server.md)).
 - **Recurso aparece em `api-resources` ≠ existem instâncias.** A lista só diz que o tipo é servido.
 - **Erro `Forbidden` ≠ API inexistente.** `Forbidden` vem do RBAC; `the server doesn't have a resource type "x"` indica que a API não é servida.
 - **`oc get all` ≠ "todos os recursos".** É só um conjunto pré-definido (categoria `all`).
@@ -128,4 +128,4 @@ sequenceDiagram
 ## Revisão editorial
 
 - **Estado:** 🟡 desenvolvido. Fontes conferidas em 2026-11-04.
-- **Pendências:** validar no SNO as colunas de `oc api-resources -o wide`. A linha mostrada é ilustrativa, montada a partir da documentação, e **não foi executada**. Criar os verbetes *API Server*, *API Group* e *API Version* no próximo lote.
+- **Pendências:** validar no SNO as colunas de `oc api-resources -o wide`. A linha mostrada é ilustrativa, montada a partir da documentação, e **não foi executada**. Os verbetes [API Server](api-server.md), [API Group](api-group.md) e [API Version](api-version.md) foram criados no lote 2.

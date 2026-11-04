@@ -23,12 +23,12 @@ Campos que as convenções da API exigem (**MUST**) e recomendam (**SHOULD**):
 | `name` | usuário (ou `generateName`) | identifica o objeto no seu escopo | [Resource Name](resource-name.md) |
 | `namespace` | usuário | escopo do objeto (só tipos namespaced) | [Namespace](namespace.md) |
 | `uid` | sistema | identidade única no tempo e no espaço | [UID](uid.md) |
-| `resourceVersion` | sistema | versão interna, **opaca**, para concorrência e watch | futuro: *ResourceVersion* |
-| `generation` | sistema | número crescente de versões do estado desejado | futuro: *Generation* |
+| `resourceVersion` | sistema | versão interna, para concorrência e watch | [ResourceVersion](resource-version.md) |
+| `generation` | sistema | número crescente de versões do estado desejado | [Generation](generation.md) |
 | `creationTimestamp` | sistema | data de criação (RFC 3339) | — |
-| `deletionTimestamp` | sistema | marca a exclusão em andamento | futuro: *Finalizer* |
-| `labels` | usuário/ferramentas | organizar e **selecionar** | futuro: *Label* |
-| `annotations` | ferramentas | metadados livres para automação | futuro: *Annotation* |
+| `deletionTimestamp` | sistema | marca a exclusão em andamento | [Finalizer](finalizer.md) |
+| `labels` | usuário/ferramentas | organizar e **selecionar** | [Label](label.md) |
+| `annotations` | ferramentas | metadados livres para automação | [Annotation](annotation.md) |
 
 Outros campos frequentes: `ownerReferences` (dono do objeto), `finalizers` (pendências antes da exclusão) e `managedFields` (registro de quais gestores escreveram quais campos, usado pelo *server-side apply*).
 
@@ -37,7 +37,7 @@ Outros campos frequentes: `ownerReferences` (dono do objeto), `finalizers` (pend
 ## Relações e dependências
 
 - Parte de todo [objeto](object.md), ao lado de [`spec`](spec.md) e [`status`](status.md).
-- Base de [Resource Name](resource-name.md), [UID](uid.md) e [Namespace](namespace.md); próximos verbetes: Label, Annotation, Selector, OwnerReference, Finalizer, ResourceVersion e Generation.
+- Base de [Resource Name](resource-name.md), [UID](uid.md), [Namespace](namespace.md), [Label](label.md), [Annotation](annotation.md), [OwnerReference](owner-reference.md), [Finalizer](finalizer.md), [ResourceVersion](resource-version.md) e [Generation](generation.md).
 
 ## Exemplo de situação real
 
@@ -74,7 +74,7 @@ oc explain deployment.metadata
 
 - **`metadata.labels` ≠ `spec.selector`:** uma é a etiqueta; o outro, o filtro que a procura.
 - **`metadata.name` ≠ nome do contêiner:** `spec.containers[].name` é outra coisa.
-- **`resourceVersion` não é um número para comparar:** deve ser tratado como opaco.
+- **`resourceVersion` não é contador geral:** só pode ser comparada entre objetos do **mesmo tipo de recurso**, regra formalizada no Kubernetes 1.35; para APIs agregadas, vale só a igualdade, salvo strings decimais. Ver [ResourceVersion](resource-version.md).
 - **Metadata de lista** (`ListMeta`) é mais simples que a de objeto (`ObjectMeta`).
 
 ## No OpenShift 4.22 versus Kubernetes

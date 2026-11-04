@@ -28,7 +28,15 @@
 - 🟡 [Controller](../categorias/00-fundamentos-e-linguagem/verbetes/controller.md) (↪ Control Loop)
 
 **Organização**
-- 🟡 [Namespace](../categorias/00-fundamentos-e-linguagem/verbetes/namespace.md)
+- 🟡 [Namespace](../categorias/00-fundamentos-e-linguagem/verbetes/namespace.md) · [Project](../categorias/00-fundamentos-e-linguagem/verbetes/project.md)
+- 🟡 [Label](../categorias/00-fundamentos-e-linguagem/verbetes/label.md) · [Annotation](../categorias/00-fundamentos-e-linguagem/verbetes/annotation.md) · [Selector](../categorias/00-fundamentos-e-linguagem/verbetes/selector.md)
+
+**Ciclo de vida e relações entre objetos**
+- 🟡 [OwnerReference](../categorias/00-fundamentos-e-linguagem/verbetes/owner-reference.md) · [Finalizer](../categorias/00-fundamentos-e-linguagem/verbetes/finalizer.md) · [Garbage Collection](../categorias/00-fundamentos-e-linguagem/verbetes/garbage-collection.md)
+
+**Versionamento e sinais de status**
+- 🟡 [ResourceVersion](../categorias/00-fundamentos-e-linguagem/verbetes/resource-version.md) · [Generation](../categorias/00-fundamentos-e-linguagem/verbetes/generation.md) · [ObservedGeneration](../categorias/00-fundamentos-e-linguagem/verbetes/observed-generation.md)
+- 🟡 [Conditions](../categorias/00-fundamentos-e-linguagem/verbetes/conditions.md) · [Events](../categorias/00-fundamentos-e-linguagem/verbetes/events.md)
 
 ## [02 — Compute, nodes e capacidade](../categorias/02-compute-e-nodes/README.md)
 - 🌱 [Node](../categorias/02-compute-e-nodes/verbetes/node.md)

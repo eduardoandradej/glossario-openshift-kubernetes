@@ -74,3 +74,34 @@ flowchart LR
 - **Nome × UID:** o nome se reutiliza; o UID nunca.
 - **Controller (código) × "controllers de workload" (objetos) × IngressController (objeto de configuração).**
 - **UID do objeto × UID do processo (SCC).**
+
+## Categoria 00 — lote 3: organização, ciclo de vida e sinais
+
+```mermaid
+flowchart TB
+    LBL["Label"] -->|"lida por"| SEL["Selector"]
+    ANN["Annotation"] -.->|"não seleciona"| SEL
+    SEL -->|"agrupa alvos de"| SVC["Service / ReplicaSet / NetworkPolicy"]
+    OWN["OwnerReference"] -->|"governa"| GC["Garbage Collection"]
+    FIN["Finalizer"] -->|"adia a exclusão em"| GC
+    GEN["Generation"] -->|"comparada com"| OBS["ObservedGeneration"]
+    OBS --> COND["Conditions (foto atual)"]
+    COND -.->|"complementadas por"| EVT["Events (histórico)"]
+    RV["ResourceVersion"] -->|"muda a cada escrita<br/>(concorrência otimista)"| GEN
+    NS["Namespace"] -->|"apresentado como"| PRJ["Project (OpenShift)"]
+```
+
+| De | Relação | Para |
+|---|---|---|
+| [Selector](../categorias/00-fundamentos-e-linguagem/verbetes/selector.md) | filtra | [Label](../categorias/00-fundamentos-e-linguagem/verbetes/label.md) |
+| [OwnerReference](../categorias/00-fundamentos-e-linguagem/verbetes/owner-reference.md) | é seguida pela | [Garbage Collection](../categorias/00-fundamentos-e-linguagem/verbetes/garbage-collection.md) |
+| [Finalizer](../categorias/00-fundamentos-e-linguagem/verbetes/finalizer.md) | adia a remoção de | objetos em exclusão |
+| [Generation](../categorias/00-fundamentos-e-linguagem/verbetes/generation.md) | é confirmada por | [ObservedGeneration](../categorias/00-fundamentos-e-linguagem/verbetes/observed-generation.md) |
+| [Conditions](../categorias/00-fundamentos-e-linguagem/verbetes/conditions.md) | são complementadas por | [Events](../categorias/00-fundamentos-e-linguagem/verbetes/events.md) |
+| [Project](../categorias/00-fundamentos-e-linguagem/verbetes/project.md) | é a visão OpenShift de | [Namespace](../categorias/00-fundamentos-e-linguagem/verbetes/namespace.md) |
+
+## Distinções críticas do lote 3
+
+- **Label × Annotation × OwnerReference:** seleção × documentação para ferramentas × propriedade e ciclo de vida.
+- **ResourceVersion × Generation:** qualquer escrita × mudança no estado desejado.
+- **Conditions × Events × phase:** foto atual × histórico × resumo antigo.

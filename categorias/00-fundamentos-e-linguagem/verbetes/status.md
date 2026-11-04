@@ -22,8 +22,8 @@ Pelas convenções da API, o `status` contém as **observações mais recentes**
 
 Campos típicos (variam por kind):
 
-- **`conditions`:** lista de condições, cada uma com `type`, `status` (`True`/`False`/`Unknown`), `reason`, `message` e `lastTransitionTime`. É o mecanismo padrão de resumo de saúde (verbete futuro: *Conditions*).
-- **`observedGeneration`:** qual `metadata.generation` do `spec` o controller já processou (verbete futuro).
+- **`conditions`:** lista de condições, cada uma com `type`, `status` (`True`/`False`/`Unknown`), `reason`, `message` e `lastTransitionTime`. É o mecanismo padrão de resumo de saúde (ver [Conditions](conditions.md)).
+- **`observedGeneration`:** qual `metadata.generation` do `spec` o controller já processou (ver [ObservedGeneration](observed-generation.md)).
 - **Contadores e fases:** por exemplo `readyReplicas`, ou `phase` num Pod.
 
 Detalhes importantes sobre `conditions`:

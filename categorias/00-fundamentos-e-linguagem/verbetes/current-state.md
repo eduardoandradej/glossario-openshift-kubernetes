@@ -28,7 +28,7 @@ Observe que **parte do estado observado nem sempre está na API.** O estado real
 ## Relações e dependências
 
 - Contraparte do [estado desejado](desired-state.md); registrado em [`status`](status.md).
-- Sinais complementares: `conditions` e `observedGeneration` (no `status`) e Events (verbetes futuros).
+- Sinais complementares: [Conditions](conditions.md) e [ObservedGeneration](observed-generation.md) (no `status`) e [Events](events.md).
 
 ## Exemplo de situação real
 

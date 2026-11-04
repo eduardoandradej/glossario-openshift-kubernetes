@@ -40,6 +40,23 @@
 | [UID](../categorias/00-fundamentos-e-linguagem/verbetes/uid.md) | Adoção após `--cascade=orphan` (lote 3: OwnerReference, Garbage Collection) | SNO / `--help` / docs |
 | [Namespace](../categorias/00-fundamentos-e-linguagem/verbetes/namespace.md) | Label `kubernetes.io/metadata.name` e annotations `openshift.io/*` em `oc describe namespace` | SNO / `--help` / docs |
 
+### Lote 3
+
+| Verbete | O que validar | Como |
+|---|---|---|
+| [Project](../categorias/00-fundamentos-e-linguagem/verbetes/project.md) | `project.config.openshift.io/cluster`; colunas de `oc get projects`; self-provisioner (cat. 07) | SNO / docs |
+| [Label](../categorias/00-fundamentos-e-linguagem/verbetes/label.md) | Páginas Recommended/Well-Known Labels não lidas; `app.kubernetes.io/part-of` na Topology | SNO / docs |
+| [Annotation](../categorias/00-fundamentos-e-linguagem/verbetes/annotation.md) | `last-applied-configuration` e `deployment.kubernetes.io/revision` | SNO / docs |
+| [Selector](../categorias/00-fundamentos-e-linguagem/verbetes/selector.md) | Label `kubernetes.io/service-name` em EndpointSlices (cat. 04) | SNO / docs |
+| [OwnerReference](../categorias/00-fundamentos-e-linguagem/verbetes/owner-reference.md) | Regras de adoção do ReplicaSet (cat. 03) | SNO / docs |
+| [Finalizer](../categorias/00-fundamentos-e-linguagem/verbetes/finalizer.md) | Nomes das condições de Namespace; finalizer `kubernetes` em `spec.finalizers` | SNO / docs |
+| [Garbage Collection](../categorias/00-fundamentos-e-linguagem/verbetes/garbage-collection.md) | GC de imagens via `KubeletConfig` no OCP (cat. 02) | SNO / docs |
+| [ResourceVersion](../categorias/00-fundamentos-e-linguagem/verbetes/resource-version.md) | Mensagem de conflito; ordenação em grupos agregados `*.openshift.io` | SNO / docs |
+| [Generation](../categorias/00-fundamentos-e-linguagem/verbetes/generation.md) | Regra de CRDs com subrecurso `status` (cat. 09) | SNO / docs |
+| [ObservedGeneration](../categorias/00-fundamentos-e-linguagem/verbetes/observed-generation.md) | `oc rollout status` e `observedGeneration` | SNO / docs |
+| [Conditions](../categorias/00-fundamentos-e-linguagem/verbetes/conditions.md) | Lista de condições de Pod no 1.35 (cat. 03); `Upgradeable` em ClusterOperators | SNO / docs |
+| [Events](../categorias/00-fundamentos-e-linguagem/verbetes/events.md) | `--event-ttl` (padrão K8s e valor no OCP); `oc events`; field selectors | SNO / docs |
+
 ## Decisões de nomenclatura a confirmar com o autor
 
 - **Estado observado:** slug `current-state` (termo oficial), título PT "Estado observado", remissões *actual state* e *observed state*.

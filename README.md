@@ -21,11 +21,15 @@ Este glossário nasceu exatamente para isso: **desembaraçar essa sopa**, um con
 
 ### Quem vos fala
 
+<img src="assets/autor.png" alt="Foto de Eduardo Andrade" width="110" align="left" />
+
 Sou **Eduardo Andrade**, profissional especializado em **infraestrutura Linux corporativa, cibersegurança, automação e computação em nuvem**, com longa experiência em ambientes de missão crítica baseados em **Red Hat Enterprise Linux (RHEL)**, virtualização, observabilidade e operações de alta disponibilidade. Sou **mestre em Computação Aplicada, com ênfase em Cibersegurança**.
 
 Sou um eterno aprendiz, apaixonado por resolver problemas complexos e por aprender com os erros e com os acertos, para um dia repassar tudo isso com **leveza**. A ideia aqui é absorver o máximo dessas tecnologias complexas e traduzi-las de um jeito fácil e amigável.
 
 Vamos nessa! 🚀
+
+<br clear="left" />
 
 [![Meu LinkedIn](https://img.shields.io/badge/Meu-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eduardoandradej/)
 [![Minhas credenciais](https://img.shields.io/badge/Minhas%20credenciais-Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white)](https://www.credly.com/users/eduardoandradej)

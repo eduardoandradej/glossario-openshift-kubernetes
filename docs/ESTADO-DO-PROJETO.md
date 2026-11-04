@@ -1,5 +1,16 @@
 # Estado do projeto
 
+## Rodada 2026-11-04 (4) — padronização de termos e categoria 01, lote 1
+
+- **Padronização (decisão do autor):** termos técnicos no original em inglês (Control Plane, Desired State, Current State, Reconciliation, Garbage Collection, Object, Resource...), com o conceito explicado em português. Toda a categoria 00 foi ajustada, e a regra está no `CLAUDE.md` e no modelo de verbete.
+- **Categoria 01, lote 1 (12 verbetes):** Control Plane, Worker Node, Master Node (legado), etcd, kube-scheduler, kube-controller-manager, cloud-controller-manager, kubelet, Container Runtime, CRI, CRI-O e Static Pod. Remissões: kube-apiserver (→ API Server, categoria 00) e Node Agent (→ kubelet).
+- Fontes: `kubernetes/website` `release-1.35` (glossário, kube-scheduler, cloud-controller, CRI, static pods) e `openshift-docs` `enterprise-4.22` (machine roles, etcd overview, Cloud Controller Manager Operator).
+- Todos 🟡: **sem validação no cluster**.
+
+### Próximo lote recomendado (categoria 01, lote 2)
+
+Kube Proxy, OVN-Kubernetes, CoreDNS, DNS Operator, Cluster DNS, Cluster Version Operator, Cluster Operator (remissão para a categoria 09), Machine Config Operator, MachineConfig e MachineConfigPool. Lote 3: Bootstrap, Quorum, High Availability, SNO, HyperShift, Hosted Control Plane e Infrastructure Node.
+
 ## Rodada 2026-11-04 (3) — categoria 00, lote 3 (categoria coberta)
 
 - **12 verbetes novos:** Project, Label, Annotation, Selector, OwnerReference, Finalizer, Garbage Collection, ResourceVersion, Generation, ObservedGeneration, Conditions e Events.

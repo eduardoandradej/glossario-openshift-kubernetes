@@ -38,6 +38,17 @@
 - 🟡 [ResourceVersion](../categorias/00-fundamentos-e-linguagem/verbetes/resource-version.md) · [Generation](../categorias/00-fundamentos-e-linguagem/verbetes/generation.md) · [ObservedGeneration](../categorias/00-fundamentos-e-linguagem/verbetes/observed-generation.md)
 - 🟡 [Conditions](../categorias/00-fundamentos-e-linguagem/verbetes/conditions.md) · [Events](../categorias/00-fundamentos-e-linguagem/verbetes/events.md)
 
+## [01 — Arquitetura e Control Plane](../categorias/01-arquitetura-e-control-plane/README.md)
+
+**Papéis e camadas**
+- 🟡 [Control Plane](../categorias/01-arquitetura-e-control-plane/verbetes/control-plane.md) · [Worker Node](../categorias/01-arquitetura-e-control-plane/verbetes/worker-node.md) · [Master Node (legado)](../categorias/01-arquitetura-e-control-plane/verbetes/master-node.md)
+
+**Componentes do Control Plane**
+- 🟡 [etcd](../categorias/01-arquitetura-e-control-plane/verbetes/etcd.md) · [kube-scheduler](../categorias/01-arquitetura-e-control-plane/verbetes/kube-scheduler.md) · [kube-controller-manager](../categorias/01-arquitetura-e-control-plane/verbetes/kube-controller-manager.md) · [cloud-controller-manager](../categorias/01-arquitetura-e-control-plane/verbetes/cloud-controller-manager.md) · [kube-apiserver](../categorias/00-fundamentos-e-linguagem/verbetes/api-server.md) (↪ API Server)
+
+**Componentes do nó**
+- 🟡 [kubelet](../categorias/01-arquitetura-e-control-plane/verbetes/kubelet.md) (↪ Node Agent) · [Container Runtime](../categorias/01-arquitetura-e-control-plane/verbetes/container-runtime.md) · [CRI](../categorias/01-arquitetura-e-control-plane/verbetes/cri.md) · [CRI-O](../categorias/01-arquitetura-e-control-plane/verbetes/cri-o.md) · [Static Pod](../categorias/01-arquitetura-e-control-plane/verbetes/static-pod.md)
+
 ## [02 — Compute, nodes e capacidade](../categorias/02-compute-e-nodes/README.md)
 - 🌱 [Node](../categorias/02-compute-e-nodes/verbetes/node.md)
 
@@ -62,4 +73,4 @@
 ## [10 — Builds, imagens e registry](../categorias/10-builds-imagens-registry/README.md)
 - 🌱 [BuildConfig](../categorias/10-builds-imagens-registry/verbetes/buildconfig.md)
 
-As categorias 01, 08 e 11 a 17 ainda não têm páginas.
+As categorias 08 e 11 a 17 ainda não têm páginas.

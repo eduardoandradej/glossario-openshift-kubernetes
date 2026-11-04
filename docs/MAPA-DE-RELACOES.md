@@ -105,3 +105,34 @@ flowchart TB
 - **Label × Annotation × OwnerReference:** seleção × documentação para ferramentas × propriedade e ciclo de vida.
 - **ResourceVersion × Generation:** qualquer escrita × mudança no desired state.
 - **Conditions × Events × phase:** foto atual × histórico × resumo antigo.
+
+## Categoria 01 — lote 1: Control Plane e componentes do nó
+
+```mermaid
+flowchart TB
+    subgraph CP["Control Plane"]
+        KAS["kube-apiserver"] <--> ETCD[("etcd")]
+        SCH["kube-scheduler"] --> KAS
+        KCM["kube-controller-manager"] --> KAS
+        CCM["cloud-controller-manager (opcional)"] --> KAS
+    end
+    subgraph NODE["Worker Node"]
+        KL["kubelet"] -->|"CRI"| CRIO["CRI-O"] --> LOW["crun / runC"]
+    end
+    KL <--> KAS
+    KL -->|"executa"| SP["Static Pods<br/>(núcleo do Control Plane no OpenShift)"]
+```
+
+| De | Relação | Para |
+|---|---|---|
+| [Control Plane](../categorias/01-arquitetura-e-control-plane/verbetes/control-plane.md) | é formado por | [etcd](../categorias/01-arquitetura-e-control-plane/verbetes/etcd.md), [kube-scheduler](../categorias/01-arquitetura-e-control-plane/verbetes/kube-scheduler.md), [kube-controller-manager](../categorias/01-arquitetura-e-control-plane/verbetes/kube-controller-manager.md), [API Server](../categorias/00-fundamentos-e-linguagem/verbetes/api-server.md) |
+| [kubelet](../categorias/01-arquitetura-e-control-plane/verbetes/kubelet.md) | usa, via [CRI](../categorias/01-arquitetura-e-control-plane/verbetes/cri.md) | [CRI-O](../categorias/01-arquitetura-e-control-plane/verbetes/cri-o.md) |
+| [Static Pod](../categorias/01-arquitetura-e-control-plane/verbetes/static-pod.md) | hospeda, no OpenShift | os componentes do [Control Plane](../categorias/01-arquitetura-e-control-plane/verbetes/control-plane.md) |
+| [Master Node](../categorias/01-arquitetura-e-control-plane/verbetes/master-node.md) | é o nome legado/papel de | nó de [Control Plane](../categorias/01-arquitetura-e-control-plane/verbetes/control-plane.md) |
+
+## Distinções críticas da categoria 01, lote 1
+
+- **Control Plane (função) × master (termo legado e papel no OpenShift).**
+- **kube-controller-manager × cloud-controller-manager × OpenShift controller manager.**
+- **CRI (interface) × CRI-O (implementação) × crun/runC (runtime de baixo nível).**
+- **Static Pod (roda no nó) × mirror Pod (reflexo na API).**

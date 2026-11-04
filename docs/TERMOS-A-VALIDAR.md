@@ -57,6 +57,23 @@
 | [Conditions](../categorias/00-fundamentos-e-linguagem/verbetes/conditions.md) | Lista de condições de Pod no 1.35 (cat. 03); `Upgradeable` em ClusterOperators | SNO / docs |
 | [Events](../categorias/00-fundamentos-e-linguagem/verbetes/events.md) | `--event-ttl` (padrão K8s e valor no OCP); `oc events`; field selectors | SNO / docs |
 
+## Categoria 01 — lote 1
+
+| Verbete | O que validar | Como |
+|---|---|---|
+| [Control Plane](../categorias/01-arquitetura-e-control-plane/verbetes/control-plane.md) | Label `node-role.kubernetes.io/control-plane`; nomes dos ClusterOperators | SNO / docs |
+| [Worker Node](../categorias/01-arquitetura-e-control-plane/verbetes/worker-node.md) | Label `node-role.kubernetes.io/worker`; seções do `describe node` | SNO / docs |
+| [Master Node](../categorias/01-arquitetura-e-control-plane/verbetes/master-node.md) | Labels de papel com valor vazio em `-L` | SNO / docs |
+| [etcd](../categorias/01-arquitetura-e-control-plane/verbetes/etcd.md) | Label `app=etcd`; texto das condições do Operator; backup (cat. 13) | SNO / docs |
+| [kube-scheduler](../categorias/01-arquitetura-e-control-plane/verbetes/kube-scheduler.md) | `scheduler.config.openshift.io/cluster` e `mastersSchedulable` | SNO / docs |
+| [kube-controller-manager](../categorias/01-arquitetura-e-control-plane/verbetes/kube-controller-manager.md) | Garbage collector dentro do KCM | SNO / docs |
+| [cloud-controller-manager](../categorias/01-arquitetura-e-control-plane/verbetes/cloud-controller-manager.md) | Plataforma do SNO (hipótese `None`); ClusterOperator; caminho das capabilities | SNO / docs |
+| [kubelet](../categorias/01-arquitetura-e-control-plane/verbetes/kubelet.md) | `oc adm node-logs -u kubelet --tail`; `reason` dos eventos | SNO / docs |
+| [Container Runtime](../categorias/01-arquitetura-e-control-plane/verbetes/container-runtime.md) | Formato `cri-o://`; `waiting.reason` | SNO / docs |
+| [CRI](../categorias/01-arquitetura-e-control-plane/verbetes/cri.md) | Unidade `crio` em `node-logs`; mensagens | SNO / docs |
+| [CRI-O](../categorias/01-arquitetura-e-control-plane/verbetes/cri-o.md) | Versão 1.35 no 4.22; `containerruntimeconfigs`; `/var/lib/containers` | SNO / docs |
+| [Static Pod](../categorias/01-arquitetura-e-control-plane/verbetes/static-pod.md) | Dono `Node` e annotations `kubernetes.io/config.*` dos mirror Pods | SNO / docs |
+
 ## Decisões de nomenclatura a confirmar com o autor
 
 - **Termos técnicos em inglês (decisão do autor, 2026-11-04):** títulos e termos técnicos ficam no original em inglês (Control Plane, Desired State, Current State, Reconciliation, Object, Resource...). A explicação é em português. A tradução aparece só como apoio, entre parênteses ou no campo **Tradução**.

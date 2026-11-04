@@ -896,86 +896,229 @@
   {
     "term": "Control Plane",
     "category": "01-arquitetura-e-control-plane",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "conceito",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-04",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "https://kubernetes.io/docs/reference/glossary/?all=true#term-control-plane",
+      "https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/architecture/control-plane"
+    ],
+    "slug_verbete": "control-plane"
   },
   {
     "term": "Worker Node",
     "category": "01-arquitetura-e-control-plane",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "conceito",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-04",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "https://kubernetes.io/docs/reference/glossary/?all=true#term-node",
+      "https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/architecture/control-plane"
+    ],
+    "slug_verbete": "worker-node"
   },
   {
     "term": "Master Node",
     "category": "01-arquitetura-e-control-plane",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "legado",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-04",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "https://kubernetes.io/docs/reference/glossary/?all=true#term-master",
+      "https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/architecture/control-plane"
+    ],
+    "slug_verbete": "master-node"
   },
   {
     "term": "kube-apiserver",
     "category": "01-arquitetura-e-control-plane",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "remissao",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-04",
+    "validacao_cluster": "nao-realizada",
+    "slug_verbete": "../00-fundamentos-e-linguagem/api-server",
+    "remissao_para": "API Server",
+    "fontes": [
+      "https://kubernetes.io/docs/reference/glossary/?all=true#term-kube-apiserver"
+    ]
   },
   {
     "term": "etcd",
     "category": "01-arquitetura-e-control-plane",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "componente",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-04",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "https://kubernetes.io/docs/reference/glossary/?all=true#term-etcd",
+      "https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/architecture/control-plane"
+    ],
+    "slug_verbete": "etcd"
   },
   {
     "term": "kube-scheduler",
     "category": "01-arquitetura-e-control-plane",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "componente",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-04",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/",
+      "https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/architecture/control-plane"
+    ],
+    "slug_verbete": "kube-scheduler"
   },
   {
     "term": "kube-controller-manager",
     "category": "01-arquitetura-e-control-plane",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "componente",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-04",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "https://kubernetes.io/docs/reference/glossary/?all=true#term-kube-controller-manager",
+      "https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/architecture/control-plane"
+    ],
+    "slug_verbete": "kube-controller-manager"
   },
   {
     "term": "cloud-controller-manager",
     "category": "01-arquitetura-e-control-plane",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "componente",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-04",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/architecture/cloud-controller/"
+    ],
+    "slug_verbete": "cloud-controller-manager"
   },
   {
     "term": "kubelet",
     "category": "01-arquitetura-e-control-plane",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "componente",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-04",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "https://kubernetes.io/docs/reference/glossary/?all=true#term-kubelet",
+      "https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/architecture/control-plane"
+    ],
+    "slug_verbete": "kubelet"
   },
   {
     "term": "Container Runtime",
     "category": "01-arquitetura-e-control-plane",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "componente",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-04",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "https://kubernetes.io/docs/reference/glossary/?all=true#term-container-runtime",
+      "https://kubernetes.io/docs/concepts/containers/cri/",
+      "https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/architecture/control-plane"
+    ],
+    "slug_verbete": "container-runtime"
   },
   {
     "term": "CRI",
     "category": "01-arquitetura-e-control-plane",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "conceito",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-04",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/containers/cri/"
+    ],
+    "slug_verbete": "cri"
   },
   {
     "term": "CRI-O",
     "category": "01-arquitetura-e-control-plane",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "componente",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-04",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "https://kubernetes.io/docs/reference/glossary/?all=true#term-cri-o",
+      "https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/architecture/control-plane"
+    ],
+    "slug_verbete": "cri-o"
   },
   {
     "term": "Kube Proxy",
@@ -1092,16 +1235,40 @@
   {
     "term": "Node Agent",
     "category": "01-arquitetura-e-control-plane",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "remissao",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-04",
+    "validacao_cluster": "nao-realizada",
+    "slug_verbete": "kubelet",
+    "remissao_para": "kubelet",
+    "fontes": [
+      "https://kubernetes.io/docs/reference/glossary/?all=true#term-kubelet"
+    ]
   },
   {
     "term": "Static Pod",
     "category": "01-arquitetura-e-control-plane",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "conceito",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-04",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "https://kubernetes.io/docs/tasks/configure-pod-container/static-pod/",
+      "https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/architecture/control-plane"
+    ],
+    "slug_verbete": "static-pod"
   },
   {
     "term": "Infrastructure Node",

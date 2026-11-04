@@ -6,10 +6,10 @@
 [![Licença Apache 2.0](https://img.shields.io/badge/licen%C3%A7a-Apache%202.0-D22128?style=for-the-badge&logo=apache&logoColor=white)](LICENSE)
 
 [![Categorias](https://img.shields.io/badge/categorias-18-6F42C1?style=flat-square)](docs/MAPA-DE-CATEGORIAS.md)
-[![Verbetes desenvolvidos](https://img.shields.io/badge/verbetes%20desenvolvidos-35-F2C744?style=flat-square)](docs/INDICE-POR-CATEGORIA.md)
+[![Verbetes desenvolvidos](https://img.shields.io/badge/verbetes%20desenvolvidos-47-F2C744?style=flat-square)](docs/INDICE-POR-CATEGORIA.md)
 [![Sementes](https://img.shields.io/badge/sementes-23-8BC34A?style=flat-square)](docs/INDICE-ALFABETICO.md)
 [![Candidatos](https://img.shields.io/badge/candidatos-680-9E9E9E?style=flat-square)](dados/inventario.json)
-[![Lote atual](https://img.shields.io/badge/categoria%2000-coberta%20(37%2F37)-0A7EA4?style=flat-square)](categorias/00-fundamentos-e-linguagem/README.md)
+[![Lote atual](https://img.shields.io/badge/lote%20atual-01%20%C2%B7%20Control%20Plane-0A7EA4?style=flat-square)](categorias/00-fundamentos-e-linguagem/README.md)
 [![Diagramas](https://img.shields.io/badge/diagramas-Mermaid-FF3670?style=flat-square&logo=mermaid&logoColor=white)](diagramas/00-modelo-declarativo.md)
 [![Validação no cluster](https://img.shields.io/badge/valida%C3%A7%C3%A3o%20no%20cluster-pendente-orange?style=flat-square)](docs/TERMOS-A-VALIDAR.md)
 
@@ -63,7 +63,7 @@ Vamos nessa! 🚀
 
 - **18 categorias** temáticas organizadas.
 - **680 entradas candidatas brutas** no inventário (contém remissões e duplicações; não são verbetes prontos).
-- **35 verbetes desenvolvidos** (categoria 00 inteira, lotes 1 a 3, 2026-11-04): fontes oficiais conferidas, **sem validação no cluster**.
+- **47 verbetes desenvolvidos** (categoria 00 inteira e categoria 01, lote 1; 2026-11-04): fontes oficiais conferidas, **sem validação no cluster**.
 - **23 verbetes-semente** herdados do kit, **ainda pendentes de aprofundamento editorial**.
 - **5 diagramas** autorais em Mermaid.
 

@@ -11,13 +11,13 @@ Kubernetes e OpenShift sustentam hoje uma parte significativa da infraestrutura 
 
 Este glossário organiza esse vocabulário de forma sistemática. Cada termo é definido, contextualizado e relacionado aos demais, com base na documentação oficial do Kubernetes e da Red Hat.
 
-### Sobre o autor
+### Quem vos fala
 
 <img src="assets/autor.png" alt="Foto de Eduardo Andrade" width="110" align="left" />
 
-**Eduardo Andrade** é profissional especializado em infraestrutura Linux corporativa, cibersegurança, automação e computação em nuvem, com ampla experiência em ambientes de missão crítica baseados em Red Hat Enterprise Linux (RHEL), virtualização, observabilidade e operações de alta disponibilidade. É mestre em Computação Aplicada, com ênfase em Cibersegurança.
+Sou **Eduardo Andrade**, profissional especializado em infraestrutura Linux corporativa, cibersegurança, automação e computação em nuvem, com ampla experiência em ambientes de missão crítica baseados em Red Hat Enterprise Linux (RHEL), virtualização, observabilidade e operações de alta disponibilidade. Sou mestre em Computação Aplicada, com ênfase em Cibersegurança.
 
-Este trabalho reúne o estudo contínuo dessas tecnologias, com o objetivo de apresentá-las de forma clara e acessível, sem perda de rigor técnico.
+Sou um eterno aprendiz, movido por problemas complexos e pelo que se aprende com cada erro e cada acerto. Este glossário reúne esse estudo contínuo, com o objetivo de apresentar tecnologias complexas de forma clara e acessível, sem perda de rigor técnico.
 
 <br clear="left" />
 
@@ -28,9 +28,20 @@ Este trabalho reúne o estudo contínuo dessas tecnologias, com o objetivo de ap
 
 ## Sobre o glossário
 
-Enciclopédia conceitual, em português, do ecossistema Kubernetes e do OpenShift Container Platform 4.22.
+O **Glossário OpenShift & Kubernetes** é uma referência conceitual, em português, para quem estuda, opera ou administra clusters **Kubernetes** e **Red Hat OpenShift Container Platform 4.22** (Kubernetes 1.35).
 
-Cada termo é apresentado segundo a mesma estrutura: o que é, por que existe, como funciona, com o que se relaciona e como observá-lo com segurança num cluster. Os termos técnicos são mantidos no original em inglês (Control Plane, Pod, Desired State...), forma em que aparecem na documentação oficial e nas ferramentas; as explicações são em português.
+Não é uma lista de comandos nem uma apostila de laboratório. Cada verbete explica um termo segundo a mesma estrutura:
+
+- **o que é**: a definição em uma frase e a explicação do conceito;
+- **por que existe**: o problema que resolve e um cenário real;
+- **como funciona**: o ciclo de vida e os componentes envolvidos;
+- **com o que se relaciona**: as dependências e as confusões mais frequentes com termos próximos;
+- **como observar com segurança**: comandos somente de leitura e como interpretar o resultado;
+- **o que muda no OpenShift** em relação ao Kubernetes, com as fontes oficiais usadas.
+
+Os termos técnicos são mantidos no original em inglês (Control Plane, Pod, Desired State...), forma em que aparecem na documentação oficial e nas ferramentas; as explicações são em português. O conteúdo é organizado em 18 categorias, dos fundamentos da API aos componentes opcionais da plataforma, com índices, um mapa de relações entre os termos e diagramas.
+
+É indicado para estudantes de certificações Red Hat de OpenShift, administradores e desenvolvedores que já usam a plataforma e querem entender **por que** ela se comporta como se comporta.
 
 ## Por onde começar
 

@@ -19,7 +19,7 @@
 3. **Verbetes:** o título é seguido direto de "Definição em uma frase". A ficha técnica (ID, classe, plataforma, escopo, versões, nível, data) e as notas de revisão ficam no bloco recolhido `<details><summary>Ficha técnica e notas de revisão</summary>` no fim. A seção de diagrama se chama apenas **"Diagrama"**.
 4. **Tom sóbrio e profissional.** O mínimo de ícones: só ✅ Concluída, 🚧 Em construção e 📝 Primeiros termos, na tabela de categorias do README. **Foguete (🚀) nunca**, nem emojis decorativos.
 5. **Repositórios de curso privados** (DO180, DO280): não citar por nome nem por link. A **Academia de Comandos** é pública e pode ser linkada.
-6. **README:** "Apresentação" e "Sobre o autor" (foto em `assets/autor.png`, circular, 110 px), com os botões "Meu LinkedIn" e "Minhas credenciais" (Credly). Os dados pessoais do autor estão só no README.
+6. **README:** "Apresentação" e "Quem vos fala" (em primeira pessoa; foto em `assets/autor.png`, circular, 110 px), com os botões "Meu LinkedIn" e "Minhas credenciais" (Credly). Os dados pessoais do autor estão só no README.
 7. Trabalhar na **`main`**, com commits pequenos e descritivos, **sem force push**.
 
 ## Método de trabalho usado

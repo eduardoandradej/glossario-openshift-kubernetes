@@ -6,12 +6,9 @@
 [![Licença Apache 2.0](https://img.shields.io/badge/licen%C3%A7a-Apache%202.0-D22128?style=for-the-badge&logo=apache&logoColor=white)](LICENSE)
 
 [![Categorias](https://img.shields.io/badge/categorias-18-6F42C1?style=flat-square)](docs/MAPA-DE-CATEGORIAS.md)
-[![Verbetes desenvolvidos](https://img.shields.io/badge/verbetes%20desenvolvidos-47-F2C744?style=flat-square)](docs/INDICE-POR-CATEGORIA.md)
-[![Sementes](https://img.shields.io/badge/sementes-23-8BC34A?style=flat-square)](docs/INDICE-ALFABETICO.md)
-[![Candidatos](https://img.shields.io/badge/candidatos-680-9E9E9E?style=flat-square)](dados/inventario.json)
-[![Lote atual](https://img.shields.io/badge/lote%20atual-01%20%C2%B7%20Control%20Plane-0A7EA4?style=flat-square)](categorias/00-fundamentos-e-linguagem/README.md)
+[![Termos explicados](https://img.shields.io/badge/termos%20explicados-47-F2C744?style=flat-square)](docs/INDICE-ALFABETICO.md)
 [![Diagramas](https://img.shields.io/badge/diagramas-Mermaid-FF3670?style=flat-square&logo=mermaid&logoColor=white)](diagramas/00-modelo-declarativo.md)
-[![Validação no cluster](https://img.shields.io/badge/valida%C3%A7%C3%A3o%20no%20cluster-pendente-orange?style=flat-square)](docs/TERMOS-A-VALIDAR.md)
+[![Fontes oficiais](https://img.shields.io/badge/fontes-oficiais-2EA44F?style=flat-square)](docs/FONTES-OFICIAIS.md)
 
 ## 👋 Antes de tudo: bem-vindo!
 
@@ -38,51 +35,73 @@ Vamos nessa! 🚀
 
 ## Sobre o glossário
 
-**Enciclopédia conceitual, visual e operacional em português brasileiro**, focada no ecossistema Kubernetes e no OpenShift Container Platform 4.22.
+Uma **enciclopédia conceitual e visual**, em português, do ecossistema **Kubernetes** e do **OpenShift Container Platform 4.22**.
 
-> Objetivo: compreender **o que é**, **por que existe**, **como funciona**, **com o que se relaciona** e **como inspecionar com segurança** cada termo, sem transformar este projeto em uma lista de comandos.
+Cada termo responde, nesta ordem: **o que é**, **por que existe**, **como funciona**, **com o que se relaciona** e **como observar com segurança** no seu cluster. Os termos técnicos ficam no original em inglês (Control Plane, Pod, Desired State...), porque é assim que você vai encontrá-los na documentação, no `oc` e no dia a dia. A explicação é em português.
 
-## Como navegar
+## Por onde começar
 
-- [Mapa de categorias](docs/MAPA-DE-CATEGORIAS.md)
-- [Índice alfabético](docs/INDICE-ALFABETICO.md) · [Índice por categoria](docs/INDICE-POR-CATEGORIA.md) · [Mapa de relações](docs/MAPA-DE-RELACOES.md)
-- [Estado do projeto](docs/ESTADO-DO-PROJETO.md) · [Termos a validar](docs/TERMOS-A-VALIDAR.md)
-- [Modelo declarativo (spec → reconciliation → status)](diagramas/00-modelo-declarativo.md)
-- [Diagrama de arquitetura](diagramas/01-visao-geral.md)
-- [Workloads e controllers](diagramas/02-workloads.md)
-- [Tráfego e networking](diagramas/03-networking.md)
-- [PV, PVC, StorageClass e CSI](diagramas/04-storage.md)
-- [Operators e OLM](diagramas/05-operators.md)
-- [Modelo editorial do verbete](modelos/MODELO-VERBETE.md)
-- [Inspeção segura no HomeLab](docs/LAB-INSPECAO-SEGURA.md)
-- [Fontes oficiais](docs/FONTES-OFICIAIS.md)
-- [Prompt mestre para Claude Code](PROMPT-MESTRE.md)
-- [Prompt de continuação](PROMPT-CONTINUACAO.md)
+1. **Fundamentos:** o vocabulário que sustenta todo o resto: [Kubernetes](categorias/00-fundamentos-e-linguagem/verbetes/kubernetes.md), [Object](categorias/00-fundamentos-e-linguagem/verbetes/object.md), [Spec](categorias/00-fundamentos-e-linguagem/verbetes/spec.md) e [Status](categorias/00-fundamentos-e-linguagem/verbetes/status.md), [Desired State](categorias/00-fundamentos-e-linguagem/verbetes/desired-state.md) e [Reconciliation](categorias/00-fundamentos-e-linguagem/verbetes/reconciliation.md).
+2. **Arquitetura:** quem decide e quem executa no cluster: [Control Plane](categorias/01-arquitetura-e-control-plane/verbetes/control-plane.md), [etcd](categorias/01-arquitetura-e-control-plane/verbetes/etcd.md), [kubelet](categorias/01-arquitetura-e-control-plane/verbetes/kubelet.md) e [CRI-O](categorias/01-arquitetura-e-control-plane/verbetes/cri-o.md).
+3. **Para ver o todo:** o diagrama do [modelo declarativo](diagramas/00-modelo-declarativo.md) e o [mapa de relações](docs/MAPA-DE-RELACOES.md).
 
-## Escopo em números (não inflar progresso)
+Procurando um termo específico? Use o **[índice alfabético](docs/INDICE-ALFABETICO.md)**. Ele aceita também os nomes em português, como "plano de controle" e "estado desejado". Prefere navegar por assunto? Use o **[índice por categoria](docs/INDICE-POR-CATEGORIA.md)**.
 
-- **18 categorias** temáticas organizadas.
-- **680 entradas candidatas brutas** no inventário (contém remissões e duplicações; não são verbetes prontos).
-- **47 verbetes desenvolvidos** (categoria 00 inteira e categoria 01, lote 1; 2026-11-04): fontes oficiais conferidas, **sem validação no cluster**.
-- **23 verbetes-semente** herdados do kit, **ainda pendentes de aprofundamento editorial**.
-- **5 diagramas** autorais em Mermaid.
+## O que você encontra aqui
 
-## Ordem de leitura sugerida
+| # | Categoria | Situação |
+|---|---|---|
+| 00 | [Fundamentos, linguagem e modelo declarativo](categorias/00-fundamentos-e-linguagem/README.md) | ✅ Disponível |
+| 01 | [Arquitetura e Control Plane](categorias/01-arquitetura-e-control-plane/README.md) | 🚧 Em construção |
+| 02 | [Compute, Nodes e capacidade](categorias/02-compute-e-nodes/README.md) | 📝 Primeiros termos |
+| 03 | [Workloads](categorias/03-workloads/README.md) | 📝 Primeiros termos |
+| 04 | [Networking, Services e publicação](categorias/04-networking/README.md) | 📝 Primeiros termos |
+| 05 | [Storage e persistência](categorias/05-storage/README.md) | 📝 Primeiros termos |
+| 06 | [Configuração e extensibilidade da API](categorias/06-configuracao-e-api/README.md) | 📝 Primeiros termos |
+| 07 | [Identidade, autenticação e autorização](categorias/07-identidade-e-rbac/README.md) | 📝 Primeiros termos |
+| 08 | [Segurança, isolamento e políticas](categorias/08-seguranca-e-politicas/README.md) | 🔜 Em breve |
+| 09 | [Operators, OLM e extensões](categorias/09-operators-e-extensoes/README.md) | 📝 Primeiros termos |
+| 10 | [Build, imagens e registries](categorias/10-builds-imagens-registry/README.md) | 📝 Primeiros termos |
+| 11 | [Scheduling, capacidade e escalabilidade](categorias/11-agendamento-e-escalabilidade/README.md) | 🔜 Em breve |
+| 12 | [Observabilidade, logs e métricas](categorias/12-observabilidade/README.md) | 🔜 Em breve |
+| 13 | [Instalação, atualizações e manutenção](categorias/13-ciclo-de-vida-cluster/README.md) | 🔜 Em breve |
+| 14 | [CLI, YAML, ferramentas e inspeção](categorias/14-cli-yaml-e-api/README.md) | 🔜 Em breve |
+| 15 | [Empacotamento, entrega e GitOps](categorias/15-entrega-e-automacao/README.md) | 🔜 Em breve |
+| 16 | [Virtualização, IA e componentes opcionais](categorias/16-virtualizacao-ia-e-extensoes/README.md) | 🔜 Em breve |
+| 17 | [Diagnóstico, falhas e confiabilidade](categorias/17-troubleshooting-e-resiliencia/README.md) | 🔜 Em breve |
 
-Comece por fundamentos e arquitetura; em seguida compute/nodes e workloads; depois networking e storage; então configuração, identidade, segurança e Operators. Use os mapas de relações para conectar os conceitos.
+**Legenda:** ✅ categoria completa · 🚧 sendo escrita agora · 📝 alguns termos já publicados, em versão inicial · 🔜 planejada.
 
-## Filosofia e cuidados
+Diagramas por tema: [arquitetura](diagramas/01-visao-geral.md) · [workloads](diagramas/02-workloads.md) · [networking](diagramas/03-networking.md) · [storage](diagramas/04-storage.md) · [Operators](diagramas/05-operators.md).
 
-1. Nem todo termo é um objeto da API; nem toda API existe no cluster local.
-2. Uma lista retornada por `oc api-resources` não significa que existam instâncias, nem que o usuário tenha permissão de lê-las.
-3. `oc get all` não lista todos os recursos Kubernetes/OpenShift.
-4. Conceitos opcionais como ODF, OpenShift Virtualization, AI e Service Mesh não estão necessariamente instalados no SNO.
-5. O glossário é autoral e **não reproduz material de treinamento proprietário**.
+## Como ler um verbete
 
-## Relação com outros materiais
+- Cada verbete diz **que tipo de coisa** o termo é: um objeto da API (que você cria com YAML), um componente (um software que roda no cluster), um conceito, um estado ou uma ferramenta. Nem todo termo tem um `kind`.
+- Os comandos da seção **Como visualizar e inspecionar** são **somente leitura**. Quando um comando altera o cluster, ele aparece separado e marcado como tal.
+- Saídas de exemplo são **ilustrativas**: o seu cluster pode mostrar valores diferentes.
+- Cada verbete termina com as **fontes oficiais** (Kubernetes e Red Hat) usadas para escrevê-lo.
 
-Este glossário é independente. Para praticar os comandos de inspeção, use a [Academia de Comandos OpenShift](https://github.com/eduardoandradej/academia-comandos-openshift): prática, exercícios e troubleshooting de CLI.
+## Cuidados que valem para todo o glossário
 
-Os roteiros de curso ficam em materiais de estudo privados do autor, que não são citados nem linkados aqui.
+1. Nem toda API existe em todo cluster: depende da versão, dos Operators instalados e das *capabilities* habilitadas.
+2. `oc api-resources` mostra os **tipos** que o cluster conhece, e não se existem objetos nem se você tem permissão de vê-los.
+3. `oc get all` **não** lista todos os recursos.
+4. Componentes opcionais (como ODF, OpenShift Virtualization, OpenShift AI e Service Mesh) podem não estar instalados no seu cluster.
+5. O conteúdo é autoral e **não reproduz material de treinamento proprietário**.
 
-Este é um projeto novo e independente, publicado na branch `main` deste repositório e expandido em lotes pequenos (ver [estado do projeto](docs/ESTADO-DO-PROJETO.md)).
+## Quer praticar?
+
+Para exercitar os comandos de inspeção, use a [Academia de Comandos OpenShift](https://github.com/eduardoandradej/academia-comandos-openshift), com prática, exercícios e troubleshooting de CLI.
+
+---
+
+<details>
+<summary><b>Bastidores do projeto</b> (para quem mantém ou contribui)</summary>
+
+- [Estado do projeto e próximos lotes](docs/ESTADO-DO-PROJETO.md)
+- [Termos e afirmações a validar](docs/TERMOS-A-VALIDAR.md)
+- [Critérios de qualidade](docs/CRITERIOS-DE-QUALIDADE.md) · [Modelo de verbete](modelos/MODELO-VERBETE.md) · [Inspeção segura no HomeLab](docs/LAB-INSPECAO-SEGURA.md)
+- [Inventário de termos candidatos](dados/inventario.json)
+- Prompts de trabalho: [mestre](PROMPT-MESTRE.md) · [continuação](PROMPT-CONTINUACAO.md) · [revisão](PROMPT-REVISAO.md)
+
+</details>

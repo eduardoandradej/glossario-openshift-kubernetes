@@ -136,3 +136,29 @@ flowchart TB
 - **kube-controller-manager × cloud-controller-manager × OpenShift controller manager.**
 - **CRI (interface) × CRI-O (implementação) × crun/runC (runtime de baixo nível).**
 - **Static Pod (roda no nó) × mirror Pod (reflexo na API).**
+
+## Rede, DNS e gestão da plataforma
+
+```mermaid
+flowchart LR
+    CNO["Cluster Network Operator"] --> OVNK["OVN-Kubernetes<br/>(rede de Pods e Services)"]
+    OVNK -. "substitui" .-> KP["kube-proxy"]
+    DNSOP["DNS Operator"] --> CORE["CoreDNS"] -->|"implementa"| CDNS["Cluster DNS"]
+    CVO["Cluster Version Operator"] -->|"aplica a release"| COS["Cluster Operators<br/>(network, dns, machine-config, ...)"]
+    CVO --> MCO["Machine Config Operator"]
+    MC["MachineConfig"] --> MCP["MachineConfigPool"] --> MCO
+    MCO -->|"configura o SO"| NODE["Nós"]
+```
+
+| De | Relação | Para |
+|---|---|---|
+| [OVN-Kubernetes](../categorias/01-arquitetura-e-control-plane/verbetes/ovn-kubernetes.md) | substitui, no OpenShift | [kube-proxy](../categorias/01-arquitetura-e-control-plane/verbetes/kube-proxy.md) |
+| [DNS Operator](../categorias/01-arquitetura-e-control-plane/verbetes/dns-operator.md) | gerencia | [CoreDNS](../categorias/01-arquitetura-e-control-plane/verbetes/coredns.md), que implementa o [Cluster DNS](../categorias/01-arquitetura-e-control-plane/verbetes/cluster-dns.md) |
+| [Cluster Version Operator](../categorias/01-arquitetura-e-control-plane/verbetes/cluster-version-operator.md) | gerencia o ciclo de vida de | [ClusterOperators](../categorias/09-operators-e-extensoes/verbetes/clusteroperator.md) |
+| [MachineConfigPool](../categorias/01-arquitetura-e-control-plane/verbetes/machineconfigpool.md) | agrupa nós e | [MachineConfigs](../categorias/01-arquitetura-e-control-plane/verbetes/machineconfig.md), aplicados pelo [Machine Config Operator](../categorias/01-arquitetura-e-control-plane/verbetes/machine-config-operator.md) |
+
+## Distinções importantes: rede e gestão da plataforma
+
+- **Cluster DNS (função) × CoreDNS (software) × DNS Operator (gestão).**
+- **CVO (Operators da plataforma, via release image) × OLM (Operators opcionais).**
+- **MachineConfigPool (configuração de nós) × machine set (criação de máquinas).**

@@ -1,7 +1,5 @@
 # kube-scheduler
 
-> **ID:** 01-arquitetura-e-control-plane/kube-scheduler | **Termo original:** kube-scheduler, scheduler | **Remissões:** scheduling, binding | **Tradução:** escalonador (só como apoio) | **Classe ontológica:** componente | **Plataforma:** Kubernetes / OpenShift | **Escopo:** não aplicável (roda no Control Plane) | **Disponibilidade:** nativo | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** intermediário | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 O kube-scheduler é o componente do [Control Plane](control-plane.md) que observa **Pods novos sem nó atribuído** e escolhe o nó em que cada um vai rodar.
@@ -73,7 +71,7 @@ Mesmo componente, gerenciado por Operator, com configuração de cluster em `sch
 
 Há um único nó possível, então o scheduler só decide entre "cabe" e "não cabe". `Pending` por falta de CPU ou memória é comum num SNO com poucos recursos.
 
-## Diagrama Mermaid
+## Diagrama
 
 ```mermaid
 flowchart LR
@@ -95,7 +93,23 @@ flowchart LR
 - OCP 4.22 — Control plane architecture, "Machine roles": <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/architecture/control-plane>
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 01-arquitetura-e-control-plane/kube-scheduler
+- **Termo original:** kube-scheduler, scheduler
+- **Remissões:** scheduling, binding
+- **Tradução:** escalonador (só como apoio)
+- **Classe ontológica:** componente
+- **Plataforma:** Kubernetes / OpenShift
+- **Escopo:** não aplicável (roda no Control Plane)
+- **Disponibilidade:** nativo
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** intermediário
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** confirmar no SNO o recurso `scheduler.config.openshift.io/cluster` e o campo `mastersSchedulable`, conhecidos da documentação de configuração do scheduler, que **não foi lida** nesta rodada. Os textos das mensagens de `FailedScheduling` são ilustrativos.

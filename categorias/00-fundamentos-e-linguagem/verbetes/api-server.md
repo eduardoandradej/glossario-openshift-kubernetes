@@ -1,7 +1,5 @@
 # API Server (kube-apiserver)
 
-> **ID:** 00-fundamentos-e-linguagem/api-server | **Termo original:** API server, kube-apiserver | **Tradução:** servidor de API | **Classe ontológica:** componente | **Plataforma:** Kubernetes; no OpenShift há também o OpenShift API server | **Escopo:** não aplicável (roda no plano de controle) | **Disponibilidade:** nativo | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** básico → intermediário | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 O API server é o componente do control plane que **expõe a [API](kubernetes-api.md) do Kubernetes**: recebe todas as requisições, autentica, autoriza, valida e grava o estado no etcd. É a "porta de entrada" do cluster.
@@ -81,7 +79,7 @@ A documentação do OCP lista no control plane os serviços Kubernetes (API serv
 
 Há uma só instância de cada API server, porque há um só nó de control plane. Uma reinicialização do API server (por exemplo, ao rotacionar certificados) deixa a API indisponível por alguns instantes. Observe; não reinicie Pods de `openshift-kube-apiserver`.
 
-## Diagrama Mermaid
+## Diagrama
 
 ```mermaid
 flowchart LR
@@ -105,7 +103,22 @@ flowchart LR
 - OCP 4.22 — Control plane architecture, "Machine roles" (serviços Kubernetes e OpenShift no control plane; static pods e systemd): <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/architecture/control-plane> (fonte: `architecture/control-plane.adoc` → `modules/architecture-machine-roles.adoc`)
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 00-fundamentos-e-linguagem/api-server
+- **Termo original:** API server, kube-apiserver
+- **Tradução:** servidor de API
+- **Classe ontológica:** componente
+- **Plataforma:** Kubernetes; no OpenShift há também o OpenShift API server
+- **Escopo:** não aplicável (roda no plano de controle)
+- **Disponibilidade:** nativo
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** básico → intermediário
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** confirmar no SNO que os grupos `*.openshift.io` aparecem em `oc get apiservices` com `SERVICE` = `openshift-apiserver/api` (é o modelo de agregação esperado, mas **não foi verificado** nesta rodada); confirmar a permissão necessária para `/readyz?verbose`; confirmar a URL publicada de "Control plane architecture".

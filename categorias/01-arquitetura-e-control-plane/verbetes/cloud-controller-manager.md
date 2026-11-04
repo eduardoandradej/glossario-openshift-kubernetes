@@ -1,7 +1,5 @@
 # cloud-controller-manager
 
-> **ID:** 01-arquitetura-e-control-plane/cloud-controller-manager | **Termo original:** cloud-controller-manager (CCM) | **Remissões:** Cloud Controller Manager Operator | **Tradução:** gerenciador de controllers de nuvem (só como apoio) | **Classe ontológica:** componente / extensão dependente de plataforma | **Plataforma:** Kubernetes / OpenShift | **Escopo:** não aplicável | **Disponibilidade:** **depende da plataforma**; pode não existir em bare metal ou na plataforma `None` | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** intermediário | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 O cloud-controller-manager é o componente do [Control Plane](control-plane.md) que **embute a lógica específica do provedor de nuvem**: ele liga o cluster à API da nuvem e separa o que conversa com a nuvem do que só conversa com o cluster.
@@ -74,7 +72,23 @@ Um SNO em KVM costuma ter plataforma `None`: não espere CCM nem Services `LoadB
 - OCP 4.22 — Cluster Operators reference / Cluster capabilities, "Cloud Controller Manager Operator" (fonte: `modules/cluster-cloud-controller-manager-operator.adoc`)
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 01-arquitetura-e-control-plane/cloud-controller-manager
+- **Termo original:** cloud-controller-manager (CCM)
+- **Remissões:** Cloud Controller Manager Operator
+- **Tradução:** gerenciador de controllers de nuvem (só como apoio)
+- **Classe ontológica:** componente / extensão dependente de plataforma
+- **Plataforma:** Kubernetes / OpenShift
+- **Escopo:** não aplicável
+- **Disponibilidade:** **depende da plataforma**; pode não existir em bare metal ou na plataforma `None`
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** intermediário
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** confirmar no SNO a plataforma (`None` é uma hipótese, porque a topologia do HomeLab não foi inspecionada), o nome do ClusterOperator e o caminho `status.capabilities.enabledCapabilities`, que **não foram executados**.

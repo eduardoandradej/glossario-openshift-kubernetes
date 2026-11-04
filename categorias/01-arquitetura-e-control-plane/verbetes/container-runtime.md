@@ -1,7 +1,5 @@
 # Container Runtime
 
-> **ID:** 01-arquitetura-e-control-plane/container-runtime | **Termo original:** container runtime | **Remissões:** container engine, high-level runtime, low-level runtime, OCI runtime, crun, runC | **Tradução:** ambiente de execução de contêineres (só como apoio) | **Classe ontológica:** componente | **Plataforma:** Kubernetes / OpenShift | **Escopo:** não aplicável (roda em cada nó) | **Disponibilidade:** nativo (obrigatório em cada nó) | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** intermediário | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 O Container Runtime é o componente do nó responsável pela **execução e pelo ciclo de vida dos contêineres**: baixar imagens, criar, iniciar, parar e remover contêineres.
@@ -72,7 +70,7 @@ O Kubernetes deixa a escolha livre; o OpenShift fixa o CRI-O, com crun como padr
 
 `oc get nodes -o wide` mostra o runtime do nó único. Não altere `ContainerRuntimeConfig` para "testar" runtimes: isso reconfigura e reinicia o nó.
 
-## Diagrama Mermaid
+## Diagrama
 
 ```mermaid
 flowchart LR
@@ -94,7 +92,23 @@ flowchart LR
 - OCP 4.22 — Architecture overview, "Custom operating system" (CRI-O substitui o Docker do OpenShift 3; fonte: `modules/architecture-platform-benefits.adoc`)
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 01-arquitetura-e-control-plane/container-runtime
+- **Termo original:** container runtime
+- **Remissões:** container engine, high-level runtime, low-level runtime, OCI runtime, crun, runC
+- **Tradução:** ambiente de execução de contêineres (só como apoio)
+- **Classe ontológica:** componente
+- **Plataforma:** Kubernetes / OpenShift
+- **Escopo:** não aplicável (roda em cada nó)
+- **Disponibilidade:** nativo (obrigatório em cada nó)
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** intermediário
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** confirmar no SNO o formato `cri-o://` em `containerRuntimeVersion` e os `waiting.reason` citados, que **não foram executados**.

@@ -1,7 +1,5 @@
 # Current State (actual state — estado observado)
 
-> **ID:** 00-fundamentos-e-linguagem/current-state | **Termo original:** current state, actual state, observed state | **Tradução:** estado observado, estado atual, estado real | **Classe ontológica:** conceito / padrão (modelo declarativo) | **Plataforma:** Kubernetes / OpenShift | **Escopo:** não aplicável | **Disponibilidade:** nativo | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** básico | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 Current state é **como o sistema realmente está** num dado momento: o que os componentes do cluster constatam e relatam, em geral no [`status`](status.md) dos [objetos](object.md).
@@ -74,7 +72,7 @@ O OpenShift expõe o current state **da plataforma** em `ClusterOperator` e `Clu
 
 Leitura segura: `get`, `describe` e `events`. Num nó único, uma pressão de recursos no nó (memória, disco) aparece rápido no current state de muitos objetos ao mesmo tempo. Observe o Node antes de culpar a aplicação.
 
-## Diagrama Mermaid
+## Diagrama
 
 ```mermaid
 sequenceDiagram
@@ -98,7 +96,22 @@ sequenceDiagram
 - Kubernetes API Conventions — "Spec and Status" ("most recent observations of actual state"): <https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md>
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 00-fundamentos-e-linguagem/current-state
+- **Termo original:** current state, actual state, observed state
+- **Tradução:** estado observado, estado atual, estado real
+- **Classe ontológica:** conceito / padrão (modelo declarativo)
+- **Plataforma:** Kubernetes / OpenShift
+- **Escopo:** não aplicável
+- **Disponibilidade:** nativo
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** básico
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Decisão de nomenclatura:** slug e título com o termo oficial em inglês (`current-state`, "Current State"); "estado observado" como explicação em português; remissões para *actual state* e *observed state*.

@@ -1,7 +1,5 @@
 # Reconciliation (reconciliação)
 
-> **ID:** 00-fundamentos-e-linguagem/reconciliation | **Termo original:** reconciliation, reconcile loop | **Remissões:** control loop, laço de controle | **Tradução:** reconciliação | **Classe ontológica:** padrão / conceito | **Plataforma:** Kubernetes / OpenShift | **Escopo:** não aplicável | **Disponibilidade:** nativo | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** básico → intermediário | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 Reconciliation é o processo contínuo em que um **controller** compara o [desired state](desired-state.md) com o [current state](current-state.md) e age para reduzir a diferença entre eles.
@@ -87,7 +85,7 @@ A documentação do OCP descreve o Operator como "um control loop que compara co
 
 A reconciliation consome CPU e memória do mesmo nó que roda as aplicações. Laços falhando sem parar (por exemplo, Pods em *CrashLoopBackOff*) geram carga e eventos constantes. Observe com `oc get events` e `oc get pods -w`; **não** "force" a convergência apagando objetos de plataforma.
 
-## Diagrama Mermaid
+## Diagrama
 
 ```mermaid
 flowchart TB
@@ -117,7 +115,23 @@ flowchart TB
 - OCP 4.22 — "Kubernetes overview", seção "Kubernetes resources" ("An Operator acts as a control loop..."). Fonte conferida: `openshift-docs` `enterprise-4.22`, `welcome/kubernetes-overview.adoc` → `modules/kubernetes-resources.adoc`. URL publicada **a verificar**: <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22>
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 00-fundamentos-e-linguagem/reconciliation
+- **Termo original:** reconciliation, reconcile loop
+- **Remissões:** control loop, laço de controle
+- **Tradução:** reconciliação
+- **Classe ontológica:** padrão / conceito
+- **Plataforma:** Kubernetes / OpenShift
+- **Escopo:** não aplicável
+- **Disponibilidade:** nativo
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** básico → intermediário
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** o verbete [Controller](controller.md) foi criado no lote 2, e *Control Loop* é remissão para ele e para cá. A sequência de estados no `-w` é **ilustrativa**; não foi observada no SNO.

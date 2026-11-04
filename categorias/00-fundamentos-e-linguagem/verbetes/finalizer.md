@@ -1,7 +1,5 @@
 # Finalizer
 
-> **ID:** 00-fundamentos-e-linguagem/finalizer | **Termo original:** finalizer (`metadata.finalizers`) | **Tradução:** finalizador | **Classe ontológica:** conceito (campo de metadata e mecanismo de exclusão) | **Plataforma:** Kubernetes / OpenShift | **Escopo:** não aplicável | **Disponibilidade:** nativo | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** intermediário | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 Um finalizer é uma **chave na lista `metadata.finalizers`** que impede a remoção definitiva de um objeto até que o controller responsável conclua uma tarefa de limpeza e retire a chave.
@@ -81,7 +79,7 @@ Igual. Operators do OpenShift e do OperatorHub usam finalizers próprios em seus
 
 Observe finalizers à vontade. Remover finalizers é uma **alteração arriscada**: não faça isso em recursos de plataforma e, nos seus, só com a causa entendida.
 
-## Diagrama Mermaid
+## Diagrama
 
 ```mermaid
 stateDiagram-v2
@@ -102,7 +100,22 @@ stateDiagram-v2
 - Kubernetes — Garbage Collection, "Cascading deletion": <https://kubernetes.io/docs/concepts/architecture/garbage-collection/>
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 00-fundamentos-e-linguagem/finalizer
+- **Termo original:** finalizer (`metadata.finalizers`)
+- **Tradução:** finalizador
+- **Classe ontológica:** conceito (campo de metadata e mecanismo de exclusão)
+- **Plataforma:** Kubernetes / OpenShift
+- **Escopo:** não aplicável
+- **Disponibilidade:** nativo
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** intermediário
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** os nomes das condições de Namespace (`NamespaceContentRemaining` e `NamespaceFinalizersRemaining`) e o finalizer `kubernetes` em `spec.finalizers` são conhecidos da referência da API, mas **não foram conferidos** nesta rodada; validar com `oc explain namespace.status.conditions` e `oc explain namespace.spec`. O diagrama usa `stateDiagram-v2`.

@@ -1,7 +1,5 @@
 # YAML
 
-> **ID:** 00-fundamentos-e-linguagem/yaml | **Termo original:** YAML ("YAML Ain't Markup Language") | **Tradução:** não se traduz | **Classe ontológica:** tecnologia (formato de serialização) | **Plataforma:** padrão externo, usado por Kubernetes e OpenShift | **Escopo:** não aplicável | **Disponibilidade:** nativo (aceito pela API e pelos clientes) | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** básico | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 YAML é um **formato de texto para dados estruturados**, baseado em indentação, e é o formato **convencional** dos [manifestos](manifest.md) Kubernetes.
@@ -93,7 +91,22 @@ Estude YAML com `-o yaml` em objetos não sensíveis e com `oc explain`. **Não*
 - Especificação YAML (fonte externa ao Kubernetes): <https://yaml.org/>
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 00-fundamentos-e-linguagem/yaml
+- **Termo original:** YAML ("YAML Ain't Markup Language")
+- **Tradução:** não se traduz
+- **Classe ontológica:** tecnologia (formato de serialização)
+- **Plataforma:** padrão externo, usado por Kubernetes e OpenShift
+- **Escopo:** não aplicável
+- **Disponibilidade:** nativo (aceito pela API e pelos clientes)
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** básico
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** a regra dos tipos implícitos depende da versão do YAML usada pelo parser do cliente. Os exemplos de erro de ConfigMap e de `strict decoding error` seguem o comportamento documentado da validação de campos, mas **não foram reproduzidos** no SNO.

@@ -1,7 +1,5 @@
 # etcd
 
-> **ID:** 01-arquitetura-e-control-plane/etcd | **Termo original:** etcd | **Tradução:** não se traduz | **Classe ontológica:** componente (banco chave-valor distribuído) | **Plataforma:** Kubernetes / OpenShift | **Escopo:** não aplicável (roda no Control Plane) | **Disponibilidade:** nativo | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** intermediário | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 O etcd é um **banco chave-valor consistente e altamente disponível** que serve de armazenamento de todos os dados do cluster Kubernetes.
@@ -66,7 +64,7 @@ O OpenShift automatiza o ciclo de vida do etcd por Operator e documenta procedim
 
 Há **um único membro** do etcd, logo nenhuma tolerância a falhas. Um backup do etcd é especialmente valioso no SNO; faça-o pelo procedimento oficial do OpenShift, que é uma **ação administrativa** (categoria 13), e não um comando de inspeção.
 
-## Diagrama Mermaid
+## Diagrama
 
 ```mermaid
 flowchart LR
@@ -91,7 +89,22 @@ flowchart LR
 - Projeto etcd (fonte externa ao Kubernetes): <https://etcd.io/docs/>
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 01-arquitetura-e-control-plane/etcd
+- **Termo original:** etcd
+- **Tradução:** não se traduz
+- **Classe ontológica:** componente (banco chave-valor distribuído)
+- **Plataforma:** Kubernetes / OpenShift
+- **Escopo:** não aplicável (roda no Control Plane)
+- **Disponibilidade:** nativo
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** intermediário
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** confirmar a label `app=etcd` dos Pods e o texto das condições do Operator no SNO, que **não foram executados**. Detalhar backup e restore na categoria 13.

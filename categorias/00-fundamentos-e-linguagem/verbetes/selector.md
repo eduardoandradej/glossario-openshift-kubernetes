@@ -1,7 +1,5 @@
 # Selector (label selector)
 
-> **ID:** 00-fundamentos-e-linguagem/selector | **Termo original:** label selector, selector | **Remissões:** field selector, matchLabels, matchExpressions | **Tradução:** seletor | **Classe ontológica:** conceito (mecanismo de consulta e de vínculo) | **Plataforma:** Kubernetes / OpenShift | **Escopo:** não aplicável | **Disponibilidade:** nativo | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** básico → intermediário | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 Um label selector é um **filtro sobre [labels](label.md)** que identifica um conjunto de objetos. É, segundo a documentação, a **primitiva central de agrupamento** do Kubernetes.
@@ -89,7 +87,7 @@ Mesmo mecanismo. Recursos do OpenShift também usam seletores, por exemplo selet
 
 Consultas com `-l` e `--field-selector` são leituras. Use-as para **investigar** vínculos, como Service × Pods; não altere seletores de objetos de plataforma.
 
-## Diagrama Mermaid
+## Diagrama
 
 ```mermaid
 flowchart LR
@@ -114,7 +112,23 @@ flowchart LR
 - Kubernetes — Deployments (seletor imutável em `apps/v1`): <https://kubernetes.io/docs/concepts/workloads/controllers/deployment/>
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 00-fundamentos-e-linguagem/selector
+- **Termo original:** label selector, selector
+- **Remissões:** field selector, matchLabels, matchExpressions
+- **Tradução:** seletor
+- **Classe ontológica:** conceito (mecanismo de consulta e de vínculo)
+- **Plataforma:** Kubernetes / OpenShift
+- **Escopo:** não aplicável
+- **Disponibilidade:** nativo
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** básico → intermediário
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** a imutabilidade do seletor do Deployment foi conferida na página Deployments (`release-1.35`). Falta conferir a label `kubernetes.io/service-name` dos EndpointSlices (categoria 04). Exemplos **não executados** no SNO.

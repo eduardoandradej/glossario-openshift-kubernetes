@@ -1,7 +1,5 @@
 # ObservedGeneration (status.observedGeneration)
 
-> **ID:** 00-fundamentos-e-linguagem/observed-generation | **Termo original:** observedGeneration | **Tradução:** geração observada | **Classe ontológica:** conceito (campo de status) | **Plataforma:** Kubernetes / OpenShift | **Escopo:** não aplicável | **Disponibilidade:** nativo, mas **depende do tipo** (nem todos publicam) | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** intermediário | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 `observedGeneration` é o campo em que o componente responsável registra **qual [generation](generation.md) do objeto ele observou por último**, e permite saber se o `status` reflete o desired state mais recente.
@@ -77,7 +75,22 @@ Mesmo conceito. Em objetos do OpenShift e de Operators, procure `observedGenerat
 - Kubernetes — Deployments, "Deployment status": <https://kubernetes.io/docs/concepts/workloads/controllers/deployment/> (fonte: `kubernetes/website` `release-1.35`)
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 00-fundamentos-e-linguagem/observed-generation
+- **Termo original:** observedGeneration
+- **Tradução:** geração observada
+- **Classe ontológica:** conceito (campo de status)
+- **Plataforma:** Kubernetes / OpenShift
+- **Escopo:** não aplicável
+- **Disponibilidade:** nativo, mas **depende do tipo** (nem todos publicam)
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** intermediário
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** confirmar que `oc rollout status` considera `observedGeneration` (comportamento conhecido do `kubectl`), o que **não foi verificado** no código ou na documentação desta rodada.

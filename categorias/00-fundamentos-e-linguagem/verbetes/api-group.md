@@ -1,7 +1,5 @@
 # API Group
 
-> **ID:** 00-fundamentos-e-linguagem/api-group | **Termo original:** API group | **Tradução:** grupo de API | **Classe ontológica:** conceito (organização da API) | **Plataforma:** Kubernetes / OpenShift | **Escopo:** não aplicável | **Disponibilidade:** nativo | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** básico | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 Um API group é um **conjunto de caminhos relacionados da API**, que agrupa tipos de recurso afins (ex.: `apps` para Deployments e StatefulSets) e é versionado como uma unidade.
@@ -98,7 +96,22 @@ O OpenShift acrescenta muitos grupos `*.openshift.io` (`route`, `project`, `buil
 - Kubernetes — The Kubernetes API, "API groups and versioning": <https://kubernetes.io/docs/concepts/overview/kubernetes-api/>
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 00-fundamentos-e-linguagem/api-group
+- **Termo original:** API group
+- **Tradução:** grupo de API
+- **Classe ontológica:** conceito (organização da API)
+- **Plataforma:** Kubernetes / OpenShift
+- **Escopo:** não aplicável
+- **Disponibilidade:** nativo
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** básico
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** a tabela de grupos combina a documentação Kubernetes com o conhecimento dos grupos do OpenShift. Conferir no SNO com `oc api-resources --api-group=<grupo>`, especialmente `config.openshift.io`, que **não foi executado**.

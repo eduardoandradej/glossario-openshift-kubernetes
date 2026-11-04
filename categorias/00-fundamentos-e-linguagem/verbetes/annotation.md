@@ -1,7 +1,5 @@
 # Annotation
 
-> **ID:** 00-fundamentos-e-linguagem/annotation | **Termo original:** annotation | **Tradução:** anotação | **Classe ontológica:** conceito (campo `metadata.annotations`) | **Plataforma:** Kubernetes / OpenShift | **Escopo:** não aplicável | **Disponibilidade:** nativo | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** básico | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 Annotations são pares chave/valor que anexam a um objeto **metadados arbitrários e não identificadores**, para serem lidos por ferramentas, bibliotecas e pessoas.
@@ -79,7 +77,22 @@ Ler annotations é seguro. **Não** edite annotations de objetos de plataforma: 
 - Kubernetes API Conventions — "Metadata" (labels × annotations): <https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md>
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 00-fundamentos-e-linguagem/annotation
+- **Termo original:** annotation
+- **Tradução:** anotação
+- **Classe ontológica:** conceito (campo `metadata.annotations`)
+- **Plataforma:** Kubernetes / OpenShift
+- **Escopo:** não aplicável
+- **Disponibilidade:** nativo
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** básico
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** a annotation `kubectl.kubernetes.io/last-applied-configuration` e a `deployment.kubernetes.io/revision` são de uso conhecido, mas **não foram conferidas** nesta rodada; validar no SNO. Detalhar a relação com o *server-side apply* (`managedFields`) na categoria 14.

@@ -1,7 +1,5 @@
 # Resource Name (metadata.name)
 
-> **ID:** 00-fundamentos-e-linguagem/resource-name | **Termo original:** name, object name, resource name | **Remissões:** generateName | **Tradução:** nome (do objeto) | **Classe ontológica:** conceito (campo de identidade) | **Plataforma:** Kubernetes / OpenShift | **Escopo:** único por tipo **dentro do namespace** (namespaced) ou **no cluster** (cluster-scoped) | **Disponibilidade:** nativo | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** básico | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 O nome (`metadata.name`) é a string, escolhida pelo cliente, que **identifica um objeto dentro do seu tipo e escopo** e aparece na URL (`/api/v1/namespaces/<ns>/pods/<nome>`).
@@ -85,7 +83,23 @@ Observe nomes com `-o name` e `oc explain`; nada disso altera o cluster.
 - OCP 4.22 — Working with projects (prefixos reservados): <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/building_applications/projects> (fonte: `applications/projects/working-with-projects.adoc`)
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 00-fundamentos-e-linguagem/resource-name
+- **Termo original:** name, object name, resource name
+- **Remissões:** generateName
+- **Tradução:** nome (do objeto)
+- **Classe ontológica:** conceito (campo de identidade)
+- **Plataforma:** Kubernetes / OpenShift
+- **Escopo:** único por tipo **dentro do namespace** (namespaced) ou **no cluster** (cluster-scoped)
+- **Disponibilidade:** nativo
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** básico
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** a coluna "Usada por" da tabela de restrições foi inferida (a página oficial não lista os tipos para cada regra). Confirmar a regra de Namespace (RFC 1123 label) na página de Namespaces, onde está documentada, e as demais no esquema de cada tipo. A mensagem de erro é ilustrativa; a URL publicada de "Working with projects" está **a verificar**.

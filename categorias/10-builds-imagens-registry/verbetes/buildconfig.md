@@ -1,9 +1,5 @@
 # BuildConfig
 
-> **Classe:** Objeto API específico de OpenShift (namespaced)  
-> **Categoria:** 10-builds-imagens-registry  
-> **Plataforma:** OpenShift 4.22 / Kubernetes, conforme aplicável
-
 ## Definição
 
 Recurso histórico do subsistema de builds do OpenShift que define fontes, estratégia, gatilhos e destino de imagem para executar builds gerenciados.
@@ -34,9 +30,16 @@ Verificar disponibilidade e suporte na versão alvo; não confundir builds da pl
 - [Conceitos Kubernetes](https://kubernetes.io/docs/concepts/)
 - [Documentação OpenShift 4.22](https://docs.redhat.com/en/documentation/openshift_container_platform/4.22)
 
-
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **Classe:** Objeto API específico de OpenShift (namespaced)
+- **Categoria:** 10-builds-imagens-registry
+- **Plataforma:** OpenShift 4.22 / Kubernetes, conforme aplicável
+
+**Notas de revisão**
 
 Versão inicial. Próxima revisão: completar diagrama, exemplo real, correspondências entre API Groups, interpretação detalhada de campos, comparação e links cruzados. Nunca declarar o verbete "completo" antes desses itens.
 

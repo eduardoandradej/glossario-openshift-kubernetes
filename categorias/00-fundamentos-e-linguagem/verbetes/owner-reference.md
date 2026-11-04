@@ -1,7 +1,5 @@
 # OwnerReference
 
-> **ID:** 00-fundamentos-e-linguagem/owner-reference | **Termo original:** owner reference (`metadata.ownerReferences`) | **Remissões:** owner, dependent, dono, dependente | **Tradução:** referência de dono | **Classe ontológica:** conceito (campo de metadata) | **Plataforma:** Kubernetes / OpenShift | **Escopo:** dono e dependente no mesmo namespace, ou dono cluster-scoped | **Disponibilidade:** nativo | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** intermediário | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 `ownerReferences` é o campo em que um objeto **dependente** registra quem é o seu **dono** (*owner*), pelo nome e pelo [UID](uid.md). É isso que permite ao Kubernetes limpar os dependentes quando o dono é apagado.
@@ -78,7 +76,7 @@ Igual. Operators (inclusive os de plataforma) definem owner references nos objet
 
 Observar donos é seguro e muito didático. **Não** edite `ownerReferences` à mão: isso pode provocar exclusões em cascata inesperadas ou objetos que nunca são coletados.
 
-## Diagrama Mermaid
+## Diagrama
 
 ```mermaid
 flowchart BT
@@ -99,7 +97,23 @@ flowchart BT
 - Kubernetes — Garbage Collection, "Owners and dependents": <https://kubernetes.io/docs/concepts/architecture/garbage-collection/>
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 00-fundamentos-e-linguagem/owner-reference
+- **Termo original:** owner reference (`metadata.ownerReferences`)
+- **Remissões:** owner, dependent, dono, dependente
+- **Tradução:** referência de dono
+- **Classe ontológica:** conceito (campo de metadata)
+- **Plataforma:** Kubernetes / OpenShift
+- **Escopo:** dono e dependente no mesmo namespace, ou dono cluster-scoped
+- **Disponibilidade:** nativo
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** intermediário
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** as regras de adoção de Pods pelo ReplicaSet devem ser conferidas na página de ReplicaSet (categoria 03), que **não foi lida** nesta rodada. Exemplos **não executados** no SNO.

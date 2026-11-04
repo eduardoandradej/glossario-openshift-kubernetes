@@ -1,7 +1,5 @@
 # UID (metadata.uid)
 
-> **ID:** 00-fundamentos-e-linguagem/uid | **Termo original:** UID (unique identifier) | **Tradução:** identificador único | **Classe ontológica:** conceito (campo de identidade) | **Plataforma:** Kubernetes / OpenShift | **Escopo:** único em todo o cluster, por toda a sua vida | **Disponibilidade:** nativo | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** básico | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 O UID é uma string **gerada pelo sistema** que identifica um objeto de forma única em todo o cluster e ao longo de toda a vida do cluster. Nenhum outro objeto, nem antes nem depois, terá o mesmo UID.
@@ -79,7 +77,22 @@ Leitura segura com `-o jsonpath`. Os UIDs não são segredos, mas também não h
 - Kubernetes API Conventions — "Metadata" (`uid`): <https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md>
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 00-fundamentos-e-linguagem/uid
+- **Termo original:** UID (unique identifier)
+- **Tradução:** identificador único
+- **Classe ontológica:** conceito (campo de identidade)
+- **Plataforma:** Kubernetes / OpenShift
+- **Escopo:** único em todo o cluster, por toda a sua vida
+- **Disponibilidade:** nativo
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** básico
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** o comportamento de adoção depois de `--cascade=orphan` deve ser aprofundado e conferido nos verbetes *OwnerReference* e *Garbage Collection* (lote 3). Exemplos **não executados** no SNO.

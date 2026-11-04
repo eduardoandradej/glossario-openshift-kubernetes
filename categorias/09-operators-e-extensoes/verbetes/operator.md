@@ -1,9 +1,5 @@
 # Operator
 
-> **Classe:** Padrão arquitetural e software controlador  
-> **Categoria:** 09-operators-e-extensoes  
-> **Plataforma:** OpenShift 4.22 / Kubernetes, conforme aplicável
-
 ## Definição
 
 Software que codifica conhecimento operacional de uma aplicação ou componente, reagindo ao current state de recursos e reconciliando-o com o desired state.
@@ -34,9 +30,16 @@ Os comandos consultam recursos diferentes, não uma lista universal de todo soft
 - [Conceitos Kubernetes](https://kubernetes.io/docs/concepts/)
 - [Documentação OpenShift 4.22](https://docs.redhat.com/en/documentation/openshift_container_platform/4.22)
 
-
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **Classe:** Padrão arquitetural e software controlador
+- **Categoria:** 09-operators-e-extensoes
+- **Plataforma:** OpenShift 4.22 / Kubernetes, conforme aplicável
+
+**Notas de revisão**
 
 Versão inicial. Próxima revisão: completar diagrama, exemplo real, correspondências entre API Groups, interpretação detalhada de campos, comparação e links cruzados. Nunca declarar o verbete "completo" antes desses itens.
 

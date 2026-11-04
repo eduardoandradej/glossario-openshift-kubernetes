@@ -1,7 +1,5 @@
 # Object (objeto)
 
-> **ID:** 00-fundamentos-e-linguagem/object | **Termo original:** Kubernetes object / API object | **Tradução:** objeto (do Kubernetes) | **Classe ontológica:** conceito (modelo de dados da API) | **Plataforma:** Kubernetes / OpenShift | **Escopo:** cada objeto é namespaced ou cluster-scoped, conforme o seu tipo | **Disponibilidade:** nativo | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** básico | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 Um objeto é uma **entidade persistente** guardada pela API do Kubernetes, que representa uma parte do estado do cluster e funciona como um **registro de intenção** (*record of intent*).
@@ -96,7 +94,7 @@ O modelo é idêntico. O OpenShift só acrescenta **tipos** de objeto (Route, Pr
 
 Use `-o yaml` e `describe` à vontade em objetos de aplicação e de leitura. Em namespaces `openshift-*` e `kube-*`, apenas **observe**: não edite nem apague objetos de plataforma.
 
-## Diagrama Mermaid
+## Diagrama
 
 ```mermaid
 flowchart LR
@@ -117,7 +115,22 @@ flowchart LR
 - Kubernetes API Conventions — "Types (Kinds)", "Objects": <https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md>
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 00-fundamentos-e-linguagem/object
+- **Termo original:** Kubernetes object / API object
+- **Tradução:** objeto (do Kubernetes)
+- **Classe ontológica:** conceito (modelo de dados da API)
+- **Plataforma:** Kubernetes / OpenShift
+- **Escopo:** cada objeto é namespaced ou cluster-scoped, conforme o seu tipo
+- **Disponibilidade:** nativo
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** básico
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** a afirmação sobre `metadata.generation` deve ser aprofundada nos verbetes *Generation* e *ObservedGeneration*. Exemplos de saída **não executados** no SNO.

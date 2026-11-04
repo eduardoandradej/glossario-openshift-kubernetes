@@ -1,7 +1,5 @@
 # Status
 
-> **ID:** 00-fundamentos-e-linguagem/status | **Termo original:** status | **Tradução:** status, estado (atual) | **Classe ontológica:** conceito (campo convencional dos objetos) | **Plataforma:** Kubernetes / OpenShift | **Escopo:** não aplicável | **Disponibilidade:** nativo | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** básico | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 `status` é o campo de um [objeto](object.md) em que **o sistema** registra o [current state](current-state.md): o que de fato aconteceu em resposta ao [`spec`](spec.md).
@@ -107,7 +105,22 @@ O OpenShift usa intensamente o padrão de condições `Available` / `Progressing
 - Kubernetes API Conventions — "Spec and Status", "Typical status properties": <https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md>
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 00-fundamentos-e-linguagem/status
+- **Termo original:** status
+- **Tradução:** status, estado (atual)
+- **Classe ontológica:** conceito (campo convencional dos objetos)
+- **Plataforma:** Kubernetes / OpenShift
+- **Escopo:** não aplicável
+- **Disponibilidade:** nativo
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** básico
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** os `reason` do Deployment (`MinimumReplicasAvailable`, `NewReplicaSetAvailable`, `ProgressDeadlineExceeded`) foram conferidos na página Deployments da documentação Kubernetes 1.35 (`concepts/workloads/controllers/deployment.md`). O YAML é **ilustrativo** e não foi coletado no SNO. Aprofundar nos verbetes *Conditions* e *ObservedGeneration*.

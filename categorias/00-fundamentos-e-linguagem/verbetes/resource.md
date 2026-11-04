@@ -1,7 +1,5 @@
 # Resource (API resource, resource type — recurso)
 
-> **ID:** 00-fundamentos-e-linguagem/resource | **Termo original:** resource, resource type, API resource | **Tradução:** recurso, tipo de recurso | **Classe ontológica:** conceito (terminologia da API) | **Plataforma:** Kubernetes / OpenShift | **Escopo:** cada tipo de recurso é **namespaced** ou **cluster-scoped** | **Disponibilidade:** nativo | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** básico | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 Na API do Kubernetes, **tipo de recurso** (*resource type*) é o nome usado na URL para um tipo de coisa (ex.: `pods`, `deployments`), e **recurso** é uma instância individual dele, normalmente um [objeto](object.md).
@@ -93,7 +91,7 @@ O OpenShift acrescenta dezenas de tipos de recurso em grupos `*.openshift.io`, a
 
 `oc api-resources` mostra o que o **seu** SNO serve. O resultado depende dos Operators e das *capabilities* instaladas e pode diferir de outro cluster 4.22. Não instale nada para "fazer aparecer" um recurso.
 
-## Diagrama Mermaid
+## Diagrama
 
 ```mermaid
 flowchart TB
@@ -114,7 +112,22 @@ flowchart TB
 - Kubernetes API Conventions — "Resources", subresources `/status`, `/scale`, `/binding`: <https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md>
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 00-fundamentos-e-linguagem/resource
+- **Termo original:** resource, resource type, API resource
+- **Tradução:** recurso, tipo de recurso
+- **Classe ontológica:** conceito (terminologia da API)
+- **Plataforma:** Kubernetes / OpenShift
+- **Escopo:** cada tipo de recurso é **namespaced** ou **cluster-scoped**
+- **Disponibilidade:** nativo
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** básico
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** as mensagens de erro da tabela seguem o formato conhecido do `kubectl`/`oc`, mas **não foram reproduzidas** no SNO nesta rodada; validar o texto exato. Confirmar o uso de `oc auth can-i ... --subresource` com `oc auth can-i --help`.

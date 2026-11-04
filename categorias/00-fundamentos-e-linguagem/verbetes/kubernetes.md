@@ -1,7 +1,5 @@
 # Kubernetes
 
-> **ID:** 00-fundamentos-e-linguagem/kubernetes | **Termo original:** Kubernetes | **Sigla/remissão:** K8s | **Tradução:** não se traduz (do grego, "timoneiro" ou "piloto") | **Classe ontológica:** tecnologia / plataforma | **Plataforma:** Kubernetes (upstream) | **Escopo:** não aplicável | **Disponibilidade:** nativo (é a base do OpenShift) | **Versões validadas:** Kubernetes 1.35 (a versão usada pelo OCP 4.22) | **Nível:** básico | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 Kubernetes é uma plataforma de código aberto que **orquestra contêineres**: você declara como as aplicações devem estar, e ela trabalha continuamente para que o cluster fique desse jeito.
@@ -84,7 +82,7 @@ As release notes do OCP 4.22 informam que a versão usa **Kubernetes 1.35 com CR
 
 Presente: o SNO é um cluster OpenShift completo, logo roda Kubernetes 1.35. Para confirmar a versão, basta `oc version`, que não altera nada no cluster.
 
-## Diagrama Mermaid
+## Diagrama
 
 ```mermaid
 flowchart LR
@@ -108,7 +106,23 @@ flowchart LR
 - OCP 4.22 — CLI `oc`: <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/cli_tools/openshift-cli-oc>
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 00-fundamentos-e-linguagem/kubernetes
+- **Termo original:** Kubernetes
+- **Sigla/remissão:** K8s
+- **Tradução:** não se traduz (do grego, "timoneiro" ou "piloto")
+- **Classe ontológica:** tecnologia / plataforma
+- **Plataforma:** Kubernetes (upstream)
+- **Escopo:** não aplicável
+- **Disponibilidade:** nativo (é a base do OpenShift)
+- **Versões validadas:** Kubernetes 1.35 (a versão usada pelo OCP 4.22)
+- **Nível:** básico
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. O conteúdo foi conferido nos fontes oficiais (GitHub) em 2026-11-04.
 - **Pendências:** abrir as URLs publicadas (kubernetes.io e docs.redhat.com estavam bloqueados pela rede da sessão); validar a saída de `oc version` no SNO. A saída mostrada é ilustrativa e **não foi executada**.

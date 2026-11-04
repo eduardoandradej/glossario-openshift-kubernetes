@@ -1,7 +1,5 @@
 # Garbage Collection
 
-> **ID:** 00-fundamentos-e-linguagem/garbage-collection | **Termo original:** garbage collection (GC), cascading deletion | **Remissões:** exclusão em cascata, orphan, foreground, background | **Tradução:** coleta de lixo | **Classe ontológica:** conceito / mecanismo (executado por controllers e pelo kubelet) | **Plataforma:** Kubernetes / OpenShift | **Escopo:** não aplicável | **Disponibilidade:** nativo | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** intermediário | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 Garbage collection é o conjunto de mecanismos com que o Kubernetes **limpa recursos que não são mais necessários**, principalmente objetos dependentes cujo dono foi apagado.
@@ -90,7 +88,7 @@ O mecanismo é o do Kubernetes. A coleta de imagens nos nós é configurada pelo
 
 Num nó único com disco limitado, a coleta de imagens pelo kubelet é importante para não lotar o disco. **Observe** o uso de disco do nó; não ajuste os limites nem apague imagens à mão.
 
-## Diagrama Mermaid
+## Diagrama
 
 ```mermaid
 flowchart LR
@@ -111,7 +109,23 @@ flowchart LR
 - Kubernetes — Owners and Dependents: <https://kubernetes.io/docs/concepts/overview/working-with-objects/owners-dependents/>
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 00-fundamentos-e-linguagem/garbage-collection
+- **Termo original:** garbage collection (GC), cascading deletion
+- **Remissões:** exclusão em cascata, orphan, foreground, background
+- **Tradução:** coleta de lixo
+- **Classe ontológica:** conceito / mecanismo (executado por controllers e pelo kubelet)
+- **Plataforma:** Kubernetes / OpenShift
+- **Escopo:** não aplicável
+- **Disponibilidade:** nativo
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** intermediário
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** as flags `--cascade=background|foreground|orphan` foram conferidas na página de tarefa "Use Cascading Deletion" (`release-1.35`). Conferir a configuração de GC de imagens via `KubeletConfig` no OCP 4.22 (categoria 02) e a localização do garbage collector no kube-controller-manager.

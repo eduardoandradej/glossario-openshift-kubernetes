@@ -1,7 +1,5 @@
 # Generation (metadata.generation)
 
-> **ID:** 00-fundamentos-e-linguagem/generation | **Termo original:** generation | **Tradução:** geração | **Classe ontológica:** conceito (campo de metadata) | **Plataforma:** Kubernetes / OpenShift | **Escopo:** não aplicável | **Disponibilidade:** nativo (preenchido pelo sistema) | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** intermediário | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 `metadata.generation` é um **número sequencial, definido pelo sistema e sempre crescente**, que representa uma versão específica do **[desired state](desired-state.md)** de um objeto.
@@ -73,7 +71,22 @@ Comparar `generation` e `observedGeneration` é o diagnóstico mais barato e seg
 - Kubernetes — Deployments, "Deployment status" (`observedGeneration`): <https://kubernetes.io/docs/concepts/workloads/controllers/deployment/> (fonte: `kubernetes/website` `release-1.35`)
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 00-fundamentos-e-linguagem/generation
+- **Termo original:** generation
+- **Tradução:** geração
+- **Classe ontológica:** conceito (campo de metadata)
+- **Plataforma:** Kubernetes / OpenShift
+- **Escopo:** não aplicável
+- **Disponibilidade:** nativo (preenchido pelo sistema)
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** intermediário
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** a regra sobre CRDs com subrecurso `status` vem da documentação de CustomResourceDefinitions, que **não foi lida** nesta rodada; conferir na categoria 09. Exemplos **não executados** no SNO.

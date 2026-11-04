@@ -1,9 +1,5 @@
 # Node
 
-> **Classe:** Objeto API (cluster-scoped)  
-> **Categoria:** 02-compute-e-nodes  
-> **Plataforma:** OpenShift 4.22 / Kubernetes, conforme aplicável
-
 ## Definição
 
 Representa uma máquina física ou virtual habilitada a executar Pods; contém capacidade, condições e informações do kubelet. O scheduler considera restrições e recursos disponíveis ao posicionar novos Pods.
@@ -35,9 +31,16 @@ Em um Single Node OpenShift, o mesmo nó desempenha funções de control plane e
 - [Conceitos Kubernetes](https://kubernetes.io/docs/concepts/)
 - [Documentação OpenShift 4.22](https://docs.redhat.com/en/documentation/openshift_container_platform/4.22)
 
-
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **Classe:** Objeto API (cluster-scoped)
+- **Categoria:** 02-compute-e-nodes
+- **Plataforma:** OpenShift 4.22 / Kubernetes, conforme aplicável
+
+**Notas de revisão**
 
 Versão inicial. Próxima revisão: completar diagrama, exemplo real, correspondências entre API Groups, interpretação detalhada de campos, comparação e links cruzados. Nunca declarar o verbete "completo" antes desses itens.
 

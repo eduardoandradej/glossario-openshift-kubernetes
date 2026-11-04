@@ -1,7 +1,5 @@
 # Desired State (estado desejado)
 
-> **ID:** 00-fundamentos-e-linguagem/desired-state | **Termo original:** desired state | **Tradução:** estado desejado | **Classe ontológica:** conceito / padrão (modelo declarativo) | **Plataforma:** Kubernetes / OpenShift | **Escopo:** não aplicável | **Disponibilidade:** nativo | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** básico | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 Desired state é a **descrição de como algo deve estar**, registrada num [objeto](object.md), normalmente no seu [`spec`](spec.md), e que o sistema trabalha continuamente para tornar realidade.
@@ -80,7 +78,7 @@ O OpenShift aplica o mesmo modelo **à própria plataforma**: a versão desejada
 
 Observe o desired state à vontade com `get`, `-o jsonpath` e `oc diff`. **Não** altere o desired state de objetos em `openshift-*`: o Operator correspondente pode reverter a mudança, ou pior, a configuração passa a divergir do suportado.
 
-## Diagrama Mermaid
+## Diagrama
 
 ```mermaid
 flowchart LR
@@ -103,7 +101,22 @@ flowchart LR
 - OCP 4.22 — "Kubernetes overview", seção "Kubernetes resources" (modelo declarativo e Operators como control loop). Fonte conferida: `openshift-docs` `enterprise-4.22`, `welcome/kubernetes-overview.adoc` → `modules/kubernetes-resources.adoc`. URL publicada **a verificar**: <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22>
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 00-fundamentos-e-linguagem/desired-state
+- **Termo original:** desired state
+- **Tradução:** estado desejado
+- **Classe ontológica:** conceito / padrão (modelo declarativo)
+- **Plataforma:** Kubernetes / OpenShift
+- **Escopo:** não aplicável
+- **Disponibilidade:** nativo
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** básico
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** confirmar com `oc diff --help` no cliente 4.22 que o comportamento é somente leitura (assim está documentado no `kubectl diff`). Exemplos **não executados**.

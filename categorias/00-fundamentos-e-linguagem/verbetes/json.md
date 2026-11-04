@@ -1,7 +1,5 @@
 # JSON
 
-> **ID:** 00-fundamentos-e-linguagem/json | **Termo original:** JSON (JavaScript Object Notation) | **Tradução:** não se traduz | **Classe ontológica:** tecnologia (formato de serialização) | **Plataforma:** padrão externo, usado por Kubernetes e OpenShift | **Escopo:** não aplicável | **Disponibilidade:** nativo (formato padrão da API) | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** básico | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 JSON é o **formato de dados padrão da API do Kubernetes**: é nele que os objetos trafegam por HTTP, salvo quando o cliente pede outro formato.
@@ -88,7 +86,22 @@ Sem diferença de formato. As APIs `*.openshift.io` seguem as mesmas regras de s
 - Especificação JSON (fonte externa): <https://www.json.org/json-en.html>
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 00-fundamentos-e-linguagem/json
+- **Termo original:** JSON (JavaScript Object Notation)
+- **Tradução:** não se traduz
+- **Classe ontológica:** tecnologia (formato de serialização)
+- **Plataforma:** padrão externo, usado por Kubernetes e OpenShift
+- **Escopo:** não aplicável
+- **Disponibilidade:** nativo (formato padrão da API)
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** básico
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** a sintaxe `range`/`end` foi conferida na página "JSONPath Support" (`reference/kubectl/jsonpath.md`, `release-1.35`). Validar os exemplos no SNO, onde **não foram executados**.

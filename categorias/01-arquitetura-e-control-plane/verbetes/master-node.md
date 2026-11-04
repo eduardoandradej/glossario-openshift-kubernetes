@@ -1,7 +1,5 @@
 # Master Node
 
-> **ID:** 01-arquitetura-e-control-plane/master-node | **Termo original:** master, master node | **Tradução:** nó mestre (só como apoio) | **Classe ontológica:** legado (termo) / papel de máquina no OpenShift | **Plataforma:** Kubernetes (termo legado) / OpenShift (nome do papel `master`) | **Escopo:** não aplicável | **Disponibilidade:** termo legado no Kubernetes; ainda usado como papel no OpenShift | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** básico | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 "Master" é o **termo legado** para os nós que hospedam o [Control Plane](control-plane.md). No Kubernetes atual o termo correto é *control plane node*; no OpenShift, `master` continua sendo o nome do **papel de máquina** (*machine role*) desses nós.
@@ -68,7 +66,22 @@ O nó único mostra `control-plane,master,worker` em `ROLES`.
 - OCP 4.22 — Control plane architecture, "Machine roles" (papéis `master`, `worker`, `bootstrap`): <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/architecture/control-plane> (fonte: `modules/architecture-machine-roles.adoc`)
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 01-arquitetura-e-control-plane/master-node
+- **Termo original:** master, master node
+- **Tradução:** nó mestre (só como apoio)
+- **Classe ontológica:** legado (termo) / papel de máquina no OpenShift
+- **Plataforma:** Kubernetes (termo legado) / OpenShift (nome do papel `master`)
+- **Escopo:** não aplicável
+- **Disponibilidade:** termo legado no Kubernetes; ainda usado como papel no OpenShift
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** básico
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** confirmar no SNO a presença das duas labels e a forma como `-L` exibe labels de valor vazio, o que **não foi executado**.

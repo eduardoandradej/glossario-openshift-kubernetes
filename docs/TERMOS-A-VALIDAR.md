@@ -74,6 +74,20 @@
 | [CRI-O](../categorias/01-arquitetura-e-control-plane/verbetes/cri-o.md) | Versão 1.35 no 4.22; `containerruntimeconfigs`; `/var/lib/containers` | SNO / docs |
 | [Static Pod](../categorias/01-arquitetura-e-control-plane/verbetes/static-pod.md) | Dono `Node` e annotations `kubernetes.io/config.*` dos mirror Pods | SNO / docs |
 
+## Categoria 01 — lote 2
+
+| Verbete | O que validar | Como |
+|---|---|---|
+| [kube-proxy](../categorias/01-arquitetura-e-control-plane/verbetes/kube-proxy.md) | Ausência de kube-proxy com OVN-K; campo `deployKubeProxy` | SNO / docs |
+| [OVN-Kubernetes](../categorias/01-arquitetura-e-control-plane/verbetes/ovn-kubernetes.md) | Namespace/Pods `openshift-ovn-kubernetes`; `status.clusterNetwork`; nº de `ovnkube-control-plane` no SNO | SNO / docs |
+| [Cluster DNS](../categorias/01-arquitetura-e-control-plane/verbetes/cluster-dns.md) | Linha `search` do `resolv.conf` | SNO / docs |
+| [CoreDNS](../categorias/01-arquitetura-e-control-plane/verbetes/coredns.md) | Nomes `dns-default`, namespace `openshift-dns`, contêiner `dns` | SNO / docs |
+| [DNS Operator](../categorias/01-arquitetura-e-control-plane/verbetes/dns-operator.md) | Contêiner dos logs; `dns.operator` × `dns.config` | SNO / docs |
+| [Cluster Version Operator](../categorias/01-arquitetura-e-control-plane/verbetes/cluster-version-operator.md) | Namespace `openshift-cluster-version`; `status.history[].state`; `oc adm upgrade` | SNO / docs |
+| [Machine Config Operator](../categorias/01-arquitetura-e-control-plane/verbetes/machine-config-operator.md) | Annotation `machineconfiguration.openshift.io/state`; nomes do CO e namespace | SNO / docs |
+| [MachineConfig](../categorias/01-arquitetura-e-control-plane/verbetes/machineconfig.md) | Colunas de `oc get mc`; `status.configuration.name` | SNO / docs |
+| [MachineConfigPool](../categorias/01-arquitetura-e-control-plane/verbetes/machineconfigpool.md) | Colunas de `oc get mcp`; pool `worker` com 0 máquinas no SNO | SNO / docs |
+
 ## Decisões de nomenclatura a confirmar com o autor
 
 - **Termos técnicos em inglês (decisão do autor, 2026-11-04):** títulos e termos técnicos ficam no original em inglês (Control Plane, Desired State, Current State, Reconciliation, Object, Resource...). A explicação é em português. A tradução aparece só como apoio, entre parênteses ou no campo **Tradução**.

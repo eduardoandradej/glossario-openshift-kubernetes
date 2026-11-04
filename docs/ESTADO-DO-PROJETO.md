@@ -1,5 +1,15 @@
 # Estado do projeto
 
+## Rodada 2026-11-04 (5) — categoria 01, lote 2, e ajustes de apresentação
+
+- **Lote 2 (9 verbetes):** kube-proxy, OVN-Kubernetes, CoreDNS, DNS Operator, Cluster DNS, Cluster Version Operator, Machine Config Operator, MachineConfig e MachineConfigPool. Remissão: Cluster Operator (→ ClusterOperator, categoria 09).
+- **Apresentação (decisões do autor):** README sóbrio, sem controles internos; páginas de categoria só com termos publicados e "Em breve"; índices sem ícones; ficha técnica e notas de revisão dos verbetes num bloco recolhido no fim; seção "Diagrama" (sem "Mermaid"); ícones limitados a ✅/🚧/📝 na tabela do README.
+- Fontes: `openshift-docs` `enterprise-4.22` (OVN-Kubernetes, DNS Operator, Cluster Network Operator, CVO, OSUS, release images, MCO, MachineConfig, MCP) e Kubernetes 1.35 (kube-proxy opcional, DNS).
+
+### Próximo lote recomendado (categoria 01, lote 3, que fecha a categoria)
+
+Bootstrap, Quorum, High Availability, SNO, HyperShift, Hosted Control Plane e Infrastructure Node.
+
 ## Rodada 2026-11-04 (4) — padronização de termos e categoria 01, lote 1
 
 - **Padronização (decisão do autor):** termos técnicos no original em inglês (Control Plane, Desired State, Current State, Reconciliation, Garbage Collection, Object, Resource...), com o conceito explicado em português. Toda a categoria 00 foi ajustada, e a regra está no `CLAUDE.md` e no modelo de verbete.

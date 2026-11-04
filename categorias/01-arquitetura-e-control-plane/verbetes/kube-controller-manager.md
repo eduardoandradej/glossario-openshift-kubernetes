@@ -1,7 +1,5 @@
 # kube-controller-manager
 
-> **ID:** 01-arquitetura-e-control-plane/kube-controller-manager | **Termo original:** kube-controller-manager | **Remissões:** controller manager, KCM | **Tradução:** gerenciador de controllers (só como apoio) | **Classe ontológica:** componente | **Plataforma:** Kubernetes / OpenShift | **Escopo:** não aplicável (roda no Control Plane) | **Disponibilidade:** nativo | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** intermediário | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 O kube-controller-manager é o componente do [Control Plane](control-plane.md) que **roda os controllers nativos** do Kubernetes, como os de Deployment, ReplicaSet, Job, Namespace e ServiceAccount.
@@ -74,7 +72,23 @@ Uma única réplica: se ela reiniciar, a reconciliação dos tipos nativos pausa
 - OCP 4.22 — Control plane architecture, "Machine roles" (um líder ativo; OpenShift controller manager): <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/architecture/control-plane>
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 01-arquitetura-e-control-plane/kube-controller-manager
+- **Termo original:** kube-controller-manager
+- **Remissões:** controller manager, KCM
+- **Tradução:** gerenciador de controllers (só como apoio)
+- **Classe ontológica:** componente
+- **Plataforma:** Kubernetes / OpenShift
+- **Escopo:** não aplicável (roda no Control Plane)
+- **Disponibilidade:** nativo
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** intermediário
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** a localização do garbage collector dentro do KCM é conhecida da arquitetura do Kubernetes, mas **não foi citada** nas páginas lidas; conferir na referência do `kube-controller-manager`.

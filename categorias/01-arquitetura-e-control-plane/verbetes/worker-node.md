@@ -1,7 +1,5 @@
 # Worker Node
 
-> **ID:** 01-arquitetura-e-control-plane/worker-node | **Termo original:** worker node, compute node, compute machine | **Remissões:** minion (termo antigo) | **Tradução:** nó de trabalho (só como apoio) | **Classe ontológica:** conceito (papel de um Node) | **Plataforma:** Kubernetes / OpenShift | **Escopo:** não aplicável (o objeto `Node` é cluster-scoped) | **Disponibilidade:** nativo | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** básico | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 Um Worker Node é uma máquina, VM ou física, que **executa as cargas de trabalho** (Pods) e é gerenciada pelo [Control Plane](control-plane.md).
@@ -80,7 +78,23 @@ Não há worker separado: o único nó tem os papéis `control-plane`, `master` 
 - OCP 4.22 — Control plane architecture, "Machine roles" → "Cluster workers": <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/architecture/control-plane> (fonte: `modules/architecture-machine-roles.adoc`)
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 01-arquitetura-e-control-plane/worker-node
+- **Termo original:** worker node, compute node, compute machine
+- **Remissões:** minion (termo antigo)
+- **Tradução:** nó de trabalho (só como apoio)
+- **Classe ontológica:** conceito (papel de um Node)
+- **Plataforma:** Kubernetes / OpenShift
+- **Escopo:** não aplicável (o objeto `Node` é cluster-scoped)
+- **Disponibilidade:** nativo
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** básico
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** confirmar a label `node-role.kubernetes.io/worker` e as seções do `describe node` no SNO, que **não foram executados**.

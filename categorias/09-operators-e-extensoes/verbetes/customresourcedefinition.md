@@ -1,9 +1,5 @@
 # CustomResourceDefinition
 
-> **Classe:** Objeto API (cluster-scoped)  
-> **Categoria:** 09-operators-e-extensoes  
-> **Plataforma:** OpenShift 4.22 / Kubernetes, conforme aplicável
-
 ## Definição
 
 Objeto que estende a API do Kubernetes com um novo tipo de recurso, validado por esquema e acessível pelas ferramentas normais de API.
@@ -34,9 +30,16 @@ Uma CRD registra um tipo, mas não garante, sozinha, a existência de um control
 - [Conceitos Kubernetes](https://kubernetes.io/docs/concepts/)
 - [Documentação OpenShift 4.22](https://docs.redhat.com/en/documentation/openshift_container_platform/4.22)
 
-
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **Classe:** Objeto API (cluster-scoped)
+- **Categoria:** 09-operators-e-extensoes
+- **Plataforma:** OpenShift 4.22 / Kubernetes, conforme aplicável
+
+**Notas de revisão**
 
 Versão inicial. Próxima revisão: completar diagrama, exemplo real, correspondências entre API Groups, interpretação detalhada de campos, comparação e links cruzados. Nunca declarar o verbete "completo" antes desses itens.
 

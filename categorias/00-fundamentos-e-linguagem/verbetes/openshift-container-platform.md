@@ -1,7 +1,5 @@
 # OpenShift Container Platform
 
-> **ID:** 00-fundamentos-e-linguagem/openshift-container-platform | **Termo original:** Red Hat OpenShift Container Platform | **Sigla/remissão:** OCP, "OpenShift" | **Tradução:** não se traduz | **Classe ontológica:** tecnologia / plataforma (distribuição Kubernetes) | **Plataforma:** OpenShift | **Escopo:** não aplicável | **Disponibilidade:** produto comercial da Red Hat (OKD é a distribuição comunitária) | **Versões validadas:** OCP 4.22 (Kubernetes 1.35) | **Nível:** básico | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 O OpenShift Container Platform é a **distribuição Kubernetes certificada da Red Hat**: ao Kubernetes ele acrescenta sistema operacional próprio, instalação e atualização automatizadas, APIs adicionais, Operators de plataforma e ferramentas de desenvolvimento e administração.
@@ -90,7 +88,7 @@ version   4.22.x    True        False         5d      Cluster version is 4.22.x
 
 O SNO é um OCP 4.22 completo num único nó, que acumula o papel de control plane e o de compute. Pela documentação oficial, o maior compromisso dessa topologia é a **falta de alta disponibilidade**, e não há como convertê-la em HA depois. O OVN-Kubernetes é o plugin de rede padrão. Os comandos acima são só de leitura e servem para conhecer o cluster sem alterá-lo.
 
-## Diagrama Mermaid
+## Diagrama
 
 ```mermaid
 flowchart TB
@@ -123,7 +121,23 @@ flowchart TB
 - OCP 4.22 — About OpenShift Kubernetes Engine (fonte: `welcome/oke_about.adoc`) e Glossary (fonte: `welcome/glossary.adoc`)
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 00-fundamentos-e-linguagem/openshift-container-platform
+- **Termo original:** Red Hat OpenShift Container Platform
+- **Sigla/remissão:** OCP, "OpenShift"
+- **Tradução:** não se traduz
+- **Classe ontológica:** tecnologia / plataforma (distribuição Kubernetes)
+- **Plataforma:** OpenShift
+- **Escopo:** não aplicável
+- **Disponibilidade:** produto comercial da Red Hat (OKD é a distribuição comunitária)
+- **Versões validadas:** OCP 4.22 (Kubernetes 1.35)
+- **Nível:** básico
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. O conteúdo foi conferido nos fontes oficiais (GitHub) em 2026-11-04.
 - **Pendências:** confirmar as URLs publicadas (docs.redhat.com estava bloqueado pela rede da sessão); validar `oc get clusterversion` no SNO, que **não foi executado**. Detalhar OKE e OKD num verbete próprio se entrarem no inventário.

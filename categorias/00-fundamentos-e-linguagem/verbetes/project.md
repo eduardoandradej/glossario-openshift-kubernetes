@@ -1,7 +1,5 @@
 # Project (OpenShift)
 
-> **ID:** 00-fundamentos-e-linguagem/project | **Termo original:** Project | **Remissões:** projeto, ProjectRequest | **Tradução:** projeto | **Classe ontológica:** objeto da API (OpenShift) | **API:** `apiVersion: project.openshift.io/v1`, `kind: Project` | **Plataforma:** OpenShift (não existe no Kubernetes upstream) | **Escopo:** cluster-scoped (corresponde 1:1 a um Namespace) | **Disponibilidade:** nativo do OpenShift | **Versões validadas:** OCP 4.22 | **Nível:** básico | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 Um Project é a forma como o OpenShift apresenta e controla um [Namespace](namespace.md): um namespace com **annotations adicionais** que dão controle de acesso (RBAC) e gestão, e que permite que grupos de usuários trabalhem juntos e isolados de outros.
@@ -88,7 +86,7 @@ Project, ProjectRequest e o self-provisioning existem só no OpenShift. No Kuber
 
 `oc get projects` e `oc describe project` são leituras. Criar projetos de estudo é uma alteração leve, mas é alteração: faça só quando decidir praticar, nunca em nomes `openshift-*` ou `kube-*`.
 
-## Diagrama Mermaid
+## Diagrama
 
 ```mermaid
 sequenceDiagram
@@ -114,7 +112,24 @@ sequenceDiagram
 - OCP 4.22 — Glossary, "project" (fonte: `welcome/glossary.adoc`)
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 00-fundamentos-e-linguagem/project
+- **Termo original:** Project
+- **Remissões:** projeto, ProjectRequest
+- **Tradução:** projeto
+- **Classe ontológica:** objeto da API (OpenShift)
+- **API:** `apiVersion: project.openshift.io/v1`, `kind: Project`
+- **Plataforma:** OpenShift (não existe no Kubernetes upstream)
+- **Escopo:** cluster-scoped (corresponde 1:1 a um Namespace)
+- **Disponibilidade:** nativo do OpenShift
+- **Versões validadas:** OCP 4.22
+- **Nível:** básico
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** confirmar no SNO o nome exato do recurso de configuração (`project.config.openshift.io/cluster`) e as colunas de `oc get projects`; detalhar o self-provisioning (papel `self-provisioner`) na categoria 07. Nada foi **executado**. A URL publicada está **a verificar**.

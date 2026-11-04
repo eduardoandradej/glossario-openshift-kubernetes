@@ -1,7 +1,5 @@
 # Namespace
 
-> **ID:** 00-fundamentos-e-linguagem/namespace | **Termo original:** Namespace | **Remissões:** ns, Project (OpenShift) | **Tradução:** espaço de nomes | **Classe ontológica:** objeto da API | **API:** `apiVersion: v1` (grupo *core*), `kind: Namespace` | **Plataforma:** Kubernetes (no OpenShift, apresentado como Project) | **Escopo:** **cluster-scoped** (o namespace em si não pertence a outro namespace) | **Disponibilidade:** nativo | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** básico | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 Um Namespace é um objeto que **divide logicamente um cluster**: delimita o escopo dos nomes e serve de fronteira para permissões, quotas e políticas dos recursos *namespaced*.
@@ -97,7 +95,7 @@ openshift-ingress   Active   30d
 
 Liste e descreva à vontade. **Não** apague nem edite namespaces `openshift-*`, `kube-*` ou `default`. Estude o ciclo de vida (criação e exclusão) só em projetos próprios, de laboratório.
 
-## Diagrama Mermaid
+## Diagrama
 
 ```mermaid
 flowchart TB
@@ -123,7 +121,24 @@ flowchart TB
 - OCP 4.22 — Glossary, "project" (namespace com annotations adicionais para RBAC e gestão; fonte: `welcome/glossary.adoc`)
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 00-fundamentos-e-linguagem/namespace
+- **Termo original:** Namespace
+- **Remissões:** ns, Project (OpenShift)
+- **Tradução:** espaço de nomes
+- **Classe ontológica:** objeto da API
+- **API:** `apiVersion: v1` (grupo *core*), `kind: Namespace`
+- **Plataforma:** Kubernetes (no OpenShift, apresentado como Project)
+- **Escopo:** **cluster-scoped** (o namespace em si não pertence a outro namespace)
+- **Disponibilidade:** nativo
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** básico
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido (antes era uma versão inicial). Reescrito no lote 2 com base nas fontes conferidas em 2026-11-04.
 - **Pendências:** a label automática `kubernetes.io/metadata.name` e as annotations `openshift.io/*` devem ser conferidas no SNO com `oc describe namespace <nome>`, que **não foi executado**. As causas de `Terminating` travado devem ser aprofundadas no verbete *Finalizer*. A URL publicada de "Working with projects" está **a verificar**.

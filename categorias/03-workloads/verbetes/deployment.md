@@ -1,9 +1,5 @@
 # Deployment
 
-> **Classe:** Objeto API (namespaced)  
-> **Categoria:** 03-workloads  
-> **Plataforma:** OpenShift 4.22 / Kubernetes, conforme aplicável
-
 ## Definição
 
 Controlador declarativo utilizado para manter e atualizar aplicações, tipicamente sem estado. Um Deployment gerencia ReplicaSets, que por sua vez mantêm o conjunto de Pods.
@@ -35,9 +31,16 @@ Deployment não é sinônimo de Pod; também não é igual ao DeploymentConfig l
 - [Conceitos Kubernetes](https://kubernetes.io/docs/concepts/)
 - [Documentação OpenShift 4.22](https://docs.redhat.com/en/documentation/openshift_container_platform/4.22)
 
-
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **Classe:** Objeto API (namespaced)
+- **Categoria:** 03-workloads
+- **Plataforma:** OpenShift 4.22 / Kubernetes, conforme aplicável
+
+**Notas de revisão**
 
 Versão inicial. Próxima revisão: completar diagrama, exemplo real, correspondências entre API Groups, interpretação detalhada de campos, comparação e links cruzados. Nunca declarar o verbete "completo" antes desses itens.
 

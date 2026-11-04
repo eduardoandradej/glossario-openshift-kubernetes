@@ -1,9 +1,5 @@
 # Route
 
-> **Classe:** Objeto API específico de OpenShift (namespaced)  
-> **Categoria:** 04-networking  
-> **Plataforma:** OpenShift 4.22 / Kubernetes, conforme aplicável
-
 ## Definição
 
 Recurso OpenShift que declara a publicação de um serviço por hostname e, quando configurado, TLS e regras de roteamento através da infraestrutura de ingresso da plataforma.
@@ -34,9 +30,16 @@ Route não é o mesmo objeto que Ingress. A compatibilidade e opções de TLS po
 - [Conceitos Kubernetes](https://kubernetes.io/docs/concepts/)
 - [Documentação OpenShift 4.22](https://docs.redhat.com/en/documentation/openshift_container_platform/4.22)
 
-
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **Classe:** Objeto API específico de OpenShift (namespaced)
+- **Categoria:** 04-networking
+- **Plataforma:** OpenShift 4.22 / Kubernetes, conforme aplicável
+
+**Notas de revisão**
 
 Versão inicial. Próxima revisão: completar diagrama, exemplo real, correspondências entre API Groups, interpretação detalhada de campos, comparação e links cruzados. Nunca declarar o verbete "completo" antes desses itens.
 

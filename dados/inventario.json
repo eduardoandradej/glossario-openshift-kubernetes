@@ -1123,72 +1123,186 @@
   {
     "term": "Kube Proxy",
     "category": "01-arquitetura-e-control-plane",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "componente",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes",
+    "versao": "OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-04",
+    "validacao_cluster": "nao-realizada",
+    "slug_verbete": "kube-proxy",
+    "fontes": [
+      "https://kubernetes.io/docs/reference/glossary/?all=true#term-kube-proxy",
+      "https://kubernetes.io/docs/concepts/architecture/#kube-proxy"
+    ]
   },
   {
     "term": "OVN-Kubernetes",
     "category": "01-arquitetura-e-control-plane",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "componente",
+    "source": "ver campo fontes",
+    "plataforma": "OpenShift",
+    "versao": "OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-04",
+    "validacao_cluster": "nao-realizada",
+    "slug_verbete": "ovn-kubernetes",
+    "fontes": [
+      "openshift-docs enterprise-4.22: networking/ovn_kubernetes_network_provider/about-ovn-kubernetes.adoc"
+    ]
   },
   {
     "term": "CoreDNS",
     "category": "01-arquitetura-e-control-plane",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "componente",
+    "source": "ver campo fontes",
+    "plataforma": "OpenShift",
+    "versao": "OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-04",
+    "validacao_cluster": "nao-realizada",
+    "slug_verbete": "coredns",
+    "fontes": [
+      "openshift-docs enterprise-4.22: modules/nw-dns-operator.adoc",
+      "https://coredns.io/"
+    ]
   },
   {
     "term": "DNS Operator",
     "category": "01-arquitetura-e-control-plane",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "componente",
+    "source": "ver campo fontes",
+    "plataforma": "OpenShift",
+    "versao": "OCP 4.22",
+    "api_group": "operator.openshift.io",
+    "kind": "DNS",
+    "scope": "cluster",
+    "verificado_em": "2026-11-04",
+    "validacao_cluster": "nao-realizada",
+    "slug_verbete": "dns-operator",
+    "fontes": [
+      "openshift-docs enterprise-4.22: networking/networking_operators/dns-operator.adoc"
+    ]
   },
   {
     "term": "Cluster DNS",
     "category": "01-arquitetura-e-control-plane",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "conceito",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-04",
+    "validacao_cluster": "nao-realizada",
+    "slug_verbete": "cluster-dns",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/"
+    ]
   },
   {
     "term": "Cluster Version Operator",
     "category": "01-arquitetura-e-control-plane",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "componente",
+    "source": "ver campo fontes",
+    "plataforma": "OpenShift",
+    "versao": "OCP 4.22",
+    "api_group": "config.openshift.io",
+    "kind": "ClusterVersion",
+    "scope": "cluster",
+    "verificado_em": "2026-11-04",
+    "validacao_cluster": "nao-realizada",
+    "slug_verbete": "cluster-version-operator",
+    "fontes": [
+      "openshift-docs enterprise-4.22: modules/cluster-version-operator.adoc",
+      "modules/update-service-overview.adoc"
+    ]
   },
   {
     "term": "Cluster Operator",
     "category": "01-arquitetura-e-control-plane",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "remissao",
+    "source": "ver campo fontes",
+    "plataforma": "OpenShift",
+    "versao": "OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-04",
+    "validacao_cluster": "nao-realizada",
+    "slug_verbete": "../09-operators-e-extensoes/clusteroperator",
+    "remissao_para": "ClusterOperator",
+    "fontes": [
+      "openshift-docs enterprise-4.22: modules/cluster-version-operator.adoc"
+    ]
   },
   {
     "term": "Machine Config Operator",
     "category": "01-arquitetura-e-control-plane",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "componente",
+    "source": "ver campo fontes",
+    "plataforma": "OpenShift",
+    "versao": "OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-04",
+    "validacao_cluster": "nao-realizada",
+    "slug_verbete": "machine-config-operator",
+    "fontes": [
+      "openshift-docs enterprise-4.22: modules/understanding-machine-config-operator.adoc"
+    ]
   },
   {
     "term": "MachineConfig",
     "category": "01-arquitetura-e-control-plane",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "objeto-api",
+    "source": "ver campo fontes",
+    "plataforma": "OpenShift",
+    "versao": "OCP 4.22",
+    "api_group": "machineconfiguration.openshift.io",
+    "kind": "MachineConfig",
+    "scope": "cluster",
+    "verificado_em": "2026-11-04",
+    "validacao_cluster": "nao-realizada",
+    "slug_verbete": "machineconfig",
+    "fontes": [
+      "openshift-docs enterprise-4.22: modules/machine-config-overview.adoc"
+    ]
   },
   {
     "term": "MachineConfigPool",
     "category": "01-arquitetura-e-control-plane",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "objeto-api",
+    "source": "ver campo fontes",
+    "plataforma": "OpenShift",
+    "versao": "OCP 4.22",
+    "api_group": "machineconfiguration.openshift.io",
+    "kind": "MachineConfigPool",
+    "scope": "cluster",
+    "verificado_em": "2026-11-04",
+    "validacao_cluster": "nao-realizada",
+    "slug_verbete": "machineconfigpool",
+    "fontes": [
+      "openshift-docs enterprise-4.22: modules/architecture-machine-config-pools.adoc"
+    ]
   },
   {
     "term": "Bootstrap",

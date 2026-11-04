@@ -1,9 +1,5 @@
 # PersistentVolume
 
-> **Classe:** Objeto API (cluster-scoped)  
-> **Categoria:** 05-storage  
-> **Plataforma:** OpenShift 4.22 / Kubernetes, conforme aplicável
-
 ## Definição
 
 Representação de uma capacidade de armazenamento disponibilizada no cluster; pode ser provisionada previamente ou dinamicamente para atender a um PVC.
@@ -34,9 +30,16 @@ PV não é sinônimo de disco físico. Sua implementação e ciclo de vida varia
 - [Conceitos Kubernetes](https://kubernetes.io/docs/concepts/)
 - [Documentação OpenShift 4.22](https://docs.redhat.com/en/documentation/openshift_container_platform/4.22)
 
-
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **Classe:** Objeto API (cluster-scoped)
+- **Categoria:** 05-storage
+- **Plataforma:** OpenShift 4.22 / Kubernetes, conforme aplicável
+
+**Notas de revisão**
 
 Versão inicial. Próxima revisão: completar diagrama, exemplo real, correspondências entre API Groups, interpretação detalhada de campos, comparação e links cruzados. Nunca declarar o verbete "completo" antes desses itens.
 

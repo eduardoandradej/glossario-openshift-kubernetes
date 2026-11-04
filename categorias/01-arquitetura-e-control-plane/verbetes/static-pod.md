@@ -1,7 +1,5 @@
 # Static Pod
 
-> **ID:** 01-arquitetura-e-control-plane/static-pod | **Termo original:** static Pod | **Remissões:** mirror Pod | **Tradução:** Pod estático (só como apoio) | **Classe ontológica:** conceito / padrão de execução | **Plataforma:** Kubernetes / OpenShift | **Escopo:** sempre ligado a um nó; o mirror Pod aparece num namespace | **Disponibilidade:** nativo | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** intermediário | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 Um Static Pod é um Pod **gerenciado diretamente pelo [kubelet](kubelet.md)** de um nó específico, a partir de um manifesto local, **sem que o API server o controle**.
@@ -69,7 +67,7 @@ O conceito é o mesmo. O OpenShift o usa para todo o núcleo do Control Plane e 
 
 Os Static Pods do Control Plane rodam no único nó. Observe os mirror Pods e as revisões; **nunca** edite manifests em `/etc/kubernetes` do nó nem apague mirror Pods.
 
-## Diagrama Mermaid
+## Diagrama
 
 ```mermaid
 flowchart LR
@@ -91,7 +89,23 @@ flowchart LR
 - OCP 4.22 — Control plane architecture, "Machine roles" (systemd × static pods; `installer-*` e `revision-pruner-*`; namespaces): <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/architecture/control-plane>
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 01-arquitetura-e-control-plane/static-pod
+- **Termo original:** static Pod
+- **Remissões:** mirror Pod
+- **Tradução:** Pod estático (só como apoio)
+- **Classe ontológica:** conceito / padrão de execução
+- **Plataforma:** Kubernetes / OpenShift
+- **Escopo:** sempre ligado a um nó; o mirror Pod aparece num namespace
+- **Disponibilidade:** nativo
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** intermediário
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** confirmar no SNO o dono `Node` dos mirror Pods e os nomes das annotations `kubernetes.io/config.*`, conhecidos do comportamento do kubelet, mas **não verificados** nesta rodada.

@@ -1,7 +1,5 @@
 # Spec
 
-> **ID:** 00-fundamentos-e-linguagem/spec | **Termo original:** spec (specification) | **Tradução:** especificação | **Classe ontológica:** conceito (campo convencional dos objetos) | **Plataforma:** Kubernetes / OpenShift | **Escopo:** não aplicável | **Disponibilidade:** nativo | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** básico | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 `spec` é o campo de um [objeto](object.md) que descreve o seu **[desired state](desired-state.md)**: aquilo que o usuário, ou outro componente, quer que seja verdade.
@@ -75,7 +73,7 @@ A convenção vale também para os tipos do OpenShift, como `spec.host` e `spec.
 
 Use `oc explain` para estudar o `spec` de qualquer kind sem tocar em objetos. Ler o `spec` de objetos da plataforma é seguro; alterá-lo, não.
 
-## Diagrama Mermaid
+## Diagrama
 
 ```mermaid
 flowchart LR
@@ -96,7 +94,22 @@ flowchart LR
 - Kubernetes API Conventions — "Spec and Status" e "Defaulting": <https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md>
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 00-fundamentos-e-linguagem/spec
+- **Termo original:** spec (specification)
+- **Tradução:** especificação
+- **Classe ontológica:** conceito (campo convencional dos objetos)
+- **Plataforma:** Kubernetes / OpenShift
+- **Escopo:** não aplicável
+- **Disponibilidade:** nativo
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** básico
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** a lista de defaults citados para Deployment vem da referência da API (`apps/v1`) e **não foi conferida** no SNO; validar com `oc explain deployment.spec`.

@@ -1,7 +1,5 @@
 # CRI (Container Runtime Interface)
 
-> **ID:** 01-arquitetura-e-control-plane/cri | **Termo original:** Container Runtime Interface (CRI) | **Tradução:** interface de runtime de contêineres (só como apoio) | **Classe ontológica:** conceito (interface / protocolo) | **Plataforma:** Kubernetes / OpenShift | **Escopo:** não aplicável | **Disponibilidade:** nativo (API `v1` estável desde o Kubernetes 1.23) | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** intermediário | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 A CRI é a **interface de plugin**, um protocolo **gRPC**, pela qual o [kubelet](kubelet.md) conversa com o [Container Runtime](container-runtime.md). Com ela, o Kubernetes usa vários runtimes sem precisar recompilar seus componentes.
@@ -74,7 +72,22 @@ Prefira `oc get nodes -o wide` e `oc adm node-logs`. `oc debug node` cria um Pod
 - Kubernetes Glossary — CRI: <https://kubernetes.io/docs/reference/glossary/?all=true#term-cri>
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 01-arquitetura-e-control-plane/cri
+- **Termo original:** Container Runtime Interface (CRI)
+- **Tradução:** interface de runtime de contêineres (só como apoio)
+- **Classe ontológica:** conceito (interface / protocolo)
+- **Plataforma:** Kubernetes / OpenShift
+- **Escopo:** não aplicável
+- **Disponibilidade:** nativo (API `v1` estável desde o Kubernetes 1.23)
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** intermediário
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** confirmar a unidade systemd `crio` em `oc adm node-logs -u crio` e as mensagens citadas, que **não foram verificadas**.

@@ -1,7 +1,5 @@
 # Conditions (status.conditions)
 
-> **ID:** 00-fundamentos-e-linguagem/conditions | **Termo original:** conditions | **Remissões:** condition, phase (padrão antigo) | **Tradução:** condições | **Classe ontológica:** conceito / estado (campo de status) | **Plataforma:** Kubernetes / OpenShift | **Escopo:** não aplicável | **Disponibilidade:** nativo; cada tipo define as suas | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** intermediário | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 Conditions são uma **lista padronizada no `status`** em que os controllers relatam aspectos da saúde de um objeto (ex.: `Ready`, `Available`, `Degraded`), cada um com valor `True`, `False` ou `Unknown`, um motivo e uma mensagem.
@@ -92,7 +90,23 @@ Condições são a leitura de saúde mais rica e segura. Comece por `oc get clus
 - Kubernetes — Pod Lifecycle, "Pod conditions": <https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/>
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 00-fundamentos-e-linguagem/conditions
+- **Termo original:** conditions
+- **Remissões:** condition, phase (padrão antigo)
+- **Tradução:** condições
+- **Classe ontológica:** conceito / estado (campo de status)
+- **Plataforma:** Kubernetes / OpenShift
+- **Escopo:** não aplicável
+- **Disponibilidade:** nativo; cada tipo define as suas
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** intermediário
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** as condições de Pod listadas são as conhecidas da página Pod Lifecycle, que **não foi lida** nesta rodada (o 1.35 pode listar outras, como `PodReadyToStartContainers`); conferir na categoria 03. Confirmar a condição `Upgradeable` em ClusterOperators (categoria 09).

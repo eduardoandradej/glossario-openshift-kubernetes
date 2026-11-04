@@ -1,7 +1,5 @@
 # Control Plane
 
-> **ID:** 01-arquitetura-e-control-plane/control-plane | **Termo original:** control plane | **Remissões:** master (legado) | **Tradução:** plano de controle (só como apoio) | **Classe ontológica:** conceito / conjunto de componentes | **Plataforma:** Kubernetes / OpenShift | **Escopo:** não aplicável | **Disponibilidade:** nativo | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** básico | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 O Control Plane é a camada de orquestração do cluster: o conjunto de componentes que **expõe a API e decide** como definir, implantar e gerenciar o ciclo de vida dos contêineres.
@@ -80,7 +78,7 @@ O OpenShift acrescenta componentes próprios ao Control Plane, faz tudo ser gere
 
 Um único nó acumula Control Plane e compute: **não há alta disponibilidade**. Observe com `oc get clusteroperators`; nunca reinicie Pods nem edite manifests de Static Pods do Control Plane.
 
-## Diagrama Mermaid
+## Diagrama
 
 ```mermaid
 flowchart TB
@@ -109,7 +107,23 @@ flowchart TB
 - OCP 4.22 — Control plane architecture, "Machine roles" (papel `master`, três nós, quorum, systemd × static pods): <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/architecture/control-plane> (fonte: `modules/architecture-machine-roles.adoc`)
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 01-arquitetura-e-control-plane/control-plane
+- **Termo original:** control plane
+- **Remissões:** master (legado)
+- **Tradução:** plano de controle (só como apoio)
+- **Classe ontológica:** conceito / conjunto de componentes
+- **Plataforma:** Kubernetes / OpenShift
+- **Escopo:** não aplicável
+- **Disponibilidade:** nativo
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** básico
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** confirmar no SNO a label `node-role.kubernetes.io/control-plane` e os nomes dos ClusterOperators; confirmar a URL publicada. Nada foi **executado**.

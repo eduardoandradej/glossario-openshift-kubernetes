@@ -1,7 +1,5 @@
 # Controller
 
-> **ID:** 00-fundamentos-e-linguagem/controller | **Termo original:** controller | **Remissões:** control loop (laço de controle), kube-controller-manager | **Tradução:** controlador | **Classe ontológica:** componente / padrão | **Plataforma:** Kubernetes / OpenShift | **Escopo:** não aplicável | **Disponibilidade:** nativo (controllers embutidos) e por extensão (Operators) | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** básico → intermediário | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 Um controller é um **control loop** (*control loop*) que observa o estado do cluster pela API e faz, ou pede, mudanças para aproximar o estado atual do desired state.
@@ -81,7 +79,7 @@ O OCP roda o **Kubernetes controller manager** e também o **OpenShift controlle
 
 Há uma réplica de cada controller manager. Observe os ClusterOperators e os Events; **não** apague Pods de `openshift-kube-controller-manager` para "reiniciar" controllers.
 
-## Diagrama Mermaid
+## Diagrama
 
 ```mermaid
 flowchart LR
@@ -109,7 +107,23 @@ flowchart LR
 - OCP 4.22 — Control plane architecture, "Machine roles" (Kubernetes controller manager com um líder ativo; OpenShift controller manager): <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/architecture/control-plane> (fonte: `modules/architecture-machine-roles.adoc`)
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 00-fundamentos-e-linguagem/controller
+- **Termo original:** controller
+- **Remissões:** control loop (laço de controle), kube-controller-manager
+- **Tradução:** controlador
+- **Classe ontológica:** componente / padrão
+- **Plataforma:** Kubernetes / OpenShift
+- **Escopo:** não aplicável
+- **Disponibilidade:** nativo (controllers embutidos) e por extensão (Operators)
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** básico → intermediário
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Remissão:** "Control Loop" (inventário da categoria 00) aponta para este verbete e para [Reconciliation](reconciliation.md); não há página separada.

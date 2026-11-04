@@ -1,7 +1,5 @@
 # Metadata
 
-> **ID:** 00-fundamentos-e-linguagem/metadata | **Termo original:** metadata, ObjectMeta | **Tradução:** metadados | **Classe ontológica:** conceito (campo padrão dos objetos) | **Plataforma:** Kubernetes / OpenShift | **Escopo:** não aplicável | **Disponibilidade:** nativo | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** básico → intermediário | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 `metadata` é o bloco de **identidade e controle** comum a todos os [objetos](object.md): nome, namespace, UID, labels, annotations e campos usados pelo sistema para versionar, encadear e excluir objetos.
@@ -96,7 +94,22 @@ Ler metadados é seguro. Não remova `finalizers` nem `ownerReferences` de objet
 - Kubernetes — Objects In Kubernetes, "Required fields": <https://kubernetes.io/docs/concepts/overview/working-with-objects/>
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 00-fundamentos-e-linguagem/metadata
+- **Termo original:** metadata, ObjectMeta
+- **Tradução:** metadados
+- **Classe ontológica:** conceito (campo padrão dos objetos)
+- **Plataforma:** Kubernetes / OpenShift
+- **Escopo:** não aplicável
+- **Disponibilidade:** nativo
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** básico → intermediário
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** as annotations de SCC citadas devem ser detalhadas e conferidas na categoria 08. Exemplos **não executados** no SNO.

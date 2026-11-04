@@ -1,9 +1,5 @@
 # ClusterOperator
 
-> **Classe:** Objeto API específico de OpenShift (cluster-scoped)  
-> **Categoria:** 09-operators-e-extensoes  
-> **Plataforma:** OpenShift 4.22 / Kubernetes, conforme aplicável
-
 ## Definição
 
 Recurso de status que reporta a saúde e condições de componentes operacionais fundamentais do OpenShift, como Available, Progressing e Degraded.
@@ -34,9 +30,16 @@ Um ClusterOperator não é equivalente a qualquer Operator instalado via OLM: re
 - [Conceitos Kubernetes](https://kubernetes.io/docs/concepts/)
 - [Documentação OpenShift 4.22](https://docs.redhat.com/en/documentation/openshift_container_platform/4.22)
 
-
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **Classe:** Objeto API específico de OpenShift (cluster-scoped)
+- **Categoria:** 09-operators-e-extensoes
+- **Plataforma:** OpenShift 4.22 / Kubernetes, conforme aplicável
+
+**Notas de revisão**
 
 Versão inicial. Próxima revisão: completar diagrama, exemplo real, correspondências entre API Groups, interpretação detalhada de campos, comparação e links cruzados. Nunca declarar o verbete "completo" antes desses itens.
 

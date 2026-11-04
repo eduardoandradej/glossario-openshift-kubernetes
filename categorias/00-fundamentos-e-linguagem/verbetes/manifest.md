@@ -1,7 +1,5 @@
 # Manifest
 
-> **ID:** 00-fundamentos-e-linguagem/manifest | **Termo original:** manifest (Kubernetes manifest) | **Tradução:** manifesto | **Classe ontológica:** conceito (artefato de configuração) | **Plataforma:** Kubernetes / OpenShift | **Escopo:** não aplicável | **Disponibilidade:** nativo | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** básico | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 Manifesto é a **especificação de um objeto da API num arquivo [YAML](yaml.md) ou [JSON](json.md)**: descreve o desired state que o Kubernetes vai manter quando o manifesto for aplicado.
@@ -115,7 +113,22 @@ Leia manifestos de objetos à vontade com `-o yaml`, **exceto Secrets** (o `data
 - OCP 4.22 — Glossary, "kubernetes manifest" (fonte: `welcome/glossary.adoc`)
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 00-fundamentos-e-linguagem/manifest
+- **Termo original:** manifest (Kubernetes manifest)
+- **Tradução:** manifesto
+- **Classe ontológica:** conceito (artefato de configuração)
+- **Plataforma:** Kubernetes / OpenShift
+- **Escopo:** não aplicável
+- **Disponibilidade:** nativo
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** básico
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** confirmar o texto exato da resposta de `--dry-run=server` no cliente 4.22, que **não foi executado**.

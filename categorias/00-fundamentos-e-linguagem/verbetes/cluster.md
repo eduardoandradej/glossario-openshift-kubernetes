@@ -1,7 +1,5 @@
 # Cluster
 
-> **ID:** 00-fundamentos-e-linguagem/cluster | **Termo original:** cluster | **Tradução:** cluster (agrupamento) | **Classe ontológica:** conceito | **Plataforma:** Kubernetes / OpenShift | **Escopo:** não aplicável (o cluster é a fronteira dos escopos) | **Disponibilidade:** nativo | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** básico | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 Um cluster Kubernetes é o conjunto formado por um **control plane** (*control plane*), que expõe a API e toma as decisões, e por **nós** (*nodes*), as máquinas que executam os contêineres das aplicações.
@@ -113,7 +111,22 @@ Um único nó acumula os papéis de controle e de compute: o cluster existe, mas
 - OCP 4.22 — Single-node OpenShift: <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/installing_on_a_single_node/index> (fonte: `modules/install-sno-about-installing-on-a-single-node.adoc`)
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 00-fundamentos-e-linguagem/cluster
+- **Termo original:** cluster
+- **Tradução:** cluster (agrupamento)
+- **Classe ontológica:** conceito
+- **Plataforma:** Kubernetes / OpenShift
+- **Escopo:** não aplicável (o cluster é a fronteira dos escopos)
+- **Disponibilidade:** nativo
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** básico
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** validar no SNO a coluna `ROLES` e os campos de topologia do `Infrastructure`, que **não foram executados**; confirmar a URL publicada do guia de SNO (o slug `installing_on_a_single_node` é a verificar).

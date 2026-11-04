@@ -1,7 +1,5 @@
 # API (Kubernetes API)
 
-> **ID:** 00-fundamentos-e-linguagem/kubernetes-api | **Termo original:** Kubernetes API | **Remissões:** API, API REST do cluster | **Tradução:** API do Kubernetes | **Classe ontológica:** conceito / interface | **Plataforma:** Kubernetes / OpenShift | **Escopo:** não aplicável | **Disponibilidade:** nativo | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** básico | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 A API do Kubernetes é a **interface HTTP/REST**, servida pelo API server, pela qual se consultam e alteram todos os [objetos](object.md) que representam o estado do cluster.
@@ -100,7 +98,7 @@ O OCP 4.22 serve a API do Kubernetes 1.35 **mais** os grupos do OpenShift e as C
 
 Todos os comandos acima são leituras. O `oc get --raw` deve ficar restrito a caminhos de descoberta ou de leitura (`/api`, `/apis`, `/version`). **Não** use caminhos de Secret.
 
-## Diagrama Mermaid
+## Diagrama
 
 ```mermaid
 sequenceDiagram
@@ -126,7 +124,23 @@ sequenceDiagram
 - OCP 4.22 — CLI `oc`: <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/cli_tools/openshift-cli-oc>
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 00-fundamentos-e-linguagem/kubernetes-api
+- **Termo original:** Kubernetes API
+- **Remissões:** API, API REST do cluster
+- **Tradução:** API do Kubernetes
+- **Classe ontológica:** conceito / interface
+- **Plataforma:** Kubernetes / OpenShift
+- **Escopo:** não aplicável
+- **Disponibilidade:** nativo
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** básico
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** validar no SNO as colunas de `oc api-resources -o wide`. A linha mostrada é ilustrativa, montada a partir da documentação, e **não foi executada**. Os verbetes [API Server](api-server.md), [API Group](api-group.md) e [API Version](api-version.md) foram criados no lote 2.

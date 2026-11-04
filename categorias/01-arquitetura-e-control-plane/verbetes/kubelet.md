@@ -1,7 +1,5 @@
 # kubelet
 
-> **ID:** 01-arquitetura-e-control-plane/kubelet | **Termo original:** kubelet | **Remissões:** Node Agent | **Tradução:** não se traduz (agente do nó) | **Classe ontológica:** componente | **Plataforma:** Kubernetes / OpenShift | **Escopo:** não aplicável (roda em cada nó) | **Disponibilidade:** nativo | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** básico → intermediário | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 O kubelet é o **agente que roda em cada nó** e garante que os contêineres descritos nos Pods atribuídos àquele nó estejam rodando e saudáveis.
@@ -70,7 +68,7 @@ Configurado pela plataforma (`KubeletConfig` e MachineConfig) em vez de arquivos
 
 O kubelet do único nó roda os Pods de **plataforma e** de aplicação. `oc adm node-logs` é a forma suportada de ler os logs sem SSH; ainda assim, é uma consulta administrativa.
 
-## Diagrama Mermaid
+## Diagrama
 
 ```mermaid
 sequenceDiagram
@@ -95,7 +93,23 @@ sequenceDiagram
 - OCP 4.22 — Control plane architecture, "Machine roles" (kubelet como systemd; defasagem de versão): <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/architecture/control-plane>
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 01-arquitetura-e-control-plane/kubelet
+- **Termo original:** kubelet
+- **Remissões:** Node Agent
+- **Tradução:** não se traduz (agente do nó)
+- **Classe ontológica:** componente
+- **Plataforma:** Kubernetes / OpenShift
+- **Escopo:** não aplicável (roda em cada nó)
+- **Disponibilidade:** nativo
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** básico → intermediário
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** confirmar a sintaxe de `oc adm node-logs ... -u kubelet --tail` no cliente 4.22 e os `reason` de eventos citados, que **não foram verificados**. A página Nodes foi baixada, mas lida só em parte.

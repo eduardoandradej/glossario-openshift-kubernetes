@@ -1,7 +1,5 @@
 # CRI-O
 
-> **ID:** 01-arquitetura-e-control-plane/cri-o | **Termo original:** CRI-O | **Tradução:** não se traduz | **Classe ontológica:** componente (container engine / runtime de alto nível) | **Plataforma:** Kubernetes (opcional) / OpenShift (obrigatório) | **Escopo:** não aplicável (roda em cada nó) | **Disponibilidade:** nativo no OpenShift 4.x | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** intermediário | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 O CRI-O é uma **implementação da [CRI](cri.md)** feita para usar runtimes compatíveis com a OCI no Kubernetes. É o **container engine do OpenShift**.
@@ -74,7 +72,22 @@ O CRI-O do único nó roda todos os contêineres do cluster. Monitore o espaço 
 - Projeto CRI-O (fonte externa): <https://cri-o.io/>
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 01-arquitetura-e-control-plane/cri-o
+- **Termo original:** CRI-O
+- **Tradução:** não se traduz
+- **Classe ontológica:** componente (container engine / runtime de alto nível)
+- **Plataforma:** Kubernetes (opcional) / OpenShift (obrigatório)
+- **Escopo:** não aplicável (roda em cada nó)
+- **Disponibilidade:** nativo no OpenShift 4.x
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** intermediário
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** confirmar que a versão do CRI-O no OCP 4.22 segue a 1.35, que o recurso `containerruntimeconfigs` responde com esse nome e o caminho de armazenamento citado (`/var/lib/containers`). Nada disso foi **verificado** nesta rodada.

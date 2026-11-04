@@ -49,6 +49,12 @@ Os termos publicados, organizados por categoria e por assunto. *(versão inicial
 **Componentes do nó**
 - [kubelet](../categorias/01-arquitetura-e-control-plane/verbetes/kubelet.md) (também: Node Agent) · [Container Runtime](../categorias/01-arquitetura-e-control-plane/verbetes/container-runtime.md) · [CRI](../categorias/01-arquitetura-e-control-plane/verbetes/cri.md) · [CRI-O](../categorias/01-arquitetura-e-control-plane/verbetes/cri-o.md) · [Static Pod](../categorias/01-arquitetura-e-control-plane/verbetes/static-pod.md)
 
+**Rede e DNS do cluster**
+- [kube-proxy](../categorias/01-arquitetura-e-control-plane/verbetes/kube-proxy.md) · [OVN-Kubernetes](../categorias/01-arquitetura-e-control-plane/verbetes/ovn-kubernetes.md) · [Cluster DNS](../categorias/01-arquitetura-e-control-plane/verbetes/cluster-dns.md) · [CoreDNS](../categorias/01-arquitetura-e-control-plane/verbetes/coredns.md) · [DNS Operator](../categorias/01-arquitetura-e-control-plane/verbetes/dns-operator.md)
+
+**Gestão da plataforma**
+- [Cluster Version Operator](../categorias/01-arquitetura-e-control-plane/verbetes/cluster-version-operator.md) · [Machine Config Operator](../categorias/01-arquitetura-e-control-plane/verbetes/machine-config-operator.md) · [MachineConfig](../categorias/01-arquitetura-e-control-plane/verbetes/machineconfig.md) · [MachineConfigPool](../categorias/01-arquitetura-e-control-plane/verbetes/machineconfigpool.md)
+
 ## [02 — Compute, nodes e capacidade](../categorias/02-compute-e-nodes/README.md)
 - [Node](../categorias/02-compute-e-nodes/verbetes/node.md) *(versão inicial)*
 

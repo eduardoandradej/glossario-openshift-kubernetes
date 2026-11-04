@@ -1,9 +1,5 @@
 # ClusterExtension
 
-> **Classe:** Objeto API OLM v1 (cluster-scoped)  
-> **Categoria:** 09-operators-e-extensoes  
-> **Plataforma:** OpenShift 4.22 / Kubernetes, conforme aplicável
-
 ## Definição
 
 Recurso de OLM v1 utilizado para declarar e gerenciar a instalação e o ciclo de vida de extensões no cluster.
@@ -34,9 +30,16 @@ OLM v1 e OLM Classic coexistem no OCP 4.22; não confundir ClusterExtension com 
 - [Conceitos Kubernetes](https://kubernetes.io/docs/concepts/)
 - [Documentação OpenShift 4.22](https://docs.redhat.com/en/documentation/openshift_container_platform/4.22)
 
-
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **Classe:** Objeto API OLM v1 (cluster-scoped)
+- **Categoria:** 09-operators-e-extensoes
+- **Plataforma:** OpenShift 4.22 / Kubernetes, conforme aplicável
+
+**Notas de revisão**
 
 Versão inicial. Próxima revisão: completar diagrama, exemplo real, correspondências entre API Groups, interpretação detalhada de campos, comparação e links cruzados. Nunca declarar o verbete "completo" antes desses itens.
 

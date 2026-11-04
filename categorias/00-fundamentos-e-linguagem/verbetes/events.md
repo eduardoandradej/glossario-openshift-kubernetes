@@ -1,7 +1,5 @@
 # Events
 
-> **ID:** 00-fundamentos-e-linguagem/events | **Termo original:** Event | **Tradução:** evento | **Classe ontológica:** objeto da API | **API:** `kind: Event` em `events.k8s.io/v1` e, por compatibilidade, no grupo *core* (`v1`) | **Plataforma:** Kubernetes / OpenShift | **Escopo:** namespaced (o evento fica no namespace do objeto envolvido) | **Disponibilidade:** nativo | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** básico → intermediário | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 Um Event é um objeto que descreve **uma mudança de estado ou uma ocorrência notável** no cluster ("Pod agendado", "imagem baixada", "falha ao montar volume"). É emitido por controllers e pelo kubelet e serve como **histórico curto e informativo**.
@@ -109,7 +107,23 @@ Mesmo modelo. O console web do OpenShift mostra os eventos por projeto e por obj
 - Kubernetes — Owners and Dependents (exemplo de consulta por `--field-selector=reason=...`): <https://kubernetes.io/docs/concepts/overview/working-with-objects/owners-dependents/>
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 00-fundamentos-e-linguagem/events
+- **Termo original:** Event
+- **Tradução:** evento
+- **Classe ontológica:** objeto da API
+- **API:** `kind: Event` em `events.k8s.io/v1` e, por compatibilidade, no grupo *core* (`v1`)
+- **Plataforma:** Kubernetes / OpenShift
+- **Escopo:** namespaced (o evento fica no namespace do objeto envolvido)
+- **Disponibilidade:** nativo
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** básico → intermediário
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** confirmar o valor padrão de `--event-ttl` no kube-apiserver 1.35 e o valor configurado pelo OCP 4.22; confirmar se o `oc` 4.22 expõe `oc events`; validar os field selectors (`type`, `involvedObject.name`) no SNO. Nada disso foi **verificado** nesta rodada.

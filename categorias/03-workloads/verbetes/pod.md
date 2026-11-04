@@ -1,9 +1,5 @@
 # Pod
 
-> **Classe:** Objeto API (namespaced)  
-> **Categoria:** 03-workloads  
-> **Plataforma:** OpenShift 4.22 / Kubernetes, conforme aplicável
-
 ## Definição
 
 Menor unidade implantável de computação no Kubernetes: agrupa um ou mais contêineres que compartilham rede, IP e volumes declarados. Geralmente é criado e substituído por um controlador de workloads, em vez de administrado isoladamente.
@@ -35,9 +31,16 @@ Um Pod em Running não garante que a aplicação esteja Ready. O IP e o ciclo de
 - [Conceitos Kubernetes](https://kubernetes.io/docs/concepts/)
 - [Documentação OpenShift 4.22](https://docs.redhat.com/en/documentation/openshift_container_platform/4.22)
 
-
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **Classe:** Objeto API (namespaced)
+- **Categoria:** 03-workloads
+- **Plataforma:** OpenShift 4.22 / Kubernetes, conforme aplicável
+
+**Notas de revisão**
 
 Versão inicial. Próxima revisão: completar diagrama, exemplo real, correspondências entre API Groups, interpretação detalhada de campos, comparação e links cruzados. Nunca declarar o verbete "completo" antes desses itens.
 

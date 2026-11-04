@@ -1,7 +1,5 @@
 # ResourceVersion (metadata.resourceVersion)
 
-> **ID:** 00-fundamentos-e-linguagem/resource-version | **Termo original:** resourceVersion | **Tradução:** versão do recurso | **Classe ontológica:** conceito (campo de metadata e parâmetro de consulta) | **Plataforma:** Kubernetes / OpenShift | **Escopo:** não aplicável | **Disponibilidade:** nativo | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** intermediário → avançado | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 `resourceVersion` é a string que identifica a **versão interna de um objeto no servidor**. Ela muda a cada gravação e serve para detectar mudanças, para o controle de concorrência otimista e para consultas e *watches* consistentes.
@@ -81,7 +79,22 @@ Observar `resourceVersion` é seguro. Usar `-w` por muito tempo mantém uma cone
 - Kubernetes API Conventions — "Concurrency Control and Consistency": <https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md>
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 00-fundamentos-e-linguagem/resource-version
+- **Termo original:** resourceVersion
+- **Tradução:** versão do recurso
+- **Classe ontológica:** conceito (campo de metadata e parâmetro de consulta)
+- **Plataforma:** Kubernetes / OpenShift
+- **Escopo:** não aplicável
+- **Disponibilidade:** nativo
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** intermediário → avançado
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Correção transversal:** o verbete [Metadata](metadata.md) foi ajustado para refletir a regra de ordenação do 1.35.

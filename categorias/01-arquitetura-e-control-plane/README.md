@@ -16,12 +16,21 @@ Quem decide e quem executa no cluster: os componentes do Control Plane, o que ro
 - [CRI](verbetes/cri.md)
 - [CRI-O](verbetes/cri-o.md)
 - [Static Pod](verbetes/static-pod.md)
+- [kube-proxy](verbetes/kube-proxy.md)
+- [OVN-Kubernetes](verbetes/ovn-kubernetes.md)
+- [CoreDNS](verbetes/coredns.md)
+- [DNS Operator](verbetes/dns-operator.md)
+- [Cluster DNS](verbetes/cluster-dns.md)
+- [Cluster Version Operator](verbetes/cluster-version-operator.md)
+- [Machine Config Operator](verbetes/machine-config-operator.md)
+- [MachineConfig](verbetes/machineconfig.md)
+- [MachineConfigPool](verbetes/machineconfigpool.md)
 
-**Outros nomes:** [kube-apiserver](../00-fundamentos-e-linguagem/verbetes/api-server.md) → API Server · [Node Agent](verbetes/kubelet.md) → kubelet
+**Outros nomes:** [kube-apiserver](../00-fundamentos-e-linguagem/verbetes/api-server.md) → API Server · [Node Agent](verbetes/kubelet.md) → kubelet · [Cluster Operator](../09-operators-e-extensoes/verbetes/clusteroperator.md) → ClusterOperator (categoria 09)
 
 ## Em breve
 
-Kube Proxy, OVN-Kubernetes, CoreDNS, DNS Operator, Cluster DNS, Cluster Version Operator, Cluster Operator, Machine Config Operator, MachineConfig, MachineConfigPool, Bootstrap, Quorum, High Availability, SNO, HyperShift, Hosted Control Plane, Infrastructure Node.
+Bootstrap, Quorum, High Availability, SNO, HyperShift, Hosted Control Plane, Infrastructure Node.
 
 ---
 

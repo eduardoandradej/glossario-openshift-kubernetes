@@ -1,9 +1,5 @@
 # Secret
 
-> **Classe:** Objeto API (namespaced)  
-> **Categoria:** 06-configuracao-e-api  
-> **Plataforma:** OpenShift 4.22 / Kubernetes, conforme aplicável
-
 ## Definição
 
 Recurso destinado ao armazenamento de dados sensíveis como credenciais, chaves e certificados para uso por aplicações e serviços.
@@ -34,9 +30,16 @@ Base64 não é criptografia. Não mostrar ou copiar os valores de Secret em exem
 - [Conceitos Kubernetes](https://kubernetes.io/docs/concepts/)
 - [Documentação OpenShift 4.22](https://docs.redhat.com/en/documentation/openshift_container_platform/4.22)
 
-
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **Classe:** Objeto API (namespaced)
+- **Categoria:** 06-configuracao-e-api
+- **Plataforma:** OpenShift 4.22 / Kubernetes, conforme aplicável
+
+**Notas de revisão**
 
 Versão inicial. Próxima revisão: completar diagrama, exemplo real, correspondências entre API Groups, interpretação detalhada de campos, comparação e links cruzados. Nunca declarar o verbete "completo" antes desses itens.
 

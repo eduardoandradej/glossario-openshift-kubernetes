@@ -1,7 +1,5 @@
 # API Version (apiVersion)
 
-> **ID:** 00-fundamentos-e-linguagem/api-version | **Termo original:** API version, `apiVersion` | **Tradução:** versão de API | **Classe ontológica:** conceito (campo e versionamento da API) | **Plataforma:** Kubernetes / OpenShift | **Escopo:** não aplicável | **Disponibilidade:** nativo | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** básico → intermediário | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 A versão de API indica **qual versão do esquema de um [grupo](api-group.md)** está sendo usada (ex.: `v1`, `v1beta1`). O campo `apiVersion` de um objeto combina grupo e versão (`apps/v1`).
@@ -88,7 +86,22 @@ Os avisos `Warning:` não alteram nada e são uma ótima fonte de estudo: anote 
 - OCP 4.22 — Release notes, tabelas de deprecated e removed: <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/release_notes/ocp-4-22-release-notes>
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 00-fundamentos-e-linguagem/api-version
+- **Termo original:** API version, `apiVersion`
+- **Tradução:** versão de API
+- **Classe ontológica:** conceito (campo e versionamento da API)
+- **Plataforma:** Kubernetes / OpenShift
+- **Escopo:** não aplicável
+- **Disponibilidade:** nativo
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** básico → intermediário
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** os textos das mensagens `Warning:` e `no matches for kind` seguem o formato conhecido do cliente, mas **não foram reproduzidos** no SNO. Verificar a orientação atual da Red Hat sobre a checagem de APIs removidas antes de atualizar o cluster (categoria 13).

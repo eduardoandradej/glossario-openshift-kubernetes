@@ -1,7 +1,5 @@
 # Label
 
-> **ID:** 00-fundamentos-e-linguagem/label | **Termo original:** label | **Tradução:** rótulo, etiqueta | **Classe ontológica:** conceito (campo `metadata.labels`) | **Plataforma:** Kubernetes / OpenShift | **Escopo:** não aplicável (vale para objetos de qualquer escopo) | **Disponibilidade:** nativo | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** básico | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 Labels são **pares chave/valor** anexados a objetos para expressar atributos **identificadores e relevantes para usuários**, e servem para **organizar e selecionar** conjuntos de objetos.
@@ -88,7 +86,22 @@ Ler labels é seguro. **Não** rotule nem remova labels de nós e de objetos de 
 - Kubernetes — Well-Known Labels, Annotations and Taints: <https://kubernetes.io/docs/reference/labels-annotations-taints/>
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 00-fundamentos-e-linguagem/label
+- **Termo original:** label
+- **Tradução:** rótulo, etiqueta
+- **Classe ontológica:** conceito (campo `metadata.labels`)
+- **Plataforma:** Kubernetes / OpenShift
+- **Escopo:** não aplicável (vale para objetos de qualquer escopo)
+- **Disponibilidade:** nativo
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** básico
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** as páginas "Recommended Labels" e "Well-Known Labels" foram citadas a partir dos links da página principal, mas **não foram lidas** nesta rodada. Confirmar o uso de `app.kubernetes.io/part-of` pela Topology do console do OCP 4.22.

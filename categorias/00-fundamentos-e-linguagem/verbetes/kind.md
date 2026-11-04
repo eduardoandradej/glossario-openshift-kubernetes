@@ -1,7 +1,5 @@
 # Kind
 
-> **ID:** 00-fundamentos-e-linguagem/kind | **Termo original:** kind | **Tradução:** tipo (de objeto) — o termo em inglês é o usado na prática | **Classe ontológica:** conceito (campo e terminologia da API) | **Plataforma:** Kubernetes / OpenShift | **Escopo:** não aplicável | **Disponibilidade:** nativo | **Versões validadas:** Kubernetes 1.35 / OCP 4.22 | **Nível:** básico | **Atualizado em:** 2026-11-04
-
 ## Definição em uma frase
 
 `kind` é o campo, e o conceito, que identifica **qual esquema** um objeto segue (ex.: `Pod`, `Deployment`, `Route`). Junto com `apiVersion`, ele diz à API como interpretar o conteúdo.
@@ -88,7 +86,7 @@ O OpenShift traz kinds próprios (`Route`, `Project`, `BuildConfig`, `ImageStrea
 
 `oc explain` só consulta o esquema publicado e não altera nada: é a forma mais segura de estudar um kind. Os kinds que o seu SNO conhece dependem dos Operators instalados.
 
-## Diagrama Mermaid
+## Diagrama
 
 ```mermaid
 flowchart LR
@@ -111,7 +109,22 @@ flowchart LR
 - OCP 4.22 — Release notes, tabela de deprecated e removed (`DeploymentConfig`): <https://docs.redhat.com/en/documentation/openshift_container_platform/4.22/html/release_notes/ocp-4-22-release-notes>
 
 <details>
-<summary>Notas de revisão</summary>
+<summary>Ficha técnica e notas de revisão</summary>
+
+**Ficha técnica**
+
+- **ID:** 00-fundamentos-e-linguagem/kind
+- **Termo original:** kind
+- **Tradução:** tipo (de objeto) — o termo em inglês é o usado na prática
+- **Classe ontológica:** conceito (campo e terminologia da API)
+- **Plataforma:** Kubernetes / OpenShift
+- **Escopo:** não aplicável
+- **Disponibilidade:** nativo
+- **Versões validadas:** Kubernetes 1.35 / OCP 4.22
+- **Nível:** básico
+- **Atualizado em:** 2026-11-04
+
+**Notas de revisão**
 
 - **Estado:** desenvolvido. Fontes conferidas em 2026-11-04.
 - **Pendências:** o formato do cabeçalho de `oc explain` é ilustrativo e **não foi executado**. A deprecação do `DeploymentConfig` foi confirmada nas release notes do 4.14 (fonte: `openshift-docs` `enterprise-4.14`, seção "DeploymentConfig resources are now deprecated") e na tabela de deprecated do 4.22.

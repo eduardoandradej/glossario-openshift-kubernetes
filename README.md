@@ -46,15 +46,15 @@ Para localizar um termo específico, use o [índice alfabético](docs/INDICE-ALF
 |---|---|---|
 | 00 | [Fundamentos, linguagem e modelo declarativo](categorias/00-fundamentos-e-linguagem/README.md) | ✅ Concluída |
 | 01 | [Arquitetura e Control Plane](categorias/01-arquitetura-e-control-plane/README.md) | 🚧 Em construção |
-| 02 | [Compute, Nodes e capacidade](categorias/02-compute-e-nodes/README.md) | Primeiros termos |
-| 03 | [Workloads](categorias/03-workloads/README.md) | Primeiros termos |
-| 04 | [Networking, Services e publicação](categorias/04-networking/README.md) | Primeiros termos |
-| 05 | [Storage e persistência](categorias/05-storage/README.md) | Primeiros termos |
-| 06 | [Configuração e extensibilidade da API](categorias/06-configuracao-e-api/README.md) | Primeiros termos |
-| 07 | [Identidade, autenticação e autorização](categorias/07-identidade-e-rbac/README.md) | Primeiros termos |
+| 02 | [Compute, Nodes e capacidade](categorias/02-compute-e-nodes/README.md) | 📝 Primeiros termos |
+| 03 | [Workloads](categorias/03-workloads/README.md) | 📝 Primeiros termos |
+| 04 | [Networking, Services e publicação](categorias/04-networking/README.md) | 📝 Primeiros termos |
+| 05 | [Storage e persistência](categorias/05-storage/README.md) | 📝 Primeiros termos |
+| 06 | [Configuração e extensibilidade da API](categorias/06-configuracao-e-api/README.md) | 📝 Primeiros termos |
+| 07 | [Identidade, autenticação e autorização](categorias/07-identidade-e-rbac/README.md) | 📝 Primeiros termos |
 | 08 | [Segurança, isolamento e políticas](categorias/08-seguranca-e-politicas/README.md) | Planejada |
-| 09 | [Operators, OLM e extensões](categorias/09-operators-e-extensoes/README.md) | Primeiros termos |
-| 10 | [Build, imagens e registries](categorias/10-builds-imagens-registry/README.md) | Primeiros termos |
+| 09 | [Operators, OLM e extensões](categorias/09-operators-e-extensoes/README.md) | 📝 Primeiros termos |
+| 10 | [Build, imagens e registries](categorias/10-builds-imagens-registry/README.md) | 📝 Primeiros termos |
 | 11 | [Scheduling, capacidade e escalabilidade](categorias/11-agendamento-e-escalabilidade/README.md) | Planejada |
 | 12 | [Observabilidade, logs e métricas](categorias/12-observabilidade/README.md) | Planejada |
 | 13 | [Instalação, atualizações e manutenção](categorias/13-ciclo-de-vida-cluster/README.md) | Planejada |
@@ -63,7 +63,7 @@ Para localizar um termo específico, use o [índice alfabético](docs/INDICE-ALF
 | 16 | [Virtualização, IA e componentes opcionais](categorias/16-virtualizacao-ia-e-extensoes/README.md) | Planejada |
 | 17 | [Diagnóstico, falhas e confiabilidade](categorias/17-troubleshooting-e-resiliencia/README.md) | Planejada |
 
-*Primeiros termos*: alguns verbetes já publicados, em versão inicial.
+📝 *Primeiros termos*: alguns verbetes já publicados, em versão inicial.
 
 Diagramas por tema: [arquitetura](diagramas/01-visao-geral.md) · [workloads](diagramas/02-workloads.md) · [networking](diagramas/03-networking.md) · [storage](diagramas/04-storage.md) · [Operators](diagramas/05-operators.md).
 

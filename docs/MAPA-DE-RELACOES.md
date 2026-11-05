@@ -189,3 +189,30 @@ flowchart TB
 - **SNO (um nó, sem HA) × compact/three-node (três nós com HA) × Two-Node with Arbiter × two-node com fencing.**
 - **Hosted Control Plane (modelo) × HyperShift (software) × management cluster × managed cluster (RHACM).**
 - **HA (contra falhas de máquinas) × backup (contra perda de dados).**
+
+## Capacidade do nó e recursos dos contêineres
+
+```mermaid
+flowchart LR
+    CAP["Capacity do Node"] --> AL["Allocatable<br/>(− system-reserved − eviction)"]
+    RQ["Resource Request"] -->|"Σ ≤ Allocatable<br/>(agendamento)"| AL
+    RQ --> QOS["QoS Class"]
+    LM["Resource Limit"] --> QOS
+    LM -->|"aplicado via"| CG["cgroups (v2)"]
+    CG -->|"memória acima do limit"| OOM["OOMKill"]
+    QOS -->|"ordem de despejo<br/>e oom_score_adj"| EV["Despejo por pressão<br/>(Node Condition)"]
+```
+
+| De | Relação | Para |
+|---|---|---|
+| [Capacity](../categorias/02-compute-e-nodes/verbetes/capacity.md) | menos as reservas resulta em | [Allocatable](../categorias/02-compute-e-nodes/verbetes/allocatable.md) |
+| [Resource Request](../categorias/02-compute-e-nodes/verbetes/resource-request.md) | é comparado ao | [Allocatable](../categorias/02-compute-e-nodes/verbetes/allocatable.md) |
+| [Resource Request](../categorias/02-compute-e-nodes/verbetes/resource-request.md) e [Resource Limit](../categorias/02-compute-e-nodes/verbetes/resource-limit.md) | definem a | [QoS Class](../categorias/02-compute-e-nodes/verbetes/qos-class.md) |
+| [Resource Limit](../categorias/02-compute-e-nodes/verbetes/resource-limit.md) | é aplicado por | [cgroups](../categorias/02-compute-e-nodes/verbetes/cgroups.md) |
+| [QoS Class](../categorias/02-compute-e-nodes/verbetes/qos-class.md) | define a ordem de | despejo ([Node Condition](../categorias/02-compute-e-nodes/verbetes/node-condition.md)) e de [OOMKill](../categorias/02-compute-e-nodes/verbetes/oomkill.md) |
+
+## Distinções importantes: recursos
+
+- **Capacity × Allocatable × uso real.**
+- **CPU limit (throttling) × memory limit (OOMKill).**
+- **Despejo pelo kubelet (eviction) × OOMKill pelo kernel.**

@@ -6,8 +6,10 @@
 
 - **Categoria 00 (Fundamentos):** concluída. Os 37 candidatos estão cobertos por 34 verbetes e 3 remissões.
 - **Categoria 01 (Arquitetura e Control Plane):** concluída. Os 31 candidatos estão cobertos por 28 verbetes e 3 remissões, publicados em três lotes; o último foi o lote 3 (Bootstrap, Quorum, High Availability, SNO, HyperShift, Hosted Control Plane e Infrastructure Node).
-- **Categorias 02 a 10:** têm verbetes em **versão inicial**, herdados do kit (Node, Pod, Deployment, ReplicaSet, StatefulSet, DaemonSet, Job, Service, Route, Ingress, IngressController, NetworkPolicy, PV, PVC, StorageClass, ConfigMap, Secret, ServiceAccount, Operator, ClusterOperator, CRD, ClusterExtension e BuildConfig).
-- **Próximo passo sugerido:** revisar as categorias 00 e 01 (`PROMPT-REVISAO.md`) ou iniciar a categoria 02 (Compute, Nodes e capacidade), aprofundando o verbete Node.
+- **Categoria 02 (Compute, Nodes e capacidade):** em construção. O lote 1 está publicado (Node, Node Condition, Capacity, Allocatable, CPU, Memory, Ephemeral Storage, Resource Request, Resource Limit, QoS Class, OOMKill e cgroups; remissões Node Ready e Node Pressure).
+  - **Próximo: lote 2:** Node Label, Node Annotation, Taint, Toleration, Node Selector, Node Affinity, Cordon, Drain, Uncordon, Node Debug, LimitRange e ResourceQuota.
+  - **Lote 3:** Machine, MachineSet, MachineHealthCheck, BareMetalHost, RHCOS, HugePages, Extended Resource, Device Plugin e NUMA.
+- **Categorias 03 a 10:** têm verbetes em **versão inicial**, herdados do kit (Pod, Deployment, ReplicaSet, StatefulSet, DaemonSet, Job, Service, Route, Ingress, IngressController, NetworkPolicy, PV, PVC, StorageClass, ConfigMap, Secret, ServiceAccount, Operator, ClusterOperator, CRD, ClusterExtension e BuildConfig).
 
 ## Decisões do autor (obrigatórias)
 
@@ -45,4 +47,4 @@
 
 ## Como retomar (sugestão de pedido)
 
-> "Continue o glossário a partir de `docs/CONTINUAR-DAQUI.md`: inicie a categoria 02 (ou faça a revisão das categorias 00 e 01), seguindo as decisões registradas, e publique na `main`."
+> "Continue o glossário a partir de `docs/CONTINUAR-DAQUI.md`: faça o lote 2 da categoria 02, seguindo as decisões registradas, e publique na `main`."

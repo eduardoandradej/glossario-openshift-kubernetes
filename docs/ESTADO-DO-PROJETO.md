@@ -1,5 +1,15 @@
 # Estado do projeto
 
+## Rodada 2026-11-05 (2) — categoria 02, lote 1
+
+- **12 verbetes:** Node (reescrito, antes versão inicial), Node Condition, Capacity, Allocatable, CPU, Memory, Ephemeral Storage, Resource Request, Resource Limit, QoS Class, OOMKill e cgroups. Remissões: Node Ready e Node Pressure (→ Node Condition).
+- **Fatos do OCP 4.22:** reserva automática de CPU e memória para o sistema (fórmulas documentadas); `Allocatable = Capacity − system-reserved − hard eviction thresholds`; `kubeReserved` não suportado; reserva automática desabilitada em clusters atualizados de antes da 4.21; cgroup v2 como padrão.
+- README: categoria 02 como Em construção.
+
+### Próximo lote recomendado (categoria 02, lote 2)
+
+Node Label, Node Annotation, Taint, Toleration, Node Selector, Node Affinity, Cordon, Drain, Uncordon, Node Debug, LimitRange e ResourceQuota. Lote 3: Machine, MachineSet, MachineHealthCheck, BareMetalHost, RHCOS, HugePages, Extended Resource, Device Plugin e NUMA.
+
 ## Rodada 2026-11-05 — categoria 01, lote 3 (categoria concluída)
 
 - **7 verbetes:** Bootstrap, Quorum, High Availability, SNO, HyperShift, Hosted Control Plane e Infrastructure Node.

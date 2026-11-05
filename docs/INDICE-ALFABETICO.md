@@ -3,6 +3,7 @@
 Todos os termos publicados, em ordem alfabética. Sinônimos e nomes em português aparecem como entradas que levam ao termo principal. *(versão inicial)* indica um termo ainda em aprofundamento.
 
 - Actual state: ver [Current State](../categorias/00-fundamentos-e-linguagem/verbetes/current-state.md)
+- [Allocatable](../categorias/02-compute-e-nodes/verbetes/allocatable.md)
 - Alta disponibilidade: ver [High Availability](../categorias/01-arquitetura-e-control-plane/verbetes/high-availability.md)
 - [Annotation](../categorias/00-fundamentos-e-linguagem/verbetes/annotation.md)
 - [API (Kubernetes API)](../categorias/00-fundamentos-e-linguagem/verbetes/kubernetes-api.md)
@@ -13,8 +14,11 @@ Todos os termos publicados, em ordem alfabética. Sinônimos e nomes em portugu�
 - Bootstrap-in-place: ver [Bootstrap](../categorias/01-arquitetura-e-control-plane/verbetes/bootstrap.md)
 - [Bootstrap](../categorias/01-arquitetura-e-control-plane/verbetes/bootstrap.md)
 - [BuildConfig](../categorias/10-builds-imagens-registry/verbetes/buildconfig.md) *(versão inicial)*
+- [Capacity](../categorias/02-compute-e-nodes/verbetes/capacity.md)
 - Cascading deletion: ver [Garbage Collection](../categorias/00-fundamentos-e-linguagem/verbetes/garbage-collection.md)
 - CCM: ver [cloud-controller-manager](../categorias/01-arquitetura-e-control-plane/verbetes/cloud-controller-manager.md)
+- cgroup v2: ver [cgroups](../categorias/02-compute-e-nodes/verbetes/cgroups.md)
+- [cgroups](../categorias/02-compute-e-nodes/verbetes/cgroups.md)
 - [cloud-controller-manager](../categorias/01-arquitetura-e-control-plane/verbetes/cloud-controller-manager.md)
 - [Cluster DNS](../categorias/01-arquitetura-e-control-plane/verbetes/cluster-dns.md)
 - [Cluster Version Operator](../categorias/01-arquitetura-e-control-plane/verbetes/cluster-version-operator.md)
@@ -32,6 +36,7 @@ Todos os termos publicados, em ordem alfabética. Sinônimos e nomes em portugu�
 - [Control Plane](../categorias/01-arquitetura-e-control-plane/verbetes/control-plane.md)
 - [Controller](../categorias/00-fundamentos-e-linguagem/verbetes/controller.md)
 - [CoreDNS](../categorias/01-arquitetura-e-control-plane/verbetes/coredns.md)
+- [CPU (recurso `cpu`)](../categorias/02-compute-e-nodes/verbetes/cpu.md)
 - [CRI (Container Runtime Interface)](../categorias/01-arquitetura-e-control-plane/verbetes/cri.md)
 - [CRI-O](../categorias/01-arquitetura-e-control-plane/verbetes/cri-o.md)
 - crun / runC: ver [Container Runtime](../categorias/01-arquitetura-e-control-plane/verbetes/container-runtime.md)
@@ -43,6 +48,7 @@ Todos os termos publicados, em ordem alfabética. Sinônimos e nomes em portugu�
 - [Deployment](../categorias/03-workloads/verbetes/deployment.md) *(versão inicial)*
 - [Desired State (estado desejado)](../categorias/00-fundamentos-e-linguagem/verbetes/desired-state.md)
 - [DNS Operator](../categorias/01-arquitetura-e-control-plane/verbetes/dns-operator.md)
+- [Ephemeral Storage](../categorias/02-compute-e-nodes/verbetes/ephemeral-storage.md)
 - Estado desejado: ver [Desired State](../categorias/00-fundamentos-e-linguagem/verbetes/desired-state.md)
 - Estado observado: ver [Current State](../categorias/00-fundamentos-e-linguagem/verbetes/current-state.md)
 - [etcd](../categorias/01-arquitetura-e-control-plane/verbetes/etcd.md)
@@ -53,6 +59,7 @@ Todos os termos publicados, em ordem alfabética. Sinônimos e nomes em portugu�
 - [Garbage Collection](../categorias/00-fundamentos-e-linguagem/verbetes/garbage-collection.md)
 - generateName: ver [Resource Name](../categorias/00-fundamentos-e-linguagem/verbetes/resource-name.md)
 - [Generation (metadata.generation)](../categorias/00-fundamentos-e-linguagem/verbetes/generation.md)
+- Guaranteed / Burstable / BestEffort: ver [QoS Class](../categorias/02-compute-e-nodes/verbetes/qos-class.md)
 - HA: ver [High Availability](../categorias/01-arquitetura-e-control-plane/verbetes/high-availability.md)
 - HCP: ver [Hosted Control Plane](../categorias/01-arquitetura-e-control-plane/verbetes/hosted-control-plane.md)
 - [High Availability](../categorias/01-arquitetura-e-control-plane/verbetes/high-availability.md)
@@ -77,6 +84,7 @@ Todos os termos publicados, em ordem alfabética. Sinônimos e nomes em portugu�
 - [kubelet](../categorias/01-arquitetura-e-control-plane/verbetes/kubelet.md)
 - [Kubernetes](../categorias/00-fundamentos-e-linguagem/verbetes/kubernetes.md)
 - [Label](../categorias/00-fundamentos-e-linguagem/verbetes/label.md)
+- Limits / overcommit: ver [Resource Limit](../categorias/02-compute-e-nodes/verbetes/resource-limit.md)
 - [Machine Config Operator](../categorias/01-arquitetura-e-control-plane/verbetes/machine-config-operator.md)
 - [MachineConfig](../categorias/01-arquitetura-e-control-plane/verbetes/machineconfig.md)
 - [MachineConfigPool](../categorias/01-arquitetura-e-control-plane/verbetes/machineconfigpool.md)
@@ -86,19 +94,26 @@ Todos os termos publicados, em ordem alfabética. Sinônimos e nomes em portugu�
 - matchLabels / matchExpressions: ver [Selector](../categorias/00-fundamentos-e-linguagem/verbetes/selector.md)
 - MCO: ver [Machine Config Operator](../categorias/01-arquitetura-e-control-plane/verbetes/machine-config-operator.md)
 - MCP: ver [MachineConfigPool](../categorias/01-arquitetura-e-control-plane/verbetes/machineconfigpool.md)
+- [Memory (recurso `memory`)](../categorias/02-compute-e-nodes/verbetes/memory.md)
 - [Metadata](../categorias/00-fundamentos-e-linguagem/verbetes/metadata.md)
+- Millicore: ver [CPU](../categorias/02-compute-e-nodes/verbetes/cpu.md)
 - Minion: ver [Worker Node](../categorias/01-arquitetura-e-control-plane/verbetes/worker-node.md)
 - Mirror Pod: ver [Static Pod](../categorias/01-arquitetura-e-control-plane/verbetes/static-pod.md)
 - [Namespace](../categorias/00-fundamentos-e-linguagem/verbetes/namespace.md)
 - [NetworkPolicy](../categorias/04-networking/verbetes/networkpolicy.md) *(versão inicial)*
 - Node Agent: ver [kubelet](../categorias/01-arquitetura-e-control-plane/verbetes/kubelet.md)
-- [Node](../categorias/02-compute-e-nodes/verbetes/node.md) *(versão inicial)*
+- [Node Condition](../categorias/02-compute-e-nodes/verbetes/node-condition.md)
+- Node Pressure / MemoryPressure / DiskPressure / PIDPressure: ver [Node Condition](../categorias/02-compute-e-nodes/verbetes/node-condition.md)
+- Node Ready: ver [Node Condition](../categorias/02-compute-e-nodes/verbetes/node-condition.md)
+- [Node](../categorias/02-compute-e-nodes/verbetes/node.md)
 - ns: ver [Namespace](../categorias/00-fundamentos-e-linguagem/verbetes/namespace.md)
 - [Object (Kubernetes object — objeto)](../categorias/00-fundamentos-e-linguagem/verbetes/object.md)
 - ObjectMeta: ver [Metadata](../categorias/00-fundamentos-e-linguagem/verbetes/metadata.md)
 - Objeto: ver [Object](../categorias/00-fundamentos-e-linguagem/verbetes/object.md)
 - [ObservedGeneration (status.observedGeneration)](../categorias/00-fundamentos-e-linguagem/verbetes/observed-generation.md)
 - OCP: ver [OpenShift Container Platform](../categorias/00-fundamentos-e-linguagem/verbetes/openshift-container-platform.md)
+- [OOMKill](../categorias/02-compute-e-nodes/verbetes/oomkill.md)
+- OOMKilled / OOM killer: ver [OOMKill](../categorias/02-compute-e-nodes/verbetes/oomkill.md)
 - [OpenShift Container Platform](../categorias/00-fundamentos-e-linguagem/verbetes/openshift-container-platform.md)
 - [Operator](../categorias/09-operators-e-extensoes/verbetes/operator.md) *(versão inicial)*
 - OVN / Open vSwitch: ver [OVN-Kubernetes](../categorias/01-arquitetura-e-control-plane/verbetes/ovn-kubernetes.md)
@@ -112,6 +127,7 @@ Todos os termos publicados, em ordem alfabética. Sinônimos e nomes em portugu�
 - [Pod](../categorias/03-workloads/verbetes/pod.md) *(versão inicial)*
 - [Project (OpenShift)](../categorias/00-fundamentos-e-linguagem/verbetes/project.md)
 - ProjectRequest: ver [Project](../categorias/00-fundamentos-e-linguagem/verbetes/project.md)
+- [QoS Class](../categorias/02-compute-e-nodes/verbetes/qos-class.md)
 - [Quorum](../categorias/01-arquitetura-e-control-plane/verbetes/quorum.md)
 - Reconcile loop: ver [Reconciliation](../categorias/00-fundamentos-e-linguagem/verbetes/reconciliation.md)
 - [Reconciliation (reconciliação)](../categorias/00-fundamentos-e-linguagem/verbetes/reconciliation.md)
@@ -120,8 +136,11 @@ Todos os termos publicados, em ordem alfabética. Sinônimos e nomes em portugu�
 - Release image: ver [Cluster Version Operator](../categorias/01-arquitetura-e-control-plane/verbetes/cluster-version-operator.md)
 - Rendered MachineConfig: ver [MachineConfig](../categorias/01-arquitetura-e-control-plane/verbetes/machineconfig.md)
 - [ReplicaSet](../categorias/03-workloads/verbetes/replicaset.md) *(versão inicial)*
+- Requests: ver [Resource Request](../categorias/02-compute-e-nodes/verbetes/resource-request.md)
 - [Resource (API resource — recurso)](../categorias/00-fundamentos-e-linguagem/verbetes/resource.md)
+- [Resource Limit](../categorias/02-compute-e-nodes/verbetes/resource-limit.md)
 - [Resource Name (metadata.name)](../categorias/00-fundamentos-e-linguagem/verbetes/resource-name.md)
+- [Resource Request](../categorias/02-compute-e-nodes/verbetes/resource-request.md)
 - [ResourceVersion (metadata.resourceVersion)](../categorias/00-fundamentos-e-linguagem/verbetes/resource-version.md)
 - [Route](../categorias/04-networking/verbetes/route.md) *(versão inicial)*
 - [Secret](../categorias/06-configuracao-e-api/verbetes/secret.md) *(versão inicial)*
@@ -136,6 +155,7 @@ Todos os termos publicados, em ordem alfabética. Sinônimos e nomes em portugu�
 - [Static Pod](../categorias/01-arquitetura-e-control-plane/verbetes/static-pod.md)
 - [Status](../categorias/00-fundamentos-e-linguagem/verbetes/status.md)
 - [StorageClass](../categorias/05-storage/verbetes/storageclass.md) *(versão inicial)*
+- system-reserved: ver [Allocatable](../categorias/02-compute-e-nodes/verbetes/allocatable.md)
 - Two-Node with Arbiter: ver [High Availability](../categorias/01-arquitetura-e-control-plane/verbetes/high-availability.md)
 - [UID (metadata.uid)](../categorias/00-fundamentos-e-linguagem/verbetes/uid.md)
 - [Worker Node](../categorias/01-arquitetura-e-control-plane/verbetes/worker-node.md)

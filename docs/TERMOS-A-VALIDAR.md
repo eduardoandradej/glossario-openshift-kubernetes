@@ -100,6 +100,23 @@
 | [HyperShift](../categorias/01-arquitetura-e-control-plane/verbetes/hypershift.md) | Namespace do HyperShift Operator; implantação pelo MCE | SNO / docs |
 | [Infrastructure Node](../categorias/01-arquitetura-e-control-plane/verbetes/infrastructure-node.md) | Taint `node-role.kubernetes.io/infra` | SNO / docs |
 
+## Categoria 02 — lote 1
+
+| Verbete | O que validar | Como |
+|---|---|---|
+| [Node](../categorias/02-compute-e-nodes/verbetes/node.md) | Colunas de `oc get nodes -o wide`; `oc adm top nodes` | SNO / docs |
+| [Node Condition](../categorias/02-compute-e-nodes/verbetes/node-condition.md) | Mensagem de despejo; `NodeMonitorGracePeriod` no OCP | SNO / docs |
+| [Capacity](../categorias/02-compute-e-nodes/verbetes/capacity.md) | Valores reais do nó | SNO / docs |
+| [Allocatable](../categorias/02-compute-e-nodes/verbetes/allocatable.md) | Reserva automática ativa no SNO; valores reais | SNO / docs |
+| [CPU](../categorias/02-compute-e-nodes/verbetes/cpu.md) | `oc adm top pods` | SNO / docs |
+| [Memory](../categorias/02-compute-e-nodes/verbetes/memory.md) | Exemplos no SNO | SNO / docs |
+| [Ephemeral Storage](../categorias/02-compute-e-nodes/verbetes/ephemeral-storage.md) | Página Ephemeral Storage; `/var` no RHCOS | SNO / docs |
+| [Resource Request](../categorias/02-compute-e-nodes/verbetes/resource-request.md) | Maturidade de pod-level resources no 4.22 | SNO / docs |
+| [Resource Limit](../categorias/02-compute-e-nodes/verbetes/resource-limit.md) | Despejo por limite de ephemeral-storage | SNO / docs |
+| [QoS Class](../categorias/02-compute-e-nodes/verbetes/qos-class.md) | Regra com pod-level resources | SNO / docs |
+| [OOMKill](../categorias/02-compute-e-nodes/verbetes/oomkill.md) | exitCode 137 num caso real | SNO / docs |
+| [cgroups](../categorias/02-compute-e-nodes/verbetes/cgroups.md) | `nodes.config.openshift.io` `spec.cgroupMode` | SNO / docs |
+
 ## Decisões de nomenclatura a confirmar com o autor
 
 - **Termos técnicos em inglês (decisão do autor, 2026-11-04):** títulos e termos técnicos ficam no original em inglês (Control Plane, Desired State, Current State, Reconciliation, Object, Resource...). A explicação é em português. A tradução aparece só como apoio, entre parênteses ou no campo **Tradução**.

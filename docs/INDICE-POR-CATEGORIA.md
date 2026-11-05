@@ -58,8 +58,16 @@ Os termos publicados, organizados por categoria e por assunto. *(versão inicial
 **Topologias, instalação e disponibilidade**
 - [Bootstrap](../categorias/01-arquitetura-e-control-plane/verbetes/bootstrap.md) · [Quorum](../categorias/01-arquitetura-e-control-plane/verbetes/quorum.md) · [High Availability](../categorias/01-arquitetura-e-control-plane/verbetes/high-availability.md) · [SNO](../categorias/01-arquitetura-e-control-plane/verbetes/sno.md) · [Hosted Control Plane](../categorias/01-arquitetura-e-control-plane/verbetes/hosted-control-plane.md) · [HyperShift](../categorias/01-arquitetura-e-control-plane/verbetes/hypershift.md) · [Infrastructure Node](../categorias/01-arquitetura-e-control-plane/verbetes/infrastructure-node.md)
 
-## [02 — Compute, nodes e capacidade](../categorias/02-compute-e-nodes/README.md)
-- [Node](../categorias/02-compute-e-nodes/verbetes/node.md) *(versão inicial)*
+## [02 — Compute, Nodes e capacidade](../categorias/02-compute-e-nodes/README.md)
+
+**Nós e saúde**
+- [Node](../categorias/02-compute-e-nodes/verbetes/node.md) · [Node Condition](../categorias/02-compute-e-nodes/verbetes/node-condition.md)
+
+**Capacidade e recursos**
+- [Capacity](../categorias/02-compute-e-nodes/verbetes/capacity.md) · [Allocatable](../categorias/02-compute-e-nodes/verbetes/allocatable.md) · [CPU](../categorias/02-compute-e-nodes/verbetes/cpu.md) · [Memory](../categorias/02-compute-e-nodes/verbetes/memory.md) · [Ephemeral Storage](../categorias/02-compute-e-nodes/verbetes/ephemeral-storage.md)
+
+**Requests, limits e consequências**
+- [Resource Request](../categorias/02-compute-e-nodes/verbetes/resource-request.md) · [Resource Limit](../categorias/02-compute-e-nodes/verbetes/resource-limit.md) · [QoS Class](../categorias/02-compute-e-nodes/verbetes/qos-class.md) · [OOMKill](../categorias/02-compute-e-nodes/verbetes/oomkill.md) · [cgroups](../categorias/02-compute-e-nodes/verbetes/cgroups.md)
 
 ## [03 — Workloads](../categorias/03-workloads/README.md)
 - [Pod](../categorias/03-workloads/verbetes/pod.md) · [Deployment](../categorias/03-workloads/verbetes/deployment.md) · [ReplicaSet](../categorias/03-workloads/verbetes/replicaset.md) · [StatefulSet](../categorias/03-workloads/verbetes/statefulset.md) · [DaemonSet](../categorias/03-workloads/verbetes/daemonset.md) · [Job](../categorias/03-workloads/verbetes/job.md) *(versão inicial)*

@@ -1475,9 +1475,21 @@
   {
     "term": "Node",
     "category": "02-compute-e-nodes",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "objeto-api",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": "core",
+    "kind": "Node",
+    "scope": "cluster",
+    "verificado_em": "2026-11-05",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/architecture/nodes/",
+      "https://kubernetes.io/docs/reference/node/node-status/"
+    ],
+    "slug_verbete": "node"
   },
   {
     "term": "Machine",
@@ -1517,37 +1529,93 @@
   {
     "term": "Capacity",
     "category": "02-compute-e-nodes",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "conceito",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-05",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "https://kubernetes.io/docs/reference/node/node-status/#capacity"
+    ],
+    "slug_verbete": "capacity"
   },
   {
     "term": "Allocatable",
     "category": "02-compute-e-nodes",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "conceito",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-05",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "https://kubernetes.io/docs/tasks/administer-cluster/reserve-compute-resources/",
+      "openshift-docs enterprise-4.22: modules/nodes-nodes-resources-configuring-about.adoc"
+    ],
+    "slug_verbete": "allocatable"
   },
   {
     "term": "CPU",
     "category": "02-compute-e-nodes",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "conceito",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-05",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/"
+    ],
+    "slug_verbete": "cpu"
   },
   {
     "term": "Memory",
     "category": "02-compute-e-nodes",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "conceito",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-05",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/"
+    ],
+    "slug_verbete": "memory"
   },
   {
     "term": "Ephemeral Storage",
     "category": "02-compute-e-nodes",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "conceito",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-05",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/"
+    ],
+    "slug_verbete": "ephemeral-storage"
   },
   {
     "term": "HugePages",
@@ -1587,23 +1655,58 @@
   {
     "term": "Node Condition",
     "category": "02-compute-e-nodes",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "estado",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-05",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "https://kubernetes.io/docs/reference/node/node-status/#condition"
+    ],
+    "slug_verbete": "node-condition"
   },
   {
     "term": "Node Ready",
     "category": "02-compute-e-nodes",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "remissao",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-05",
+    "validacao_cluster": "nao-realizada",
+    "remissao_para": "Node Condition",
+    "fontes": [
+      "https://kubernetes.io/docs/reference/node/node-status/#condition"
+    ],
+    "slug_verbete": "node-condition"
   },
   {
     "term": "Node Pressure",
     "category": "02-compute-e-nodes",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "remissao",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-05",
+    "validacao_cluster": "nao-realizada",
+    "remissao_para": "Node Condition",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/scheduling-eviction/node-pressure-eviction/"
+    ],
+    "slug_verbete": "node-condition"
   },
   {
     "term": "Taint",
@@ -1671,37 +1774,94 @@
   {
     "term": "cgroups",
     "category": "02-compute-e-nodes",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "tecnologia",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-05",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/architecture/cgroups/",
+      "openshift-docs enterprise-4.22: modules/architecture-about-cgroup-v2.adoc"
+    ],
+    "slug_verbete": "cgroups"
   },
   {
     "term": "OOMKill",
     "category": "02-compute-e-nodes",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "estado",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-05",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/",
+      "https://kubernetes.io/docs/concepts/scheduling-eviction/node-pressure-eviction/"
+    ],
+    "slug_verbete": "oomkill"
   },
   {
     "term": "QoS Class",
     "category": "02-compute-e-nodes",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "estado",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-05",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/workloads/pods/pod-qos/"
+    ],
+    "slug_verbete": "qos-class"
   },
   {
     "term": "Resource Request",
     "category": "02-compute-e-nodes",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "conceito",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-05",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/"
+    ],
+    "slug_verbete": "resource-request"
   },
   {
     "term": "Resource Limit",
     "category": "02-compute-e-nodes",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "conceito",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-05",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/"
+    ],
+    "slug_verbete": "resource-limit"
   },
   {
     "term": "LimitRange",

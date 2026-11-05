@@ -55,6 +55,9 @@ Os termos publicados, organizados por categoria e por assunto. *(versão inicial
 **Gestão da plataforma**
 - [Cluster Version Operator](../categorias/01-arquitetura-e-control-plane/verbetes/cluster-version-operator.md) · [Machine Config Operator](../categorias/01-arquitetura-e-control-plane/verbetes/machine-config-operator.md) · [MachineConfig](../categorias/01-arquitetura-e-control-plane/verbetes/machineconfig.md) · [MachineConfigPool](../categorias/01-arquitetura-e-control-plane/verbetes/machineconfigpool.md)
 
+**Topologias, instalação e disponibilidade**
+- [Bootstrap](../categorias/01-arquitetura-e-control-plane/verbetes/bootstrap.md) · [Quorum](../categorias/01-arquitetura-e-control-plane/verbetes/quorum.md) · [High Availability](../categorias/01-arquitetura-e-control-plane/verbetes/high-availability.md) · [SNO](../categorias/01-arquitetura-e-control-plane/verbetes/sno.md) · [Hosted Control Plane](../categorias/01-arquitetura-e-control-plane/verbetes/hosted-control-plane.md) · [HyperShift](../categorias/01-arquitetura-e-control-plane/verbetes/hypershift.md) · [Infrastructure Node](../categorias/01-arquitetura-e-control-plane/verbetes/infrastructure-node.md)
+
 ## [02 — Compute, nodes e capacidade](../categorias/02-compute-e-nodes/README.md)
 - [Node](../categorias/02-compute-e-nodes/verbetes/node.md) *(versão inicial)*
 

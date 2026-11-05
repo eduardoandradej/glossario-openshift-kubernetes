@@ -25,12 +25,15 @@ Quem decide e quem executa no cluster: os componentes do Control Plane, o que ro
 - [Machine Config Operator](verbetes/machine-config-operator.md)
 - [MachineConfig](verbetes/machineconfig.md)
 - [MachineConfigPool](verbetes/machineconfigpool.md)
+- [Bootstrap](verbetes/bootstrap.md)
+- [Quorum](verbetes/quorum.md)
+- [High Availability](verbetes/high-availability.md)
+- [SNO](verbetes/sno.md)
+- [HyperShift](verbetes/hypershift.md)
+- [Hosted Control Plane](verbetes/hosted-control-plane.md)
+- [Infrastructure Node](verbetes/infrastructure-node.md)
 
 **Outros nomes:** [kube-apiserver](../00-fundamentos-e-linguagem/verbetes/api-server.md) → API Server · [Node Agent](verbetes/kubelet.md) → kubelet · [Cluster Operator](../09-operators-e-extensoes/verbetes/clusteroperator.md) → ClusterOperator (categoria 09)
-
-## Em breve
-
-Bootstrap, Quorum, High Availability, SNO, HyperShift, Hosted Control Plane, Infrastructure Node.
 
 ---
 

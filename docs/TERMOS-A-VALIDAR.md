@@ -88,6 +88,18 @@
 | [MachineConfig](../categorias/01-arquitetura-e-control-plane/verbetes/machineconfig.md) | Colunas de `oc get mc`; `status.configuration.name` | SNO / docs |
 | [MachineConfigPool](../categorias/01-arquitetura-e-control-plane/verbetes/machineconfigpool.md) | Colunas de `oc get mcp`; pool `worker` com 0 máquinas no SNO | SNO / docs |
 
+## Categoria 01 — lote 3
+
+| Verbete | O que validar | Como |
+|---|---|---|
+| [Bootstrap](../categorias/01-arquitetura-e-control-plane/verbetes/bootstrap.md) | Requisitante dos CSRs `node-bootstrapper`; `controlPlaneTopology` | SNO / docs |
+| [Quorum](../categorias/01-arquitetura-e-control-plane/verbetes/quorum.md) | Texto das condições do ClusterOperator `etcd` | SNO / docs |
+| [High Availability](../categorias/01-arquitetura-e-control-plane/verbetes/high-availability.md) | Valores de `controlPlaneTopology` (árbitro); ausência de etcd externo no OCP | SNO / docs |
+| [SNO](../categorias/01-arquitetura-e-control-plane/verbetes/sno.md) | `SingleReplica`, `platformStatus.type`, `Allocated resources` | SNO / docs |
+| [Hosted Control Plane](../categorias/01-arquitetura-e-control-plane/verbetes/hosted-control-plane.md) | Escopo de `HostedCluster`/`NodePool`; colunas (requer management cluster) | SNO / docs |
+| [HyperShift](../categorias/01-arquitetura-e-control-plane/verbetes/hypershift.md) | Namespace do HyperShift Operator; implantação pelo MCE | SNO / docs |
+| [Infrastructure Node](../categorias/01-arquitetura-e-control-plane/verbetes/infrastructure-node.md) | Taint `node-role.kubernetes.io/infra` | SNO / docs |
+
 ## Decisões de nomenclatura a confirmar com o autor
 
 - **Termos técnicos em inglês (decisão do autor, 2026-11-04):** títulos e termos técnicos ficam no original em inglês (Control Plane, Desired State, Current State, Reconciliation, Object, Resource...). A explicação é em português. A tradução aparece só como apoio, entre parênteses ou no campo **Tradução**.

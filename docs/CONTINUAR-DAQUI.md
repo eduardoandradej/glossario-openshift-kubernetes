@@ -5,12 +5,9 @@
 ## Onde paramos
 
 - **Categoria 00 (Fundamentos):** concluída. Os 37 candidatos estão cobertos por 34 verbetes e 3 remissões.
-- **Categoria 01 (Arquitetura e Control Plane):** em construção.
-  - **Lote 1, publicado:** Control Plane, Worker Node, Master Node, etcd, kube-scheduler, kube-controller-manager, cloud-controller-manager, kubelet, Container Runtime, CRI, CRI-O e Static Pod. Remissões: kube-apiserver e Node Agent.
-  - **Lote 2, publicado:** kube-proxy, OVN-Kubernetes, CoreDNS, DNS Operator, Cluster DNS, Cluster Version Operator, Machine Config Operator, MachineConfig e MachineConfigPool. Remissão: Cluster Operator → ClusterOperator (categoria 09).
-  - **Próximo: lote 3, que fecha a categoria:** Bootstrap, Quorum, High Availability, SNO, HyperShift, Hosted Control Plane e Infrastructure Node.
-- **Categorias 02 a 10:** têm verbetes em **versão inicial**, herdados do kit (Node, Pod, Deployment, ReplicaSet, StatefulSet, DaemonSet, Job, Service, Route, Ingress, IngressController, NetworkPolicy, PV, PVC, StorageClass, ConfigMap, Secret, ServiceAccount, Operator, ClusterOperator, CRD, ClusterExtension e BuildConfig). Eles serão aprofundados quando cada categoria for trabalhada.
-- **Último commit publicado:** `04089d2` na `main`.
+- **Categoria 01 (Arquitetura e Control Plane):** concluída. Os 31 candidatos estão cobertos por 28 verbetes e 3 remissões, publicados em três lotes; o último foi o lote 3 (Bootstrap, Quorum, High Availability, SNO, HyperShift, Hosted Control Plane e Infrastructure Node).
+- **Categorias 02 a 10:** têm verbetes em **versão inicial**, herdados do kit (Node, Pod, Deployment, ReplicaSet, StatefulSet, DaemonSet, Job, Service, Route, Ingress, IngressController, NetworkPolicy, PV, PVC, StorageClass, ConfigMap, Secret, ServiceAccount, Operator, ClusterOperator, CRD, ClusterExtension e BuildConfig).
+- **Próximo passo sugerido:** revisar as categorias 00 e 01 (`PROMPT-REVISAO.md`) ou iniciar a categoria 02 (Compute, Nodes e capacidade), aprofundando o verbete Node.
 
 ## Decisões do autor (obrigatórias)
 
@@ -48,4 +45,4 @@
 
 ## Como retomar (sugestão de pedido)
 
-> "Continue o glossário a partir de `docs/CONTINUAR-DAQUI.md`: faça o lote 3 da categoria 01 (Bootstrap, Quorum, High Availability, SNO, HyperShift, Hosted Control Plane, Infrastructure Node), seguindo as decisões registradas, e publique na `main`."
+> "Continue o glossário a partir de `docs/CONTINUAR-DAQUI.md`: inicie a categoria 02 (ou faça a revisão das categorias 00 e 01), seguindo as decisões registradas, e publique na `main`."

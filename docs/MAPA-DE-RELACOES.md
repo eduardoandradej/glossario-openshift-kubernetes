@@ -162,3 +162,30 @@ flowchart LR
 - **Cluster DNS (função) × CoreDNS (software) × DNS Operator (gestão).**
 - **CVO (Operators da plataforma, via release image) × OLM (Operators opcionais).**
 - **MachineConfigPool (configuração de nós) × machine set (criação de máquinas).**
+
+## Topologias, instalação e disponibilidade
+
+```mermaid
+flowchart TB
+    BOOT["Bootstrap<br/>(Control Plane temporário)"] -->|"cria"| CP["Control Plane"]
+    CP --> ETCD[("etcd")]
+    ETCD -->|"exige maioria"| Q["Quorum"]
+    Q --> HA["High Availability<br/>(3 nós; árbitro; fencing)"]
+    SNO["SNO<br/>(1 nó, sem HA)"] -. "topologia alternativa" .-> HA
+    HCP["Hosted Control Plane<br/>(Control Plane como Pods)"] -->|"implementado por"| HS["HyperShift Operator"]
+    INFRA["Infrastructure Node"] -->|"pool próprio"| MCP["MachineConfigPool infra"]
+```
+
+| De | Relação | Para |
+|---|---|---|
+| [Bootstrap](../categorias/01-arquitetura-e-control-plane/verbetes/bootstrap.md) | cria | o [Control Plane](../categorias/01-arquitetura-e-control-plane/verbetes/control-plane.md) de produção |
+| [Quorum](../categorias/01-arquitetura-e-control-plane/verbetes/quorum.md) | determina a | [High Availability](../categorias/01-arquitetura-e-control-plane/verbetes/high-availability.md) do Control Plane |
+| [SNO](../categorias/01-arquitetura-e-control-plane/verbetes/sno.md) | é a topologia sem | [High Availability](../categorias/01-arquitetura-e-control-plane/verbetes/high-availability.md) |
+| [Hosted Control Plane](../categorias/01-arquitetura-e-control-plane/verbetes/hosted-control-plane.md) | é implementado pelo | [HyperShift](../categorias/01-arquitetura-e-control-plane/verbetes/hypershift.md) |
+| [Infrastructure Node](../categorias/01-arquitetura-e-control-plane/verbetes/infrastructure-node.md) | é gerenciado pelo pool personalizado de | [MachineConfigPool](../categorias/01-arquitetura-e-control-plane/verbetes/machineconfigpool.md) |
+
+## Distinções importantes: topologias
+
+- **SNO (um nó, sem HA) × compact/three-node (três nós com HA) × Two-Node with Arbiter × two-node com fencing.**
+- **Hosted Control Plane (modelo) × HyperShift (software) × management cluster × managed cluster (RHACM).**
+- **HA (contra falhas de máquinas) × backup (contra perda de dados).**

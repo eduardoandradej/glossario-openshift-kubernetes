@@ -1307,44 +1307,113 @@
   {
     "term": "Bootstrap",
     "category": "01-arquitetura-e-control-plane",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "conceito",
+    "source": "ver campo fontes",
+    "plataforma": "OpenShift",
+    "versao": "OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-05",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "openshift-docs enterprise-4.22: modules/installation-process-details.adoc"
+    ],
+    "slug_verbete": "bootstrap"
   },
   {
     "term": "Quorum",
     "category": "01-arquitetura-e-control-plane",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "conceito",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-05",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "openshift-docs enterprise-4.22: modules/architecture-machine-roles.adoc",
+      "openshift-docs enterprise-4.22: modules/dr-restoring-etcd-quorum-ha.adoc"
+    ],
+    "slug_verbete": "quorum"
   },
   {
     "term": "High Availability",
     "category": "01-arquitetura-e-control-plane",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "conceito",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-05",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/ha-topology/",
+      "openshift-docs enterprise-4.22: installing/installing_two_node_cluster/"
+    ],
+    "slug_verbete": "high-availability"
   },
   {
     "term": "SNO",
     "category": "01-arquitetura-e-control-plane",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "conceito",
+    "source": "ver campo fontes",
+    "plataforma": "OpenShift",
+    "versao": "OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-05",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "openshift-docs enterprise-4.22: modules/install-sno-about-installing-on-a-single-node.adoc",
+      "openshift-docs enterprise-4.22: modules/install-sno-requirements-for-installing-on-a-single-node.adoc"
+    ],
+    "slug_verbete": "sno"
   },
   {
     "term": "HyperShift",
     "category": "01-arquitetura-e-control-plane",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "componente",
+    "source": "ver campo fontes",
+    "plataforma": "OpenShift",
+    "versao": "OCP 4.22",
+    "api_group": "hypershift.openshift.io",
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-05",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "openshift-docs enterprise-4.22: modules/hosted-control-planes-concepts-personas.adoc"
+    ],
+    "slug_verbete": "hypershift"
   },
   {
     "term": "Hosted Control Plane",
     "category": "01-arquitetura-e-control-plane",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "conceito",
+    "source": "ver campo fontes",
+    "plataforma": "OpenShift",
+    "versao": "OCP 4.22",
+    "api_group": "hypershift.openshift.io",
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-05",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "openshift-docs enterprise-4.22: hosted_control_planes/index.adoc"
+    ],
+    "slug_verbete": "hosted-control-plane"
   },
   {
     "term": "Node Agent",
@@ -1387,9 +1456,21 @@
   {
     "term": "Infrastructure Node",
     "category": "01-arquitetura-e-control-plane",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "conceito",
+    "source": "ver campo fontes",
+    "plataforma": "OpenShift",
+    "versao": "OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-05",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "openshift-docs enterprise-4.22: modules/infrastructure-components.adoc",
+      "openshift-docs enterprise-4.22: modules/architecture-machine-config-pools.adoc"
+    ],
+    "slug_verbete": "infrastructure-node"
   },
   {
     "term": "Node",

@@ -1,5 +1,15 @@
 # Estado do projeto
 
+## Rodada 2026-11-05 — categoria 01, lote 3 (categoria concluída)
+
+- **7 verbetes:** Bootstrap, Quorum, High Availability, SNO, HyperShift, Hosted Control Plane e Infrastructure Node.
+- **Categoria 01 coberta:** 31/31 candidatos (28 verbetes + 3 remissões). README: categoria 01 como Concluída.
+- **Fatos verificados:** passos do bootstrapping; `bootstrap-in-place` no SNO; SNO em hipervisor usa `platform.none` na maioria dos casos; recursos mínimos do SNO (4 vCPU, 16 GB, 120 GB); Two-Node with Arbiter e two-node com fencing GA no 4.22; HCP com HyperShift Operator, MCE e API `hypershift.openshift.io`; regras de infra node (assinatura e pool `infra`).
+
+### Próximo passo recomendado
+
+Revisão das categorias 00 e 01 com o `PROMPT-REVISAO.md`, ou a categoria 02 (Compute, Nodes e capacidade), aprofundando o verbete Node.
+
 ## Rodada 2026-11-04 (5) — categoria 01, lote 2, e ajustes de apresentação
 
 - **Lote 2 (9 verbetes):** kube-proxy, OVN-Kubernetes, CoreDNS, DNS Operator, Cluster DNS, Cluster Version Operator, Machine Config Operator, MachineConfig e MachineConfigPool. Remissão: Cluster Operator (→ ClusterOperator, categoria 09).

@@ -3,12 +3,15 @@
 Todos os termos publicados, em ordem alfabética. Sinônimos e nomes em português aparecem como entradas que levam ao termo principal. *(versão inicial)* indica um termo ainda em aprofundamento.
 
 - Actual state: ver [Current State](../categorias/00-fundamentos-e-linguagem/verbetes/current-state.md)
+- Alta disponibilidade: ver [High Availability](../categorias/01-arquitetura-e-control-plane/verbetes/high-availability.md)
 - [Annotation](../categorias/00-fundamentos-e-linguagem/verbetes/annotation.md)
 - [API (Kubernetes API)](../categorias/00-fundamentos-e-linguagem/verbetes/kubernetes-api.md)
 - [API Group](../categorias/00-fundamentos-e-linguagem/verbetes/api-group.md)
 - [API Server (kube-apiserver)](../categorias/00-fundamentos-e-linguagem/verbetes/api-server.md)
 - [API Version (apiVersion)](../categorias/00-fundamentos-e-linguagem/verbetes/api-version.md)
 - apiVersion: ver [API Version](../categorias/00-fundamentos-e-linguagem/verbetes/api-version.md)
+- Bootstrap-in-place: ver [Bootstrap](../categorias/01-arquitetura-e-control-plane/verbetes/bootstrap.md)
+- [Bootstrap](../categorias/01-arquitetura-e-control-plane/verbetes/bootstrap.md)
 - [BuildConfig](../categorias/10-builds-imagens-registry/verbetes/buildconfig.md) *(versão inicial)*
 - Cascading deletion: ver [Garbage Collection](../categorias/00-fundamentos-e-linguagem/verbetes/garbage-collection.md)
 - CCM: ver [cloud-controller-manager](../categorias/01-arquitetura-e-control-plane/verbetes/cloud-controller-manager.md)
@@ -19,6 +22,7 @@ Todos os termos publicados, em ordem alfabética. Sinônimos e nomes em portugu�
 - [Cluster](../categorias/00-fundamentos-e-linguagem/verbetes/cluster.md)
 - [ClusterExtension](../categorias/09-operators-e-extensoes/verbetes/clusterextension.md) *(versão inicial)*
 - [ClusterOperator](../categorias/09-operators-e-extensoes/verbetes/clusteroperator.md) *(versão inicial)*
+- Compact cluster / three-node: ver [High Availability](../categorias/01-arquitetura-e-control-plane/verbetes/high-availability.md)
 - Compute node / compute machine: ver [Worker Node](../categorias/01-arquitetura-e-control-plane/verbetes/worker-node.md)
 - [Conditions (status.conditions)](../categorias/00-fundamentos-e-linguagem/verbetes/conditions.md)
 - [ConfigMap](../categorias/06-configuracao-e-api/verbetes/configmap.md) *(versão inicial)*
@@ -49,6 +53,14 @@ Todos os termos publicados, em ordem alfabética. Sinônimos e nomes em portugu�
 - [Garbage Collection](../categorias/00-fundamentos-e-linguagem/verbetes/garbage-collection.md)
 - generateName: ver [Resource Name](../categorias/00-fundamentos-e-linguagem/verbetes/resource-name.md)
 - [Generation (metadata.generation)](../categorias/00-fundamentos-e-linguagem/verbetes/generation.md)
+- HA: ver [High Availability](../categorias/01-arquitetura-e-control-plane/verbetes/high-availability.md)
+- HCP: ver [Hosted Control Plane](../categorias/01-arquitetura-e-control-plane/verbetes/hosted-control-plane.md)
+- [High Availability](../categorias/01-arquitetura-e-control-plane/verbetes/high-availability.md)
+- Hosted cluster / management cluster: ver [Hosted Control Plane](../categorias/01-arquitetura-e-control-plane/verbetes/hosted-control-plane.md)
+- [Hosted Control Plane](../categorias/01-arquitetura-e-control-plane/verbetes/hosted-control-plane.md)
+- [HyperShift](../categorias/01-arquitetura-e-control-plane/verbetes/hypershift.md)
+- Infra node: ver [Infrastructure Node](../categorias/01-arquitetura-e-control-plane/verbetes/infrastructure-node.md)
+- [Infrastructure Node](../categorias/01-arquitetura-e-control-plane/verbetes/infrastructure-node.md)
 - [Ingress](../categorias/04-networking/verbetes/ingress.md) *(versão inicial)*
 - [IngressController](../categorias/04-networking/verbetes/ingresscontroller.md) *(versão inicial)*
 - [Job](../categorias/03-workloads/verbetes/job.md) *(versão inicial)*
@@ -100,6 +112,7 @@ Todos os termos publicados, em ordem alfabética. Sinônimos e nomes em portugu�
 - [Pod](../categorias/03-workloads/verbetes/pod.md) *(versão inicial)*
 - [Project (OpenShift)](../categorias/00-fundamentos-e-linguagem/verbetes/project.md)
 - ProjectRequest: ver [Project](../categorias/00-fundamentos-e-linguagem/verbetes/project.md)
+- [Quorum](../categorias/01-arquitetura-e-control-plane/verbetes/quorum.md)
 - Reconcile loop: ver [Reconciliation](../categorias/00-fundamentos-e-linguagem/verbetes/reconciliation.md)
 - [Reconciliation (reconciliação)](../categorias/00-fundamentos-e-linguagem/verbetes/reconciliation.md)
 - Reconciliação: ver [Reconciliation](../categorias/00-fundamentos-e-linguagem/verbetes/reconciliation.md)
@@ -115,11 +128,15 @@ Todos os termos publicados, em ordem alfabética. Sinônimos e nomes em portugu�
 - [Selector (label selector)](../categorias/00-fundamentos-e-linguagem/verbetes/selector.md)
 - [Service](../categorias/04-networking/verbetes/service.md) *(versão inicial)*
 - [ServiceAccount](../categorias/07-identidade-e-rbac/verbetes/serviceaccount.md) *(versão inicial)*
+- Single-Node OpenShift: ver [SNO](../categorias/01-arquitetura-e-control-plane/verbetes/sno.md)
+- [SNO (Single-Node OpenShift)](../categorias/01-arquitetura-e-control-plane/verbetes/sno.md)
 - [Spec](../categorias/00-fundamentos-e-linguagem/verbetes/spec.md)
+- Split brain: ver [Quorum](../categorias/01-arquitetura-e-control-plane/verbetes/quorum.md)
 - [StatefulSet](../categorias/03-workloads/verbetes/statefulset.md) *(versão inicial)*
 - [Static Pod](../categorias/01-arquitetura-e-control-plane/verbetes/static-pod.md)
 - [Status](../categorias/00-fundamentos-e-linguagem/verbetes/status.md)
 - [StorageClass](../categorias/05-storage/verbetes/storageclass.md) *(versão inicial)*
+- Two-Node with Arbiter: ver [High Availability](../categorias/01-arquitetura-e-control-plane/verbetes/high-availability.md)
 - [UID (metadata.uid)](../categorias/00-fundamentos-e-linguagem/verbetes/uid.md)
 - [Worker Node](../categorias/01-arquitetura-e-control-plane/verbetes/worker-node.md)
 - [YAML](../categorias/00-fundamentos-e-linguagem/verbetes/yaml.md)

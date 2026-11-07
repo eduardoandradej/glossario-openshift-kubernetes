@@ -6,8 +6,8 @@
 
 - **Categoria 00 (Fundamentos):** concluída. Os 37 candidatos estão cobertos por 34 verbetes e 3 remissões.
 - **Categoria 01 (Arquitetura e Control Plane):** concluída. Os 31 candidatos estão cobertos por 28 verbetes e 3 remissões, publicados em três lotes; o último foi o lote 3 (Bootstrap, Quorum, High Availability, SNO, HyperShift, Hosted Control Plane e Infrastructure Node).
-- **Categoria 02 (Compute, Nodes e capacidade):** em construção. Os lotes 1 e 2 estão publicados (recursos e capacidade; posicionamento de Pods, manutenção de nós, LimitRange e ResourceQuota).
-  - **Próximo: lote 3, que fecha a categoria:** Machine, MachineSet, MachineHealthCheck, BareMetalHost, RHCOS, HugePages, Extended Resource, Device Plugin e NUMA.
+- **Categoria 02 (Compute, Nodes e capacidade):** concluída. Os 35 candidatos estão cobertos por 32 verbetes e 3 remissões, em três lotes.
+- **Próximo passo sugerido:** categoria 03 (Workloads), começando pela reescrita das versões iniciais (Pod, Deployment, ReplicaSet, StatefulSet, DaemonSet, Job).
 - **Categorias 03 a 10:** têm verbetes em **versão inicial**, herdados do kit (Pod, Deployment, ReplicaSet, StatefulSet, DaemonSet, Job, Service, Route, Ingress, IngressController, NetworkPolicy, PV, PVC, StorageClass, ConfigMap, Secret, ServiceAccount, Operator, ClusterOperator, CRD, ClusterExtension e BuildConfig).
 
 ## Decisões do autor (obrigatórias)
@@ -46,4 +46,4 @@
 
 ## Como retomar (sugestão de pedido)
 
-> "Continue o glossário a partir de `docs/CONTINUAR-DAQUI.md`: faça o lote 3 da categoria 02, seguindo as decisões registradas, e publique na `main`."
+> "Continue o glossário a partir de `docs/CONTINUAR-DAQUI.md`: inicie a categoria 03 (Workloads), seguindo as decisões registradas, e publique na `main`."

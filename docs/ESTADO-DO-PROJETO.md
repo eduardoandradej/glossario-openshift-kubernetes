@@ -1,5 +1,16 @@
 # Estado do projeto
 
+## Rodada 2026-11-07 (2) — categoria 02, lote 3 (categoria concluída)
+
+- **9 verbetes:** Machine, MachineSet, MachineHealthCheck, BareMetalHost, RHCOS, HugePages, Extended Resource, Device Plugin e NUMA.
+- **Categoria 02 coberta:** 35/35 candidatos (32 verbetes + 3 remissões). README: categoria 02 como Concluída.
+- **Fatos do OCP 4.22:** Machine API baseada no Cluster API (MachineSet ≈ ReplicaSet para máquinas; uma zona por machine set); regras do MachineHealthCheck (um nó por vez, `maxUnhealthy`); recursos do Bare Metal Operator; características do RHCOS (`rpm-ostree`, `/usr` somente leitura, `/var/lib/containers`); huge pages via Node Tuning Operator; NUMA Resources Operator com scheduler secundário.
+- **Divergência registrada:** HugePages com vários tamanhos por nó (Kubernetes) × um tamanho por nó (OCP 4.22).
+
+### Próximo passo recomendado
+
+Categoria 03 (Workloads), reescrevendo as 6 versões iniciais (Pod, Deployment, ReplicaSet, StatefulSet, DaemonSet, Job), ou a revisão das categorias 00 a 02.
+
 ## Rodada 2026-11-07 — categoria 02, lote 2
 
 - **11 verbetes:** Node Label, Node Annotation, Taint, Toleration, Node Selector, Node Affinity, Cordon, Drain, Node Debug, LimitRange e ResourceQuota. Remissão: Uncordon (→ Cordon).

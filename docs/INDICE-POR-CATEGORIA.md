@@ -78,6 +78,12 @@ Os termos publicados, organizados por categoria e por assunto. *(versão inicial
 **Políticas de recursos por namespace**
 - [LimitRange](../categorias/02-compute-e-nodes/verbetes/limitrange.md) · [ResourceQuota](../categorias/02-compute-e-nodes/verbetes/resourcequota.md)
 
+**Infraestrutura e sistema operacional dos nós**
+- [Machine](../categorias/02-compute-e-nodes/verbetes/machine.md) · [MachineSet](../categorias/02-compute-e-nodes/verbetes/machineset.md) · [MachineHealthCheck](../categorias/02-compute-e-nodes/verbetes/machinehealthcheck.md) · [BareMetalHost](../categorias/02-compute-e-nodes/verbetes/baremetalhost.md) · [RHCOS](../categorias/02-compute-e-nodes/verbetes/rhcos.md)
+
+**Hardware especializado e alto desempenho**
+- [HugePages](../categorias/02-compute-e-nodes/verbetes/hugepages.md) · [Extended Resource](../categorias/02-compute-e-nodes/verbetes/extended-resource.md) · [Device Plugin](../categorias/02-compute-e-nodes/verbetes/device-plugin.md) · [NUMA](../categorias/02-compute-e-nodes/verbetes/numa.md)
+
 ## [03 — Workloads](../categorias/03-workloads/README.md)
 - [Pod](../categorias/03-workloads/verbetes/pod.md) · [Deployment](../categorias/03-workloads/verbetes/deployment.md) · [ReplicaSet](../categorias/03-workloads/verbetes/replicaset.md) · [StatefulSet](../categorias/03-workloads/verbetes/statefulset.md) · [DaemonSet](../categorias/03-workloads/verbetes/daemonset.md) · [Job](../categorias/03-workloads/verbetes/job.md) *(versão inicial)*
 

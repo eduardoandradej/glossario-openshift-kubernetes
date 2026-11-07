@@ -133,6 +133,20 @@
 | [LimitRange](../categorias/02-compute-e-nodes/verbetes/limitrange.md) | Tipos extras do OpenShift | SNO / docs |
 | [ResourceQuota](../categorias/02-compute-e-nodes/verbetes/resourcequota.md) | `appliedclusterresourcequotas`; texto `exceeded quota` | SNO / docs |
 
+## Categoria 02 — lote 3
+
+| Verbete | O que validar | Como |
+|---|---|---|
+| [Machine](../categorias/02-compute-e-nodes/verbetes/machine.md) | Versão `v1beta1`; fases; comportamento com `platform: none` | cluster / docs |
+| [MachineSet](../categorias/02-compute-e-nodes/verbetes/machineset.md) | Colunas (cluster com Machine API) | cluster / docs |
+| [MachineHealthCheck](../categorias/02-compute-e-nodes/verbetes/machinehealthcheck.md) | Colunas (cluster com Machine API) | cluster / docs |
+| [BareMetalHost](../categorias/02-compute-e-nodes/verbetes/baremetalhost.md) | Versão `metal3.io`; estados de provisionamento | cluster / docs |
+| [RHCOS](../categorias/02-compute-e-nodes/verbetes/rhcos.md) | Versão do RHEL base no 4.22 | cluster / docs |
+| [HugePages](../categorias/02-compute-e-nodes/verbetes/hugepages.md) | Um × vários tamanhos por nó (divergência) | cluster / docs |
+| [Extended Resource](../categorias/02-compute-e-nodes/verbetes/extended-resource.md) | Documentação de DRA (cat. 16) | cluster / docs |
+| [Device Plugin](../categorias/02-compute-e-nodes/verbetes/device-plugin.md) | Detalhes do protocolo | cluster / docs |
+| [NUMA](../categorias/02-compute-e-nodes/verbetes/numa.md) | `reason` do evento; recurso `noderesourcetopologies` | cluster / docs |
+
 ## Decisões de nomenclatura a confirmar com o autor
 
 - **Termos técnicos em inglês (decisão do autor, 2026-11-04):** títulos e termos técnicos ficam no original em inglês (Control Plane, Desired State, Current State, Reconciliation, Object, Resource...). A explicação é em português. A tradução aparece só como apoio, entre parênteses ou no campo **Tradução**.

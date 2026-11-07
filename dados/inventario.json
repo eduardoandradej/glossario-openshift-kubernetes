@@ -1494,37 +1494,93 @@
   {
     "term": "Machine",
     "category": "02-compute-e-nodes",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "objeto-api",
+    "source": "ver campo fontes",
+    "plataforma": "OpenShift",
+    "versao": "OCP 4.22",
+    "api_group": "machine.openshift.io",
+    "kind": "Machine",
+    "scope": "namespace",
+    "verificado_em": "2026-11-07",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "openshift-docs enterprise-4.22: modules/machine-api-overview.adoc"
+    ],
+    "slug_verbete": "machine"
   },
   {
     "term": "MachineSet",
     "category": "02-compute-e-nodes",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "objeto-api",
+    "source": "ver campo fontes",
+    "plataforma": "OpenShift",
+    "versao": "OCP 4.22",
+    "api_group": "machine.openshift.io",
+    "kind": "MachineSet",
+    "scope": "namespace",
+    "verificado_em": "2026-11-07",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "openshift-docs enterprise-4.22: modules/machine-api-overview.adoc"
+    ],
+    "slug_verbete": "machineset"
   },
   {
     "term": "MachineHealthCheck",
     "category": "02-compute-e-nodes",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "objeto-api",
+    "source": "ver campo fontes",
+    "plataforma": "OpenShift",
+    "versao": "OCP 4.22",
+    "api_group": "machine.openshift.io",
+    "kind": "MachineHealthCheck",
+    "scope": "namespace",
+    "verificado_em": "2026-11-07",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "openshift-docs enterprise-4.22: modules/machine-health-checks-about.adoc"
+    ],
+    "slug_verbete": "machinehealthcheck"
   },
   {
     "term": "BareMetalHost",
     "category": "02-compute-e-nodes",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "objeto-api",
+    "source": "ver campo fontes",
+    "plataforma": "OpenShift",
+    "versao": "OCP 4.22",
+    "api_group": "metal3.io",
+    "kind": "BareMetalHost",
+    "scope": "namespace",
+    "verificado_em": "2026-11-07",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "openshift-docs enterprise-4.22: modules/bmo-about-the-baremetalhost-resource.adoc",
+      "openshift-docs enterprise-4.22: modules/bmo-bare-metal-operator-architecture.adoc"
+    ],
+    "slug_verbete": "baremetalhost"
   },
   {
     "term": "RHCOS",
     "category": "02-compute-e-nodes",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "tecnologia",
+    "source": "ver campo fontes",
+    "plataforma": "OpenShift",
+    "versao": "OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-07",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "openshift-docs enterprise-4.22: modules/rhcos-key-features.adoc"
+    ],
+    "slug_verbete": "rhcos"
   },
   {
     "term": "Capacity",
@@ -1620,23 +1676,57 @@
   {
     "term": "HugePages",
     "category": "02-compute-e-nodes",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "conceito",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-07",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "https://kubernetes.io/docs/tasks/manage-hugepages/scheduling-hugepages/",
+      "openshift-docs enterprise-4.22: scalability_and_performance/what-huge-pages-do-and-how-they-are-consumed-by-apps.adoc"
+    ],
+    "slug_verbete": "hugepages"
   },
   {
     "term": "Extended Resource",
     "category": "02-compute-e-nodes",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "conceito",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-07",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#extended-resources"
+    ],
+    "slug_verbete": "extended-resource"
   },
   {
     "term": "Device Plugin",
     "category": "02-compute-e-nodes",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "componente",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-07",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/extend-kubernetes/compute-storage-net/device-plugins/"
+    ],
+    "slug_verbete": "device-plugin"
   },
   {
     "term": "Node Label",
@@ -1881,9 +1971,21 @@
   {
     "term": "NUMA",
     "category": "02-compute-e-nodes",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "conceito",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-07",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "https://kubernetes.io/docs/tasks/administer-cluster/topology-manager/",
+      "openshift-docs enterprise-4.22: modules/cnf-about-numa-aware-scheduling.adoc"
+    ],
+    "slug_verbete": "numa"
   },
   {
     "term": "cgroups",

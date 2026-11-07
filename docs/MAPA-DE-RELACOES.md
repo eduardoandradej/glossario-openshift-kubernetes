@@ -242,3 +242,30 @@ flowchart LR
 - **Atrair (label + selector/affinity) × repelir (taint) × permitir (toleration).**
 - **Cordon (bloqueia novos) × drain (esvazia) × NotReady (problema de saúde).**
 - **LimitRange (por objeto) × ResourceQuota (total do namespace) × ClusterResourceQuota (vários projetos).**
+
+## Infraestrutura dos nós e hardware especializado
+
+```mermaid
+flowchart LR
+    MS["MachineSet"] -->|"mantém N"| M["Machine"]
+    MHC["MachineHealthCheck"] -. "remedia" .-> M
+    BMH["BareMetalHost"] -. "em bare metal" .-> M
+    M -->|"provisiona"| N["Node (RHCOS)"]
+    DP["Device Plugin"] -->|"anuncia"| ER["Extended Resource"]
+    ER --> N
+    HP["HugePages"] --> N
+    TM["Topology Manager / NUMA"] -->|"alinha CPU, memória, dispositivos"| N
+```
+
+| De | Relação | Para |
+|---|---|---|
+| [MachineSet](../categorias/02-compute-e-nodes/verbetes/machineset.md) | mantém | [Machines](../categorias/02-compute-e-nodes/verbetes/machine.md), que viram [Nodes](../categorias/02-compute-e-nodes/verbetes/node.md) |
+| [MachineHealthCheck](../categorias/02-compute-e-nodes/verbetes/machinehealthcheck.md) | remedia | [Machines](../categorias/02-compute-e-nodes/verbetes/machine.md) não saudáveis |
+| [Device Plugin](../categorias/02-compute-e-nodes/verbetes/device-plugin.md) | anuncia | [Extended Resources](../categorias/02-compute-e-nodes/verbetes/extended-resource.md) |
+| [NUMA](../categorias/02-compute-e-nodes/verbetes/numa.md) | envolve | [HugePages](../categorias/02-compute-e-nodes/verbetes/hugepages.md) e [Device Plugins](../categorias/02-compute-e-nodes/verbetes/device-plugin.md) |
+
+## Distinções importantes: infraestrutura dos nós
+
+- **Machine (infraestrutura) × Node (Kubernetes) × BareMetalHost (servidor físico).**
+- **MachineSet (criar e escalar máquinas) × MachineConfigPool (configurar o SO).**
+- **Extended Resource (o que se pede) × Device Plugin (quem anuncia e entrega).**

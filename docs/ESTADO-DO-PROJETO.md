@@ -1,5 +1,14 @@
 # Estado do projeto
 
+## Rodada 2026-11-07 — categoria 02, lote 2
+
+- **11 verbetes:** Node Label, Node Annotation, Taint, Toleration, Node Selector, Node Affinity, Cordon, Drain, Node Debug, LimitRange e ResourceQuota. Remissão: Uncordon (→ Cordon).
+- **Fatos do OCP 4.22:** drain indisponível em SNO; `oc debug node` + `chroot /host` como acesso recomendado (SSH desaconselhado); node selector padrão do cluster e por projeto (`openshift.io/node-selector`, com precedência do projeto); ClusterResourceQuota para vários projetos; tolerations padrão por namespace via annotation.
+
+### Próximo lote recomendado (categoria 02, lote 3, que fecha a categoria)
+
+Machine, MachineSet, MachineHealthCheck, BareMetalHost, RHCOS, HugePages, Extended Resource, Device Plugin e NUMA.
+
 ## Rodada 2026-11-05 (2) — categoria 02, lote 1
 
 - **12 verbetes:** Node (reescrito, antes versão inicial), Node Condition, Capacity, Allocatable, CPU, Memory, Ephemeral Storage, Resource Request, Resource Limit, QoS Class, OOMKill e cgroups. Remissões: Node Ready e Node Pressure (→ Node Condition).

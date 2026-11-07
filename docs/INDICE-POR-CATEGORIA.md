@@ -69,6 +69,15 @@ Os termos publicados, organizados por categoria e por assunto. *(versão inicial
 **Requests, limits e consequências**
 - [Resource Request](../categorias/02-compute-e-nodes/verbetes/resource-request.md) · [Resource Limit](../categorias/02-compute-e-nodes/verbetes/resource-limit.md) · [QoS Class](../categorias/02-compute-e-nodes/verbetes/qos-class.md) · [OOMKill](../categorias/02-compute-e-nodes/verbetes/oomkill.md) · [cgroups](../categorias/02-compute-e-nodes/verbetes/cgroups.md)
 
+**Posicionamento de Pods nos nós**
+- [Node Label](../categorias/02-compute-e-nodes/verbetes/node-label.md) · [Node Annotation](../categorias/02-compute-e-nodes/verbetes/node-annotation.md) · [Node Selector](../categorias/02-compute-e-nodes/verbetes/node-selector.md) · [Node Affinity](../categorias/02-compute-e-nodes/verbetes/node-affinity.md) · [Taint](../categorias/02-compute-e-nodes/verbetes/taint.md) · [Toleration](../categorias/02-compute-e-nodes/verbetes/toleration.md)
+
+**Manutenção e diagnóstico de nós**
+- [Cordon](../categorias/02-compute-e-nodes/verbetes/cordon.md) (também: Uncordon) · [Drain](../categorias/02-compute-e-nodes/verbetes/drain.md) · [Node Debug](../categorias/02-compute-e-nodes/verbetes/node-debug.md)
+
+**Políticas de recursos por namespace**
+- [LimitRange](../categorias/02-compute-e-nodes/verbetes/limitrange.md) · [ResourceQuota](../categorias/02-compute-e-nodes/verbetes/resourcequota.md)
+
 ## [03 — Workloads](../categorias/03-workloads/README.md)
 - [Pod](../categorias/03-workloads/verbetes/pod.md) · [Deployment](../categorias/03-workloads/verbetes/deployment.md) · [ReplicaSet](../categorias/03-workloads/verbetes/replicaset.md) · [StatefulSet](../categorias/03-workloads/verbetes/statefulset.md) · [DaemonSet](../categorias/03-workloads/verbetes/daemonset.md) · [Job](../categorias/03-workloads/verbetes/job.md) *(versão inicial)*
 

@@ -16,12 +16,23 @@ As máquinas do cluster: Nodes, recursos de CPU e memória, configuração dos n
 - [QoS Class](verbetes/qos-class.md)
 - [OOMKill](verbetes/oomkill.md)
 - [cgroups](verbetes/cgroups.md)
+- [Node Label](verbetes/node-label.md)
+- [Node Annotation](verbetes/node-annotation.md)
+- [Taint](verbetes/taint.md)
+- [Toleration](verbetes/toleration.md)
+- [Node Selector](verbetes/node-selector.md)
+- [Node Affinity](verbetes/node-affinity.md)
+- [Cordon](verbetes/cordon.md)
+- [Drain](verbetes/drain.md)
+- [Node Debug](verbetes/node-debug.md)
+- [LimitRange](verbetes/limitrange.md)
+- [ResourceQuota](verbetes/resourcequota.md)
 
-**Outros nomes:** [Node Ready](verbetes/node-condition.md) → Node Condition · [Node Pressure](verbetes/node-condition.md) → Node Condition
+**Outros nomes:** [Node Ready](verbetes/node-condition.md) → Node Condition · [Node Pressure](verbetes/node-condition.md) → Node Condition · [Uncordon](verbetes/cordon.md) → Cordon
 
 ## Em breve
 
-Machine, MachineSet, MachineHealthCheck, BareMetalHost, RHCOS, HugePages, Extended Resource, Device Plugin, Node Label, Node Annotation, Taint, Toleration, Cordon, Drain, Uncordon, Node Debug, Node Affinity, Node Selector, NUMA, LimitRange, ResourceQuota.
+Machine, MachineSet, MachineHealthCheck, BareMetalHost, RHCOS, HugePages, Extended Resource, Device Plugin, NUMA.
 
 ---
 

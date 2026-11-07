@@ -1641,16 +1641,38 @@
   {
     "term": "Node Label",
     "category": "02-compute-e-nodes",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "conceito",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-07",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/"
+    ],
+    "slug_verbete": "node-label"
   },
   {
     "term": "Node Annotation",
     "category": "02-compute-e-nodes",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "conceito",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-07",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/"
+    ],
+    "slug_verbete": "node-annotation"
   },
   {
     "term": "Node Condition",
@@ -1711,58 +1733,150 @@
   {
     "term": "Taint",
     "category": "02-compute-e-nodes",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "conceito",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-07",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/"
+    ],
+    "slug_verbete": "taint"
   },
   {
     "term": "Toleration",
     "category": "02-compute-e-nodes",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "conceito",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-07",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/"
+    ],
+    "slug_verbete": "toleration"
   },
   {
     "term": "Cordon",
     "category": "02-compute-e-nodes",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "ferramenta",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-07",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "openshift-docs enterprise-4.22: modules/nodes-nodes-working-marking.adoc"
+    ],
+    "slug_verbete": "cordon"
   },
   {
     "term": "Drain",
     "category": "02-compute-e-nodes",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "ferramenta",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-07",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "https://kubernetes.io/docs/tasks/administer-cluster/safely-drain-node/",
+      "openshift-docs enterprise-4.22: modules/nodes-nodes-working-evacuating.adoc",
+      "openshift-docs enterprise-4.22: modules/sno-clusters-reboot-without-drain.adoc"
+    ],
+    "slug_verbete": "drain"
   },
   {
     "term": "Uncordon",
     "category": "02-compute-e-nodes",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "remissao",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-07",
+    "validacao_cluster": "nao-realizada",
+    "remissao_para": "Cordon",
+    "fontes": [
+      "openshift-docs enterprise-4.22: modules/nodes-nodes-working-marking.adoc"
+    ],
+    "slug_verbete": "cordon"
   },
   {
     "term": "Node Debug",
     "category": "02-compute-e-nodes",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "ferramenta",
+    "source": "ver campo fontes",
+    "plataforma": "OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-07",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "openshift-docs enterprise-4.22: modules/support-generating-a-sosreport-archive.adoc"
+    ],
+    "slug_verbete": "node-debug"
   },
   {
     "term": "Node Affinity",
     "category": "02-compute-e-nodes",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "conceito",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-07",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/"
+    ],
+    "slug_verbete": "node-affinity"
   },
   {
     "term": "Node Selector",
     "category": "02-compute-e-nodes",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "conceito",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": null,
+    "kind": null,
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-07",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/",
+      "openshift-docs enterprise-4.22: modules/nodes-scheduler-node-selectors-about.adoc"
+    ],
+    "slug_verbete": "node-selector"
   },
   {
     "term": "NUMA",
@@ -1866,16 +1980,39 @@
   {
     "term": "LimitRange",
     "category": "02-compute-e-nodes",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "objeto-api",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": "core",
+    "kind": "LimitRange",
+    "scope": "namespace",
+    "verificado_em": "2026-11-07",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/policy/limit-range/"
+    ],
+    "slug_verbete": "limitrange"
   },
   {
     "term": "ResourceQuota",
     "category": "02-compute-e-nodes",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "objeto-api",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "api_group": "core",
+    "kind": "ResourceQuota",
+    "scope": "namespace",
+    "verificado_em": "2026-11-07",
+    "validacao_cluster": "nao-realizada",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/policy/resource-quotas/",
+      "openshift-docs enterprise-4.22: applications/quotas/quotas-setting-across-multiple-projects.adoc"
+    ],
+    "slug_verbete": "resourcequota"
   },
   {
     "term": "Pod",

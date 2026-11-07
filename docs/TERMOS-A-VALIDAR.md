@@ -117,6 +117,22 @@
 | [OOMKill](../categorias/02-compute-e-nodes/verbetes/oomkill.md) | exitCode 137 num caso real | SNO / docs |
 | [cgroups](../categorias/02-compute-e-nodes/verbetes/cgroups.md) | `nodes.config.openshift.io` `spec.cgroupMode` | SNO / docs |
 
+## Categoria 02 — lote 2
+
+| Verbete | O que validar | Como |
+|---|---|---|
+| [Node Label](../categorias/02-compute-e-nodes/verbetes/node-label.md) | Labels `node.openshift.io/*` | SNO / docs |
+| [Node Annotation](../categorias/02-compute-e-nodes/verbetes/node-annotation.md) | Annotations do MCO no nó | SNO / docs |
+| [Taint](../categorias/02-compute-e-nodes/verbetes/taint.md) | Taint de master/control-plane; feature gate dos operadores numéricos | SNO / docs |
+| [Toleration](../categorias/02-compute-e-nodes/verbetes/toleration.md) | Tolerations automáticas num Pod comum | SNO / docs |
+| [Node Selector](../categorias/02-compute-e-nodes/verbetes/node-selector.md) | `scheduler.spec.defaultNodeSelector` | SNO / docs |
+| [Node Affinity](../categorias/02-compute-e-nodes/verbetes/node-affinity.md) | Exemplos no SNO | SNO / docs |
+| [Cordon](../categorias/02-compute-e-nodes/verbetes/cordon.md) | Taint `unschedulable` automático | SNO / docs |
+| [Drain](../categorias/02-compute-e-nodes/verbetes/drain.md) | Field selector `spec.nodeName`; PDB (cat. 17) | SNO / docs |
+| [Node Debug](../categorias/02-compute-e-nodes/verbetes/node-debug.md) | Página `kubectl debug node`; namespace temporário | SNO / docs |
+| [LimitRange](../categorias/02-compute-e-nodes/verbetes/limitrange.md) | Tipos extras do OpenShift | SNO / docs |
+| [ResourceQuota](../categorias/02-compute-e-nodes/verbetes/resourcequota.md) | `appliedclusterresourcequotas`; texto `exceeded quota` | SNO / docs |
+
 ## Decisões de nomenclatura a confirmar com o autor
 
 - **Termos técnicos em inglês (decisão do autor, 2026-11-04):** títulos e termos técnicos ficam no original em inglês (Control Plane, Desired State, Current State, Reconciliation, Object, Resource...). A explicação é em português. A tradução aparece só como apoio, entre parênteses ou no campo **Tradução**.

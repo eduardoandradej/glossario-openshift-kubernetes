@@ -216,3 +216,29 @@ flowchart LR
 - **Capacity × Allocatable × uso real.**
 - **CPU limit (throttling) × memory limit (OOMKill).**
 - **Despejo pelo kubelet (eviction) × OOMKill pelo kernel.**
+
+## Posicionamento de Pods e manutenção de nós
+
+```mermaid
+flowchart LR
+    NL["Node Label"] -->|"lida por"| NS["Node Selector"]
+    NL --> NA["Node Affinity"]
+    T["Taint (no nó)"] -->|"repele, exceto"| TOL["Toleration (no Pod)"]
+    NC["Node Condition"] -->|"gera taints automáticos"| T
+    CO["Cordon"] -->|"taint unschedulable"| T
+    CO --> DR["Drain (eviction, respeita PDB)"]
+    LR["LimitRange (por objeto)"] --> RQ["ResourceQuota (total do namespace)"]
+```
+
+| De | Relação | Para |
+|---|---|---|
+| [Node Label](../categorias/02-compute-e-nodes/verbetes/node-label.md) | é lida por | [Node Selector](../categorias/02-compute-e-nodes/verbetes/node-selector.md) e [Node Affinity](../categorias/02-compute-e-nodes/verbetes/node-affinity.md) |
+| [Taint](../categorias/02-compute-e-nodes/verbetes/taint.md) | é tolerado por | [Toleration](../categorias/02-compute-e-nodes/verbetes/toleration.md) |
+| [Cordon](../categorias/02-compute-e-nodes/verbetes/cordon.md) | precede | [Drain](../categorias/02-compute-e-nodes/verbetes/drain.md) |
+| [LimitRange](../categorias/02-compute-e-nodes/verbetes/limitrange.md) | complementa | [ResourceQuota](../categorias/02-compute-e-nodes/verbetes/resourcequota.md) |
+
+## Distinções importantes: posicionamento e políticas
+
+- **Atrair (label + selector/affinity) × repelir (taint) × permitir (toleration).**
+- **Cordon (bloqueia novos) × drain (esvazia) × NotReady (problema de saúde).**
+- **LimitRange (por objeto) × ResourceQuota (total do namespace) × ClusterResourceQuota (vários projetos).**

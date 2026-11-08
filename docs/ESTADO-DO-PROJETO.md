@@ -1,5 +1,15 @@
 # Estado do projeto
 
+## Rodada 2026-11-08 (2) — categoria 03, lote 2
+
+- **12 verbetes:** Pod Lifecycle, Pod Phase, Pod Condition, Container Lifecycle, Restart Policy, Init Container, Sidecar Container, Ephemeral Container, Termination Grace Period, Terminating, CrashLoopBackOff e ImagePullBackOff. Remissões: Pending, Running e Completed (→ Pod Phase) e ErrImagePull (→ ImagePullBackOff).
+- **Cobertura da categoria 03:** 28/38 candidatos.
+- **Fatos verificados (Kubernetes 1.35):** cinco fases (Pending, Running, Succeeded, Failed, Unknown); `CrashLoopBackOff`/`Terminating` são exibição do cliente, não fases; kubelet leva Pods apagados a fase terminal desde o 1.27; estados Waiting/Running/Terminated; `restartPolicy` Always (padrão)/OnFailure/Never; backoff 10 s → 300 s, zerado após ~10 min; sidecar nativo = init container com `restartPolicy: Always` (ativo por padrão desde o 1.29); init containers sem probes nem `lifecycle`; ephemeral containers sem portas, probes ou reinício; grace period padrão 30 s, `preStop` dentro do prazo com extensão única de 2 s.
+
+### Próximo lote recomendado (categoria 03, lote 3, que fecha a categoria)
+
+Rollout, RollingUpdate, Recreate, Rollback, Readiness Probe, Liveness Probe, Startup Probe, Lifecycle Hook, PreStop e HorizontalPodAutoscaler.
+
 ## Rodada 2026-11-08 — categoria 03, lote 1
 
 - **11 verbetes:** Pod, Deployment, ReplicaSet, StatefulSet, DaemonSet e Job (reescritos; antes versões iniciais), Container, Pod Template, CronJob, ReplicationController (legado) e DeploymentConfig (deprecated desde o 4.14). Remissões: Replica (→ ReplicaSet) e Batch (→ Job).

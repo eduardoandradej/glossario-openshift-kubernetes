@@ -168,3 +168,19 @@
 - **Object/Resource:** slugs e títulos em inglês (`object`, `resource`).
 - **Control Loop:** sem página própria; remissão para Controller e Reconciliation.
 - **Resource Name / UID:** slugs `resource-name` e `uid`; títulos com o campo (`metadata.name`, `metadata.uid`).
+
+### Categoria 03, lote 2 (2026-11-08)
+
+| Verbete | O que validar | Como |
+|---|---|---|
+| [Pod Lifecycle](../categorias/03-workloads/verbetes/pod-lifecycle.md) | `reason` dos eventos de preparação | `oc get events` num Pod de estudo |
+| [Pod Phase](../categorias/03-workloads/verbetes/pod-phase.md) | `Completed` na coluna STATUS para Pods `Succeeded` | Job de estudo no SNO |
+| [Pod Condition](../categorias/03-workloads/verbetes/pod-condition.md) | Presença de `PodReadyToStartContainers` | `oc get pod -o jsonpath` no SNO |
+| [Container Lifecycle](../categorias/03-workloads/verbetes/container-lifecycle.md) | `reason` `ContainerCreating` e `Completed` | SNO |
+| [Restart Policy](../categorias/03-workloads/verbetes/restart-policy.md) | Estado do *feature gate* `ContainerRestartRules` no 4.22 | `oc get featuregate cluster -o yaml` |
+| [Init Container](../categorias/03-workloads/verbetes/init-container.md) | Textos `Init:N/M`, `Init:Error`, `PodInitializing` | SNO |
+| [Sidecar Container](../categorias/03-workloads/verbetes/sidecar-container.md) | Forma de injeção de sidecars pelo service mesh no 4.22 | docs do OpenShift Service Mesh |
+| [Ephemeral Container](../categorias/03-workloads/verbetes/ephemeral-container.md) | Comportamento de `oc debug pod/<nome>` (cópia do Pod) | `oc debug --help` |
+| [Terminating](../categorias/03-workloads/verbetes/terminating.md) | Fase `Terminating` do Namespace | `oc explain namespace.status` |
+| [CrashLoopBackOff](../categorias/03-workloads/verbetes/crashloopbackoff.md) | Relação com o UID arbitrário das SCCs | docs de imagens/SCC do OCP 4.22 |
+| [ImagePullBackOff](../categorias/03-workloads/verbetes/imagepullbackoff.md) | Pull secret global e configuração de registries no 4.22 | docs de imagens do OCP 4.22 |

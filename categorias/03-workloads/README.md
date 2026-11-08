@@ -15,12 +15,24 @@ Como as aplicações rodam: Pods, contêineres e os controllers de workload (Dep
 - [CronJob](verbetes/cronjob.md)
 - [ReplicationController](verbetes/replicationcontroller.md) *(legado)*
 - [DeploymentConfig](verbetes/deploymentconfig.md) *(deprecated)*
+- [Pod Lifecycle](verbetes/pod-lifecycle.md)
+- [Pod Phase](verbetes/pod-phase.md)
+- [Pod Condition](verbetes/pod-condition.md)
+- [Container Lifecycle](verbetes/container-lifecycle.md)
+- [Restart Policy](verbetes/restart-policy.md)
+- [Init Container](verbetes/init-container.md)
+- [Sidecar Container](verbetes/sidecar-container.md)
+- [Ephemeral Container](verbetes/ephemeral-container.md)
+- [Termination Grace Period](verbetes/termination-grace-period.md)
+- [Terminating](verbetes/terminating.md)
+- [CrashLoopBackOff](verbetes/crashloopbackoff.md)
+- [ImagePullBackOff](verbetes/imagepullbackoff.md)
 
-**Outros nomes:** [Replica](verbetes/replicaset.md) → ReplicaSet · [Batch](verbetes/job.md) → Job
+**Outros nomes:** [Replica](verbetes/replicaset.md) → ReplicaSet · [Batch](verbetes/job.md) → Job · [Pending, Running e Completed](verbetes/pod-phase.md) → Pod Phase · [ErrImagePull](verbetes/imagepullbackoff.md) → ImagePullBackOff
 
 ## Em breve
 
-Init Container, Sidecar Container, Ephemeral Container, Pod Lifecycle, Container Lifecycle, Pod Phase, Pod Condition, Restart Policy, RollingUpdate, Recreate, Rollout, Rollback, Readiness Probe, Liveness Probe, Startup Probe, Lifecycle Hook, PreStop, CrashLoopBackOff, ImagePullBackOff, Completed, Pending, Running, Terminating, Termination Grace Period, HorizontalPodAutoscaler.
+Rollout, RollingUpdate, Recreate, Rollback, Readiness Probe, Liveness Probe, Startup Probe, Lifecycle Hook, PreStop e HorizontalPodAutoscaler.
 
 ---
 

@@ -297,3 +297,34 @@ flowchart TB
 - **Deployment (sem estado, réplicas intercambiáveis) × StatefulSet (identidade e volume por réplica) × DaemonSet (um por nó) × Job (termina).**
 - **Pod × Container × Pod Template.**
 - **Deployment (recomendado) × DeploymentConfig (deprecated) × ReplicationController (legado).**
+
+## Ciclo de vida do Pod
+
+```mermaid
+flowchart LR
+    PL["Pod Lifecycle"] --> PH["Pod Phase (resumo)"]
+    PL --> PC["Pod Conditions (detalhe)"]
+    PL --> CL["Container Lifecycle (por contêiner)"]
+    IC["Init Containers"] -->|"concluem antes"| APP["Contêineres da aplicação"]
+    SC["Sidecar Containers"] -->|"rodam ao lado"| APP
+    RP["Restart Policy"] -->|"decide reinícios"| CL
+    CL -->|"falhas repetidas"| CLB["CrashLoopBackOff"]
+    CL -->|"imagem não obtida"| IPB["ImagePullBackOff"]
+    DEL["Remoção do Pod"] --> TERM["Terminating"]
+    TERM -->|"dura até"| TGP["Termination Grace Period"]
+```
+
+| De | Relação | Para |
+|---|---|---|
+| [Pod Phase](../categorias/03-workloads/verbetes/pod-phase.md) | resume; é detalhada por | [Pod Conditions](../categorias/03-workloads/verbetes/pod-condition.md) e [Container Lifecycle](../categorias/03-workloads/verbetes/container-lifecycle.md) |
+| [Restart Policy](../categorias/03-workloads/verbetes/restart-policy.md) | provoca, com falhas repetidas, | [CrashLoopBackOff](../categorias/03-workloads/verbetes/crashloopbackoff.md) |
+| [Init Container](../categorias/03-workloads/verbetes/init-container.md) | conclui antes da aplicação; sua variante permanente é | [Sidecar Container](../categorias/03-workloads/verbetes/sidecar-container.md) |
+| [Ephemeral Container](../categorias/03-workloads/verbetes/ephemeral-container.md) | é adicionado depois, para depuração, a | [Pods](../categorias/03-workloads/verbetes/pod.md) em execução |
+| [Terminating](../categorias/03-workloads/verbetes/terminating.md) | dura o | [Termination Grace Period](../categorias/03-workloads/verbetes/termination-grace-period.md), e pode ser prolongado por [Finalizers](../categorias/00-fundamentos-e-linguagem/verbetes/finalizer.md) |
+
+## Distinções importantes: ciclo de vida
+
+- **Pod Phase (dado da API) × coluna `STATUS` do `oc get pods` (exibição):** `CrashLoopBackOff`, `ImagePullBackOff`, `Terminating` e `Completed` não são fases.
+- **Init Container (termina antes) × Sidecar (roda junto) × Ephemeral Container (adicionado para depurar).**
+- **Reiniciar contêiner (kubelet, Restart Policy) × recriar Pod (controllers).**
+- **CrashLoopBackOff (o processo falha) × ImagePullBackOff (nem a imagem chegou).**

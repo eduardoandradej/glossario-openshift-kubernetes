@@ -92,6 +92,15 @@ Os termos publicados, organizados por categoria e por assunto. *(versão inicial
 **Controllers de workload**
 - [Deployment](../categorias/03-workloads/verbetes/deployment.md) · [ReplicaSet](../categorias/03-workloads/verbetes/replicaset.md) · [StatefulSet](../categorias/03-workloads/verbetes/statefulset.md) · [DaemonSet](../categorias/03-workloads/verbetes/daemonset.md) · [Job](../categorias/03-workloads/verbetes/job.md) · [CronJob](../categorias/03-workloads/verbetes/cronjob.md)
 
+**Ciclo de vida do Pod e dos contêineres**
+- [Pod Lifecycle](../categorias/03-workloads/verbetes/pod-lifecycle.md) · [Pod Phase](../categorias/03-workloads/verbetes/pod-phase.md) · [Pod Condition](../categorias/03-workloads/verbetes/pod-condition.md) · [Container Lifecycle](../categorias/03-workloads/verbetes/container-lifecycle.md) · [Restart Policy](../categorias/03-workloads/verbetes/restart-policy.md)
+
+**Tipos de contêiner no Pod**
+- [Init Container](../categorias/03-workloads/verbetes/init-container.md) · [Sidecar Container](../categorias/03-workloads/verbetes/sidecar-container.md) · [Ephemeral Container](../categorias/03-workloads/verbetes/ephemeral-container.md)
+
+**Encerramento e falhas comuns**
+- [Termination Grace Period](../categorias/03-workloads/verbetes/termination-grace-period.md) · [Terminating](../categorias/03-workloads/verbetes/terminating.md) · [CrashLoopBackOff](../categorias/03-workloads/verbetes/crashloopbackoff.md) · [ImagePullBackOff](../categorias/03-workloads/verbetes/imagepullbackoff.md)
+
 **Legado**
 - [ReplicationController](../categorias/03-workloads/verbetes/replicationcontroller.md) · [DeploymentConfig](../categorias/03-workloads/verbetes/deploymentconfig.md) (deprecated)
 

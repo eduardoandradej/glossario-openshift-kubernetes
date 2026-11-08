@@ -1,6 +1,6 @@
 # Continuar daqui (contexto de retomada)
 
-> Arquivo interno de continuidade. Leia junto com `CLAUDE.md`, `PROMPT-MESTRE.md` e `docs/ESTADO-DO-PROJETO.md` antes de produzir conteúdo. Última atualização: 2026-11-04.
+> Arquivo interno de continuidade. Leia junto com `CLAUDE.md`, `PROMPT-MESTRE.md` e `docs/ESTADO-DO-PROJETO.md` antes de produzir conteúdo. Última atualização: 2026-11-08.
 
 ## Onde paramos
 
@@ -8,8 +8,8 @@
 - **Categoria 01 (Arquitetura e Control Plane):** concluída. Os 31 candidatos estão cobertos por 28 verbetes e 3 remissões, publicados em três lotes; o último foi o lote 3 (Bootstrap, Quorum, High Availability, SNO, HyperShift, Hosted Control Plane e Infrastructure Node).
 - **Categoria 02 (Compute, Nodes e capacidade):** concluída. Os 35 candidatos estão cobertos por 32 verbetes e 3 remissões, em três lotes.
 - **Categoria 03 (Workloads):** em construção. O lote 1 está publicado (Pod, Container, Pod Template, Deployment, ReplicaSet, StatefulSet, DaemonSet, Job, CronJob, ReplicationController, DeploymentConfig).
-  - **Próximo: lote 2:** Pod Lifecycle, Pod Phase (Pending, Running, Completed), Pod Condition, Container Lifecycle, Restart Policy, Init Container, Sidecar Container, Ephemeral Container, Termination Grace Period, Terminating, CrashLoopBackOff e ImagePullBackOff.
-  - **Lote 3:** Rollout, RollingUpdate, Recreate, Rollback, Readiness/Liveness/Startup Probe, Lifecycle Hook, PreStop e HorizontalPodAutoscaler.
+  - **Lote 2 publicado:** Pod Lifecycle, Pod Phase (Pending, Running, Completed como remissões), Pod Condition, Container Lifecycle, Restart Policy, Init Container, Sidecar Container, Ephemeral Container, Termination Grace Period, Terminating, CrashLoopBackOff e ImagePullBackOff. Cobertura: 28/38.
+  - **Próximo: lote 3 (fecha a categoria):** Rollout, RollingUpdate, Recreate, Rollback, Readiness/Liveness/Startup Probe, Lifecycle Hook, PreStop e HorizontalPodAutoscaler.
 - **Categorias 04 a 10:** têm verbetes em **versão inicial**, herdados do kit (Service, Route, Ingress, IngressController, NetworkPolicy, PV, PVC, StorageClass, ConfigMap, Secret, ServiceAccount, Operator, ClusterOperator, CRD, ClusterExtension e BuildConfig).
 
 ## Decisões do autor (obrigatórias)
@@ -48,4 +48,4 @@
 
 ## Como retomar (sugestão de pedido)
 
-> "Continue o glossário a partir de `docs/CONTINUAR-DAQUI.md`: faça o lote 2 da categoria 03, seguindo as decisões registradas, e publique na `main`."
+> "Continue o glossário a partir de `docs/CONTINUAR-DAQUI.md`: faça o lote 3 da categoria 03, seguindo as decisões registradas, e publique na `main`."

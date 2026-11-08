@@ -58,7 +58,7 @@ Para localizar um termo específico, use o [índice alfabético](docs/INDICE-ALF
 | 00 | [Fundamentos, linguagem e modelo declarativo](categorias/00-fundamentos-e-linguagem/README.md) | ✅ Concluída |
 | 01 | [Arquitetura e Control Plane](categorias/01-arquitetura-e-control-plane/README.md) | ✅ Concluída |
 | 02 | [Compute, Nodes e capacidade](categorias/02-compute-e-nodes/README.md) | ✅ Concluída |
-| 03 | [Workloads](categorias/03-workloads/README.md) | 📝 Primeiros termos |
+| 03 | [Workloads](categorias/03-workloads/README.md) | 🚧 Em construção |
 | 04 | [Networking, Services e publicação](categorias/04-networking/README.md) | 📝 Primeiros termos |
 | 05 | [Storage e persistência](categorias/05-storage/README.md) | 📝 Primeiros termos |
 | 06 | [Configuração e extensibilidade da API](categorias/06-configuracao-e-api/README.md) | 📝 Primeiros termos |

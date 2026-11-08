@@ -11,8 +11,10 @@ Todos os termos publicados, em ordem alfabética. Sinônimos e nomes em portugu�
 - [API Server (kube-apiserver)](../categorias/00-fundamentos-e-linguagem/verbetes/api-server.md)
 - [API Version (apiVersion)](../categorias/00-fundamentos-e-linguagem/verbetes/api-version.md)
 - apiVersion: ver [API Version](../categorias/00-fundamentos-e-linguagem/verbetes/api-version.md)
+- backoffLimit: ver [Job](../categorias/03-workloads/verbetes/job.md)
 - Bare Metal Operator / Metal3 / BMC: ver [BareMetalHost](../categorias/02-compute-e-nodes/verbetes/baremetalhost.md)
 - [BareMetalHost](../categorias/02-compute-e-nodes/verbetes/baremetalhost.md)
+- Batch: ver [Job](../categorias/03-workloads/verbetes/job.md)
 - Bootstrap-in-place: ver [Bootstrap](../categorias/01-arquitetura-e-control-plane/verbetes/bootstrap.md)
 - [Bootstrap](../categorias/01-arquitetura-e-control-plane/verbetes/bootstrap.md)
 - [BuildConfig](../categorias/10-builds-imagens-registry/verbetes/buildconfig.md) *(versão inicial)*
@@ -31,26 +33,31 @@ Todos os termos publicados, em ordem alfabética. Sinônimos e nomes em portugu�
 - ClusterResourceQuota: ver [ResourceQuota](../categorias/02-compute-e-nodes/verbetes/resourcequota.md)
 - Compact cluster / three-node: ver [High Availability](../categorias/01-arquitetura-e-control-plane/verbetes/high-availability.md)
 - Compute node / compute machine: ver [Worker Node](../categorias/01-arquitetura-e-control-plane/verbetes/worker-node.md)
+- concurrencyPolicy: ver [CronJob](../categorias/03-workloads/verbetes/cronjob.md)
 - [Conditions (status.conditions)](../categorias/00-fundamentos-e-linguagem/verbetes/conditions.md)
 - [ConfigMap](../categorias/06-configuracao-e-api/verbetes/configmap.md) *(versão inicial)*
 - Container engine: ver [Container Runtime](../categorias/01-arquitetura-e-control-plane/verbetes/container-runtime.md)
 - [Container Runtime](../categorias/01-arquitetura-e-control-plane/verbetes/container-runtime.md)
+- [Container](../categorias/03-workloads/verbetes/container.md)
 - Control loop: ver [Controller](../categorias/00-fundamentos-e-linguagem/verbetes/controller.md)
 - Control plane machine set / MachineAutoscaler: ver [MachineSet](../categorias/02-compute-e-nodes/verbetes/machineset.md)
 - [Control Plane](../categorias/01-arquitetura-e-control-plane/verbetes/control-plane.md)
 - [Controller](../categorias/00-fundamentos-e-linguagem/verbetes/controller.md)
+- Contêiner: ver [Container](../categorias/03-workloads/verbetes/container.md)
 - [Cordon (e Uncordon)](../categorias/02-compute-e-nodes/verbetes/cordon.md)
 - [CoreDNS](../categorias/01-arquitetura-e-control-plane/verbetes/coredns.md)
 - [CPU (recurso `cpu`)](../categorias/02-compute-e-nodes/verbetes/cpu.md)
 - [CRI (Container Runtime Interface)](../categorias/01-arquitetura-e-control-plane/verbetes/cri.md)
 - [CRI-O](../categorias/01-arquitetura-e-control-plane/verbetes/cri-o.md)
+- [CronJob](../categorias/03-workloads/verbetes/cronjob.md)
 - crun / runC: ver [Container Runtime](../categorias/01-arquitetura-e-control-plane/verbetes/container-runtime.md)
 - [Current State (actual state — estado observado)](../categorias/00-fundamentos-e-linguagem/verbetes/current-state.md)
 - [CustomResourceDefinition](../categorias/09-operators-e-extensoes/verbetes/customresourcedefinition.md) *(versão inicial)*
 - CVO: ver [Cluster Version Operator](../categorias/01-arquitetura-e-control-plane/verbetes/cluster-version-operator.md)
-- [DaemonSet](../categorias/03-workloads/verbetes/daemonset.md) *(versão inicial)*
+- [DaemonSet](../categorias/03-workloads/verbetes/daemonset.md)
 - deletionTimestamp: ver [Finalizer](../categorias/00-fundamentos-e-linguagem/verbetes/finalizer.md)
-- [Deployment](../categorias/03-workloads/verbetes/deployment.md) *(versão inicial)*
+- [Deployment](../categorias/03-workloads/verbetes/deployment.md)
+- [DeploymentConfig](../categorias/03-workloads/verbetes/deploymentconfig.md)
 - [Desired State (estado desejado)](../categorias/00-fundamentos-e-linguagem/verbetes/desired-state.md)
 - [Device Plugin](../categorias/02-compute-e-nodes/verbetes/device-plugin.md)
 - [DNS Operator](../categorias/01-arquitetura-e-control-plane/verbetes/dns-operator.md)
@@ -72,6 +79,7 @@ Todos os termos publicados, em ordem alfabética. Sinônimos e nomes em portugu�
 - Guaranteed / Burstable / BestEffort: ver [QoS Class](../categorias/02-compute-e-nodes/verbetes/qos-class.md)
 - HA: ver [High Availability](../categorias/01-arquitetura-e-control-plane/verbetes/high-availability.md)
 - HCP: ver [Hosted Control Plane](../categorias/01-arquitetura-e-control-plane/verbetes/hosted-control-plane.md)
+- Headless Service (StatefulSet) / ordinal: ver [StatefulSet](../categorias/03-workloads/verbetes/statefulset.md)
 - [High Availability](../categorias/01-arquitetura-e-control-plane/verbetes/high-availability.md)
 - Hosted cluster / management cluster: ver [Hosted Control Plane](../categorias/01-arquitetura-e-control-plane/verbetes/hosted-control-plane.md)
 - [Hosted Control Plane](../categorias/01-arquitetura-e-control-plane/verbetes/hosted-control-plane.md)
@@ -81,7 +89,7 @@ Todos os termos publicados, em ordem alfabética. Sinônimos e nomes em portugu�
 - [Infrastructure Node](../categorias/01-arquitetura-e-control-plane/verbetes/infrastructure-node.md)
 - [Ingress](../categorias/04-networking/verbetes/ingress.md) *(versão inicial)*
 - [IngressController](../categorias/04-networking/verbetes/ingresscontroller.md) *(versão inicial)*
-- [Job](../categorias/03-workloads/verbetes/job.md) *(versão inicial)*
+- [Job](../categorias/03-workloads/verbetes/job.md)
 - [JSON](../categorias/00-fundamentos-e-linguagem/verbetes/json.md)
 - K8s: ver [Kubernetes](../categorias/00-fundamentos-e-linguagem/verbetes/kubernetes.md)
 - KCM: ver [kube-controller-manager](../categorias/01-arquitetura-e-control-plane/verbetes/kube-controller-manager.md)
@@ -149,7 +157,9 @@ Todos os termos publicados, em ordem alfabética. Sinônimos e nomes em portugu�
 - [PersistentVolumeClaim](../categorias/05-storage/verbetes/persistentvolumeclaim.md) *(versão inicial)*
 - phase: ver [Conditions](../categorias/00-fundamentos-e-linguagem/verbetes/conditions.md)
 - Plano de controle: ver [Control Plane](../categorias/01-arquitetura-e-control-plane/verbetes/control-plane.md)
-- [Pod](../categorias/03-workloads/verbetes/pod.md) *(versão inicial)*
+- [Pod Template](../categorias/03-workloads/verbetes/pod-template.md)
+- pod-template-hash: ver [Deployment](../categorias/03-workloads/verbetes/deployment.md)
+- [Pod](../categorias/03-workloads/verbetes/pod.md)
 - [Project (OpenShift)](../categorias/00-fundamentos-e-linguagem/verbetes/project.md)
 - ProjectRequest: ver [Project](../categorias/00-fundamentos-e-linguagem/verbetes/project.md)
 - [QoS Class](../categorias/02-compute-e-nodes/verbetes/qos-class.md)
@@ -160,7 +170,9 @@ Todos os termos publicados, em ordem alfabética. Sinônimos e nomes em portugu�
 - Recurso: ver [Resource](../categorias/00-fundamentos-e-linguagem/verbetes/resource.md)
 - Release image: ver [Cluster Version Operator](../categorias/01-arquitetura-e-control-plane/verbetes/cluster-version-operator.md)
 - Rendered MachineConfig: ver [MachineConfig](../categorias/01-arquitetura-e-control-plane/verbetes/machineconfig.md)
-- [ReplicaSet](../categorias/03-workloads/verbetes/replicaset.md) *(versão inicial)*
+- Replica / réplica: ver [ReplicaSet](../categorias/03-workloads/verbetes/replicaset.md)
+- [ReplicaSet](../categorias/03-workloads/verbetes/replicaset.md)
+- [ReplicationController](../categorias/03-workloads/verbetes/replicationcontroller.md)
 - Requests: ver [Resource Request](../categorias/02-compute-e-nodes/verbetes/resource-request.md)
 - [Resource (API resource — recurso)](../categorias/00-fundamentos-e-linguagem/verbetes/resource.md)
 - [Resource Limit](../categorias/02-compute-e-nodes/verbetes/resource-limit.md)
@@ -178,9 +190,10 @@ Todos os termos publicados, em ordem alfabética. Sinônimos e nomes em portugu�
 - [ServiceAccount](../categorias/07-identidade-e-rbac/verbetes/serviceaccount.md) *(versão inicial)*
 - Single-Node OpenShift: ver [SNO](../categorias/01-arquitetura-e-control-plane/verbetes/sno.md)
 - [SNO (Single-Node OpenShift)](../categorias/01-arquitetura-e-control-plane/verbetes/sno.md)
+- spec.template: ver [Pod Template](../categorias/03-workloads/verbetes/pod-template.md)
 - [Spec](../categorias/00-fundamentos-e-linguagem/verbetes/spec.md)
 - Split brain: ver [Quorum](../categorias/01-arquitetura-e-control-plane/verbetes/quorum.md)
-- [StatefulSet](../categorias/03-workloads/verbetes/statefulset.md) *(versão inicial)*
+- [StatefulSet](../categorias/03-workloads/verbetes/statefulset.md)
 - [Static Pod](../categorias/01-arquitetura-e-control-plane/verbetes/static-pod.md)
 - [Status](../categorias/00-fundamentos-e-linguagem/verbetes/status.md)
 - [StorageClass](../categorias/05-storage/verbetes/storageclass.md) *(versão inicial)*

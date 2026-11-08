@@ -147,6 +147,20 @@
 | [Device Plugin](../categorias/02-compute-e-nodes/verbetes/device-plugin.md) | Detalhes do protocolo | cluster / docs |
 | [NUMA](../categorias/02-compute-e-nodes/verbetes/numa.md) | `reason` do evento; recurso `noderesourcetopologies` | cluster / docs |
 
+## Categoria 03 — lote 1
+
+| Verbete | O que validar | Como |
+|---|---|---|
+| [Pod](../categorias/03-workloads/verbetes/pod.md) | SCC aplicada por padrão (annotation `openshift.io/scc`) | SNO / docs |
+| [Container](../categorias/03-workloads/verbetes/container.md) | UID arbitrário / `restricted-v2` (cat. 08) | SNO / docs |
+| [Pod Template](../categorias/03-workloads/verbetes/pod-template.md) | Objeto `PodTemplate` no grupo core | SNO / docs |
+| [Deployment](../categorias/03-workloads/verbetes/deployment.md) | Padrões `revisionHistoryLimit` e `progressDeadlineSeconds` | SNO / docs |
+| [StatefulSet](../categorias/03-workloads/verbetes/statefulset.md) | Nome dos PVCs (cluster com StorageClass) | SNO / docs |
+| [DaemonSet](../categorias/03-workloads/verbetes/daemonset.md) | `updateStrategy` (RollingUpdate/OnDelete) | SNO / docs |
+| [Job](../categorias/03-workloads/verbetes/job.md) | Label `job-name`; `BackoffLimitExceeded` | SNO / docs |
+| [CronJob](../categorias/03-workloads/verbetes/cronjob.md) | Campos de histórico e `timeZone` | SNO / docs |
+| [DeploymentConfig](../categorias/03-workloads/verbetes/deploymentconfig.md) | Triggers/hooks no 4.22; dependência de capability | SNO / docs |
+
 ## Decisões de nomenclatura a confirmar com o autor
 
 - **Termos técnicos em inglês (decisão do autor, 2026-11-04):** títulos e termos técnicos ficam no original em inglês (Control Plane, Desired State, Current State, Reconciliation, Object, Resource...). A explicação é em português. A tradução aparece só como apoio, entre parênteses ou no campo **Tradução**.

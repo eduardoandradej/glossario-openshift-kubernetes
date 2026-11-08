@@ -2119,16 +2119,38 @@
   {
     "term": "Pod",
     "category": "03-workloads",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "objeto-api",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "scope": "namespace",
+    "verificado_em": "2026-11-08",
+    "validacao_cluster": "nao-realizada",
+    "api_group": "core",
+    "kind": "Pod",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/workloads/pods/"
+    ],
+    "slug_verbete": "pod"
   },
   {
     "term": "Container",
     "category": "03-workloads",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "conceito",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-08",
+    "validacao_cluster": "nao-realizada",
+    "api_group": null,
+    "kind": null,
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/containers/"
+    ],
+    "slug_verbete": "container"
   },
   {
     "term": "Init Container",
@@ -2189,65 +2211,166 @@
   {
     "term": "Deployment",
     "category": "03-workloads",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "objeto-api",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "scope": "namespace",
+    "verificado_em": "2026-11-08",
+    "validacao_cluster": "nao-realizada",
+    "api_group": "apps",
+    "kind": "Deployment",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/workloads/controllers/deployment/"
+    ],
+    "slug_verbete": "deployment"
   },
   {
     "term": "ReplicaSet",
     "category": "03-workloads",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "objeto-api",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "scope": "namespace",
+    "verificado_em": "2026-11-08",
+    "validacao_cluster": "nao-realizada",
+    "api_group": "apps",
+    "kind": "ReplicaSet",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/"
+    ],
+    "slug_verbete": "replicaset"
   },
   {
     "term": "ReplicationController",
     "category": "03-workloads",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "legado",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "scope": "namespace",
+    "verificado_em": "2026-11-08",
+    "validacao_cluster": "nao-realizada",
+    "api_group": "core",
+    "kind": "ReplicationController",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/workloads/controllers/replicationcontroller/"
+    ],
+    "slug_verbete": "replicationcontroller"
   },
   {
     "term": "DeploymentConfig",
     "category": "03-workloads",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "deprecated",
+    "source": "ver campo fontes",
+    "plataforma": "OpenShift",
+    "versao": "deprecated desde OCP 4.14; OCP 4.22",
+    "scope": "namespace",
+    "verificado_em": "2026-11-08",
+    "validacao_cluster": "nao-realizada",
+    "api_group": "apps.openshift.io",
+    "kind": "DeploymentConfig",
+    "fontes": [
+      "openshift-docs: enterprise-4.14 release_notes/ocp-4-14-release-notes.adoc",
+      "openshift-docs: enterprise-4.22 modules/rn-ocp-release-notes-deprecated-removed-tables.adoc"
+    ],
+    "slug_verbete": "deploymentconfig"
   },
   {
     "term": "StatefulSet",
     "category": "03-workloads",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "objeto-api",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "scope": "namespace",
+    "verificado_em": "2026-11-08",
+    "validacao_cluster": "nao-realizada",
+    "api_group": "apps",
+    "kind": "StatefulSet",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/"
+    ],
+    "slug_verbete": "statefulset"
   },
   {
     "term": "DaemonSet",
     "category": "03-workloads",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "objeto-api",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "scope": "namespace",
+    "verificado_em": "2026-11-08",
+    "validacao_cluster": "nao-realizada",
+    "api_group": "apps",
+    "kind": "DaemonSet",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/"
+    ],
+    "slug_verbete": "daemonset"
   },
   {
     "term": "Job",
     "category": "03-workloads",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "objeto-api",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "scope": "namespace",
+    "verificado_em": "2026-11-08",
+    "validacao_cluster": "nao-realizada",
+    "api_group": "batch",
+    "kind": "Job",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/workloads/controllers/job/"
+    ],
+    "slug_verbete": "job"
   },
   {
     "term": "CronJob",
     "category": "03-workloads",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "objeto-api",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "scope": "namespace",
+    "verificado_em": "2026-11-08",
+    "validacao_cluster": "nao-realizada",
+    "api_group": "batch",
+    "kind": "CronJob",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/"
+    ],
+    "slug_verbete": "cronjob"
   },
   {
     "term": "Batch",
     "category": "03-workloads",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "remissao",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-08",
+    "validacao_cluster": "nao-realizada",
+    "api_group": null,
+    "kind": null,
+    "remissao_para": "Job",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/workloads/controllers/job/"
+    ],
+    "slug_verbete": "job"
   },
   {
     "term": "RollingUpdate",
@@ -2280,16 +2403,39 @@
   {
     "term": "Replica",
     "category": "03-workloads",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "remissao",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-08",
+    "validacao_cluster": "nao-realizada",
+    "api_group": null,
+    "kind": null,
+    "remissao_para": "ReplicaSet",
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/"
+    ],
+    "slug_verbete": "replicaset"
   },
   {
     "term": "Pod Template",
     "category": "03-workloads",
-    "status": "a-validar",
-    "kind_class": "a-classificar",
-    "source": "documentacao oficial / oc api-resources quando aplicavel"
+    "status": "desenvolvido-fontes-conferidas",
+    "kind_class": "conceito",
+    "source": "ver campo fontes",
+    "plataforma": "Kubernetes/OpenShift",
+    "versao": "Kubernetes 1.35 / OCP 4.22",
+    "scope": "nao-aplicavel",
+    "verificado_em": "2026-11-08",
+    "validacao_cluster": "nao-realizada",
+    "api_group": null,
+    "kind": null,
+    "fontes": [
+      "https://kubernetes.io/docs/concepts/workloads/pods/#pod-templates"
+    ],
+    "slug_verbete": "pod-template"
   },
   {
     "term": "Readiness Probe",

@@ -85,7 +85,15 @@ Os termos publicados, organizados por categoria e por assunto. *(versão inicial
 - [HugePages](../categorias/02-compute-e-nodes/verbetes/hugepages.md) · [Extended Resource](../categorias/02-compute-e-nodes/verbetes/extended-resource.md) · [Device Plugin](../categorias/02-compute-e-nodes/verbetes/device-plugin.md) · [NUMA](../categorias/02-compute-e-nodes/verbetes/numa.md)
 
 ## [03 — Workloads](../categorias/03-workloads/README.md)
-- [Pod](../categorias/03-workloads/verbetes/pod.md) · [Deployment](../categorias/03-workloads/verbetes/deployment.md) · [ReplicaSet](../categorias/03-workloads/verbetes/replicaset.md) · [StatefulSet](../categorias/03-workloads/verbetes/statefulset.md) · [DaemonSet](../categorias/03-workloads/verbetes/daemonset.md) · [Job](../categorias/03-workloads/verbetes/job.md) *(versão inicial)*
+
+**Unidades de execução**
+- [Pod](../categorias/03-workloads/verbetes/pod.md) · [Container](../categorias/03-workloads/verbetes/container.md) · [Pod Template](../categorias/03-workloads/verbetes/pod-template.md)
+
+**Controllers de workload**
+- [Deployment](../categorias/03-workloads/verbetes/deployment.md) · [ReplicaSet](../categorias/03-workloads/verbetes/replicaset.md) · [StatefulSet](../categorias/03-workloads/verbetes/statefulset.md) · [DaemonSet](../categorias/03-workloads/verbetes/daemonset.md) · [Job](../categorias/03-workloads/verbetes/job.md) · [CronJob](../categorias/03-workloads/verbetes/cronjob.md)
+
+**Legado**
+- [ReplicationController](../categorias/03-workloads/verbetes/replicationcontroller.md) · [DeploymentConfig](../categorias/03-workloads/verbetes/deploymentconfig.md) (deprecated)
 
 ## [04 — Networking](../categorias/04-networking/README.md)
 - [Service](../categorias/04-networking/verbetes/service.md) · [Route](../categorias/04-networking/verbetes/route.md) · [Ingress](../categorias/04-networking/verbetes/ingress.md) · [IngressController](../categorias/04-networking/verbetes/ingresscontroller.md) · [NetworkPolicy](../categorias/04-networking/verbetes/networkpolicy.md) *(versão inicial)*

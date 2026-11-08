@@ -7,8 +7,10 @@
 - **Categoria 00 (Fundamentos):** concluída. Os 37 candidatos estão cobertos por 34 verbetes e 3 remissões.
 - **Categoria 01 (Arquitetura e Control Plane):** concluída. Os 31 candidatos estão cobertos por 28 verbetes e 3 remissões, publicados em três lotes; o último foi o lote 3 (Bootstrap, Quorum, High Availability, SNO, HyperShift, Hosted Control Plane e Infrastructure Node).
 - **Categoria 02 (Compute, Nodes e capacidade):** concluída. Os 35 candidatos estão cobertos por 32 verbetes e 3 remissões, em três lotes.
-- **Próximo passo sugerido:** categoria 03 (Workloads), começando pela reescrita das versões iniciais (Pod, Deployment, ReplicaSet, StatefulSet, DaemonSet, Job).
-- **Categorias 03 a 10:** têm verbetes em **versão inicial**, herdados do kit (Pod, Deployment, ReplicaSet, StatefulSet, DaemonSet, Job, Service, Route, Ingress, IngressController, NetworkPolicy, PV, PVC, StorageClass, ConfigMap, Secret, ServiceAccount, Operator, ClusterOperator, CRD, ClusterExtension e BuildConfig).
+- **Categoria 03 (Workloads):** em construção. O lote 1 está publicado (Pod, Container, Pod Template, Deployment, ReplicaSet, StatefulSet, DaemonSet, Job, CronJob, ReplicationController, DeploymentConfig).
+  - **Próximo: lote 2:** Pod Lifecycle, Pod Phase (Pending, Running, Completed), Pod Condition, Container Lifecycle, Restart Policy, Init Container, Sidecar Container, Ephemeral Container, Termination Grace Period, Terminating, CrashLoopBackOff e ImagePullBackOff.
+  - **Lote 3:** Rollout, RollingUpdate, Recreate, Rollback, Readiness/Liveness/Startup Probe, Lifecycle Hook, PreStop e HorizontalPodAutoscaler.
+- **Categorias 04 a 10:** têm verbetes em **versão inicial**, herdados do kit (Service, Route, Ingress, IngressController, NetworkPolicy, PV, PVC, StorageClass, ConfigMap, Secret, ServiceAccount, Operator, ClusterOperator, CRD, ClusterExtension e BuildConfig).
 
 ## Decisões do autor (obrigatórias)
 
@@ -46,4 +48,4 @@
 
 ## Como retomar (sugestão de pedido)
 
-> "Continue o glossário a partir de `docs/CONTINUAR-DAQUI.md`: inicie a categoria 03 (Workloads), seguindo as decisões registradas, e publique na `main`."
+> "Continue o glossário a partir de `docs/CONTINUAR-DAQUI.md`: faça o lote 2 da categoria 03, seguindo as decisões registradas, e publique na `main`."

@@ -1,5 +1,15 @@
 # Estado do projeto
 
+## Rodada 2026-11-08 — categoria 03, lote 1
+
+- **11 verbetes:** Pod, Deployment, ReplicaSet, StatefulSet, DaemonSet e Job (reescritos; antes versões iniciais), Container, Pod Template, CronJob, ReplicationController (legado) e DeploymentConfig (deprecated desde o 4.14). Remissões: Replica (→ ReplicaSet) e Batch (→ Job).
+- **Fatos verificados (Kubernetes 1.35):** rollout só com mudança no template; `maxUnavailable`/`maxSurge` 25%; seletor do Deployment imutável; StatefulSet com Headless Service, ordinais, `volumeClaimTemplates`, `OrderedReady` e volumes preservados; Job com `backoffLimit` 6 e `restartPolicy` Never/OnFailure; CronJob com `concurrencyPolicy` Allow/Forbid/Replace; ReplicationController substituído por Deployment/ReplicaSet.
+- README: categoria 03 como Em construção.
+
+### Próximo lote recomendado (categoria 03, lote 2)
+
+Pod Lifecycle, Pod Phase (com Pending, Running, Completed), Pod Condition, Container Lifecycle, Restart Policy, Init Container, Sidecar Container, Ephemeral Container, Termination Grace Period, Terminating, CrashLoopBackOff e ImagePullBackOff. Lote 3: Rollout, RollingUpdate, Recreate, Rollback, Readiness/Liveness/Startup Probe, Lifecycle Hook, PreStop e HorizontalPodAutoscaler.
+
 ## Rodada 2026-11-07 (2) — categoria 02, lote 3 (categoria concluída)
 
 - **9 verbetes:** Machine, MachineSet, MachineHealthCheck, BareMetalHost, RHCOS, HugePages, Extended Resource, Device Plugin e NUMA.

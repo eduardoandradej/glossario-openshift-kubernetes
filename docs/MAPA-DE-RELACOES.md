@@ -269,3 +269,31 @@ flowchart LR
 - **Machine (infraestrutura) × Node (Kubernetes) × BareMetalHost (servidor físico).**
 - **MachineSet (criar e escalar máquinas) × MachineConfigPool (configurar o SO).**
 - **Extended Resource (o que se pede) × Device Plugin (quem anuncia e entrega).**
+
+## Workloads
+
+```mermaid
+flowchart TB
+    D["Deployment"] -->|"gerencia revisões"| RS["ReplicaSet"]
+    RS -->|"mantém N"| P["Pod"]
+    STS["StatefulSet"] -->|"Pods com identidade + PVC"| P
+    DS["DaemonSet"] -->|"um Pod por nó"| P
+    CJ["CronJob"] -->|"agenda"| J["Job"]
+    J -->|"até concluir"| P
+    P -->|"contém"| C["Container"]
+    T["Pod Template"] -. "molde de" .-> P
+    DC["DeploymentConfig (deprecated)"] -.-> RC["ReplicationController (legado)"]
+```
+
+| De | Relação | Para |
+|---|---|---|
+| [Deployment](../categorias/03-workloads/verbetes/deployment.md) | gerencia | [ReplicaSet](../categorias/03-workloads/verbetes/replicaset.md), que mantém [Pods](../categorias/03-workloads/verbetes/pod.md) |
+| [CronJob](../categorias/03-workloads/verbetes/cronjob.md) | cria | [Jobs](../categorias/03-workloads/verbetes/job.md) |
+| [Pod Template](../categorias/03-workloads/verbetes/pod-template.md) | é o molde dos | [Pods](../categorias/03-workloads/verbetes/pod.md) de todo workload |
+| [DeploymentConfig](../categorias/03-workloads/verbetes/deploymentconfig.md) | é substituído por | [Deployment](../categorias/03-workloads/verbetes/deployment.md) |
+
+## Distinções importantes: workloads
+
+- **Deployment (sem estado, réplicas intercambiáveis) × StatefulSet (identidade e volume por réplica) × DaemonSet (um por nó) × Job (termina).**
+- **Pod × Container × Pod Template.**
+- **Deployment (recomendado) × DeploymentConfig (deprecated) × ReplicationController (legado).**
